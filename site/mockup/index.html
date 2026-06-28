@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="no">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VERIFIED — Forskningsprosjekt</title>
+  <meta name="description" content="Status og forskningsinnhold for IPN-prosjektet VERIFIED.">
+  
+  <!-- Import Comfortaa (headings) and Quicksand (body text fallback for Hiruko) from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="mockup-styles.css">
+</head>
+
+<body>
+  <!-- Accessibility skip-link -->
+  <a class="skip-link" href="#main">Hopp til innhold</a>
+
+  <!-- Mobile Top Bar (Header) -->
+  <header class="mobile-header">
+    <div class="logo-area">
+      <span class="verified-logo-text">VERIFIED</span>
+    </div>
+    <button class="menu-toggle" type="button" aria-controls="menu-panel" aria-expanded="false" id="menu-toggle-btn">
+      <span class="menu-toggle__icon" aria-hidden="true"></span>
+      <span class="menu-toggle__label">Meny</span>
+    </button>
+  </header>
+
+  <!-- Sticky/Drawer Side Menu (aside) -->
+  <aside class="side-menu" aria-label="Prosjektinfo og seksjoner" id="menu-panel">
+    <div class="side-menu__header">
+      <div class="logo-area">
+        <span class="verified-logo-text">VERIFIED</span>
+      </div>
+      <button class="menu-close-btn" type="button" aria-label="Lukk meny" id="menu-close-btn">&times;</button>
+    </div>
+
+    <nav class="menu-navigation">
+      <!-- Section Nav linked to the 7 sections -->
+      <ul class="section-nav">
+        <li><a href="#sec-intro" class="nav-link active">Intro</a></li>
+        <li><a href="#sec-challenge" class="nav-link">Utfordringen</a></li>
+        <li><a href="#sec-what-we-know" class="nav-link">Hva vi vet</a></li>
+        <li><a href="#sec-what-we-dont-know" class="nav-link">Hva vi ikke vet</a></li>
+        <li><a href="#sec-what-verified-will-find-out" class="nav-link">Hva vi skal finne ut</a></li>
+        <li><a href="#sec-why-us" class="nav-link">Hvorfor oss</a></li>
+        <li><a href="#sec-status" class="nav-link">Status nå</a></li>
+      </ul>
+
+      <!-- Project Metadata / Information -->
+      <div class="project-info">
+        <h2 class="project-info__title">Forskningsinfo</h2>
+        <dl>
+          <dt>Prosjekttype</dt>
+          <dd>Innovasjonsprosjekt i næringslivet (IPN)</dd>
+          <dt>Målgruppe</dt>
+          <dd>SMB-entreprenører og boligeiere</dd>
+          <dt>Søkertall</dt>
+          <dd>1–16 MNOK (50 % støtte)</dd>
+          <dt>Metodikk</dt>
+          <dd>Flerkriterieanalyser (MCDA) og atferdsstudier</dd>
+        </dl>
+      </div>
+    </nav>
+    
+    <!-- Partner Stripe in Sidebar Footer -->
+    <div class="side-menu__footer">
+      <div class="partner-stripe">
+        <span class="partner-stripe__title">Et forskningssamarbeid mellom</span>
+        <div class="partner-stripe__names">
+          <span class="partner-name">VIBS</span>
+          <span class="partner-sep">&bull;</span>
+          <span class="partner-name">SINTEF</span>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Main Scroll Container -->
+  <main id="main" class="main-container">
+    
+    <!-- Section 1: Hero / Intro (Image: kandidat-1.jpg - betong/kran) -->
+    <section id="sec-intro" class="story-section" style="background-image: url('kandidater/kandidat-1.jpg');">
+      <div class="story-section__readability-overlay"></div>
+      
+      <div class="hero-content">
+        <div class="hero-tag">IPN-Forskningsprosjekt</div>
+        <!-- Exact Hero title -->
+        <h1 class="hero-title">Her er hva vi vet.<br>Her er hva vi skal finne ut.</h1>
+        <div class="hero-underline"></div>
+        <!-- Exact Hero subline -->
+        <p class="hero-subtitle">
+          VERIFIED er et forskningsprosjekt for tryggere og mer bærekraftige byggevalg — bygd på åpen kunnskap, kvalitetssikret av SINTEF.
+        </p>
+        <div class="scroll-prompt">
+          <span class="scroll-prompt__text">Scroll ned for å se status</span>
+          <span class="scroll-prompt__arrow" aria-hidden="true">&darr;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Utfordringen (Image: kandidat-2.jpg - gul tårnkran) -->
+    <section id="sec-challenge" class="story-section" style="background-image: url('kandidater/kandidat-2.jpg');">
+      <div class="story-section__readability-overlay"></div>
+      
+      <div class="content-box">
+        <div class="section-badge">Utfordringen</div>
+        <h2 class="section-title">Avgjørende valg tas i blinde</h2>
+        <p class="section-paragraph">
+          Når et tilbud skal gis, må vi ta raske beslutninger under sterkt marginpress. Vi mangler i dag et samlet og uavhengig beslutningsgrunnlag for å velge bærekraftige materialer. 
+        </p>
+        <p class="section-paragraph">
+          Samtidig øker kravene til dokumentasjon. Den reviderte byggevareforordningen (CPR) gjør digitale produktpass obligatoriske, og nye standarder som EN 15978:2026 krever klimagassberegninger på byggnivå. Likevel holdes LCA-krav bevisst svakere for de minste bedriftene fordi dagens verktøy er for komplekse for den vanlige snekkerhverdagen.
+        </p>
+        
+        <!-- Grid layout for the facts (Google Stitch pattern) -->
+        <div class="facts-grid">
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              Vannskader kostet samfunnet <span class="accent-gold-text">5,1 milliarder kroner</span> i erstatninger i 2023, noe som tilsvarer rundt 10 skader hver eneste time.
+            </div>
+            <span class="fact-source">Kilde: Finans Norge 2023</span>
+          </div>
+
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              Norske boliger er i snitt <span class="accent-gold-text">18 000 kr/m²</span> dyrere å bygge enn i Sverige, noe som setter marginene under ekstremt press.
+            </div>
+            <span class="fact-source">Kilde: UNION 2025</span>
+          </div>
+
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              Gjennomsnittlig driftsmargin for norske byggmestere ligger på kun <span class="accent-gold-text">3,3 %</span>, noe som gjør feilvalg og reklamasjoner ødeleggende for økonomien.
+            </div>
+            <span class="fact-source">Kilde: BDO 2025</span>
+          </div>
+
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              I 2025 ble det registrert <span class="accent-gold-text">1 583</span> konkurser i bygg og anlegg, en tydelig indikasjon på sårbarheten i bransjen.
+            </div>
+            <span class="fact-source">Kilde: Bjørheim 2026</span>
+          </div>
+        </div>
+
+        <p class="section-paragraph italic-text">
+          Forskning indikerer at det oppstår byggefeil i opptil halvparten av alle nye boliger, med en årlig samfunnskostnad på mellom 10 og 30 milliarder kroner. (Kilde: Gullbrekken & Holme 2025)
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 3: Hva vi vet i dag (Image: kandidat-3.jpg - ingeniør med nettbrett) -->
+    <section id="sec-what-we-know" class="story-section" style="background-image: url('kandidater/kandidat-3.jpg');">
+      <div class="story-section__readability-overlay"></div>
+      
+      <div class="content-box">
+        <div class="section-badge">Hva vi vet i dag</div>
+        <h2 class="section-title">Dataene finnes, men mangler en bro</h2>
+        <p class="section-paragraph">
+          Vi vet at rådataene finnes. Miljødeklarasjoner (EPD) og teknisk dokumentasjon ligger lagret i store baser som NOBB. Flerkriterieanalyser (MCDA) er en etablert vitenskapelig metodikk for å veie ulike egenskaper mot hverandre. 
+        </p>
+        <p class="section-paragraph">
+          Vi vet også at energikvalitet henger sammen med finansiell risiko for de som låner ut penger.
+        </p>
+        
+        <div class="fact-card-highlight">
+          <div class="fact-card-highlight__value">~32 %</div>
+          <p class="fact-card-highlight__text">
+            lavere risiko for mislighold av boliglån er registrert på energieffektive boliger.
+          </p>
+          <span class="fact-source">Kilde: Kaza 2014; Billio 2022</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Hva vi ikke vet (ennå) (Image: kandidat-4.jpg - stålkonstruksjon høyhus) -->
+    <section id="sec-what-we-dont-know" class="story-section" style="background-image: url('kandidater/kandidat-4.jpg');">
+      <div class="story-section__readability-overlay"></div>
+      
+      <div class="content-box">
+        <div class="section-badge">Åpne forskningsspørsmål</div>
+        <h2 class="section-title">Hva vi ikke vet ennå</h2>
+        <p class="section-paragraph">
+          Dette er forskningsfronten. Vi har dokumenterte gap i kunnskapen som dette prosjektet skal tette:
+        </p>
+        
+        <ul class="research-questions-list">
+          <li>
+            <strong>Koblingen mellom kvalitet og risiko:</strong> Vi mangler empirisk bevis på om høyere teknisk kvalitet og holdbarhet på byggevarer kan kobles direkte til redusert finansiell risiko for bankene.
+          </li>
+          <li>
+            <strong>SMB-atferd i tilbudsfasen:</strong> Vi vet ikke om tømrere og byggmestere faktisk vil endre sine materialvalg dersom de får tilgang til en enkel, uavhengig score-modell under kalkuleringen.
+          </li>
+          <li>
+            <strong>Måling av beslutningseffekt:</strong> Vi mangler en vitenskapelig metodikk for å måle om et forenklet beslutningsgrunnlag faktisk fører til mer bærekraftige valg i praksis.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Section 5: Hva VERIFIED skal finne ut (Image: kandidat-5.jpg - massivtre) -->
+    <section id="sec-what-verified-will-find-out" class="story-section" style="background-image: url('kandidater/kandidat-5.jpg');">
+      <div class="story-section__readability-overlay"></div>
+      
+      <div class="content-box">
+        <div class="section-badge">Vårt bidrag</div>
+        <h2 class="section-title">Dette skal VERIFIED finne ut</h2>
+        <p class="section-paragraph">
+          Vi skal utvikle en bro fra data til beslutning. Forskningsprosjektet skal utvikle en uavhengig score-modell som forenkler komplekse LCA- og EPD-data til ett enkelt, forståelig tall for kvalitet og miljøbelastning.
+        </p>
+        <p class="section-paragraph">
+          Vi skal kombinere sanntidsdata fra byggeplass, sensordokumentasjon og digitale produktpass (DPP) inn i en felles verifiseringsmodell. Deretter skal vi gjennomføre empiriske bruks- og atferdsstudier i faktiske byggeprosjekter for å dokumentere om denne forenklingen faktisk fører til tryggere og mer bærekraftige materialvalg.
+        </p>
+      </div>
+    </section>
+
+    <!-- Section 6: Hvorfor vi er de rette (Image: kandidat-6.jpg - arkitekttegning) -->
+    <section id="sec-why-us" class="story-section" style="background-image: url('kandidater/kandidat-6.jpg');">
+      <div class="story-section__readability-overlay"></div>
+      
+      <div class="content-box">
+        <div class="section-badge">Konsortiet</div>
+        <h2 class="section-title">Hvorfor vi er de rette</h2>
+        <p class="section-paragraph">
+          Vi forener praktisk erfaring med ledende forskning. VIBS stiller med den digitale plattformen og direkte tilgang til pilotprosjekter og tømrerbedrifter.
+        </p>
+        <p class="section-paragraph">
+          SINTEF Community leder det faglige arbeidet med verifiseringsmodellen. De sikrer den vitenskapelige kvaliteten og kobler prosjektet mot andre forskningsmiljøer.
+        </p>
+        
+        <div class="research-context-box">
+          <span class="context-box-tag">Forskningskobling</span>
+          <p class="context-box-text">
+            Gjennom SINTEF kobles prosjektet opp mot forskningsprosjektet <strong>BKA2</strong> (Bærekraftige anskaffelser), et initiativ på <strong>11,7 MNOK</strong> frem til 2028 ledelse av Vegard Knotten.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 7: Status nå (Image: kandidat-7.jpg - råbetong) -->
+    <section id="sec-status" class="story-section" style="background-image: url('kandidater/kandidat-7.jpg');">
+      <div class="story-section__readability-overlay"></div>
+      
+      <div class="content-box">
+        <div class="section-badge">Status nå</div>
+        <h2 class="section-title">Veien videre</h2>
+        <p class="section-paragraph">
+          Vi arbeider med prosjektet og planlegger piloter med lokale banker og entreprenører.
+        </p>
+        <p class="section-paragraph">
+          SINTEF starter det formelle arbeidet med primærverifisering av de vitenskapelige kildene og datagrunnlaget i <strong>midten av august 2026</strong>. Alle data og påstander på denne siden vil da løpende kvalitetssikres mot originale kilder for å sikre full gjennomsiktighet.
+        </p>
+        
+        <div class="cta-area">
+          <a href="#sec-intro" class="cta-button">Tilbake til toppen</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Tiny interactive JavaScript for the mobile drawer menu -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const body = document.body;
+      const toggleBtn = document.getElementById('menu-toggle-btn');
+      const closeBtn = document.getElementById('menu-close-btn');
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = document.querySelectorAll('.story-section');
+
+      // Mobile Menu Toggle
+      const openMenu = () => {
+        body.classList.add('menu-open');
+        toggleBtn.setAttribute('aria-expanded', 'true');
+      };
+
+      const closeMenu = () => {
+        body.classList.remove('menu-open');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      };
+
+      toggleBtn.addEventListener('click', openMenu);
+      closeBtn.addEventListener('click', closeMenu);
+
+      // Close menu when clicking a link
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          closeMenu();
+          navLinks.forEach(l => l.classList.remove('active'));
+          link.classList.add('active');
+        });
+      });
+
+      // Scrollspy active class synchronization
+      const observerOptions = {
+        root: null,
+        rootMargin: '-50% 0px -50% 0px',
+        threshold: 0
+      };
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            navLinks.forEach(link => {
+              if (link.getAttribute('href') === `#${id}`) {
+                link.classList.add('active');
+              } else {
+                link.classList.remove('active');
+              }
+            });
+          }
+        });
+      }, observerOptions);
+
+      sections.forEach(section => observer.observe(section));
+    });
+  </script>
+</body>
+
+</html>

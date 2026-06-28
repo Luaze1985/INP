@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="no">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VIBS VERIFIED - leseark for state of the art 2026-06-21</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1d2430;
+      --muted: #5b6472;
+      --line: #d9dee7;
+      --bg: #f7f8fa;
+      --panel: #ffffff;
+      --green: #126b45;
+      --amber: #8a5a00;
+      --red: #9f2735;
+      --blue: #285c8f;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.52;
+      color: var(--ink);
+      background: var(--bg);
+    }
+
+    main {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 28px 20px 56px;
+    }
+
+    header {
+      border-bottom: 3px solid var(--ink);
+      padding-bottom: 18px;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      font-size: 20px;
+      margin: 34px 0 12px;
+      border-bottom: 1px solid var(--line);
+      padding-bottom: 8px;
+    }
+
+    h3 {
+      font-size: 16px;
+      margin: 20px 0 8px;
+    }
+
+    p { margin: 0 0 12px; }
+
+    a { color: var(--blue); }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+      display: grid;
+      gap: 4px;
+    }
+
+    .notice {
+      background: #fff8e6;
+      border-left: 5px solid var(--amber);
+      padding: 12px 14px;
+      margin: 18px 0;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 14px;
+      margin: 16px 0;
+    }
+
+    .box {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      padding: 14px;
+    }
+
+    .box strong {
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    .tag {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 700;
+      border-radius: 999px;
+      padding: 2px 8px;
+      margin-right: 6px;
+      border: 1px solid currentColor;
+    }
+
+    .ok { color: var(--green); }
+    .warn { color: var(--amber); }
+    .risk { color: var(--red); }
+    .info { color: var(--blue); }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      margin: 12px 0 20px;
+      font-size: 14px;
+    }
+
+    th, td {
+      border: 1px solid var(--line);
+      padding: 9px 10px;
+      vertical-align: top;
+    }
+
+    th {
+      text-align: left;
+      background: #edf0f4;
+    }
+
+    ul {
+      margin: 8px 0 16px 22px;
+      padding: 0;
+    }
+
+    li { margin-bottom: 7px; }
+
+    code {
+      font-family: Consolas, "Courier New", monospace;
+      font-size: 0.94em;
+      background: #eef1f5;
+      padding: 1px 4px;
+      border-radius: 3px;
+    }
+
+    .callout-green { border-left: 5px solid var(--green); }
+    .callout-blue { border-left: 5px solid var(--blue); }
+    .callout-red { border-left: 5px solid var(--red); }
+
+    @media (max-width: 860px) {
+      .grid { grid-template-columns: 1fr; }
+      main { padding: 20px 14px 42px; }
+      h1 { font-size: 24px; }
+      table { font-size: 13px; }
+      th, td { padding: 8px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Leseark: State of the Art for VIBS VERIFIED</h1>
+    <div class="meta">
+      <span>Dato: 2026-06-21</span>
+      <span>Hoveddokument: <a href="state-of-the-art-verified-ipn.md">docs/reference/state-of-the-art-verified-ipn.md</a></span>
+      <span>Formål: rask faglig gjennomlesing før Knotten/SINTEF, IPN-nyhetsverdi og neste researchrunde.</span>
+    </div>
+  </header>
+
+  <section class="notice">
+    <strong>Kort vurdering:</strong>
+    Dispatch-arbeidet har løftet dokumentet fra intern problembeskrivelse til en mer etterprøvbar SoA-status.
+    Den viktigste forbedringen er ikke flere kilder, men bedre avgrensning: VERIFIED er ikke en LCA-kalkulator, men en forklarbar beslutningsmodell for tilbudsfasen.
+    Dokumentet er likevel ikke klart som direkte søknadstekst før kilder med <code>[H*]</code>, <code>[M]</code> og <code>[L]</code> er kontrollert av SINTEF.
+  </section>
+
+  <section>
+    <h2>1. Vurdering av dispatch-arbeidet</h2>
+    <div class="grid">
+      <div class="box callout-green">
+        <strong><span class="tag ok">Sterkt</span> Faktisk integrert i SoA</strong>
+        Dispatch ser ikke ut til å ha etterlatt et separat fem-søk-script i repoet. Arbeidet er foldet inn i <code>state-of-the-art-verified-ipn.md</code> som verifiseringsmarkører og §14-logg. Det er riktig form for søknadsarbeid.
+      </div>
+      <div class="box callout-green">
+        <strong><span class="tag ok">Sterkt</span> DP1/25-korreksjonen</strong>
+        Korreksjonen fra “klimakilde” til PD/LGD/IRB-kilde er viktig. Den gjør finansargumentet mer presist: VERIFIED skal mate risikomodeller med byggnær dokumentasjon, ikke late som DP1/25 handler om klima.
+      </div>
+      <div class="box callout-red">
+        <strong><span class="tag risk">Risiko</span> Flere kilder er fortsatt ikke søknadsklare</strong>
+        Mecca 2023, MCDM-review 2025, WLC-benchmarks, taksonomi-TSC, Omnibus og flere verktøy-/NOBB-påstander må fulltekst- eller primærverifiseres før direkte sitering.
+      </div>
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Søk</th>
+          <th>Dispatch-resultat</th>
+          <th>Min vurdering</th>
+          <th>Neste handling</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>S1 LCA-defaulter</td>
+          <td>Benke et al. 2025 lagt inn som belegg for offentlighets-, sammenlignbarhets- og modellørvariasjon.</td>
+          <td><span class="tag ok">God</span> Styrker argumentet om at usikkerhet skyldes både data og antakelser.</td>
+          <td>Behold. La SINTEF sjekke om nordisk/europeisk pendant finnes.</td>
+        </tr>
+        <tr>
+          <td>S2 BKA2</td>
+          <td>Allerede løst: BKA2 kobles til SMB-anskaffelser og Knotten.</td>
+          <td><span class="tag ok">God</span> Viktig konsortiekobling, men må ikke overselges som publisert effektdata.</td>
+          <td>Formuler som pågående forskning / legitimitet, ikke evidens for effekt.</td>
+        </tr>
+        <tr>
+          <td>S3 BoE / finans</td>
+          <td>PS25/25 = klima i risikostyring. DP1/25 = PD/LGD for boliglån, ikke klima.</td>
+          <td><span class="tag ok">Viktig</span> Korreksjonen er faglig nødvendig. Jeg fikk åpnet BoE PS25/25-siden direkte nå, så status kan oppgraderes etter kildegjennomgang.</td>
+          <td>Oppdater §13: BoE PS25/25 bør flyttes fra “BoE 403” til åpnet primærkilde hvis innholdet leses og kontrolleres.</td>
+        </tr>
+        <tr>
+          <td>S4 MCDA</td>
+          <td>Mecca-metodefordeling bekreftet via sekundære kilder; 2025-review gjenstår.</td>
+          <td><span class="tag warn">Delvis</span> Brukbart som internt kart, ikke som tung akademisk fotnote før fulltekst.</td>
+          <td>SINTEF fulltekst: Mecca 2023 + DOI 10.1007/s10669-025-10001-w.</td>
+        </tr>
+        <tr>
+          <td>S5 SMB / NOBB / støtte</td>
+          <td>SMB-skranke og NOBB x One Click LCA-partnerskap lagt inn. Enova/IN gjenstår.</td>
+          <td><span class="tag warn">Delvis</span> NOBB/OCL-kilden er leverandørframstilling. Den er nyttig, men ikke uavhengig.</td>
+          <td>Finn uavhengig Byggtjeneste/NOBB-kilde, og sjekk Enova/Innovasjon Norge bare hvis søknadsstrategien trenger det.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>2. Hva dokumentet sier nå</h2>
+    <div class="box callout-blue">
+      <strong>Kjernepåstand</strong>
+      Komponentene finnes hver for seg: LCA/LCC-standarder, EPD/NOBB/DPP, MCDA, usikkerhetsmetoder, grønn finans, levetids-/skadedata og verktøy. Det SoA ikke viser at finnes, er én forklarbar, etterprøvbar beslutningsmodell i tilbudsfasen for SMB og boligkjøpere, med synlig datatillit og målt beslutningseffekt.
+    </div>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Felt</th>
+          <th>State of the art</th>
+          <th>Stopper før VERIFIED</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>LCA/LCC</td>
+          <td>EN 15804, EN 15978:2026, ISO 15686-5 og NS-EN 16627 gir metodegrunnlag.</td>
+          <td>For spesialister og rapportering, ikke tilbudsbeslutning for SMB.</td>
+        </tr>
+        <tr>
+          <td>Produktdata</td>
+          <td>EPD, NOBB/GTIN, ECO Platform og DPP-retning gir datalag.</td>
+          <td>Fragmentert, varierende kvalitet og lite synlig usikkerhet.</td>
+        </tr>
+        <tr>
+          <td>MCDA</td>
+          <td>AHP/TOPSIS/MIVES/COPRAS er veletablerte akademiske metoder.</td>
+          <td>Ekspertavhengige vekter, følsomme rangeringer og lite praktisk SMB-produkt.</td>
+        </tr>
+        <tr>
+          <td>Datakvalitet</td>
+          <td>Pedigree, ecoinvent og Monte Carlo gir moden usikkerhetslogikk.</td>
+          <td>Spesialistverktøy; lite kundevennlig forklaring i tilbudsfasen.</td>
+        </tr>
+        <tr>
+          <td>Finans</td>
+          <td>Energi kobles til PD/misligholdsrisiko; klimarisiko presses inn i bank/forsikring.</td>
+          <td>Nesten alt er energisentrert. Holdbarhet, fukt og vedlikehold er ikke koblet til PD.</td>
+        </tr>
+        <tr>
+          <td>Levetid/skade/ombruk</td>
+          <td>SINTEF, Byggforsk og FutureBuilt beskriver problemet og kriterier.</td>
+          <td>Data er generiske, delvis bak betalingsmur og ikke direkte tilbudsoperasjonalisert.</td>
+        </tr>
+        <tr>
+          <td>Verktøy</td>
+          <td>One Click LCA, EC3, Reduzer, Madaster, Cobuilder m.fl. dekker sterke enkeltdeler.</td>
+          <td>Ingen dekker alle seks akser: integrasjon, tilbudsfase, SMB, usikkerhet, beslutningseffekt, DNSH-bredde.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>3. Hva er nytt etter dagens søk</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Før dagens søk</th>
+          <th>Etter dagens søk</th>
+          <th>Betydning</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Problemet var godt internt dokumentert: byggfeil, konflikter, høye kostnader, SMB-digitaliseringsbarrierer.</td>
+          <td>Standard-, forsknings- og reguleringslaget er tydeligere forankret.</td>
+          <td>Bedre IPN-nyhetsverdi: ikke bare “vi har et problem”, men “forskningsfronten stopper her”.</td>
+        </tr>
+        <tr>
+          <td>LCA/LCC var kjent som metodegrunnlag.</td>
+          <td>EN 15978:2026 er bekreftet som fersk byggnivåstandard for nye/eksisterende/rehab-bygg.</td>
+          <td>Dokumentet virker oppdatert per 2026, ikke gjenbruk av gamle standardhenvisninger.</td>
+        </tr>
+        <tr>
+          <td>Usikkerhet var et prinsipp.</td>
+          <td>Benke et al. 2025 gir empirisk støtte for at LCA-resultater varierer med verktøy, default-antakelser og modellørskjønn.</td>
+          <td>Styrker hvorfor VIBS må vise datatillit og antakelser, ikke bare totalscore.</td>
+        </tr>
+        <tr>
+          <td>Finansvinkelen var grønn finans/taksonomi generelt.</td>
+          <td>Energi-PD er bekreftet, mens holdbarhet/fukt/vedlikehold til PD er formulert som hull.</td>
+          <td>Dette er et av de beste FoU-argumentene i dokumentet.</td>
+        </tr>
+        <tr>
+          <td>BoE ble brukt uklart som klimareferanse.</td>
+          <td>PS25/25 og DP1/25 er skilt: klima-risikostyring vs boliglån-PD/LGD.</td>
+          <td>Reduserer faglig feilrisiko og gjør bankargumentet mer presist.</td>
+        </tr>
+        <tr>
+          <td>SMB-argumentet var plausibelt, men tynt.</td>
+          <td>Norden 2023 og BKA2 gir bedre dekning for at SMB-kapasitet er et anerkjent problem.</td>
+          <td>Fortsatt hull: faktisk norsk SMB-atferd i tilbudsfasen er ikke dokumentert.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>4. Hva dette er og ikke er</h2>
+    <div class="grid">
+      <div class="box callout-green">
+        <strong>Dette er</strong>
+        En strukturert kunnskapsstatus for IPN/FoU-nyhetsverdi. Den viser hva som finnes, hvor det stopper, og hvilke gap VERIFIED kan eie.
+      </div>
+      <div class="box callout-red">
+        <strong>Dette er ikke</strong>
+        Ikke en systematisk litteraturgjennomgang, ikke en ferdig søknadstekst, ikke en juridisk/regulatorisk fasit, og ikke en full konkurrentanalyse.
+      </div>
+      <div class="box callout-blue">
+        <strong>Riktig bruk</strong>
+        Bruk dokumentet som arbeidsgrunnlag for Knotten/SINTEF: bekreft kilder, stram gap-matrisen og skriv søknadstekst etter faglig kontroll.
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>5. Sonar-status</h2>
+    <p>
+      Repoet har tre Sonar-/Perplexity-spor: live lookup i Netlify/Vercel-funksjoner, batch-fetch av material-seeds, og windows-score research-loop.
+      Testene viser at basisfeil håndteres, men ikke at kunnskapen er korrekt.
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Område</th>
+          <th>Status</th>
+          <th>Hva er verifisert</th>
+          <th>Hva mangler</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><code>netlify/functions/sonar-lookup.js</code></td>
+          <td><span class="tag ok">Teknisk OK</span></td>
+          <td>Tester dekker rate limit, timeout, dårlig JSON og vellykket responsform.</td>
+          <td>Ingen test av faktisk Perplexity-kvalitet, kildeklassifisering eller EPD/NOBB-verifikasjon.</td>
+        </tr>
+        <tr>
+          <td><code>api/sonar-lookup.js</code></td>
+          <td><span class="tag warn">Bedre prompt, svakere testdekning</span></td>
+          <td>Har ekstra <code>assessment_markdown</code> og fallback for manglende verdier.</td>
+          <td>Testene peker på Netlify-funksjonen, ikke Vercel-varianten. Hold de to funksjonene synkronisert eller velg én.</td>
+        </tr>
+        <tr>
+          <td><code>scripts/fetch-material-seeds.js</code></td>
+          <td><span class="tag warn">Nyttig, men risikabelt som datakilde</span></td>
+          <td>Lagrer citations og merker seed med <code>perplexity_sonar_YYYY-MM-DD</code>.</td>
+          <td>Overskriver seed ved suksess uten manuell godkjenningsfil. Validerer format, men ikke om tall/kilder er sanne.</td>
+        </tr>
+        <tr>
+          <td>Windows-score research-loop</td>
+          <td><span class="tag ok">Riktig prinsipp</span></td>
+          <td>README sier eksplisitt at Perplexity/søk er kildekandidater, ikke automatisk fasit.</td>
+          <td>Trenger en fast review-protokoll for å løfte “candidate” til “verified”.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="notice">
+      <strong>Sonar-konklusjon:</strong>
+      Sonar er egnet til å finne kandidater, hull og første kildekart. Det er ikke egnet som autoritativ material-, pris-, EPD- eller forskningsfasit uten en manuell verifikasjonsport.
+    </div>
+  </section>
+
+  <section>
+    <h2>6. Kunnskapshull som bør tas nå</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Prioritet</th>
+          <th>Hull</th>
+          <th>Hvorfor viktig</th>
+          <th>Minste gode neste steg</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Holdbarhet/fukt/vedlikehold til PD, LGD, forsikring eller takst.</td>
+          <td>Dette er sterkeste FoU-hull for bank/forsikring: energi-PD finnes, holdbarhet-PD mangler.</td>
+          <td>Søk bredt i eiendomsrisiko, forsikring, building defects og mortgage default. Dokumenter nullfunn eksplisitt.</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Norsk SMB-beslutning i tilbudsfasen.</td>
+          <td>VERIFIEDs brukerhypotese hviler på dette. BKA2 bekrefter problemfeltet, men ikke faktisk atferd.</td>
+          <td>Lag 6-8 intervjuspørsmål til snekkere/SMB og koble funn til §9.</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Fulltekst MCDA / MCDM og WLC-benchmarks.</td>
+          <td>Dette avgjør om gap-matrisens hakemerker tåler fagfelleblikk.</td>
+          <td>SINTEF henter Mecca 2023, MCDM-review 2025 og nordiske WLC-artikler via institusjonstilgang.</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>NOBB/GTIN/EPD-operasjonalisering.</td>
+          <td>F2 trenger praktisk bevis på at data kan kobles tidlig nok i tilbud, ikke bare at registrene finnes.</td>
+          <td>Velg 10 faktiske varer og lag mini-matrise: GTIN, NOBB, EPD, FDV, enhet, hull, kilde.</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Verktøy-scan med uavhengige kilder.</td>
+          <td>Konkurrentavsnittet hviler for mye på leverandørsider.</td>
+          <td>For One Click LCA, EC3, Reduzer, Cobuilder: finn én uavhengig kilde eller merk eksplisitt “leverandørpåstand”.</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Støtteordninger: Enova / Innovasjon Norge.</td>
+          <td>Ikke avgjørende for FoU-høyde, men nyttig for søknadsstrategi og medfinansiering.</td>
+          <td>Ta dette etter at forskningsgapene over er låst, med dato og ordningsstatus.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h2>7. Kilder jeg kontrollerte raskt</h2>
+    <ul>
+      <li>CEN-CENELEC: EN 15978:2026 publisert 2026-04-17 og gjelder nye, eksisterende og rehabiliterte bygg.</li>
+      <li>Springer: Billio/Costola/Pelizzon/Riedel-artikkelen bekrefter kobling mellom energieffektivitet og lavere mortgage default probability.</li>
+      <li>Bank of England: PS25/25-siden er tilgjengelig og beskriver oppdatering av SS3/19 for klima-relatert risikostyring.</li>
+      <li>One Click LCA: NOBB x One Click LCA-partnerskapet er en leverandør/presse-kilde, ikke uavhengig verifikasjon.</li>
+      <li>Norden 2023: støtter at LCA-krav holdes svakere for SMB av konkurransehensyn.</li>
+    </ul>
+  </section>
+</main>
+</body>
+</html>

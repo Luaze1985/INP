@@ -1,0 +1,18 @@
+# OS / editor
+Thumbs.db
+desktop.ini
+.DS_Store
+*~
+.vscode/
+.idea/
+
+# Midlertidig
+*.tmp
+*.bak
+~$*
+
+# Fremtidig datalag — bør spores når det kommer, men ikke wal/journal:
+*.sqlite-wal
+*.sqlite-shm
+*.db-wal
+*.db-shm

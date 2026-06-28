@@ -1,0 +1,55 @@
+# INDEX.yml — ipn-verified
+# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-06-28.
+
+prosjekt:
+  navn: VIBS VERIFIED — IPN-søknad
+  mottaker: Norges forskningsråd (NFR)
+  utlysning: Innovasjonsprosjekt i næringslivet — Industri og tjenestenæringer 2026
+  kriterier: [Kvalitet, Effekter, Gjennomføring]
+  beløp: 1–16 MNOK, maks 50 %
+  frist: løpende
+  utskilt_fra: vibs-boligpass/ (2026-06-28)
+
+governance:
+  AGENTS.md: Styringsregler, roller, kilde-/sannhetsregler, dokumentdatabasert retning
+  CONTEXT.md: Tilstand, åpne punkter, risiko
+  INDEX.yml: Denne filoversikten
+  README.md: Kort orientering
+  IPN-FLYTTES.md: Flyttemanifest (kilde→mål, hva som skal slettes etter bekreftelse)
+
+kanoniske_dokumenter:
+  docs/reference/ipn-hovedokument.md: Skjelett — påstand + kildenøkkel + status (parkering for ⏸)
+  docs/reference/ipn-samledokument.md: Prosa (intern, full ærlighet) + ordliste
+  docs/reference/ipn-prosjektbeskrivelse-utkast.md: Innsendingsprosa (NFR-format)
+  docs/reference/ipn-kildebibliotek.md: Kanonisk kildeliste med portfarger og provenans
+
+referanse_og_fakta:
+  docs/reference/ipn-barekraft-sannhetsserum-2026-06-21.md: Utlysningsfasit §10 + bærekraftsangrep
+  docs/reference/ipn-kildestrategi-2026-06-22.md: Kildeprioritering (NO/EU først)
+  docs/reference/ipn-arbeidsplan-juli-aug-2026.md: Arbeidsplan og rollefordeling
+  docs/reference/ipn-tilbakemeldinger-aksjonsliste-2026-06-22.md: F1–F16 aksjonsliste fra team
+  docs/reference/state-of-the-art-verified-ipn.md: SoA-gapanalyse
+  docs/reference/state-of-the-art-leseark-2026-06-21.html: SoA-leseark
+  docs/reference/boligspor-innovasjon-notat.md: Innovasjonsnotat
+  docs/reference/forskning-kunnskapsbase.md: Etablert norsk tallgrunnlag (fallback for 🟡)
+  docs/reference/forskningsekstraksjon-2026-06-22.md: Ekstrahert forskning
+  docs/reference/claude-guardrails.md: Guardrails for søknadsspråk (MVP-presens, finans, partnere)
+
+verifisering:
+  docs/reference/vibs-verified-kildedom-2026-06-27.md: AUTORITATIV samordnet kildedom (AGY)
+  docs/reference/vibs-verified-agentsøk-2026-06-26.md: Inputrapport (agentsøk)
+  docs/reference/vibs-verified-agentverifisering-2026-06-26.md: Inputrapport (verifisering)
+  docs/reference/vibs-verified-full-kildesjekk-2026-06-26.md: Inputrapport (full kildesjekk)
+  docs/reference/vibs-verified-sonar-2026-06-26.md: Inputrapport (Sonar)
+  docs/reference/vibs-verified-språkanalyse-2026-06-27.md: Språk-/guardrail-analyse (Codex-jobb)
+
+handoffs:
+  docs/handoffs/26_orchestrering_ipn_kilder_nettside.md: Orkestrering kilder
+  docs/handoffs/27_kildesjekk_handoff.md: Kildesjekk
+  docs/handoffs/29_agy_kildeverifisering_gjennomgang_handoff.md: AGY-samordning (ga kildedommen)
+
+provenance:
+  provenance/agents/: Agent-kjøringer (reconciliation + teamwork_preview) som produserte verifiseringen — audit trail
+
+panel:
+  panel/VIBS_VERIFIED_FoU-panel.docx: FoU-panel (VERIFIED)

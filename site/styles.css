@@ -1,0 +1,72 @@
+/*
+  styles.css — MINIMAL STARTER (Fase 3b)
+  ---------------------------------------
+  Mål akkurat nå: gjøre HTML-strukturen synlig så du kan åpne index.html og se
+  seksjoner, overlay-boks og meny. Dette er IKKE ferdig styling.
+
+  Neste lærings-steg bygger ut: mobil-først breakpoints, drawer-oppførsel for
+  menyen, sticky kolonne på desktop, og finpuss av typografi/farger (gjenbruk
+  fra Produksjonsbase). Kommentarene her er korte med vilje — CSS er neste lekse.
+*/
+
+/* Enkel reset så margin/padding ikke overrasker, og box-sizing blir forutsigbar. */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.5;
+  color: #08060d;
+}
+
+/* Skip-link: skjult til den får tastatur-fokus (a11y). */
+.skip-link {
+  position: absolute;
+  left: -9999px;
+  top: 0;
+  background: #08060d;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  z-index: 100;
+}
+.skip-link:focus { left: 0; }
+
+/* Meny som enkel stripe øverst (drawer/sticky kommer i neste steg). */
+.side-menu {
+  background: #f4f3ec;
+  border-bottom: 1px solid #e5e4e7;
+  padding: 0.75rem 1rem;
+}
+.section-nav { display: flex; flex-wrap: wrap; gap: 0.75rem; list-style: none; }
+.section-nav a { color: #0891b2; text-decoration: none; }
+.section-nav a:hover { text-decoration: underline; }
+.project-info { margin-top: 0.75rem; font-size: 0.9rem; color: #6b6375; }
+.project-info dt { font-weight: 600; margin-top: 0.4rem; }
+
+/* En seksjon = (nesten) full skjermhøyde, bildet sentrert bak. */
+.story-section {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  /* --section-bg settes per seksjon i HTML (gradient nå, bilde senere). */
+  background-image: var(--section-bg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* Overlay-boks = lesbarhetslaget over bakgrunnen. */
+.overlay-box {
+  background: rgba(20, 20, 25, 0.6);
+  color: #fff;
+  padding: 1.5rem 1.75rem;
+  border-radius: 12px;
+  max-width: 32rem;
+  text-align: center;
+}
+.overlay-box h1 { font-size: 2.5rem; }
+.overlay-box h2 { font-size: 1.75rem; }
+.overlay-box p { margin-top: 0.75rem; }
+
+/* Indikatoren er skjult i denne starteren — kobles på i JS-steget. */
+.progress-indicator { display: none; }

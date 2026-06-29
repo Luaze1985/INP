@@ -1,0 +1,22 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "SA2018 statusdrift",
+      "reason": "Det er en direkte motsetning mellom at SA2018 er markert som 'pause' eller 'fjernet' i flere kilder (CONTEXT, ipn-kildebibliotek, ipn-hovedokument, ipn-samledokument), og samtidig blir det gitt et påbud om å bruke den som gronn/bekreftet i vibs-verified-kildedom. Dette skaper en alvorlig kildestatuskonflikt.",
+      "recommended_action": "needs_professional_review: Avklar hvilken status (pause, fjernet eller bekreftet) som har forrang og oppdater alle dokumenter konsistent."
+    },
+    {
+      "item": "Wiik2025 statusdrift",
+      "reason": "Kildestatusen er inkonsistent: Den beskrives som 'pause' i noen kilder, men samtidig blir den markert som 'rod/ubekreftet' og uegnet som uavhengig primærbevis i vibs-verified-kildedom. Dette krever en klar avgjørelse om brukbarhet.",
+      "recommended_action": "needs_professional_review: Bestem om kilden kan brukes, gitt at den er markert som ubekreftet og har motstridende statusrapporter."
+    },
+    {
+      "item": "Mecca2023 statusdrift",
+      "reason": "Det foreligger en konflikt mellom at kilden er markert gronn/bekreftet i vibs-verified-kildedom, og samtidig gjentas informasjon om 'Wiley betalingsmur' i flere dokumenter. Dette svekker påliteligheten av den bekreftede statusen.",
+      "recommended_action": "needs_professional_review: Vurder om kilden kan brukes til tross for paywall-begrensningen, eller om det må erstattes med en fullt tilgjengelig kilde."
+    }
+  ],
+  "reason": "Det foreligger flere alvorlige og motstridende statusrapporter (SA2018, Wiik2025, Mecca2023) som skaper usikkerhet rundt hvilken kildestatus som er gyldig. Dette bryter med prinsippet om konsistent kildehåndtering.",
+  "recommended_action": "Avhold et møte med fagansvarlige for å løse de identifiserte statuskonfliktene og sikre at alle dokumenter følger én enhetlig kildestatus."
+}

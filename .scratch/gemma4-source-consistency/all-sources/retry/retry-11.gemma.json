@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "[An2020]",
+      "reason": "Kilden viser statusdrift og historisk inkonsistens (tidligere listet som [An2021]). Viktigere er at den inneholder et spesifikt kvantitativt tall ('34 %-tallet') som krever verifisering i fulltekst/akseptert manus før det kan brukes bærende. Dette utgjør en kritisk vurdering av dataenes nøyaktighet.",
+      "recommended_action": "needs_professional_review: Verifiser kildens fulle tekst og aksepterte manus for å bekrefte 34 %-tallet, samt løs opp i nøkkelinkonsistensen ([An2021] vs. [An2020])."
+    }
+  ],
+  "reason": "Kilden [An2020] har statusdrift og inneholder et kritisk kvantitativt påstand som krever ekstern verifisering av fullteksten før den kan anses som bærende.",
+  "recommended_action": "Prioriter verifikasjon av kildestatus og nøkkeldata for [An2020]."
+}

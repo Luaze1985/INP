@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "flagged_rows": [],
+  "reason": "Kildestatusdriften er minimal og håndtert i tråd med repo-reglene. [Billio2022] har en stabil grønn status og er korrekt oppdatert fra sin gamle nøkkel. [KD2024] brukes riktig med forbehold (gul) der det kreves utdyping.",
+  "recommended_action": "Fortsett bruken av kildene, men sørg for at alle påstander knyttet til [KD2024] som er merket gul, blir utdypet i teksten."
+}

@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "[Refleksjonsnotat2026]",
+      "reason": "Kilden er merket som 🔴 (Ikke siterbar i søknad), men den brukes til å støtte primærsitatene. Dette utgjør en klar statusdrift/misbruk av kilde.",
+      "recommended_action": "Fjern all bruk og referanser til denne kilden fra alle dokumenter umiddelbart."
+    }
+  ],
+  "reason": "Det er identifisert at én kilde som er merket som ikke-siterbar (🔴) fortsatt brukes i teksten, noe som bryter med repoets siteringsregler.",
+  "recommended_action": "Oppdater alle kanoniske dokumenter for å fjerne referanser til [Refleksjonsnotat2026] og vurdere om en erstatningskilde trengs."
+}

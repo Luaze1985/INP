@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "flagged_rows": [],
+  "reason": "Begge kildene er brukt i tråd med sin nåværende status (🟢 for [Kaza2014] og 🟡 for [Bygg21_2019]). Det observeres ingen tydelig statusdrift (f.eks. grønn til gul, eller parkert kilde som brukes aktivt).",
+  "recommended_action": "Oppretthold bruken av begge kildene. Vær spesielt oppmerksom på at [Bygg21_2019] er en gul (🟡) kilde og må fraseres med forbehold i teksten."
+}

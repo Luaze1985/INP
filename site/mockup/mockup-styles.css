@@ -677,3 +677,119 @@ body.menu-open .side-menu {
     gap: 1.25rem;
   }
 }
+
+/* =========================================================
+   v2-LØFT (Claude, 2026-06-28)
+   Konsortium-liste, mykere faktakort, fakta-viz (vet/vet-ikke),
+   konsistent dempet bildetone, subtil reveal (CSS scroll-driven).
+   ========================================================= */
+
+/* Konsortium-liste — redaksjonell og myk (ikke ren punktliste) */
+.consortium-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.55rem;
+  margin: 0.25rem 0;
+}
+.consortium-list li {
+  position: relative;
+  padding-left: 1.1rem;
+  font-size: 0.95rem;
+  color: rgba(246, 240, 226, 0.78);
+  line-height: 1.5;
+}
+.consortium-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-gold);
+}
+.consortium-list li strong {
+  color: var(--color-text-white);
+  font-weight: 600;
+}
+@media (min-width: 1024px) {
+  .consortium-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem 1.75rem;
+  }
+}
+
+/* Av-"dashboard": faktakort fra bokser til myke, venstre-aksentuerte tekstblokker */
+.fact-card-small {
+  background: transparent;
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  border: none;
+  border-left: 2px solid rgba(255, 198, 0, 0.30);
+  border-radius: 0;
+  padding: 0.1rem 0 0.1rem 1rem;
+}
+.fact-card-small:hover {
+  transform: none;
+  background: transparent;
+  border-color: var(--color-gold);
+}
+
+/* Fakta-viz 1: 32 %-tallet visualisert som en gull-andel av en bar */
+#sec-what-we-know .fact-card-highlight::after {
+  content: "";
+  display: block;
+  height: 6px;
+  border-radius: 3px;
+  margin-top: 0.85rem;
+  background: linear-gradient(90deg, var(--color-gold) 32%, rgba(246, 240, 226, 0.12) 32%);
+}
+
+/* Fakta-viz 2: vet / vet-ikke-kontrast via badge-behandling */
+#sec-what-we-know .section-badge {
+  background: var(--color-gold);
+  color: var(--color-bg-navy);
+  border-color: var(--color-gold);
+}
+#sec-what-we-know .section-badge::before { content: "\2713\00a0"; }
+#sec-what-we-dont-know .section-badge {
+  border-style: dashed;
+  border-color: rgba(255, 198, 0, 0.55);
+}
+#sec-what-we-dont-know .section-badge::before { content: "?\00a0"; }
+
+/* Konsistent dempet bildetone: navy-monokrom (duotone-lean) via blend + varm overlay */
+.story-section {
+  background-color: #232336;
+  background-blend-mode: luminosity;
+}
+.story-section__readability-overlay {
+  background:
+    linear-gradient(180deg, rgba(17, 17, 31, 0.55) 0%, rgba(17, 17, 31, 0.75) 100%),
+    radial-gradient(circle at 70% 28%, rgba(255, 198, 0, 0.06) 0%, rgba(255, 198, 0, 0) 55%);
+}
+@media (min-width: 1024px) {
+  .story-section__readability-overlay {
+    background:
+      linear-gradient(90deg, rgba(17, 17, 31, 0.88) 0%, rgba(17, 17, 31, 0.45) 55%, rgba(17, 17, 31, 0.68) 100%),
+      radial-gradient(circle at 75% 25%, rgba(255, 198, 0, 0.07) 0%, rgba(255, 198, 0, 0) 50%);
+  }
+}
+
+/* Subtil reveal ved scroll — CSS scroll-driven (ingen JS).
+   Av ved prefers-reduced-motion; degraderer trygt der view()-timeline mangler. */
+@media (prefers-reduced-motion: no-preference) {
+  @supports (animation-timeline: view()) {
+    .content-box,
+    .hero-content {
+      animation: v2RevealUp linear both;
+      animation-timeline: view();
+      animation-range: entry 5% entry 45%;
+    }
+    @keyframes v2RevealUp {
+      from { opacity: 0; transform: translateY(28px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+  }
+}

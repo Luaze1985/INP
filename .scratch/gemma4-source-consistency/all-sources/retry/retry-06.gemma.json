@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "flagged_rows": [
+    {
+      "item": "[Wiik2025]",
+      "reason": "Kilden er konsistent markert som parkert/utilgjengelig (🟡 ⏸) fordi det underliggende SINTEF Notat 57 ikke finnes i åpne registre. Dette representerer en vedvarende avhengighet av uverifisert, internt materiale.",
+      "recommended_action": "Bekreft at betingelsen for gjeninnsetting (SINTEF publiserer notatet) fortsatt er gyldig. Hvis ikke, må kilden forbli parkert og alle referanser fjernes fra aktiv tekst."
+    }
+  ],
+  "reason": "Statusdriften er vurdert som konsistent: [Wiik2025] er korrekt identifisert som utilgjengelig/parkert. [Multiconsult2023] forblir gul og krever reservasjon.",
+  "recommended_action": "Oppretthold status quo. Fjern alle aktive referanser til [Wiik2025] inntil dokumentasjonen er offentlig tilgjengelig."
+}

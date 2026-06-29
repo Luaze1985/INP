@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "[OneClickLCA]",
+      "reason": "Kilden er markert som gul og sekundær, men den brukes ikke i de kanoniske dokumentene som ble vurdert. Dette indikerer potensiell statusdrift eller at kilden er overflødig for det nåværende omfanget.",
+      "recommended_action": "Vurder å nedgradere statusen til 'Pause' eller fjerne den fra aktive kilder, med mindre det foreligger planlagt fremtidig bruk."
+    }
+  ],
+  "reason": "Det er identifisert en potensiell statusdrift for [OneClickLCA] da den har gul status men ingen dokumentert bruk i de kanoniske referansedokumentene.",
+  "recommended_action": "Oppdater kildebiblioteket og vurder om kilden skal nedgraderes eller fjernes fra det aktive settet."
+}

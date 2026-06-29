@@ -1,0 +1,32 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "[CPR2024]",
+      "reason": "Selv om kilden er grønn (🟢), indikerer bruksnotatet i kanoniske dokumenter at anvendelsen ('DPP umoden for bygg') krever en vurdering av teknisk/juridisk egnethet som overgår standard statusdrift. Dette faller inn under juridisk/teknisk vurderingsbehov.",
+      "recommended_action": "needs_professional_review: Vurder om 'DPP umoden for bygg' kan brukes i en spesifikk kontekst, eller om det kreves oppdatering av anvendelsesområdet."
+    },
+    {
+      "item": "[ISO14040]",
+      "reason": "Kilden har status Gul (🟡), som ifølge repo-reglene kun kan brukes med forbehold. Dette må sikres i all dokumentasjon.",
+      "recommended_action": "Sjekk at alle sitater fra denne kilden eksplisitt inkluderer et forbehold om dens gyldighet/begrensninger."
+    },
+    {
+      "item": "[EN15804]",
+      "reason": "Kilden har status Gul (🟡), som ifølge repo-reglene kun kan brukes med forbehold. Dette må sikres i all dokumentasjon.",
+      "recommended_action": "Sjekk at alle sitater fra denne kilden eksplisitt inkluderer et forbehold om dens gyldighet/begrensninger."
+    },
+    {
+      "item": "[ISO15686-5]",
+      "reason": "Kilden har status Gul (🟡), som ifølge repo-reglene kun kan brukes med forbehold. Dette må sikres i all dokumentasjon.",
+      "recommended_action": "Sjekk at alle sitater fra denne kilden eksplisitt inkluderer et forbehold om dens gyldighet/begrensninger."
+    },
+    {
+      "item": "[RICS-WLC]",
+      "reason": "Kilden har status Gul (🟡), som ifølge repo-reglene kun kan brukes med forbehold. Dette må sikres i all dokumentasjon.",
+      "recommended_action": "Sjekk at alle sitater fra denne kilden eksplisitt inkluderer et forbehold om dens gyldighet/begrensninger."
+    }
+  ],
+  "reason": "Flere kilder har status Gul (🟡) og krever derfor spesifikk håndtering med forbehold. I tillegg krever anvendelsen av [CPR2024] en faglig vurdering utover standard statusdrift.",
+  "recommended_action": "Oppdater bruksretningslinjene for alle gul-merkede kilder, og få juridisk/teknisk godkjenning på konteksten rundt CPR2024."
+}

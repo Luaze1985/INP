@@ -31,11 +31,11 @@ Bla videre for status
 Valgene tas før grunnlaget er samlet
 
 **Brødtekst:**  
-Når tilbudet skal gis, må vi velge produkter og løsninger raskt. Pris, tid, dokumentasjon, klima og levetid ligger ofte i ulike systemer. Det gjør det vanskelig å velge godt i en vanlig snekkerhverdag.
+Når tilbudet skal gis, må vi velge produkter og løsninger raskt. Pris, tid, dokumentasjon, klima og levetid ligger ofte i ulike systemer. Da blir det vanskelig å velge godt i en vanlig snekkerhverdag.
 
-Presset øker. EN 15978:2026 gir et oppdatert rammeverk for livsløpsvurdering på byggnivå. Den reviderte byggevareforordningen innfører et spor for digitale produktpass for byggevarer. Samtidig viser nordisk dokumentasjon at krav og verktøy ofte holdes svakere for små aktører, fordi de har mindre kapasitet til å håndtere kompleks dokumentasjon.
+Presset øker. EN 15978:2026 gir et oppdatert rammeverk for livsløpsvurdering på byggnivå. Den reviderte byggevareforordningen legger grunnlaget for digitale produktpass for byggevarer. Samtidig viser nordisk dokumentasjon at krav og verktøy ofte holdes svakere for små aktører. Grunnen er enkel: De har mindre kapasitet til å håndtere tung dokumentasjon.
 
-Dette er ikke bare et klimaproblem. Det er også et kvalitets- og risikoproblem. Vannskader, lave marginer og konkurser viser hvor lite rom bransjen har for feilvalg.
+Dette er ikke bare et klimaproblem. Det handler også om kvalitet og risiko. Vannskader, lave marginer og konkurser viser hvor lite rom bransjen har for feilvalg.
 
 **Faktakort:**  
 Vannskader: I 2023 ble det registrert om lag 10 vannskader per time, med nesten 5,1 milliarder kroner i erstatninger.  
@@ -51,7 +51,7 @@ Sårbarhet: I 2025 ble det registrert 1 583 konkurser i bygg og anlegg.
 Stille kilde: Bjørheim 2026.
 
 **Forsiktig støttepunkt:**  
-Forskning indikerer at byggefeil oppstår i om lag halvparten av nye boliger, og at kostnaden kan ligge i størrelsesorden 10-30 milliarder kroner årlig. Dette skal primærverifiseres før det brukes som bærende søknadspåstand.  
+Forskning indikerer at byggefeil oppstår i om lag halvparten av nye boliger, og at kostnaden kan ligge i størrelsesorden 10-30 milliarder kroner årlig. Dette skal åpnes og kontrolleres av SINTEF før det brukes som bærende søknadspåstand.  
 Stille kilde: Gullbrekken & Holme 2025.
 
 ## Seksjon 3 - Hva vi vet i dag
@@ -62,11 +62,11 @@ Stille kilde: Gullbrekken & Holme 2025.
 Noe er allerede godt dokumentert
 
 **Brødtekst:**  
-Vi vet at mye av grunnlaget finnes. Produktdata, miljødata, levetidsdata og dokumentasjon finnes i ulike kilder. Problemet er at de ikke er samlet på en måte som hjelper når valget faktisk tas.
+Vi vet at mye av grunnlaget finnes. Produktdata, miljødata, levetidsdata og dokumentasjon ligger i ulike kilder. Problemet er at de ikke er samlet på en måte som hjelper når valget faktisk tas.
 
 Vi vet også at energieffektivitet i boliger henger sammen med lavere misligholdsrisiko for boliglån. Det beviser ikke at holdbarhet og kvalitet gir samme effekt. Det viser at bygningsdata kan ha verdi langt utenfor selve byggeplassen.
 
-Forskning indikerer at flerkriteriemetoder er godt beskrevet i litteraturen. Det gir oss et faglig startpunkt. Det gir ikke en ferdig modell for SMB-entreprenører og boligkjøpere.
+Forskning indikerer at flerkriteriemetoder er godt beskrevet i litteraturen. Det gir oss et faglig startpunkt. Men det gir ikke en ferdig modell for byggmestere, tømrere og boligkjøpere.
 
 **Faktakort:**  
 Energieffektive boliger: En boligstudie fant om lag 32 prosent lavere misligholdsrisiko for ENERGY STAR-sertifiserte boliger.  
@@ -89,7 +89,7 @@ Vi vet heller ikke hvor stor beslutningseffekten blir i praksis. Det må måles 
 **Spørsmål som skal stå tydelig på siden:**  
 - Endrer folk materialvalg når usikkerhet og dokumentasjon vises enkelt?
 - Kan kvalitet og levetid bli nyttig risikodata for bank og forsikring?
-- Kan et enkelt beslutningsgrunnlag gi bedre valg uten å skjule svake data?
+- Kan et enkelt valggrunnlag gi bedre valg uten å skjule svake data?
 
 **Kildenote:** forskningsgap fra `state-of-the-art-verified-ipn.md` og `ipn-hovedokument.md`.
 
@@ -103,7 +103,7 @@ Vi skal teste broen fra data til valg
 **Brødtekst:**  
 Vi skal utvikle og teste en etterprøvbar scoremodell for byggevalg. Den skal gjøre komplekse data enklere å bruke, uten å late som om alle data er like sikre.
 
-Modellen skal koble produktdokumentasjon, miljødata, levetid, kostnad, risiko og ombruk i ett forklarbart grunnlag. Den skal brukes i tilbudsfasen, der mange valg tas før prosjektet er låst.
+Modellen skal koble produktdokumentasjon, miljødata, levetid, kostnad, risiko og ombruk i ett forklarbart grunnlag. Den skal brukes i tilbudsfasen, før mange valg er låst.
 
 Vi skal ikke bare bygge en modell. Vi skal teste om den blir forstått, om den brukes, og om den faktisk påvirker valg. Det er forskningsarbeidet.
 
@@ -124,11 +124,13 @@ Vi har praksisfeltet og forskningen i samme rom
 **Brødtekst:**  
 VIBS kommer fra problemet prosjektet skal løse. Vi kjenner tilbudsfasen, dokumentasjonsgapet og behovet for noe som fungerer for vanlige brukere.
 
-SINTEF AS gir prosjektet forskningsfaglig tyngde og primærverifisering. Poenget er ikke å pynte på en ferdig løsning. Poenget er å finne ut om modellen holder.
+SINTEF AS gir prosjektet faglig kontroll og kildeverifisering. Poenget er ikke å pynte på en ferdig løsning. Poenget er å finne ut om modellen holder.
 
-Partnerne dekker hele beslutningskjeden: produktdata, teknisk verifisering, leverandørcase, grønn finans og reelle SMB-valg. Byggtjeneste/NOBB bidrar med produktdata og datakvalitet. Norsk Katapult tester dataløp, API, sikkerhet og skalerbarhet. NorDan og BEWI gir leverandørcase for dokumentert kvalitet, levetid, ombruk og materialdata. Åpenhet AS og Flekkefjord Sparebank bidrar med finansielt brukerperspektiv, rapportkrav og grønn finans.
+Partnerne dekker hele kjeden fra produktdata til valg i markedet. Byggtjeneste/NOBB bidrar med produktdata og datakvalitet. Norsk Katapult tester dataløp, API, sikkerhet og skalerbarhet.
 
-Gjennom SINTEF kobles VERIFIED også til pågående arbeid med bærekraftige anskaffelser for vanlige bygg- og anleggsprosjekter. Det gjør prosjektet til et komplement, ikke en kopi.
+NorDan og BEWI gir leverandørcase for dokumentert kvalitet, levetid, ombruk og materialdata. Åpenhet AS og Flekkefjord Sparebank bidrar med finansielt brukerperspektiv, rapportkrav og grønn finans.
+
+Gjennom SINTEF kobles VERIFIED også til pågående arbeid med bærekraftige anskaffelser for vanlige bygg- og anleggsprosjekter. Det gjør prosjektet til et arbeid som utfyller eksisterende forskning, ikke kopierer den.
 
 **Faktakort:**  
 BKA2: Bærekraftige anskaffelser fase 2 har 11,7 MNOK i budsjett og løper til 2028. SINTEF-representant: Vegard Knotten.  
@@ -142,9 +144,9 @@ Stille kilde: `state-of-the-art-verified-ipn.md` §9 / BKA2.
 Vi låser grunnlaget før vi lover effekt
 
 **Brødtekst:**  
-Vi arbeider nå med søknad, kilder, pilotdesign og målepunkter. Påstander som ikke er godt nok dokumentert, holdes ute eller skrives som åpne forskningsspørsmål.
+Vi arbeider nå med søknad, kilder, pilotdesign og målepunkter. Påstander som ikke er godt nok dokumentert, holder vi ute eller skriver som åpne forskningsspørsmål.
 
-SINTEF skal primærverifisere vitenskapelige kilder og datagrunnlag fra midten av august 2026. Frem til da skiller vi tydelig mellom det vi vet, det forskning indikerer, og det VERIFIED skal finne ut.
+Fra midten av august 2026 skal SINTEF åpne og kontrollere originalkildene og datagrunnlaget. Frem til da skiller vi tydelig mellom det vi vet, det forskning indikerer, og det VERIFIED skal finne ut.
 
 Det er slik prosjektet skal være troverdig: Vi viser ikke bare løsningen. Vi viser hva som må bevises.
 
@@ -199,7 +201,7 @@ Stille kilde
 VERIFIED | Status for forskningsprosjektet
 
 **Meta description:**  
-VERIFIED undersøker hvordan produktdata, miljødata og kvalitet kan bli et tryggere beslutningsgrunnlag i tilbudsfasen for SMB-entreprenører og boligeiere.
+VERIFIED undersøker hvordan produktdata, miljødata og kvalitet kan gjøre byggevalg tryggere i tilbudsfasen for SMB-entreprenører og boligeiere.
 
 **Alt-strategi:**  
 Bakgrunnsfotoene er stemnings- og kontekstbilder. De bør behandles som dekorative og ikke få synlig alt-tekst når de ligger som CSS-bakgrunner.

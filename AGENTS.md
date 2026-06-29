@@ -45,3 +45,15 @@ Markdown blir da visningslag, generert fra basen. Se `IPN-FLYTTES.md` → «Nest
 - Er kilden 🟢? Hvis ikke — ikke la den bære setningen.
 - Logg endringen i endringsloggen.
 - Spør Lars før irreversible endringer.
+
+## Agent skills
+
+Repoet bruker Matt Pocock engineering-skills. Per-repo konfig ligger i `docs/agents/`:
+
+- **`docs/agents/skills.md`** — skill-katalog, arbeidsflyt (idé → PRD → oppgaver → triage → TDD → handoff) og «hvilken skill, når»-tabell. Inneholder også kodeprinsipper (Security-first + Red/Green TDD, proporsjonalt anvendt).
+- **`docs/agents/issue-tracker.md`** — saker/PRD-er som lokal markdown i `.scratch/` (ingen git-remote ennå).
+- **`docs/agents/triage-labels.md`** — triage-roller mappet mot status-portene (🟢🟡🔴⏸). Merk: triage-tilstand ≠ kildestatus.
+- **`docs/agents/domain.md`** — hvilke dokumenter skillene leser før de jobber.
+- **`docs/agents/orchestration.md`** — Claude-subagenter vs. handoffs til Codex/AGY (følger ærlighetsregelen over).
+
+Skillene endrer ikke kilde- og sannhetsreglene over — de er rammeverket for *hvordan* arbeid drives, ikke for *hva som teller som belegg*.

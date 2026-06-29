@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "flagged_rows": [],
+  "reason": "Ingen tydelig statusdrift identifisert. [EC3] opprettholder sin grønne (🟢) og aktive bruk i kjerne-dokumentene. [KS2025] er markert gul (🟡), men mangler direkte key-treff, noe som er konsistent med en forholdsregelmessig status.",
+  "recommended_action": "Oppretthold overvåking av alle gule (🟡) kilder for å sikre at de kun brukes når det er strengt nødvendig og kvalifisert i teksten."
+}

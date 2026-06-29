@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "flagged_rows": [],
+  "reason": "Ingen tydelig statusdrift funnet for de vurderte kildene. Begge kildene ([EBA_NO2023] og [Lutdal2021]) er korrekt merket som gul (🟡) og brukes i tråd med repo-reglene, noe som indikerer at forsiktig formulering/forbehold må opprettholdes ved sitering.",
+  "recommended_action": "Oppretthold den gule statusen for begge kildene. Sørg for at all bruk av [EBA_NO2023] og [Lutdal2021] inneholder tilstrekkelig kontekstuell forsiktighet (forbehold) i teksten."
+}

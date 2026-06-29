@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "flagged_rows": [],
+  "reason": "Alle kildene er konsistente med sin angitte status (🟢/🟡/🔴) og brukes i samsvar med repo-reglene. Det foreligger ingen åpenbar statusdrift.",
+  "recommended_action": "Fortsett med innholdsproduksjonen basert på den nåværende kildekatalogen."
+}

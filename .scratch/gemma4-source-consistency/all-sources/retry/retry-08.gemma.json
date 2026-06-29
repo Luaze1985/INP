@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "[Harerusten2022]",
+      "reason": "Kilden er merket sekundær (🟡) og brukes til å bære et sentralt tall (2,2 mrd NOK/år). Kildedommen indikerer at en primærkilde med grønn status ([SA2018]) er tilgjengelig for dette påstået.",
+      "recommended_action": "Erstatt [Harerusten2022] med [SA2018] i teksten der det bærende tallet brukes."
+    }
+  ],
+  "reason": "Det foreligger statusdrift: En sekundær kilde (🟡) brukes som primærkilde for et sentralt påstået, mens en mer autoritativ og bekreftet primærkilde ([SA2018]) er tilgjengelig.",
+  "recommended_action": "Oppdater teksten for å bruke den mest direkte/primære kilden (🟢) i stedet for sekundær kilde (🟡)."
+}

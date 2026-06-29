@@ -1,0 +1,6 @@
+{
+  "ok": false,
+  "flagged_rows": [],
+  "reason": "Repoet lider av betydelig scope creep og strukturell inkonsistens. Det er uklarhet rundt om repoets innhold skal være strengt IPN-søkingsmateriale eller også inkludere produktmockups/nettsidearbeid (site/*, handoffs 30-34). I tillegg mangler INDEX.yml og andre dokumenter å reflektere hele det faktiske filomfanget.",
+  "recommended_action": "Stopp utviklingen i repoet inntil en 'Scope Definition & Cleanup'-fase er gjennomført. Dette innebærer: 1) Definere strenge grenser for hva som skal være IPN-søkingsmateriale (fjern/arkiver site/* og handoffs > 29). 2) Oppdatere INDEX.yml til å reflektere den faktiske, reduserte filstrukturen. 3) Korrigere alle dokumenter (f.eks. docs/agents/orchestration.md) for å matche det nye, snevrere omfanget."
+}

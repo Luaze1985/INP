@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "flagged_rows": [],
+  "reason": "Kildestatusen for begge kildene er tydelig definert i inputfilen og samsvarer med repo-reglene (Rød = ikke siterbar; Gul = bruk med forbehold). Det foreligger ingen åpenbar statusdrift.",
+  "recommended_action": "Fortsett med gjeldende kildehåndteringspraksis. Vær spesielt oppmerksom på at [FinanceNorway2018] kun kan brukes med tilstrekkelig kvalifikasjon/forbehold."
+}

@@ -1,0 +1,6 @@
+{
+  "ok": true,
+  "flagged_rows": [],
+  "reason": "Ingen tydelig statusdrift observert. Alle kilder er enten i en stabil tilstand (🟢/🟡) eller har blitt korrekt parkert (⏸) med dokumenterte gjeninnsettingsvilkår. Spesielt [SA2018]s ⏸-status er konsistent og understøttet av flere referansepunkter.",
+  "recommended_action": "Oppretthold overvåking av tilgjengeligheten for parkert kilde [SA2018]. Ingen umiddelbare endringer i statusdrift nødvendig."
+}

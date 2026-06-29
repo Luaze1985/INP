@@ -141,7 +141,7 @@ Når flere kilder kan støtte samme påstand, brukes denne rekkefølgen:
 
 | Nøkkel | Referanse | Prov. | Konf. | Port | Merknad |
 | --- | --- | --- | --- | --- | --- |
-| `[Refleksjonsnotat2026]` | «Et blikk på byggebransjen og muligheter fremover», refleksjonsnotat v0.1. SINTEF-bestillingsverk for VIBS. | Konsortie-intern | – | 🔴 | Ikke siterbar i søknad. Kilde til primærsitatene under. |
+| `[Refleksjonsnotat2026]` | «Et blikk på byggebransjen og muligheter fremover», refleksjonsnotat v0.1. SINTEF/Knotten-faglig syntese for VIBS. | Konsortie-intern | [M] | 🟡 | Intern faglig syntese og spor til primærkilder. Ikke uavhengig belegg; kan ikke bære søknadssetning alene. |
 | `[Wiik2025]` | Wiik, M.K. (2025). Kostnadseffekten av klimatiltak i byggenæringen – en litteraturgjennomgang. SINTEF Notat 57. Konsortie-internt/uindeksert grensetilfelle. Må ikke brukes som uavhengig bærende belegg; bruk primærkildene `[EBA_NO2023]` og `[KD2024]` for 20 %-påstanden. **⏸ Tatt ut av søknadstekst 2026-06-28 (Lars' beslutning) — notatet ikke funnet i åpne registre; gjeninnsett kun hvis SINTEF dokumenterer at det finnes.** | Konsortie-intern | [M] | 🟡 ⏸ | Ikke bærende alene. Kan omtales eksplisitt som internt notat hvis nødvendig. |
 | `[GullbrekkenHolme2025]` | Gullbrekken & Holme (2025). Byggskader – Det glemte pengesluket. SINTEF. 1 feil i halvparten av boliger; 10–30 mrd NOK/år. | Primær (via bestillingsverk) | [M] | 🟡 | §8 / WP2. SINTEF åpner fulltekst → 🟢. |
 | `[EBA_NO2023]` | EBA (Entreprenørforeningen Bygg og Anlegg), Grønn Byggallianse, Norsk Eiendom (2023). Veileder for klimagassreduksjoner – boligblokker. Opptil 20 % CO₂-kutt fra materialbruk uten merkostnad. | Sekundær (via bestillingsverk) | [M] | 🟡 | §3 / F1. **Ikke** European Banking Authority – se `[EBA_EU2023]`. |
@@ -161,6 +161,7 @@ De etablerte norske problemtallene (byggfeilkostnad 10–30 mrd/år, konfliktkos
 ---
 
 ### Endringslogg
+- 0.5 (2026-06-29): Løftet `[Refleksjonsnotat2026]` fra 🔴 til 🟡 som SINTEF/Knotten-faglig intern syntese etter Lars' avklaring. Fortsatt ikke uavhengig belegg og ikke bærende alene; primærkildene må åpnes for søknadstekst.
 - 0.4 (2026-06-28): Markert `[SA2018]` og `[Wiik2025]` ⏸ tatt ut av søknadstekst (Lars' beslutning) — kildene ikke bekreftet å eksistere i åpne registre. Beholdt i biblioteket som parkert; gjeninnsettes ved funn.
 - 0.3 (2026-06-27): Faktisk kildesjekk etter innfletting. Korrigert Kaza-forfattere; nedgradert An2020 og SA2018 til 🟡 fordi fulltekst/primærrapport ikke ble åpnet i denne kontrollen.
 - 0.2 (2026-06-27): Kildedom flettet inn. Rettet An/Billio/Kaza, lagt til SA2018, NFR_IPN2026 og FinansNorge2024VASK, og demotert Wiik2025 til konsortie-internt grensetilfelle.

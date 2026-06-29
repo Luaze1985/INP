@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "flagged_rows": [
+    {
+      "item": "[NOBB]",
+      "reason": "Kilden har status 🟡 (Gul) men brukes som et bærende datagrunnlag for flere kritiske påstander i hoveddokumentene (F2, WP1). Dette representerer en potensiell statusdrift der kildebegrensningen kan undergrave dokumentets troverdighet.",
+      "recommended_action": "Needs_professional_review: Vurder om det er nødvendig med et midlertidig unntak eller skjerpet formulering i alle seksjoner som benytter denne kilden, for å ivareta reservasjonen knyttet til gul status."
+    }
+  ],
+  "reason": "Det ble identifisert en potensiell risiko ved at kilde [NOBB] (Gul) brukes bærende på flere sentrale og kritiske påstander i kanoniske dokumenter. Dette krever juridisk/redaksjonell gjennomgang.",
+  "recommended_action": "Fokusér revisjonen på bruken av [NOBB] for å sikre at alle reservasjoner knyttet til gul status er tydelig kommunisert og ivaretatt."
+}

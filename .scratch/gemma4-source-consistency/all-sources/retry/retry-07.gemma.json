@@ -1,0 +1,17 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "[Ciroth2016]",
+      "reason": "Kilden er markert gul (🟡), noe som indikerer forbehold/potensiell bruk. Imidlertid har den ingen treff i kildedommen eller direkte nøkkelbruk, noe som tyder på potensiell statusdrift eller at kilden er utdatert.",
+      "recommended_action": "Bekreft behovet for denne kilden og vurder om gul-statusen fortsatt er relevant uten dokumentasjon av bruk."
+    },
+    {
+      "item": "[EEMI]",
+      "reason": "Kilden er markert gul (🟡), noe som indikerer forbehold/potensiell bruk. Imidlertid har den ingen treff i kildedommen eller direkte nøkkelbruk, noe som tyder på potensiell statusdrift eller at kilden er utdatert.",
+      "recommended_action": "Bekreft behovet for denne kilden og vurder om gul-statusen fortsatt er relevant uten dokumentasjon av bruk."
+    }
+  ],
+  "reason": "Begge kildene har en 'gul' status, men mangler all dokumentert bruk (treff i kildedommen eller kanoniske docs). Dette indikerer potensiell statusdrift der merket ikke samsvarer med faktisk bruksstatus.",
+  "recommended_action": "Gjennomfør en gjennomgang av alle gule kilder som mangler bevis for bruk, og vurder om de bør nedgraderes eller arkiveres."
+}

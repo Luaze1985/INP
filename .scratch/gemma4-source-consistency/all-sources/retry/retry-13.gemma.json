@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "[Mecca2023]",
+      "reason": "Kilden er markert som gul (🟡) i både kildebiblioteket og kanoniske dokumenter. Imidlertid viser siteringsdokumentet at de kvantitative funnene fra denne kilden er 'Bekreftet' (🟢), noe som indikerer en potensiell statusdrift mellom kildens generelle brukbarhet og det spesifikke innholdets styrke.",
+      "recommended_action": "Vurder å oppdatere kildebibliotekstatusen fra gul til grønn, eller legg inn et tydelig forbehold i teksten som anerkjenner at selv om kilden er merket gul, er det spesifikke funnet bekreftet."
+    }
+  ],
+  "reason": "Det er en potensiell inkonsistens mellom den generelle statusen til [Mecca2023] (gul) og styrken på de faktiske funnene som trekkes fra kilden i siteringsdokumentet (bekreftet/grønn).",
+  "recommended_action": "Oppdater kildekatalogen for å reflektere den høyere bekreftelsesgraden av det spesifikke innholdet, eller juster bruken til å matche den gule statusen."
+}

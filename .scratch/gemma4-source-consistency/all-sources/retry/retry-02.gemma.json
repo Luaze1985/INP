@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "[MCDM2025]",
+      "reason": "Kilden er markert 🔴 (Rød) og er eksplisitt merket som 'ikke siterbar' i kildebiblioteket. Dette indikerer en klar statusdrift, da den ikke kan brukes til å underbygge påstander.",
+      "recommended_action": "Fjern eller oppdater denne kilden fullstendig, da dens nåværende status gjør den uegnet for sitering."
+    }
+  ],
+  "reason": "Statusdrift er identifisert for [MCDM2025] (🔴), som ikke kan siteres og mangler direkte bruk i de kanoniske dokumentene. Kilden [BKA2] opprettholder en konsistent grønn status og aktiv bruk.",
+  "recommended_action": "Fjern eller revurder kildestatusen for [MCDM2025]."
+}

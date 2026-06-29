@@ -1,0 +1,209 @@
+<!doctype html>
+<!--
+  doctype + lang="no":
+  - <!doctype html> slår på "standards mode" i nettleseren (uten den faller den
+    tilbake til gammel, uforutsigbar rendering).
+  - lang="no" forteller skjermlesere og søkemotorer at innholdet er norsk.
+  Dette er to enkle linjer som påvirker tilgjengelighet (a11y) og korrekt visning.
+-->
+<html lang="no">
+
+<head>
+  <!-- charset FØRST: hvordan teksten skal tolkes (æ ø å fungerer). -->
+  <meta charset="utf-8">
+
+  <!--
+    viewport = selve grunnlaget for "mobil-først":
+    width=device-width  → siden bruker telefonens faktiske bredde, ikke en
+                          simulert desktop-bredde som zoomes ut.
+    initial-scale=1     → ingen auto-zoom ved lasting.
+    Uten denne ser en mobil-side ut som en bitteliten desktop-side.
+  -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- title vises i fanen; description brukes av søk/deling. Bytt til ekte tekst. -->
+  <title>VERIFIED — prosjektstatus</title>
+  <meta name="description" content="Statusside for IPN-prosjektet VERIFIED.">
+
+  <!-- Ekstern CSS. Holder stil adskilt fra struktur (HTML = innhold, CSS = utseende). -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!--
+    SKIP-LINK (a11y):
+    Første fokuserbare element. En tastatur-/skjermleserbruker kan trykke Tab
+    og hoppe rett til innholdet i stedet for å tabbe gjennom hele menyen først.
+    Den er visuelt skjult til den får fokus (styles i CSS).
+  -->
+  <a class="skip-link" href="#main">Hopp til innhold</a>
+
+  <!--
+    ===========================================================================
+    SIDEMENY (sticky) — landmark <aside>
+    ===========================================================================
+    Hvorfor <aside>? Det er et "landmark" som skjermlesere kan hoppe til.
+    aria-label gir landmarket et navn ("Prosjektinfo og seksjoner").
+
+    Mobil-strategi (ditt valg): slank indikator + uttrekkbar skuff (drawer).
+    - På mobil er <nav id="menu-panel"> skjult bak meny-knappen.
+    - .progress-indicator er en tynn stripe som alltid vises (hvor er jeg?).
+    - På desktop (CSS @media) blir hele menyen en fast (sticky) kolonne.
+  -->
+  <aside class="side-menu" aria-label="Prosjektinfo og seksjoner">
+
+    <!--
+      MENY-KNAPP (drawer-toggle):
+      - aria-controls="menu-panel" kobler knappen til panelet den åpner.
+      - aria-expanded="false" sier at panelet er lukket NÅ. JS flipper denne
+        til "true" når skuffen åpnes — det er slik skjermlesere vet tilstanden.
+      - type="button" hindrer at knappen prøver å "submitte" noe.
+    -->
+    <button class="menu-toggle" type="button" aria-controls="menu-panel" aria-expanded="false">
+      <span class="menu-toggle__label">Meny</span>
+    </button>
+
+    <!--
+      MENY-PANELET:
+      Inneholder to ting: (1) seksjonsnavigasjon (scrollspy-lenkene) og
+      (2) prosjektinfo (team/mål/tidslinje). id="menu-panel" matcher
+      aria-controls på knappen over.
+    -->
+    <nav id="menu-panel" class="menu-panel">
+
+      <!--
+        SEKSJONSNAVIGASJON = scrollspy-lenkene.
+        NØKKELEN: hver lenke href="#sec-N" peker på en <section id="sec-N">.
+        - Klikk = nettleseren hopper til seksjonen (virker UTEN JavaScript).
+        - Senere leser scrollspy-JS de samme id-ene og markerer aktiv lenke
+          mens du scroller. Derfor må href og section-id stemme overens.
+        aria-current="true" settes av JS på lenken til seksjonen du er i.
+      -->
+      <ul class="section-nav">
+        <li><a href="#sec-intro">Intro</a></li>
+        <li><a href="#sec-problem">Problemet</a></li>
+        <li><a href="#sec-losning">Løsningen</a></li>
+        <li><a href="#sec-team">Team</a></li>
+        <li><a href="#sec-mal">Mål</a></li>
+        <li><a href="#sec-status">Status</a></li>
+      </ul>
+
+      <!--
+        PROSJEKTINFO: team, mål, tidslinje. På mobil ligger dette inne i skuffen
+        (for mye til å vise permanent på liten skjerm). På desktop står det i
+        den faste kolonnen. <dl> (description list) passer for navn→verdi-par.
+        NB: bytt placeholder-tekst med 🟢-verifisert innhold (se AGENTS.md).
+      -->
+      <div class="project-info">
+        <h2 class="project-info__title">Prosjektinfo</h2>
+        <dl>
+          <dt>Team</dt>
+          <dd>[Navn / roller — placeholder]</dd>
+          <dt>Mål</dt>
+          <dd>[Hovedmål — placeholder]</dd>
+          <dt>Tidslinje</dt>
+          <dd>[Milepæler — placeholder]</dd>
+        </dl>
+      </div>
+    </nav>
+
+    <!--
+      SLANK FREMDRIFTSINDIKATOR (mobil):
+      aria-hidden="true" fordi den er rent visuell — skjermlesere bruker
+      aria-current på lenkene over i stedet. JS fyller denne mens du scroller.
+    -->
+    <div class="progress-indicator" aria-hidden="true">
+      <span class="progress-indicator__bar"></span>
+    </div>
+  </aside>
+
+  <!--
+    ===========================================================================
+    HOVEDINNHOLD — landmark <main>
+    ===========================================================================
+    id="main" er målet for skip-linken øverst. Det skal være ÉN <main> per side.
+  -->
+  <main id="main">
+
+    <!--
+      EN SCROLLYTELLING-SEKSJON.
+      Mønsteret er likt for alle 5–7 seksjoner:
+        - id="sec-..."        → mål for nav-lenke + scrollspy (MÅ matche href).
+        - class="story-section" → full-skjerm-seksjon (høyde styres i CSS).
+        - style="--section-bg" → bakgrunnsbildet, satt som CSS-variabel.
+
+      DEKORATIVT vs MENINGSBÆRENDE bilde (viktig a11y-poeng):
+      - Bakgrunnsbildet her er DEKORASJON → CSS background-image. Det trenger
+        ingen alt-tekst (skjermlesere skal ignorere det).
+      - Hvis et bilde BÆRER informasjon (f.eks. et diagram), bruk <img> med
+        alt="..." inne i seksjonen i stedet — da skal skjermleseren lese det.
+
+      Placeholder: --section-bg er en gradient nå, så siden vises uten bildefiler.
+      Bytt til url('assets/intro.jpg') når du har bilder i site/assets/.
+    -->
+    <section id="sec-intro" class="story-section"
+             style="--section-bg: linear-gradient(160deg, #065a82, #06b6d4);">
+      <!--
+        OVERLAY-BOKS = lesbarhetslaget.
+        Hvorfor finnes den? Tekst rett på et foto blir ofte uleselig (lav
+        kontrast mot lyse/mørke partier). Den halvgjennomsiktige grå boksen
+        gir et jevnt underlag så teksten alltid har nok kontrast (WCAG).
+        Den er altså ikke bare pynt — den er et tilgjengelighetsgrep.
+      -->
+      <div class="overlay-box">
+        <h1>VERIFIED</h1>
+        <p>[Én kraftig setning om prosjektet — placeholder]</p>
+      </div>
+    </section>
+
+    <section id="sec-problem" class="story-section"
+             style="--section-bg: linear-gradient(160deg, #7c3aed, #aa3bff);">
+      <div class="overlay-box">
+        <h2>Problemet</h2>
+        <p>[1–2 nøkkelfakta om problemet — placeholder, må være 🟢-verifisert]</p>
+      </div>
+    </section>
+
+    <section id="sec-losning" class="story-section"
+             style="--section-bg: linear-gradient(160deg, #059669, #06b6d4);">
+      <div class="overlay-box">
+        <h2>Løsningen</h2>
+        <p>[Hva VERIFIED gjør — placeholder]</p>
+      </div>
+    </section>
+
+    <section id="sec-team" class="story-section"
+             style="--section-bg: linear-gradient(160deg, #d97706, #f59e0b);">
+      <div class="overlay-box">
+        <h2>Team</h2>
+        <p>[Kjernepersoner / partnere — placeholder]</p>
+      </div>
+    </section>
+
+    <section id="sec-mal" class="story-section"
+             style="--section-bg: linear-gradient(160deg, #0891b2, #065a82);">
+      <div class="overlay-box">
+        <h2>Mål</h2>
+        <p>[Forventede effekter / mål — placeholder]</p>
+      </div>
+    </section>
+
+    <section id="sec-status" class="story-section"
+             style="--section-bg: linear-gradient(160deg, #334155, #0f172a);">
+      <div class="overlay-box">
+        <h2>Status nå</h2>
+        <p>[Hvor langt er prosjektet — placeholder]</p>
+      </div>
+    </section>
+  </main>
+
+  <!--
+    SCROLLSPY-JS lastes til slutt (etter at HTML-en finnes i DOM-en).
+    defer = last ned parallelt, men kjør først når siden er ferdig parset.
+    Siden fungerer uten denne (lenkene hopper fortsatt) — JS er en forbedring.
+    Filen lages i neste steg (Fase 3c).
+  -->
+  <script src="scrollspy.js" defer></script>
+</body>
+
+</html>

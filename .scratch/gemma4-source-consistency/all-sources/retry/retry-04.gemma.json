@@ -1,0 +1,12 @@
+{
+  "ok": false,
+  "flagged_rows": [
+    {
+      "item": "[GullbrekkenHolme2025]",
+      "reason": "Kilden er kritisk for å etablere problembeskrivelsen (10–30 mrd NOK/år) og er markert som Gul (🟡). Dette representerer en statusdrift da den støtter sentrale økonomiske påstander, men krever forbehold. Statusen avhenger av ekstern tilgjengelighet (SINTEF fulltekst → 🟢).",
+      "recommended_action": "needs_professional_review: Vurder om de økonomiske tallene kan hentes fra en annen kilde med grønn status, eller om påstanden må formuleres med et tydelig forbehold inntil kilden er bekreftet (🟢)."
+    }
+  ],
+  "reason": "Det foreligger statusdrift i en sentral kilde ([GullbrekkenHolme2025]) som støtter kjernepåstander. Dette krever vurdering av påliteligheten til de økonomiske tallene før videre arbeid.",
+  "recommended_action": "Før innsending må det profesjonelt gjennomgås om kildestatusen for [GullbrekkenHolme2025] er akseptabel for å bære hovedpåstander, eller om alternative beviskilder må identifiseres."
+}

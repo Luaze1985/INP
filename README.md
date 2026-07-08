@@ -6,10 +6,11 @@ Dette repoet inneholder søknadstekst, kilder, kildeverifisering og styringsdoku
 
 ## Start her
 
-1. `AGENTS.md` — regler, roller, kilde-/sannhetsprinsipper.
-2. `CONTEXT.md` — hvor søknaden står nå og hva som gjenstår.
-3. `INDEX.yml` — full filoversikt.
-4. `IPN-FLYTTES.md` — status på utskillingen (hva er kopiert, hva gjenstår).
+1. `VISNING.md` — kort inngang for å vise materialet på reise eller i møte.
+2. `AGENTS.md` — regler, roller, kilde-/sannhetsprinsipper.
+3. `CONTEXT.md` — hvor søknaden står nå og hva som gjenstår.
+4. `INDEX.yml` — full filoversikt.
+5. `IPN-FLYTTES.md` — status på utskillingen (hva er kopiert, hva gjenstår).
 
 ## Kjernedokumenter
 

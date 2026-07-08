@@ -15,6 +15,7 @@ governance:
   CONTEXT.md: Tilstand, åpne punkter, risiko
   INDEX.yml: Denne filoversikten
   README.md: Kort orientering
+  VISNING.md: Kort tur-/møteinngang for GitHub-visning av IPN-materialet
   IPN-FLYTTES.md: Flyttemanifest (kilde→mål, hva som skal slettes etter bekreftelse)
 
 kanoniske_dokumenter:

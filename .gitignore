@@ -16,3 +16,5 @@ desktop.ini
 *.sqlite-shm
 *.db-wal
 *.db-shm
+
+.vercel

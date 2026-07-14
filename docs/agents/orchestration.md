@@ -43,7 +43,7 @@ større kjøringer.
 
 Når noe skal **utføres** i VS Code (kode, retting, verifisering), lag en handoff-fil:
 
-- Plassering: `docs/handoffs/NN_<kort_slug>_handoff.md` (neste ledige nummer; siste er 29 → bruk 30+).
+- Plassering: `docs/handoffs/NN_<kort_slug>_handoff.md` (neste ledige nummer; siste er 35 → bruk 36+).
 - Format: bruk `docs/handoffs/handoff-template.md`.
 - Startprompt skal referere **faktisk sti** til handoff-filen (eldre filer kan ha utdaterte stier
   fra migreringen — ikke kopier de stiene).

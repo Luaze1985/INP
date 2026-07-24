@@ -1,7 +1,7 @@
 ---
 title: K3 — Mål og FoU-spørsmål — godkjent arbeidsversjon
-dato: 2026-07-24
-versjon: 0.1
+dato: 2026-07-25
+versjon: 0.2
 status: godkjent arbeidsversjon, ikke innsendingsklar
 kilde: ChatGPT Work-gjennomgang, godkjent av Lars Erik
 kanonisk_kapittel: ../k3-forskning.md
@@ -25,7 +25,7 @@ formaal: Stabil referanse med faste avsnitts-, setnings- og FoU-ID-er
 
 <a id="k3-p1-s1"></a>**[K3-P1-S1]** Hovedmålet er å utvikle og teste en forskningsbasert beslutningsmodell for sammenligning av alternative løsninger i små og mellomstore byggeprosjekter.
 
-<a id="k3-p1-s2"></a>**[K3-P1-S2]** Modellen skal gjøre det mulig å sammenligne pris, klima, levetid, vedlikehold, dokumentasjon og risiko før valget tas.
+<a id="k3-p1-s2"></a>**[K3-P1-S2]** Modellen skal gjøre det mulig å sammenligne pris, klima, levetid, vedlikehold, teknisk kvalitet, ombruk, dokumentasjon og risiko før valget tas.
 
 <a id="k3-p1-s3"></a>**[K3-P1-S3]** Den skal også vise når grunnlaget er godt, når det er svakt, og når det mangler data.
 
@@ -48,7 +48,7 @@ formaal: Stabil referanse med faste avsnitts-, setnings- og FoU-ID-er
 | <a id="k3-f3"></a>**[K3-F3]** | Ombruk, reparasjon og rehabilitering | Hvordan kan modellen synliggjøre avveininger mellom ombruk, reparasjon, vedlikehold, rehabilitering og nyanskaffelse under ulike forutsetninger for kostnad, klima, levetid og dokumentasjonskvalitet? |
 | <a id="k3-f4"></a>**[K3-F4]** | Forståelse og beslutning | Hvordan forstår og bruker SMB-entreprenører og kunder beslutningsgrunnlaget, og i hvilken grad endrer eller bekrefter det valget de tar? |
 | <a id="k3-f5"></a>**[K3-F5]** | Byggdata mot bank | Hvordan kan dokumentasjon av byggteknisk kvalitet, levetid og vedlikeholdsbehov struktureres som relevant tilleggsinformasjon for bankens vurdering, uten personprofilering eller automatisk kredittbeslutning? |
-| <a id="k3-f6"></a>**[K3-F6]** | Sporbarhet og skalering | Kan dataflyt, API-er og dokumentasjon bygges slik at modellen kan etterprøves og brukes i flere produktkategorier? |
+| <a id="k3-f6"></a>**[K3-F6]** | Sporbarhet og skalering | Hvordan kan dataflyt, dokumentasjon og nødvendige grensesnitt utformes og testes slik at modellen er etterprøvbar og kan overføres til en ny produktkategori? |
 
 ### K3-P4 — Avgrensning før tildeling
 
@@ -56,12 +56,12 @@ formaal: Stabil referanse med faste avsnitts-, setnings- og FoU-ID-er
 
 <a id="k3-p4-s2"></a>**[K3-P4-S2]** Selve FoU-aktivitetene starter etter innsending og eventuell tildeling.
 
-<a id="k3-p4-s3"></a>**[K3-P4-S3]** VIBS-plattformen kan brukes som testflate, men forskningsarbeidet er VERIFIED-laget: metode, datakvalitet, vekting, usikkerhet og målt beslutningseffekt.
+<a id="k3-p4-s3"></a>**[K3-P4-S3]** VIBS-plattformen kan brukes som testflate for prosjektet, men forskningsarbeidet er VERIFIED-laget: metode, datakvalitet, vekting, usikkerhet og målt beslutningseffekt.
 
 ## Åpne porter før innfletting
 
 - Lars Gunnar må definere konkrete målepunkter for `K3-F4`.
 - Bankens konkrete rolle og beslutningssituasjon må avklares før `K3-F5` låses endelig.
-- Det må avklares hva «brukes i flere produktkategorier» betyr i `K3-F6`.
+- Det må avklares hvilken ny produktkategori som skal brukes for å teste overførbarheten i `K3-F6`.
 - Metoden i K4 må vise hvordan hvert FoU-spørsmål faktisk skal undersøkes.
 - Endringen må føres i endringsloggen når teksten flettes inn i det kanoniske kapitlet.

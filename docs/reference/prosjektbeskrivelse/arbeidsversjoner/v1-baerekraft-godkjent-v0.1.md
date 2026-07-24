@@ -1,7 +1,7 @@
 ---
 title: V1 — Miljø og bærekraft — godkjent arbeidsversjon
 dato: 2026-07-25
-versjon: 0.1
+versjon: 0.2
 status: godkjent arbeidsversjon, ikke innsendingsklar
 kilde: ChatGPT Work-gjennomgang, godkjent av Lars Erik
 kanonisk_kapittel: ../v1-baerekraft.md
@@ -62,7 +62,7 @@ formaal: Stabil referanse med faste avsnitts-, tabell- og setnings-ID-er
 | **[V1-T1-R3]** | Livsløpskostnad | Anskaffelse, vedlikehold og beregnede utskiftninger | Kostnad over avtalt analyseperiode |
 | **[V1-T1-R4]** | Beslutningseffekt | Om grunnlaget endrer, bekrefter eller ikke påvirker valget | Valg før og etter at sammenligningen vises |
 | **[V1-T1-R5]** | Brukbarhet | Forståelse, tidsbruk og behov for hjelp | Vanlig tilbudsarbeid mot bruk av VERIFIED |
-| **[V1-T1-R6]** | Dokumentasjonskvalitet | Andel manglende, generelle, estimerte og verifiserte data | Alternativene som sammenlignes |
+| **[V1-T1-R6]** | Dokumentasjonskvalitet | Andel opplysninger som mangler, bygger på generelle data, er estimert eller er verifisert for den konkrete løsningen | Alternativene som sammenlignes |
 
 ### V1-P5 — Feil og omarbeid
 

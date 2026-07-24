@@ -1,7 +1,7 @@
 ---
 title: K4 — Metode og forskningsetikk — godkjent arbeidsversjon
-dato: 2026-07-24
-versjon: 0.1
+dato: 2026-07-25
+versjon: 0.2
 status: godkjent arbeidsversjon, ikke innsendingsklar
 kilde: ChatGPT Work-gjennomgang, godkjent av Lars Erik
 kanonisk_kapittel: ../k4-metode.md
@@ -30,7 +30,7 @@ formaal: Stabil referanse med faste avsnitts-, setnings- og tabell-ID-er
 
 <a id="k4-p2-s3"></a>**[K4-P2-S3]** For hver opplysning registreres kilde, alder, enhet, produktnivå og dokumentasjonsstatus.
 
-<a id="k4-p2-s4"></a>**[K4-P2-S4]** Statusen skal vise om opplysningen mangler, er estimert, bygger på generelle data eller er verifisert for den konkrete løsningen.
+<a id="k4-p2-s4"></a>**[K4-P2-S4]** Statusen skal vise om opplysningen mangler, bygger på generelle data, er estimert eller er verifisert for den konkrete løsningen.
 
 <a id="k4-p2-s5"></a>**[K4-P2-S5]** Reglene for status og dokumentasjonstillit fastsettes før piloteringen og brukes likt på alle alternativer.
 
@@ -60,6 +60,7 @@ formaal: Stabil referanse med faste avsnitts-, setnings- og tabell-ID-er
 | **K4-T1-R6** | Tidsbruk | Tid brukt sammenlignet med vanlig tilbudsarbeid |
 | **K4-T1-R7** | Bankrelevans | Om den avtalte dokumentasjonen svarer på bankens definerte informasjonsbehov |
 | **K4-T1-R8** | Skalering | Hvilke deler av modellen som kan overføres til en ny produktkategori |
+| **K4-T1-R9** | Sirkulær sammenligning | Materialmengde, restlevetid, teknisk egnethet og beregnede utskiftninger for nyanskaffelse, reparasjon, rehabilitering og ombruk |
 
 ### K4-P5 — Forskningsetikk og datahåndtering
 

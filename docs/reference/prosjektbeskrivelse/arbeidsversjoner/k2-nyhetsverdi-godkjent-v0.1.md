@@ -1,7 +1,7 @@
 ---
 title: K2 — Nyhetsverdi — godkjent arbeidsversjon
-dato: 2026-07-24
-versjon: 0.1
+dato: 2026-07-25
+versjon: 0.2
 status: godkjent arbeidsversjon, ikke innsendingsklar
 kilde: ChatGPT Work-gjennomgang, godkjent av Lars Erik
 kanonisk_kapittel: ../k2-nyhetsverdi.md
@@ -51,7 +51,7 @@ formaal: Stabil referanse med faste avsnitts-, setnings- og tabell-ID-er
 
 <a id="k2-p4-s1"></a>**[K2-P4-S1]** Det nye FoU-laget er ikke selve VIBS-plattformen.
 
-<a id="k2-p4-s2"></a>**[K2-P4-S2]** VIBS-plattformen er under utvikling som mulig test- og integrasjonsflate for prosjektet.
+<a id="k2-p4-s2"></a>**[K2-P4-S2]** VIBS-plattformen kan brukes som testflate for prosjektet.
 
 <a id="k2-p4-s3"></a>**[K2-P4-S3]** VERIFIED-laget er forskningsarbeidet: hvordan vekting, datakvalitet, usikkerhet og beslutningseffekt kan dokumenteres på en måte som tåler kontroll.
 
@@ -80,14 +80,14 @@ formaal: Stabil referanse med faste avsnitts-, setnings- og tabell-ID-er
 
 <a id="k2-p6-s4"></a>**[K2-P6-S4]** Entreprenør og kunde skal fortsatt ta beslutningen.
 
-<a id="k2-p6-s5"></a>**[K2-P6-S5]** Et slikt grunnlag kan også bli relevant for andre aktører som etterspør etterprøvbar dokumentasjon, blant annet banker og forsikringsselskaper.
+<a id="k2-p6-s5"></a>**[K2-P6-S5]** Et slikt grunnlag kan også bli relevant for en bank som etterspør etterprøvbar prosjekt- og byggdokumentasjon.
 
-<a id="k2-p6-s6"></a>**[K2-P6-S6]** Hvordan og i hvilken grad dette kan brukes, skal undersøkes i prosjektet.
+<a id="k2-p6-s6"></a>**[K2-P6-S6]** Hvordan og i hvilken grad dette kan brukes, skal undersøkes mot ett avgrenset bankbehov i prosjektet.
 
 ## Åpne porter før innfletting
 
-- Avklar om VIBS-plattformen skal omtales som `test- og integrasjonsflate`, eller om formuleringen skal tones ytterligere ned.
 - Kartleggingen av nærmeste norske og europeiske verktøy bør få bedre uavhengig dekning.
 - Påstander om bruk i tilbudsfasen, anvendbarhet for små entreprenører og beslutningseffekt må behandles som kunnskapshull eller FoU-spørsmål, ikke som dokumenterte markedsdommer.
-- Bank- og forsikringsrelevans må fortsatt omtales som mulig anvendelse som skal undersøkes.
+- Banken må definere ett konkret informasjonsbehov og én beslutningssituasjon før banksporet låses.
+- Forsikring og takst omtales bare som mulige senere skaleringsspor.
 - Endringen må føres i endringsloggen når teksten flettes inn i det kanoniske kapitlet.

@@ -18,3 +18,12 @@ desktop.ini
 *.db-shm
 
 .vercel
+
+# Cloud sync exclusions
+.env*
+.scratch/
+output/
+tmp/
+*.pdf
+*.docx
+*.zip

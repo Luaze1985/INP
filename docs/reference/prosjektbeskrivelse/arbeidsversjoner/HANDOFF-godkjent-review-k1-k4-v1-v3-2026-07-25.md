@@ -31,6 +31,7 @@ Denne handoffen erstatter ikke arbeidsversjonene. Ved videre redigering er arbei
 - **Base:** `main`
 - **Kanoniske kapitler:** ikke endret
 - **Status:** godkjente arbeidsversjoner finnes på arbeidsgrenen
+- **Arbeidsregel:** De sju godkjente arbeidsversjonene er gjeldende arbeidsgrunnlag. De eldre kanoniske K/V-filene er bare innflettingsmål inntil kvalitetsport C7 er lukket.
 - **Viktig:** Tekstene er godkjent som arbeidsversjoner, men er ikke kildeverifisert, komprimert eller innsendingsklare.
 
 ## 3. Filer som er opprettet
@@ -43,7 +44,7 @@ Denne handoffen erstatter ikke arbeidsversjonene. Ved videre redigering er arbei
 | K4 | `docs/reference/prosjektbeskrivelse/arbeidsversjoner/k4-metode-godkjent-v0.1.md` | `docs/reference/prosjektbeskrivelse/k4-metode.md` |
 | V1 | `docs/reference/prosjektbeskrivelse/arbeidsversjoner/v1-baerekraft-godkjent-v0.1.md` | `docs/reference/prosjektbeskrivelse/v1-baerekraft.md` |
 | V2 | `docs/reference/prosjektbeskrivelse/arbeidsversjoner/v2-dnsh-godkjent-v0.1.md` | `docs/reference/prosjektbeskrivelse/v2-sikkerhet.md` |
-| V3 | `docs/reference/prosjektbeskrivelse/arbeidsversjoner/v3-okonomiske-virkninger-bankrelevans-godkjent-v0.1.md` | `docs/reference/prosjektbeskrivelse/v3-samfunnsokonomi.md` |
+| V3 | `docs/reference/prosjektbeskrivelse/arbeidsversjoner/v3-okonomiske-virkninger-bankrelevans-godkjent-v0.1.md` | `docs/reference/prosjektbeskrivelse/v3-okonomi.md` |
 | Kontroll | `docs/reference/prosjektbeskrivelse/arbeidsversjoner/00-konsistenskontroll-godkjente-arbeidsversjoner-v0.1.md` | Ingen kanonisk målfil |
 
 ## 4. Felles beslutninger som gjelder alle kapitler

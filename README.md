@@ -6,15 +6,25 @@ Dette repoet inneholder søknadstekst, kilder, kildeverifisering og styringsdoku
 
 ## Start her
 
-1. `VISNING.md` — kort inngang for å vise materialet på reise eller i møte.
-2. `AGENTS.md` — regler, roller, kilde-/sannhetsprinsipper.
-3. `CONTEXT.md` — hvor søknaden står nå og hva som gjenstår.
+1. `AGENTS.md` — regler, roller og gjeldende dokumenthierarki.
+2. `CONTEXT.md` — hvor søknaden står nå og hva som gjenstår.
+3. `docs/reference/prosjektbeskrivelse/README.md` — status for K1–K4 og V1–V3.
 4. `INDEX.yml` — full filoversikt.
-5. `IPN-FLYTTES.md` — status på utskillingen (hva er kopiert, hva gjenstår).
+5. `VISNING.md` — kort inngang for møte eller reise.
+6. `IPN-FLYTTES.md` — historikk for utskillingen fra VIBS-repoet.
 
-## Kjernedokumenter
+## Gjeldende arbeidsgrunnlag for K1–K4 og V1–V3
 
-- Innsendingsprosa: `docs/reference/ipn-prosjektbeskrivelse-utkast.md`
+- Beslutninger og avgrensninger: `docs/reference/prosjektbeskrivelse/arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md`
+- Gjeldende tekstgrunnlag: de sju godkjente arbeidsversjonene i `docs/reference/prosjektbeskrivelse/arbeidsversjoner/`
+- Kanoniske innflettingsmål: `docs/reference/prosjektbeskrivelse/k1-bakgrunn.md` til `v3-okonomi.md`
+- Status: arbeidsversjonene er godkjent, men ikke kildeverifisert, komprimert eller innsendingsklare. Kvalitetsport C7 må lukkes før innfletting.
+
+## Referanse- og kildelag
+
+- Samlet skjelett og parkering: `docs/reference/ipn-hovedokument.md`
+- Internt samle- og forklaringslag: `docs/reference/ipn-samledokument.md`
+- Eldre demonstrasjonsutkast: `docs/reference/ipn-prosjektbeskrivelse-utkast.md`
 - Kanonisk kildeliste: `docs/reference/ipn-kildebibliotek.md`
 - Autoritativ kildedom: `docs/reference/vibs-verified-kildedom-2026-06-27.md`
 - Utlysningsfasit: `docs/reference/ipn-barekraft-sannhetsserum-2026-06-21.md` §10

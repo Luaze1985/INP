@@ -1,5 +1,5 @@
 # INDEX.yml — ipn-verified
-# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-06-28.
+# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-07-25.
 
 prosjekt:
   navn: VIBS VERIFIED — IPN-søknad
@@ -19,20 +19,31 @@ governance:
   IPN-FLYTTES.md: Flyttemanifest (kilde→mål, hva som skal slettes etter bekreftelse)
 
 prosjektbeskrivelse:
-  # Sju kapitler → én PDF. Opprettet 2026-07-08 (fase 0). WP/Gjennomføring parkert.
-  docs/reference/prosjektbeskrivelse/README.md: Status, regler for alle sju, sidebudsjett
-  docs/reference/prosjektbeskrivelse/k1-bakgrunn.md: Kvalitet — problemet i bransjen (ingen 🟢-kilder)
-  docs/reference/prosjektbeskrivelse/k2-nyhetsverdi.md: Kvalitet — gap-matrise, FoU-lag vs. produkt
-  docs/reference/prosjektbeskrivelse/k3-forskning.md: Kvalitet — mål og FoU-spørsmål F1–F6
-  docs/reference/prosjektbeskrivelse/k4-metode.md: Kvalitet — metode + forskningsetikk (ingen forelder)
-  docs/reference/prosjektbeskrivelse/v1-baerekraft.md: Virkninger — SDG, CO₂-mekanisme, sirkulærøkonomi
-  docs/reference/prosjektbeskrivelse/v2-sikkerhet.md: Virkninger — DNSH-tabell (må skrives fra bunn)
-  docs/reference/prosjektbeskrivelse/v3-okonomi.md: Virkninger — bro til grønn finans
+  # Gjeldende arbeidsgrunnlag er godkjente arbeidsversjoner. K/V-filene er innflettingsmål.
+  status: Godkjent arbeidsgrunnlag, ikke kildeverifisert, komprimert eller innsendingsklart
+  kvalitetsport: C7 — samlet kilde- og komprimeringspass før innfletting
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md: Beslutninger, avgrensninger og filkart
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/00-konsistenskontroll-godkjente-arbeidsversjoner-v0.1.md: Konsistenskontroll C1–C7
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/k1-bakgrunn-godkjent-v0.1.md: Gjeldende tekstgrunnlag K1
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/k2-nyhetsverdi-godkjent-v0.1.md: Gjeldende tekstgrunnlag K2
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/k3-forskning-godkjent-v0.1.md: Gjeldende tekstgrunnlag K3
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/k4-metode-godkjent-v0.1.md: Gjeldende tekstgrunnlag K4
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/v1-baerekraft-godkjent-v0.1.md: Gjeldende tekstgrunnlag V1
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/v2-dnsh-godkjent-v0.1.md: Gjeldende tekstgrunnlag V2
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/v3-okonomiske-virkninger-bankrelevans-godkjent-v0.1.md: Gjeldende tekstgrunnlag V3
+  docs/reference/prosjektbeskrivelse/README.md: Status, arbeidsregel, kapittelregler og sidebudsjett
+  docs/reference/prosjektbeskrivelse/k1-bakgrunn.md: Kanonisk innflettingsmål K1 — eldre tekst
+  docs/reference/prosjektbeskrivelse/k2-nyhetsverdi.md: Kanonisk innflettingsmål K2 — eldre tekst
+  docs/reference/prosjektbeskrivelse/k3-forskning.md: Kanonisk innflettingsmål K3 — eldre tekst
+  docs/reference/prosjektbeskrivelse/k4-metode.md: Kanonisk innflettingsmål K4 — eldre tekst
+  docs/reference/prosjektbeskrivelse/v1-baerekraft.md: Kanonisk innflettingsmål V1 — eldre tekst
+  docs/reference/prosjektbeskrivelse/v2-sikkerhet.md: Kanonisk innflettingsmål V2 — eldre tekst
+  docs/reference/prosjektbeskrivelse/v3-okonomi.md: Kanonisk innflettingsmål V3 — eldre tekst
 
-kanoniske_dokumenter:
-  docs/reference/ipn-hovedokument.md: Skjelett — påstand + kildenøkkel + status (parkering for ⏸)
-  docs/reference/ipn-samledokument.md: Prosa (intern, full ærlighet) + ordliste
-  docs/reference/ipn-prosjektbeskrivelse-utkast.md: Innsendingsprosa (NFR-format)
+samle_og_referansedokumenter:
+  docs/reference/ipn-hovedokument.md: Samlet skjelett og parkering — ikke gjeldende K/V-tekstgrunnlag
+  docs/reference/ipn-samledokument.md: Internt samle- og forklaringslag — ikke gjeldende K/V-tekstgrunnlag
+  docs/reference/ipn-prosjektbeskrivelse-utkast.md: Eldre demonstrasjonsutkast — ikke innsendingsprosa eller gjeldende K/V-tekstgrunnlag
   docs/reference/ipn-kildebibliotek.md: Kanonisk kildeliste med portfarger og provenans
 
 referanse_og_fakta:

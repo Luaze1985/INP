@@ -3,19 +3,29 @@
 Sju kapitler, ett dokument hver. Slås sammen til én PDF når utkastet er ferdig.
 Opprettet 2026-07-08 (fase 0 i `../ipn-multiagent-workflow-2026-07-08.md`).
 
-## Status
+## Gjeldende arbeidsgrunnlag
+
+- **Beslutninger og avgrensninger:** `arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md`
+- **Gjeldende tekstgrunnlag:** de sju `*-godkjent-v0.1.md`-filene i `arbeidsversjoner/`
+- **Kanoniske innflettingsmål:** de sju K/V-filene i tabellen under
+- **Status:** godkjente arbeidsversjoner, men ikke kildeverifisert, komprimert eller innsendingsklart
+- **Åpen kvalitetsport C7:** samlet kilde- og komprimeringspass før innfletting
+
+Arbeidsversjonene er tekstkilden. De kanoniske filene er målfilene og inneholder foreløpig eldre tekst.
+
+## Status for kanoniske innflettingsmål
 
 | Fil | Kriterium | Side | Status |
 | --- | --- | --- | --- |
-| `k1-bakgrunn.md` | Kvalitet | ~1,5 | Første røffe utkast — svakt kildegrunnlag må primæråpnes |
-| `k2-nyhetsverdi.md` | Kvalitet | ~2 | Første røffe utkast — sterkest kildegrunnlag |
-| `k3-forskning.md` | Kvalitet | ~1,5 | Første røffe utkast |
-| `k4-metode.md` | Kvalitet | ~1,5 | Første røffe utkast — metodevalg må avklares |
-| `v1-baerekraft.md` | Virkninger | ~1,5 | Første røffe utkast — baseline mangler |
-| `v2-sikkerhet.md` | Virkninger | ~1 | Første røffe DNSH-utkast — må kobles til konkrete tiltak |
-| `v3-okonomi.md` | Virkninger | ~1 | Første røffe utkast — bankgrunnlag må avgrenses |
+| `k1-bakgrunn.md` | Kvalitet | ~1,5 | Eldre måltekst — godkjent arbeidsversjon finnes |
+| `k2-nyhetsverdi.md` | Kvalitet | ~2 | Eldre måltekst — godkjent arbeidsversjon finnes |
+| `k3-forskning.md` | Kvalitet | ~1,5 | Eldre måltekst — godkjent arbeidsversjon finnes |
+| `k4-metode.md` | Kvalitet | ~1,5 | Eldre måltekst — godkjent arbeidsversjon finnes |
+| `v1-baerekraft.md` | Virkninger | ~1,5 | Eldre måltekst — godkjent arbeidsversjon finnes |
+| `v2-sikkerhet.md` | Virkninger | ~1 | Eldre måltekst — godkjent arbeidsversjon finnes |
+| `v3-okonomi.md` | Virkninger | ~1 | Eldre måltekst — godkjent arbeidsversjon finnes |
 
-**Arbeidspakker (WP1–WP5) og Gjennomføring er fortsatt parkert.** Ikke skriv dem her.
+**Arbeidspakker (WP1–WP5) og Gjennomføring er fortsatt parkert.** De skal ikke skrives inn i disse kapitlene uten egen godkjenning.
 
 ## Regler som gjelder alle sju
 

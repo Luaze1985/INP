@@ -1,10 +1,10 @@
-# VERIFIED — samlet søknadstekst, kandidat v0.5
+# VERIFIED — samlet K/V-tekst, kandidat v0.5
 
-**Status:** samlet arbeidsutkast med godkjente tekstpresiseringer
+**Status:** K/V-integrasjonskandidat med godkjente tekstpresiseringer
 **Dato:** 2026-07-29
 **Baseline:** `soknadstekst-samlet-kandidat-v0.4.md`
 **Tekstgrunnlag:** godkjente arbeidsversjoner for K1–K4 og V1–V3, datert 2026-07-24–25
-**Avgrensning:** Formuleringer og prosjektlogikk er innarbeidet. Kildestatus er ikke oppgradert, og teksten er ikke innsendingsklar.
+**Avgrensning:** Formuleringer og prosjektlogikk for K1–K4 og V1–V3 er innarbeidet. Dokumentet erstatter ikke øvrig innhold i `v0.4`. Kildestatus er ikke oppgradert, og teksten er ikke innsendingsklar.
 
 ## Sammendrag
 
@@ -83,6 +83,15 @@ Hovedmålet er å utvikle og teste en forskningsbasert beslutningsmodell for sam
 
 Modellen skal gjøre det mulig å sammenligne pris, klima, levetid, vedlikehold, teknisk kvalitet, ombruk, dokumentasjon og risiko før valget tas. Den skal også vise når grunnlaget er godt, når det er svakt, og når det mangler data.
 
+### Delmål
+
+Prosjektet skal:
+
+1. kartlegge hvilke opplysninger som trengs for å sammenligne alternative løsninger i tilbudsfasen
+2. utvikle en åpen og begrunnet beslutningsmodell for slike sammenligninger
+3. teste hvordan forskjeller, avveininger og usikkerhet bør vises for entreprenør og kunde
+4. prøve om modellen gir praktisk nytte i konkrete løsningsvalg
+
 ### FoU-bidraget
 
 Prosjektets FoU-bidrag ligger ikke i å lage en enkel poengformel alene. Det ligger i å undersøke hvordan vekting, datakvalitet og usikkerhet kan dokumenteres og forklares, og hvordan modellen fungerer i reelle løsningsvalg.
@@ -118,15 +127,38 @@ Først samles data fra produktkilder, dokumentasjon og praktiske utprøvinger (p
 
 For hver opplysning registreres kilde, alder, enhet, produktnivå og dokumentasjonsstatus. Statusen skal vise om opplysningen mangler, bygger på generelle data, er estimert eller er verifisert for den konkrete løsningen. Reglene for status og dokumentasjonstillit fastsettes før piloteringen og brukes likt på alle alternativer. Slik skal svake eller manglende data ikke skjules i en totalscore.
 
+### Minste informasjonsgrunnlag og teknisk egnethet
+
+Prosjektet skal definere hvilket minste informasjonsgrunnlag som trengs for å sammenligne en løsning på en faglig forsvarlig måte. Dersom grunnlaget er for svakt, skal dette vises tydelig.
+
+Teknisk egnethet fungerer som en faglig port. Prosjektet må avklare hvem som gjør vurderingen i pilotene, og hvilke opplysninger som er nødvendige. Dersom egnetheten er uklar eller ikke godt nok dokumentert, skal vurderingen vise at dette må avklares faglig før valg.
+
 ### Flerkriteriemodell og metodevalg
 
 Deretter utvikles en flerkriteriemodell som viser avveininger mellom pris, klima, levetid, kvalitet, vedlikehold, ombruk, dokumentasjon og risiko.
 
 Prosjektet skal sammenligne aktuelle flerkriteriemetoder ut fra faste krav: hvor lett vektingen kan forklares, hvor følsomt resultatet er for endrede vekter, hvilke data metoden krever, hvordan manglende data håndteres, og om brukerne forstår resultatet. På dette grunnlaget velges én metode eller en avgrenset metodekombinasjon for piloteringen.
 
+### Visning av resultatet
+
+Sammenligningen skal ha to nivåer. Først skal brukeren få et enkelt overblikk over hva som taler for, imot og er usikkert ved hvert alternativ. Deretter skal brukeren kunne kontrollere dokumentasjon, datagrunnlag og vekting.
+
+### Foreløpige testtyper
+
+De foreløpige testtypene er:
+
+1. valg mellom alternative takløsninger
+2. valg mellom alternative innvendige vegg- eller overflateløsninger
+3. valg mellom reparasjon, utsatt utskifting og ny løsning
+4. vurdering av ombruk der det faktisk er relevant
+
+Dette er testtyper, ikke bekreftede partnerpiloter.
+
 ### Pilotering og måling
 
 Modellen testes i reelle løsningsvalg. Før piloteringen kobles hvert FoU-spørsmål til datakilde, målepunkt, sammenligningsgrunnlag og kriterium for vurdering.
+
+Testene skal sammenligne vanlig tilbudsarbeid med tilbudsarbeid der VERIFIED brukes. For hver test skal prosjektet dokumentere løsningene som ble sammenlignet, tilgjengelige opplysninger, mangler, faglige avklaringer og hvordan entreprenør og kunde brukte grunnlaget.
 
 | Hva måles | Eksempel på målepunkt |
 | --- | --- |
@@ -275,31 +307,6 @@ Banken må før piloteringen definere hvilken informasjon den trenger, hvordan i
 | Dokumentasjonskvalitet | Manglende, generelle, estimerte og verifiserte opplysninger |
 | Kundens forståelse | Forståelse av kostnad, risiko og usikkerhet |
 | Bankrelevans | Om dokumentasjonen svarer på bankens forhåndsdefinerte informasjonsbehov |
-
-## Gjennomføring
-
-Arbeidspakker, milepæler og leveranser må fastsettes i neste prosjektpass. Hovedlogikken er at prosjektet skal kombinere kartlegging, metodeutvikling, utprøving og vurdering av nytte.
-
-Arbeidspakkene må vise hvordan hvert FoU-spørsmål kobles til datakilder, målepunkter, sammenligningsgrunnlag, ansvar og leveranser. Endelig pilotomfang, deltakere, tidsplan, budsjett og støttegrad må avklares med partnerne.
-
-## Risiko og risikoreduserende tiltak
-
-De viktigste risikoene i denne fasen er:
-
-- at datagrunnlaget blir for svakt eller ulikt mellom alternativene
-- at teknisk egnethet ikke avklares godt nok
-- at modellen blir for tung å bruke i tilbudsfasen
-- at en totalscore skjuler usikkerhet eller gir falsk presisjon
-- at nytten ikke blir tydelig nok i pilotene
-- at banksporet blir for bredt eller løsrevet fra byggproblemet
-
-Risikoreduserende tiltak er tydelige dokumentasjonskrav, felles datastatus, synlig usikkerhet, følsomhetsanalyse, avgrensede piloter og eksplisitt kobling mellom FoU-spørsmål og målepunkter.
-
-## Utnyttelse av resultatene
-
-Resultatene skal først brukes til å vurdere om beslutningsmodellen og sammenligningsverktøyet gir praktisk nytte i tilbudsfasen. Dersom prosjektet viser nyttige resultater, kan erfaringene senere brukes som grunnlag for videre bruk i næringen.
-
-Banksporet behandles som én avgrenset mulig anvendelse. Forsikring og takst er ikke del av kjernepiloten og kan eventuelt vurderes som senere skaleringsspor.
 
 ## Referanser
 

@@ -19,7 +19,7 @@ _Unngå_: «spesialister».
 ## Status nå
 
 - **Gjeldende arbeidsgrunnlag for K1–K4 og V1–V3:** Sju godkjente arbeidsversjoner ligger i `docs/reference/prosjektbeskrivelse/arbeidsversjoner/`. Handoffen datert 2026-07-25 styrer beslutninger og avgrensninger.
-- **Samlet søknadstekst:** `soknadstekst-samlet-kandidat-v0.4.md` er låst sammenligningsbaseline. `soknadstekst-samlet-kandidat-v0.5.md` er aktiv integrasjonskandidat for godkjente tekstpresiseringer.
+- **Samlet søknadstekst:** `soknadstekst-samlet-kandidat-v0.4.md` er låst baseline for innholdsdekning. `soknadstekst-samlet-kandidat-v0.5.md` er aktiv K/V-integrasjonskandidat og erstatter ikke hele `v0.4`.
 - **Kanoniske innflettingsmål:** Filene `k1-bakgrunn.md` til `v3-okonomi.md` i `docs/reference/prosjektbeskrivelse/` er fortsatt målfilene, men inneholder eldre tekst og er ikke tekstfasit før C7 er lukket.
 - **Kvalitetsport C7:** Tekstpresisering og kildepass er skilt. `v0.5` gjør bare første del. Kildeverifisering, kildehenvisninger og samlet innflettingskontroll gjenstår.
 - **Kildeverifisering:** AGY samordnet fire spriktende rapporter til én kildedom (`vibs-verified-kildedom-2026-06-27.md`); Codex flettet den inn. An/Billio/Kaza splittet i tre, EBA-kollisjon skilt (EU-bank vs. NO-entreprenørforening), IPN-beløp rettet til 1–16 MNOK.

@@ -19,7 +19,7 @@ Les denne + `CONTEXT.md` før du gjør noe i repoet.
 
 1. **Bare åpen, uavhengig sitering teller.** Claudes/agentens egen kunnskap er aldri belegg.
 2. **Statusporter:** 🟢 primær åpnet (kan stå alene) · 🟡 sterk men ikke primærverifisert (må åpnes / fraseres med forbehold) · 🔴 bare søketreff (ikke siterbar) · ⏸ tatt ut av søknadstekst, parkert med gjeninnsettingsvilkår.
-3. **Ubekreftet skal helt vekk fra søknadsteksten** (Lars' regel) — men ikke slettes: parkeres i `ipn-hovedokument.md` / `ipn-kildebibliotek.md` og kan «stå opp som ja» (→ 🟢) når kilden er funnet/åpnet.
+3. **Ubekreftet skal helt vekk fra kanonisk og innsendingsklar søknadstekst** (Lars' regel) — men ikke slettes: parkeres i `ipn-hoveddokument.md` / `ipn-kildebibliotek.md` og kan «stå opp som ja» (→ 🟢) når kilden er funnet/åpnet. `soknadstekst-samlet-kandidat-v0.5.md` er et uttrykkelig godkjent reviewunntak: kildeavhengige formuleringer kan stå der når de er registrert i reviewfilen, men de kan ikke flyttes til kanoniske mål eller innsendingsklar tekst før kildeporten er lukket.
 4. **Bestillingsverk er ikke uavhengig belegg.** Konsortie-interne notater er arbeidsgrunnlag, ikke bevis.
 5. Endring av kildestatus skal alltid logges i dokumentets endringslogg (hvem, hva, hvorfor).
 
@@ -43,10 +43,11 @@ Markdown blir da visningslag, generert fra basen. Se `IPN-FLYTTES.md` → «Nest
 
 - For K1–K4 og V1–V3 på arbeidsgrenen gjelder denne rekkefølgen:
   1. `docs/reference/prosjektbeskrivelse/arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md` styrer beslutninger og avgrensninger.
-  2. De sju `*-godkjent-v0.1.md`-filene i `arbeidsversjoner/` er gjeldende tekstgrunnlag.
-  3. `soknadstekst-samlet-kandidat-v0.4.md` er låst sammenligningsbaseline for samlet søknadstekst.
-  4. `soknadstekst-samlet-kandidat-v0.5.md` er aktiv integrasjonskandidat for godkjente tekstpresiseringer. Den er ikke innsendingsklar før kildeporten og samlet kontroll er lukket.
+  2. De sju `*-godkjent-v0.1.md`-filene i `arbeidsversjoner/` er ordlydsfasit for godkjente enkeltformuleringer.
+  3. `soknadstekst-samlet-kandidat-v0.4.md` er låst baseline for innholdsdekning. Innhold derfra skal ikke regnes som slettet bare fordi det mangler i en K/V-arbeidsversjon.
+  4. `soknadstekst-samlet-kandidat-v0.5.md` er aktiv K/V-integrasjonskandidat. Den samler godkjent ordlyd, men erstatter ikke hele `v0.4` og er ikke innsendingsklar.
   5. `docs/reference/prosjektbeskrivelse/k1-bakgrunn.md` til `v3-okonomi.md` er kanoniske innflettingsmål, men ikke tekstfasit før kvalitetsport C7 er lukket.
+- Ved konflikt gjelder handoffen for omfang, arbeidsversjonene for godkjent ordlyd og `v0.4` for innholdsdekning. Konflikten skal markeres; ingen agent skal velge stille.
 - `ipn-hoveddokument.md`, `ipn-samledokument.md` og `ipn-prosjektbeskrivelse-utkast.md` er støtte- og referanselag; de er ikke gjeldende tekstgrunnlag for K1–K4 og V1–V3.
 - Endre aldri `v0.4` under videre arbeid. Lag en ny kandidat eller en avgrenset reviewfil.
 - Er kilden 🟢? Hvis ikke — ikke la den bære setningen.

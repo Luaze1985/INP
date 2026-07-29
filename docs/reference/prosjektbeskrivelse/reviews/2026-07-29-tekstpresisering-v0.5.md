@@ -7,9 +7,9 @@
 
 ## Formål
 
-Samle den godkjente ordlyden fra arbeidsversjonene for K1–K4 og V1–V3 i én lesbar kandidat før eget kildepass.
+Samle den godkjente ordlyden fra arbeidsversjonene for K1–K4 og V1–V3 i én lesbar K/V-kandidat før eget kildepass. Kandidaten erstatter ikke øvrige deler av `v0.4`.
 
-`v0.4` har 2 127 ord. Første samlede `v0.5` har om lag 3 100 ord. Økningen skyldes at de godkjente FoU-spørsmålene, målepunktene, DNSH-reglene og bankavgrensningen nå er med. Dette er et bevisst arbeidsutkast; komprimering mot sidebudsjettet gjenstår.
+`v0.4` har 2 127 ord, mens K/V-kandidaten `v0.5` har 3 192 ord. `v0.5` skal ikke leses som en fullstendig etterfølger med godkjente strykninger. Økningen skyldes at de godkjente FoU-spørsmålene, målepunktene, DNSH-reglene og bankavgrensningen nå er med. Komprimering mot sidebudsjettet gjenstår.
 
 ## Styrende tekstgrunnlag
 
@@ -55,7 +55,8 @@ Ingen av disse formuleringene får høyere kildestatus av å være tatt inn i `v
 - de sju godkjente arbeidsversjonene er ikke endret
 - de kanoniske K/V-målfilene er ikke endret
 - kildedom og kildebibliotek er ikke endret
-- arbeidspakker, tidsplan, partnerroller og budsjett er ikke funnet på
+- arbeidspakker, gjennomføring, tidsplan, partnerroller og budsjett er fortsatt parkert
+- delmål, minste informasjonsgrunnlag, teknisk egnethet, to-nivåvisning og foreløpige testtyper fra `v0.4` er bevart
 
 ## Gjenstående kontroller
 

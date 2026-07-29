@@ -7,13 +7,13 @@ Opprettet 2026-07-08 (fase 0 i `../ipn-multiagent-workflow-2026-07-08.md`).
 
 - **Beslutninger og avgrensninger:** `arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md`
 - **Gjeldende tekstgrunnlag:** de sju `*-godkjent-v0.1.md`-filene i `arbeidsversjoner/`
-- **Låst sammenligningsbaseline:** `soknadstekst-samlet-kandidat-v0.4.md`
-- **Aktiv integrasjonskandidat:** `soknadstekst-samlet-kandidat-v0.5.md`
+- **Låst baseline for innholdsdekning:** `soknadstekst-samlet-kandidat-v0.4.md`
+- **Aktiv K/V-integrasjonskandidat:** `soknadstekst-samlet-kandidat-v0.5.md`
 - **Kanoniske innflettingsmål:** de sju K/V-filene i tabellen under
 - **Status:** godkjente tekstpresiseringer er samlet i `v0.5`; kildepass og innsendingskontroll gjenstår
 - **Åpen kvalitetsport C7:** kildeverifisering, kildehenvisninger og endelig innflettingskontroll
 
-Arbeidsversjonene er ordlydskilden. `v0.4` skal ikke endres. `v0.5` er arbeidsflaten for en sammenhengende tekst. De kanoniske kapittelfilene er målfilene og inneholder foreløpig eldre tekst.
+Arbeidsversjonene er ordlydskilden. `v0.4` skal ikke endres og bevarer innholdsdekningen. `v0.5` er arbeidsflaten for en sammenhengende K/V-tekst og erstatter ikke øvrige deler av `v0.4`. De kanoniske kapittelfilene er målfilene og inneholder foreløpig eldre tekst.
 
 ## Status for kanoniske innflettingsmål
 

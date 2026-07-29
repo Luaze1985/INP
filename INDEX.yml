@@ -19,11 +19,11 @@ governance:
   IPN-FLYTTES.md: Flyttemanifest (kilde→mål, hva som skal slettes etter bekreftelse)
 
 prosjektbeskrivelse:
-  # Godkjente arbeidsversjoner styrer ordlyden. v0.4 er baseline, v0.5 er integrasjonskandidat.
+  # Arbeidsversjoner styrer ordlyd, v0.4 innholdsdekning og v0.5 samlet K/V-integrasjon.
   status: Tekstpresisering pågår; kildeport og samlet kontroll gjenstår
   kvalitetsport: C7 — tekstpresisering og kildepass holdes som separate kontroller
-  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.4.md: Låst sammenligningsbaseline
-  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.5.md: Aktiv integrasjonskandidat for godkjente tekstpresiseringer
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.4.md: Låst baseline for innholdsdekning
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.5.md: Aktiv K/V-integrasjonskandidat for godkjente tekstpresiseringer
   docs/reference/prosjektbeskrivelse/arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md: Beslutninger, avgrensninger og filkart
   docs/reference/prosjektbeskrivelse/arbeidsversjoner/00-konsistenskontroll-godkjente-arbeidsversjoner-v0.1.md: Konsistenskontroll C1–C7
   docs/reference/prosjektbeskrivelse/arbeidsversjoner/k1-bakgrunn-godkjent-v0.1.md: Gjeldende tekstgrunnlag K1

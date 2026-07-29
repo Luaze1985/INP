@@ -44,7 +44,7 @@ Følgende er beholdt som godkjent arbeidstekst, men skal kontrolleres i neste ki
 - kunnskapshull om tilbudsfasen og små entreprenører
 - mulighetsrommet for klima fra tidlige materialvalg
 - forskning om energieffektivitet og misligholdsrisiko
-- europeiske bank- og ESG-rammer
+- europeiske bankrammer som etterspør bedre miljødokumentasjon
 - utlysningens prioritering av sirkulærøkonomi
 
 Ingen av disse formuleringene får høyere kildestatus av å være tatt inn i `v0.5`.

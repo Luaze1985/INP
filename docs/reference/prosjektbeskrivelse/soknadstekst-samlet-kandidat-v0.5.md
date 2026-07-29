@@ -217,7 +217,7 @@ Hver identifisert risiko skal knyttes til en modellregel, en reaksjon og en test
 | Ombruk uten dokumentert teknisk egnethet | Egnethet, restlevetid, transport og ansvar må dokumenteres | Kontroller dokumentasjonskravene i piloten |
 | Kjemikalie-, helse- eller sikkerhetsfare overses | Lavt klimagassutslipp skal ikke overstyre dokumenterte krav | Kartlegg hvilke opplysninger som finnes og hva som ligger utenfor modellen |
 | Reparasjon eller vedlikehold brukes uten reell effekt | Utsatt utskifting, spart materiale og teknisk forsvarlighet må dokumenteres | Sammenlign mot nyanskaffelse og dokumenter forutsetningene |
-| Effekt påstås uten baseline | Hver effekt kobles til baseline, indikator, datakilde og måleansvarlig | Kontroller måleplanen før pilotstart |
+| Effekt påstås uten sammenligningsgrunnlag | Hver effekt kobles til sammenligningsgrunnlag, indikator, datakilde og måleansvarlig | Kontroller måleplanen før pilotstart |
 
 ### Felles datastatus
 

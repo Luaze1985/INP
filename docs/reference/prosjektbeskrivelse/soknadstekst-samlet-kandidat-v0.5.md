@@ -1,9 +1,9 @@
 # VERIFIED — samlet søknadstekst, kandidat v0.5
 
-**Status:** samlet arbeidsutkast med godkjente tekstpresiseringer  
-**Dato:** 2026-07-29  
-**Baseline:** `soknadstekst-samlet-kandidat-v0.4.md`  
-**Tekstgrunnlag:** godkjente arbeidsversjoner for K1–K4 og V1–V3, datert 2026-07-24–25  
+**Status:** samlet arbeidsutkast med godkjente tekstpresiseringer
+**Dato:** 2026-07-29
+**Baseline:** `soknadstekst-samlet-kandidat-v0.4.md`
+**Tekstgrunnlag:** godkjente arbeidsversjoner for K1–K4 og V1–V3, datert 2026-07-24–25
 **Avgrensning:** Formuleringer og prosjektlogikk er innarbeidet. Kildestatus er ikke oppgradert, og teksten er ikke innsendingsklar.
 
 ## Sammendrag

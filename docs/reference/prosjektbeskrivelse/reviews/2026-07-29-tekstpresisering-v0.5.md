@@ -1,8 +1,8 @@
 # Tekstpresisering — samlet søknadskandidat v0.5
 
-**Dato:** 2026-07-29  
-**Baseline:** `../soknadstekst-samlet-kandidat-v0.4.md`  
-**Ny kandidat:** `../soknadstekst-samlet-kandidat-v0.5.md`  
+**Dato:** 2026-07-29
+**Baseline:** `../soknadstekst-samlet-kandidat-v0.4.md`
+**Ny kandidat:** `../soknadstekst-samlet-kandidat-v0.5.md`
 **Gren:** `change/tekstpresisering-v0.5`
 
 ## Formål

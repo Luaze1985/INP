@@ -9,6 +9,7 @@ Opprettet 2026-07-08 (fase 0 i `../ipn-multiagent-workflow-2026-07-08.md`).
 - **Gjeldende tekstgrunnlag:** de sju `*-godkjent-v0.1.md`-filene i `arbeidsversjoner/`
 - **Låst baseline for innholdsdekning:** `soknadstekst-samlet-kandidat-v0.4.md`
 - **Aktiv K/V-integrasjonskandidat:** `soknadstekst-samlet-kandidat-v0.5.md`
+- **Kollegareview mot Sannhetsserum:** `sannhetsserum-oppdatering-v0.5.md`
 - **Kanoniske innflettingsmål:** de sju K/V-filene i tabellen under
 - **Status:** godkjente tekstpresiseringer er samlet i `v0.5`; kildepass og innsendingskontroll gjenstår
 - **Åpen kvalitetsport C7:** kildeverifisering, kildehenvisninger og endelig innflettingskontroll

@@ -44,8 +44,11 @@ Markdown blir da visningslag, generert fra basen. Se `IPN-FLYTTES.md` → «Nest
 - For K1–K4 og V1–V3 på arbeidsgrenen gjelder denne rekkefølgen:
   1. `docs/reference/prosjektbeskrivelse/arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md` styrer beslutninger og avgrensninger.
   2. De sju `*-godkjent-v0.1.md`-filene i `arbeidsversjoner/` er gjeldende tekstgrunnlag.
-  3. `docs/reference/prosjektbeskrivelse/k1-bakgrunn.md` til `v3-okonomi.md` er kanoniske innflettingsmål, men ikke tekstfasit før kvalitetsport C7 er lukket.
+  3. `soknadstekst-samlet-kandidat-v0.4.md` er låst sammenligningsbaseline for samlet søknadstekst.
+  4. `soknadstekst-samlet-kandidat-v0.5.md` er aktiv integrasjonskandidat for godkjente tekstpresiseringer. Den er ikke innsendingsklar før kildeporten og samlet kontroll er lukket.
+  5. `docs/reference/prosjektbeskrivelse/k1-bakgrunn.md` til `v3-okonomi.md` er kanoniske innflettingsmål, men ikke tekstfasit før kvalitetsport C7 er lukket.
 - `ipn-hoveddokument.md`, `ipn-samledokument.md` og `ipn-prosjektbeskrivelse-utkast.md` er støtte- og referanselag; de er ikke gjeldende tekstgrunnlag for K1–K4 og V1–V3.
+- Endre aldri `v0.4` under videre arbeid. Lag en ny kandidat eller en avgrenset reviewfil.
 - Er kilden 🟢? Hvis ikke — ikke la den bære setningen.
 - Logg endringen i endringsloggen.
 - Spør Lars før irreversible endringer.

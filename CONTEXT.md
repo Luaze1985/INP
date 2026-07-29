@@ -1,6 +1,6 @@
 # CONTEXT.md — ipn-verified
 
-Tilstand og kjente risikoer. Oppdatert: **2026-07-25**.
+Tilstand og kjente risikoer. Oppdatert: **2026-07-29**.
 
 ## Låst begrepsbruk for neste søknadspass
 
@@ -19,8 +19,9 @@ _Unngå_: «spesialister».
 ## Status nå
 
 - **Gjeldende arbeidsgrunnlag for K1–K4 og V1–V3:** Sju godkjente arbeidsversjoner ligger i `docs/reference/prosjektbeskrivelse/arbeidsversjoner/`. Handoffen datert 2026-07-25 styrer beslutninger og avgrensninger.
+- **Samlet søknadstekst:** `soknadstekst-samlet-kandidat-v0.4.md` er låst sammenligningsbaseline. `soknadstekst-samlet-kandidat-v0.5.md` er aktiv integrasjonskandidat for godkjente tekstpresiseringer.
 - **Kanoniske innflettingsmål:** Filene `k1-bakgrunn.md` til `v3-okonomi.md` i `docs/reference/prosjektbeskrivelse/` er fortsatt målfilene, men inneholder eldre tekst og er ikke tekstfasit før C7 er lukket.
-- **Kvalitetsport C7:** Arbeidsversjonene skal gjennom ett samlet kilde- og komprimeringspass før innfletting. Søknadstekstene er derfor ikke innsendingsklare.
+- **Kvalitetsport C7:** Tekstpresisering og kildepass er skilt. `v0.5` gjør bare første del. Kildeverifisering, kildehenvisninger og samlet innflettingskontroll gjenstår.
 - **Kildeverifisering:** AGY samordnet fire spriktende rapporter til én kildedom (`vibs-verified-kildedom-2026-06-27.md`); Codex flettet den inn. An/Billio/Kaza splittet i tre, EBA-kollisjon skilt (EU-bank vs. NO-entreprenørforening), IPN-beløp rettet til 1–16 MNOK.
 - **Grensetilfeller tatt ut (Lars 2026-06-28):** `[Wiik2025]` (SINTEF Notat 57 ikke funnet) og `[SA2018]`/2,2 mrd (rapport ikke lokalisert) er fjernet fra prosaen, parkert ⏸ i hovedokument/kildebibliotek. 20 %-påstanden hviler nå på `[EBA_NO2023]` + `[KD2024]`.
 

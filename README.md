@@ -17,8 +17,10 @@ Dette repoet inneholder søknadstekst, kilder, kildeverifisering og styringsdoku
 
 - Beslutninger og avgrensninger: `docs/reference/prosjektbeskrivelse/arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md`
 - Gjeldende tekstgrunnlag: de sju godkjente arbeidsversjonene i `docs/reference/prosjektbeskrivelse/arbeidsversjoner/`
+- Låst sammenligningsbaseline: `docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.4.md`
+- Aktiv integrasjonskandidat: `docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.5.md`
 - Kanoniske innflettingsmål: `docs/reference/prosjektbeskrivelse/k1-bakgrunn.md` til `v3-okonomi.md`
-- Status: arbeidsversjonene er godkjent, men ikke kildeverifisert, komprimert eller innsendingsklare. Kvalitetsport C7 må lukkes før innfletting.
+- Status: `v0.5` innarbeider godkjente tekstpresiseringer uten å oppgradere kildepåstander. Kildeporten og samlet kontroll gjenstår før innfletting.
 
 ## Referanse- og kildelag
 

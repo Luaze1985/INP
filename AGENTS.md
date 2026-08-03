@@ -23,6 +23,24 @@ Les denne + `CONTEXT.md` før du gjør noe i repoet.
 4. **Bestillingsverk er ikke uavhengig belegg.** Konsortie-interne notater er arbeidsgrunnlag, ikke bevis.
 5. Endring av kildestatus skal alltid logges i dokumentets endringslogg (hvem, hva, hvorfor).
 
+## Permanent kildeport mot gjenimport
+
+- Maskinlesbar sperreliste: `governance/source-blocklist.json`.
+- Validator: `python tools/source_guard.py scan --path <inntak>` før research-
+  eller agentsvar kan flettes inn.
+- Aktiv kontroll: `python tools/source_guard.py scan --active`.
+- Git-port: `.githooks/pre-commit` sammenligner staged versjon mot `HEAD` for
+  de seks aktive prosjektbeskrivelses- og nettsidefilene. Nye eller endrede
+  sperretreff stoppes, også når feilrelasjonen bruker eksisterende avsnitt.
+- `BLOCK` betyr karantene. Treff skal ikke omskrives, gis nytt alias eller
+  kopieres til aktiv tekst for å omgå kontrollen.
+- Bare Lars kan gjenåpne en post. En agent kan ikke fjerne en sperre eller legge
+  inn et unntak for å få grønn kontroll.
+- Endring av blokkregister, validator eller hook stoppes etter første commit
+  uten den eksplisitte, midlertidige Lars-porten beskrevet i
+  `governance/README.md`.
+- Registeret og bruken er dokumentert i `governance/README.md`.
+
 ## Roller (ærlighetsregel)
 
 - **Lars Erik / Lars Gunnar:** leser, beslutter, godkjenner. Avgjør grensetilfeller.

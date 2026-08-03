@@ -1,0 +1,30 @@
+#!/bin/sh
+set -eu
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+run_guard() {
+  tool_path="$1"
+  registry_path="$2"
+  if command -v python >/dev/null 2>&1; then
+    SOURCE_GUARD_REPO_ROOT="$repo_root" python "$tool_path" scan --staged --registry "$registry_path"
+  elif command -v py >/dev/null 2>&1; then
+    SOURCE_GUARD_REPO_ROOT="$repo_root" py -3 "$tool_path" scan --staged --registry "$registry_path"
+  else
+    echo "SOURCE_GUARD=ERROR Python 3 is required" >&2
+    exit 2
+  fi
+}
+
+if git cat-file -e HEAD:tools/source_guard.py 2>/dev/null && \
+   git cat-file -e HEAD:governance/source-blocklist.json 2>/dev/null; then
+  trusted_dir="$(mktemp -d)"
+  trap 'rm -rf "$trusted_dir"' EXIT
+  git show HEAD:tools/source_guard.py > "$trusted_dir/source_guard.py"
+  git show HEAD:governance/source-blocklist.json > "$trusted_dir/source-blocklist.json"
+  run_guard "$trusted_dir/source_guard.py" "$trusted_dir/source-blocklist.json"
+else
+  # Bootstrap only: after the first commit the hook always runs trusted HEAD code.
+  run_guard "tools/source_guard.py" "governance/source-blocklist.json"
+fi

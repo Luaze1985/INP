@@ -1,0 +1,211 @@
+{
+  "schema_version": 1,
+  "updated": "2026-08-03",
+  "decision_owner": "Lars",
+  "purpose": "Stop uncertain, replaced or retired sources and relationships from re-entering active application and website text.",
+  "guarded_paths": [
+    "docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.5.md",
+    "docs/reference/prosjektbeskrivelse/k3-forskning-sannhetsserum-v0.5.md",
+    "docs/reference/prosjektbeskrivelse/forskning-og-soa-v0.5-kandidat.md",
+    "site/tekstmanus.md",
+    "site/innhold-kanban.md",
+    "site/index.html"
+  ],
+  "excluded_path_prefixes": [
+    ".agents/",
+    ".githooks/",
+    ".scratch/",
+    "docs/handoffs/",
+    "docs/sintef/",
+    "governance/",
+    "provenance/",
+    "tests/",
+    "tools/"
+  ],
+  "excluded_paths": [
+    "docs/reference/ipn-kildebibliotek.md",
+    "docs/reference/vibs-verified-kildedom-2026-06-27.md",
+    "docs/reference/vibs-verified-ord-og-kildekart-v0.5.yml"
+  ],
+  "active_paths": [
+    "docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.5.md",
+    "docs/reference/prosjektbeskrivelse/k3-forskning-sannhetsserum-v0.5.md",
+    "docs/reference/prosjektbeskrivelse/forskning-og-soa-v0.5-kandidat.md",
+    "site/tekstmanus.md",
+    "site/innhold-kanban.md",
+    "site/index.html"
+  ],
+  "protected_policy_paths": [
+    "governance/source-blocklist.json",
+    "tools/source_guard.py",
+    ".githooks/pre-commit"
+  ],
+  "entries": [
+    {
+      "id": "SP-01",
+      "canonical_key": "Wiik2025",
+      "aliases": ["Marianne Kjendseth Wiik", "SINTEF Notat 57"],
+      "normalized_title": "Kostnadseffekten av klimatiltak i byggenæringen",
+      "identifiers": {"doi": [], "url": []},
+      "status": "blocked-original-required",
+      "reason": "Original og uavhengighet er ikke dokumentert. Identiteten beholdes for å hindre ny import.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": ["EBA_NO2023", "KD2024"],
+      "reopen_rule": "original-required",
+      "match": {"type": "any-identifier"}
+    },
+    {
+      "id": "SP-02",
+      "canonical_key": "SA2018",
+      "aliases": ["Rapport 4-2018", "Samfunnsøkonomisk analyse", "Samfunnsøkonomisk analyse: Konflikter i bygg- og anleggsnæringen"],
+      "normalized_title": "Konflikter i bygg- og anleggsnæringen",
+      "identifiers": {"doi": [], "url": []},
+      "status": "blocked-original-required",
+      "reason": "Originalen for 2,2-milliarderspåstanden er ikke sikkert lokalisert og åpnet.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": [],
+      "reopen_rule": "original-required",
+      "match": {"type": "any-identifier"}
+    },
+    {
+      "id": "SP-03",
+      "canonical_key": "An2021",
+      "aliases": [],
+      "normalized_title": "",
+      "identifiers": {"doi": [], "url": []},
+      "status": "replaced-alias",
+      "reason": "Gammel nøkkel med feil år skal ikke gjenimporteres som selvstendig kilde.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": ["An2020"],
+      "reopen_rule": "manual-only",
+      "match": {"type": "any-identifier"}
+    },
+    {
+      "id": "SP-04",
+      "canonical_key": "Billio_SAFE261",
+      "aliases": ["SAFE Working Paper 261"],
+      "normalized_title": "",
+      "identifiers": {"doi": [], "url": []},
+      "status": "replaced-alias",
+      "reason": "Arbeidspapirnøkkelen skal peke til publisert Billio2022, ikke bli en ny kilde.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": ["Billio2022"],
+      "reopen_rule": "manual-only",
+      "match": {"type": "any-identifier"}
+    },
+    {
+      "id": "SP-05",
+      "canonical_key": "Harerusten2022-primary-2.2bn",
+      "aliases": [],
+      "normalized_title": "",
+      "identifiers": {"doi": [], "url": []},
+      "status": "retired-relationship",
+      "reason": "Harerusten2022 er ikke primærberegning for 2,2-milliarderspåstanden.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": ["SA2018 remains blocked until original verification"],
+      "reopen_rule": "manual-only",
+      "match": {
+        "type": "all-groups-in-paragraph",
+        "groups": [
+          ["Harerusten2022"],
+          ["2,2 mrd", "2.2 mrd", "2,2 milliarder", "2.2 milliarder"]
+        ]
+      }
+    },
+    {
+      "id": "SP-06",
+      "canonical_key": "Multiconsult2023DiBK",
+      "aliases": [],
+      "normalized_title": "Klimagassberegningsanalyse av fire referansebygg",
+      "identifiers": {"doi": [], "url": []},
+      "status": "blocked-original-required",
+      "reason": "Kildeidentiteten finnes ikke som avstemt oppføring i kildebiblioteket.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": [],
+      "reopen_rule": "original-required",
+      "match": {"type": "any-identifier"}
+    },
+    {
+      "id": "SP-07",
+      "canonical_key": "KD2024-Asplan",
+      "aliases": [],
+      "normalized_title": "Asplan Viak-beregning av samlet klimafotavtrykk for bygg og anlegg",
+      "identifiers": {"doi": [], "url": []},
+      "status": "blocked-original-required",
+      "reason": "Kilden må holdes separat fra KD2024 til dokumentrelasjonen er bevist.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": [],
+      "reopen_rule": "original-required",
+      "match": {"type": "any-identifier"}
+    },
+    {
+      "id": "SP-08",
+      "canonical_key": "Bjørheim2026",
+      "aliases": ["Bjørheim 2026", "Bjorheim2026", "Bjorheim 2026", "Bisnode/Byggeindustrien/SINTEF"],
+      "normalized_title": "",
+      "identifiers": {"doi": [], "url": []},
+      "status": "blocked-original-required",
+      "reason": "Samlekildebruken er feil, og også konkurstallet krever egen original og presis lokasjon.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": ["separate konkurs-, BDO-, UNION- og ombrukskilder"],
+      "reopen_rule": "original-required",
+      "match": {"type": "any-identifier"}
+    },
+    {
+      "id": "SP-09",
+      "canonical_key": "Mecca2023",
+      "aliases": [],
+      "normalized_title": "Assessing the sustainable development: A review of multi-criteria decision analysis for urban and architectural sustainability",
+      "identifiers": {"doi": ["10.1002/mcda.1818"], "url": ["https://doi.org/10.1002/mcda.1818"]},
+      "status": "blocked-original-required",
+      "reason": "Metodeandelene og Rank Reversal kan ikke brukes bærende før original og presis lokasjon er kontrollert.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": ["separate primary source for Rank Reversal or project hypothesis"],
+      "reopen_rule": "original-required",
+      "match": {"type": "any-identifier"}
+    },
+    {
+      "id": "SP-10",
+      "canonical_key": "Ciroth2016",
+      "aliases": ["Ciroth et al. 2016"],
+      "normalized_title": "Empirically based uncertainty factors for the pedigree matrix in ecoinvent",
+      "identifiers": {"doi": ["10.1007/s11367-013-0670-5"], "url": ["https://doi.org/10.1007/s11367-013-0670-5"]},
+      "status": "blocked-original-required",
+      "reason": "Eksakt utgave, bibliografi og formellokasjon er uavklart.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": [],
+      "reopen_rule": "original-required",
+      "match": {"type": "any-identifier"}
+    },
+    {
+      "id": "SP-11",
+      "canonical_key": "Bjørheim2026-wrong-source-bundle",
+      "aliases": [],
+      "normalized_title": "",
+      "identifiers": {"doi": [], "url": []},
+      "status": "retired-relationship",
+      "reason": "Bjørheim2026 skal aldri kobles tilbake som samlekilde for BDO, UNION eller ombruk.",
+      "decision_date": "2026-08-03",
+      "decision_maker": "Lars",
+      "replacement": ["separate source identities"],
+      "reopen_rule": "manual-only",
+      "match": {
+        "type": "all-groups-in-paragraph",
+        "groups": [
+          ["Bjørheim2026", "Bjørheim 2026", "Bjorheim2026", "Bjorheim 2026"],
+          ["BDO", "UNION", "ombruk"]
+        ]
+      }
+    }
+  ]
+}

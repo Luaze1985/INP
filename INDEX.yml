@@ -1,5 +1,5 @@
 # INDEX.yml — ipn-verified
-# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-07-29.
+# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-08-03.
 
 prosjekt:
   navn: VIBS VERIFIED — IPN-søknad
@@ -17,6 +17,11 @@ governance:
   README.md: Kort orientering
   VISNING.md: Kort tur-/møteinngang for GitHub-visning av IPN-materialet
   IPN-FLYTTES.md: Flyttemanifest (kilde→mål, hva som skal slettes etter bekreftelse)
+  governance/README.md: Bruk, porter og overgangstilstand for Source Guard
+  governance/source-blocklist.json: Maskinlesbar sperreliste med 11 poster, aliaser og gjenåpningsregler
+  tools/source_guard.py: Validator for inntak, aktive flater og staged Git-linjer
+  tests/test_source_guard.py: Regresjonstester for nøkkel, alias, DOI, URL og feilrelasjoner
+  .githooks/pre-commit: Lokal Git-port som stopper nye sperrede linjer
 
 prosjektbeskrivelse:
   # Arbeidsversjoner styrer ordlyd, v0.4 innholdsdekning og v0.5 samlet K/V-integrasjon.
@@ -62,6 +67,27 @@ referanse_og_fakta:
   docs/reference/forskningsekstraksjon-2026-06-22.md: Ekstrahert forskning
   docs/reference/claude-guardrails.md: Guardrails for søknadsspråk (MVP-presens, finans, partnere)
 
+agentstyring:
+  docs/agents/intake-outtake.md: Varig rollemodell A0–A8 for research-intake, outtake, SINTEF-pakker og audit
+  docs/agents/orchestration.md: Rolledeling mellom Lars, Claude-subagenter, Codex/AGY, Sonar og SINTEF
+
+sintef_kildekonsolidering:
+  docs/sintef/README.md: Sentral inngang til kollegatekster, interne tørrkjøringskart og lagret SINTEF-pakke
+  docs/sintef/ARBEIDSPAKKER.md: Arbeidspakker, filgrenser og kontrollporter
+  docs/sintef/KONTROLLRAPPORT.md: Kontrollresultat, beskyttede kontrollsummer og rettede dokumentavvik
+  docs/sintef/kollegapakke/01-kort-oversikt.md: Kort, lettlest oversikt over behold, ta ut og avklar
+  docs/sintef/kollegapakke/02-detaljert-arbeidsnotat.md: Samlet forklaring av kilde-, metode- og konkurrentfunn
+  docs/sintef/kollegapakke/03-behold-ta-ut-avklar.md: Beslutningsliste for kollegainnspill; Lars beslutter
+  docs/sintef/kollegapakke/04-anbefalt-arbeidsrekkefolge.md: Anbefalt rekkefølge fram mot senere tekstendringer
+  docs/sintef/internt/uttaks-og-sperrelogg.md: Foreslått sperrelogg som bevarer identitet og hindrer gjenimport
+  docs/sintef/internt/endringskart-aktiv-soknad.md: Tørrkjøringskart for tre aktive reviewflater
+  docs/sintef/internt/endringskart-ipn-nettside.md: Tørrkjøringskart for tekstmanus, innholdskanban og HTML-plassholdere
+  docs/sintef/pakke-lagret-ikke-sendt/00-les-meg.md: Status og avgrensning for lagret kontrollpakke
+  docs/sintef/pakke-lagret-ikke-sendt/prioriterte-sporsmal.md: Femten prioriterte kontrollspørsmål
+  docs/sintef/pakke-lagret-ikke-sendt/svarmal.md: Svarmal for en eventuell senere SINTEF-kontroll
+  docs/sintef/pakke-lagret-ikke-sendt/GODKJENNINGSPORT.md: Lars' eksplisitte port før eventuell sending
+  docs/sintef/svar-fra-sintef/README.md: Tomt og kontrollert mottaksområde for faktiske svar
+
 verifisering:
   docs/reference/vibs-verified-kildedom-2026-06-27.md: AUTORITATIV samordnet kildedom (AGY)
   docs/reference/vibs-verified-agentsøk-2026-06-26.md: Inputrapport (agentsøk)
@@ -71,7 +97,7 @@ verifisering:
   docs/reference/vibs-verified-språkanalyse-2026-06-27.md: Språk-/guardrail-analyse (Codex-jobb)
 
 handoffs:
-  # Neste ledige nummer: 36
+  # Neste ledige nummer: 44
   docs/handoffs/26_orchestrering_ipn_kilder_nettside.md: Orkestrering kilder
   docs/handoffs/27_kildesjekk_handoff.md: Kildesjekk
   docs/handoffs/29_agy_kildeverifisering_gjennomgang_handoff.md: AGY-samordning (ga kildedommen)
@@ -82,6 +108,13 @@ handoffs:
   docs/handoffs/34_agy_mockup_v2_loft_handoff.md: AGY mockup v2
   docs/handoffs/35_claude_code_app_start_prompt.md: Claude Code app-startprompt
   docs/handoffs/36_agy_kildekritikk_og_kriteriegap_handoff.md: AGY kildekritikk, kriteriegap og nye kilder
+  docs/handoffs/37_agy_state-of-the-art_og_sintef-rapport_handoff.md: Manuell AGY-runde for state of the art, moteksempler og SINTEF-rapport
+  docs/handoffs/38_agy_ord-og-kildekart-v0.5_read-only_handoff.md: Skrivebeskyttet AGY-forslag til ord- og kildekart for v0.5
+  docs/handoffs/39_codex_godkjenn-ord-og-kildekart-v0.5_handoff.md: Codex-kontroll og godkjenning av AGY-forslaget til ord- og kildekart v0.5
+  docs/handoffs/40_agy_klargjor-kilde-og-kontekstpakker_read-only_handoff.md: AGY-subagenter klargjør lokale kontrollpakker før Perplexity
+  docs/handoffs/41_codex_perplexity-inntak_og_kildepensjonering_handoff.md: Codex-inntak av Perplexity-funn og plan for kunnskapsfiler, sperreposter og pensjonering
+  docs/handoffs/42_codex_agentisk_intake_outtake_og_sintef-forberedelse_handoff.md: Agentroster, intake/outtake-pipeline og kontrollert SINTEF-forberedelse
+  docs/handoffs/43_codex_finskriving_og_nytt_kildeinntak_handoff.md: Finskriving av kollegapakken og kontrollert batchinntak av nye kilder og konkurrenter
 
 provenance:
   provenance/agents/: Agent-kjøringer (reconciliation + teamwork_preview) som produserte verifiseringen — audit trail

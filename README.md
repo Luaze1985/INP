@@ -12,6 +12,10 @@ Dette repoet inneholder søknadstekst, kilder, kildeverifisering og styringsdoku
 4. `INDEX.yml` — full filoversikt.
 5. `VISNING.md` — kort inngang for møte eller reise.
 6. `IPN-FLYTTES.md` — historikk for utskillingen fra VIBS-repoet.
+7. `docs/sintef/README.md` — sentral inngang til kollegatekster, interne
+   endringskart og lagret, ikke sendt SINTEF-pakke.
+8. `governance/README.md` — automatisk sperre mot at usikre, erstattede eller
+   pensjonerte kilder kommer tilbake.
 
 ## Gjeldende arbeidsgrunnlag for K1–K4 og V1–V3
 

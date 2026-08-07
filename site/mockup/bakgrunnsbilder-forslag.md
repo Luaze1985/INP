@@ -1,5 +1,17 @@
 # Forslag til bakgrunnsbilder — VERIFIED scrollytelling (Første runde gjenopprettet)
 
+## Pilot med egne småprosjektbilder
+
+To bilder fra `Original_6.zip` er nå lagt inn som en avgrenset pilot i `site/mockup/pilot/`:
+
+- `DSC_4606 copy.jpg` brukes i Intro/hero og viser én håndverker på et konkret småhus-/terrasseprosjekt.
+- `_DSC8630 copy.jpg` brukes i Utfordringen og viser et lite arbeidslag på et småhusprosjekt.
+
+Synlig Norgeshus-profilering og andre lesbare kommersielle merker er fjernet. Egne mobil- og
+desktoputsnitt er koblet til mockupen. Se `pilot/README.md` for behandling, QA og gjenstående
+rettighetsport. De opprinnelige Unsplash-kandidatene beholdes urørt som referanse inntil piloten er
+godkjent.
+
 Dette dokumentet lister opp de 10 opprinnelige bakgrunnsbildene fra Unsplash som ble valgt i første runde og tilordnet til mockup-seksjonene. Disse bildene danner en rolig, mørk og nøytral kontrast som lar tekst og tall-aksenter tre tydelig frem.
 
 Alle bildene er gratis og lovlig lisensiert under **Unsplash License** (fri kommersiell og ikke-kommersiell bruk).

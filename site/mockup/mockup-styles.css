@@ -305,9 +305,16 @@ body.menu-open .side-menu {
   align-items: center;
   justify-content: center;
   padding: 2rem 1.5rem;
+  background-image: var(--section-bg-mobile, var(--section-bg-desktop));
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media (min-width: 768px) {
+  .story-section {
+    background-image: var(--section-bg-desktop, var(--section-bg-mobile));
+  }
 }
 
 /* Readability Overlay - Dark Navy Radial Mask */

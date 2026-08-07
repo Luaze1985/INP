@@ -10,6 +10,11 @@
 Siden skal ikke si mer enn v0.9 sier. Hver synlig påstand er sporet til et kapittel i v0.9.
 Der v0.9 tar forbehold, skal siden ta samme forbehold.
 
+**Modalitet teller som innhold.** Det holder ikke at siden nevner samme sak som v0.9 — den må stå i
+samme modus. Gjør siden et «har til hensikt å» om til et «gjør», har den sagt mer enn søknaden, selv
+om ordene ellers er de samme. Dette er samme feiltype som H0 i faktasjekken 2026-06-29, der heroen
+sto i fortid («kvalitetssikret av SINTEF») mens seksjon 7 sa at arbeidet ikke var begynt.
+
 ## Domstabell
 
 | Nr | Påstand på siden | Dekning i v0.9 | Status |
@@ -37,8 +42,9 @@ Der v0.9 tar forbehold, skal siden ta samme forbehold.
 | 21 | «Den samme sammenhengen er ikke vist for byggteknisk kvalitet, levetid eller vedlikeholdsdata» | V3, samme avsnitt | ✅ dekket — v0.9s eksplisitte avgrensning |
 | 22 | «En avgrenset pilot skal undersøke … Banken må selv definere behovet på forhånd» | V3 → Avgrenset bankpilot | ✅ dekket. **Ingen bank er navngitt** |
 | 23 | «Prosjektet forutsetter ikke at informasjonen forbedrer risikovurderingen» | V3 → Kunnskapsgrunnlag, siste setning | ✅ dekket — ordrett |
-| 24 | Dokumentasjonsstatus per opplysning (seksjon 6) | K4 → Datagrunnlag og dokumentasjonstillit | ✅ dekket |
-| 25 | «Et minste informasjonsgrunnlag» | K4 → Minste informasjonsgrunnlag | ✅ dekket |
+| 24 | «Hver opplysning **skal få** en status. Vi **skal registrere** kilde, alder, enhet og produktnivå …» | K4 → Datagrunnlag og dokumentasjonstillit: «**Hensikten videre er at** det for hver opplysning registreres …» | ✅ dekket — modalitet rettet 2026-08-07. Sto opprinnelig som «Vi registrerer», altså som noe som allerede gjøres |
+| 24b | «Arbeidet **er planlagt** stegvis» | K4 → Forskningsløype: «Prosjektet **har til hensikt å** bruke en trinnvis utviklings- og utprøvingsprosess» | ✅ dekket — modalitet rettet 2026-08-07. Sto opprinnelig som «Arbeidet går stegvis» |
+| 25 | «Vi **skal definere** hvor lite som skal til» | K4 → Minste informasjonsgrunnlag: «Prosjektet **skal definere** …» | ✅ dekket — presisert 2026-08-07 |
 | 26 | «Teknisk egnethet er en faglig port» + eksempelet med fuktrobusthet | K4 → Minste informasjonsgrunnlag; V2, avsn. 1 | ✅ dekket |
 | 27 | Skillet måler / beregner / estimerer / faglig vurderer / undersøker | K4 → Pilotering og begrepsbruk | ✅ dekket |
 | 28 | «Selve beslutningen og ansvaret ligger fortsatt hos entreprenør og kunde. Modellen velger ikke.» | K2, siste avsnitt | ✅ dekket. Andre setning er sidens egen presisering — den *innskrenker*, den utvider ikke |

@@ -134,12 +134,12 @@ En avgrenset pilot skal undersøke om denne typen dokumentasjon kan være nyttig
 Svake data skal være synlige, ikke bortgjemt
 
 **Brødtekst:**
-Arbeidet går stegvis: først en første versjon av modellen, så utprøving i konkrete løsningsvalg, så analyse, så justering. Endelig forskningsdesign utformes sammen med forskningspartneren.
+Arbeidet er planlagt stegvis: først en første versjon av modellen, så utprøving i konkrete løsningsvalg, så analyse, så justering. Endelig forskningsdesign utformes sammen med forskningspartneren.
 
 **Punkter:**
 
-- **Hver opplysning får en status.** Vi registrerer kilde, alder, enhet og produktnivå — og om opplysningen mangler, bygger på generelle data, er estimert, eller er verifisert for den konkrete løsningen. Reglene settes før utprøvingen og brukes likt på alle alternativer. Slik forsvinner ikke svake data inn i en totalscore.
-- **Et minste informasjonsgrunnlag.** Vi definerer hvor lite som skal til for at en sammenligning er faglig forsvarlig. Er grunnlaget for tynt, vises det tydelig.
+- **Hver opplysning skal få en status.** Vi skal registrere kilde, alder, enhet og produktnivå — og om opplysningen mangler, bygger på generelle data, er estimert, eller er verifisert for den konkrete løsningen. Reglene settes før utprøvingen og brukes likt på alle alternativer. Slik forsvinner ikke svake data inn i en totalscore.
+- **Et minste informasjonsgrunnlag.** Vi skal definere hvor lite som skal til for at en sammenligning er faglig forsvarlig. Er grunnlaget for tynt, vises det tydelig.
 - **Teknisk egnethet er en faglig port.** Lavt beregnet klimagassutslipp er ikke nok hvis løsningen har svak fuktrobusthet, kort eller usikker levetid, stort vedlikeholdsbehov eller mangelfull dokumentasjon.
 - **Vi skiller mellom fire slags påstander.** Vi *måler* det som kan observeres i utprøvingen. Vi *beregner* modellresultater. Vi *estimerer* framtidige eller usikre størrelser. Vi lar *faglig skjønn* avgjøre der det kreves. Og vi sier *undersøker* når metoden ennå ikke er valgt.
 

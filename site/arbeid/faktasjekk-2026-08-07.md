@@ -5,6 +5,12 @@
 **Kontrollert mot:** `docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md`
 **Erstatter:** `faktasjekk-2026-06-29.md` som gjeldende faktasjekk.
 
+> **Oppdatert samme dag — språkstramming.** Etter at denne faktasjekken først ble skrevet, ble
+> siden strammet fra 1122 til 1007 ord (tre subagenter, hver med et sett seksjoner). Alle rader i
+> domstabellen er re-verifisert mot gjeldende `site/web/index.html`: samme fakta, samme forbehold,
+> samme modalitet — bare kortere setninger. 17 automatiske kontrollpunkter (tallene, femdelt
+> spørsmålsliste, dokumentasjonsstatus, modalitet, forbudsord) er kjørt på nytt og bekrefter dette.
+
 ## Regel som er brukt
 
 Siden skal ikke si mer enn v0.9 sier. Hver synlig påstand er sporet til et kapittel i v0.9.

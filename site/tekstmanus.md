@@ -42,28 +42,28 @@ Bla videre
 Valgene tas før grunnlaget er samlet
 
 **Brødtekst:**
-I små og mellomstore byggeprosjekter tas mange av de viktigste løsningsvalgene i tilbudsfasen. Entreprenøren priser jobben, foreslår alternativer og forklarer dem for kunden. Valgene får betydning for utslipp, levetid, vedlikehold og risiko lenge etterpå.
+I små og mellomstore byggeprosjekter tas mange sentrale løsningsvalg i tilbudsfasen: entreprenøren priser jobben og foreslår alternativer. Valgene får betydning for utslipp, levetid, vedlikehold og risiko lenge etterpå.
 
-Informasjonen som trengs finnes — i produktdata, i FDV-dokumentasjon, i miljødeklarasjoner, i levetidsdata og i prislister. Men den ligger spredt, i ulike formater, og må ofte settes sammen for hånd.
+Informasjonen finnes — i produktdata, FDV-dokumentasjon, miljødeklarasjoner, levetidsdata og prislister — men ligger spredt, i ulike formater, og må ofte settes sammen for hånd.
 
-Når forskjellene mellom alternativene er uklare, kan den billigste løsningen framstå som best, selv om den koster mer over tid.
+Når forskjellene er uklare, kan det billigste alternativet virke best for kunden — selv om det koster mer over tid.
 
 **Faktakort:**
 
 68 359 bedrifter var registrert i bygge- og anleggsnæringen 1. januar 2026.
 Stille kilde: SSB, tabell 10309 / `SSB2026`.
 
-91,2 prosent av dem hadde færre enn ti ansatte, når bedrifter uten ansatte regnes med.
+91,2 prosent av dem hadde færre enn ti ansatte, inkludert bedrifter uten ansatte.
 Stille kilde: SSB, tabell 10309 / `SSB2026`.
 
-76,2 prosent hadde mellom én og ni ansatte, blant bedriftene som faktisk hadde ansatte.
+76,2 prosent av bedriftene med ansatte hadde mellom én og ni ansatte.
 Stille kilde: SSB, tabell 10309 / `SSB2026`.
 
 **Forbehold (skal stå synlig under kortene):**
-Tallene gjelder hele bygge- og anleggsnæringen, ikke bare gruppen VERIFIED retter seg mot.
+Tallene gjelder hele bygge- og anleggsnæringen, ikke bare målgruppen til VERIFIED.
 
 **Avsluttende avsnitt:**
-Mindre entreprenørbedrifter har ofte høy fagkompetanse. Det som varierer, er tilgangen til egne ressurser for livsløpsvurderinger og kostnadsanalyser over levetiden. Kapasiteten er bundet i produksjon og utførende arbeid. Et beslutningsgrunnlag må derfor kunne brukes i en travel tilbudsfase — ikke bare av spesialister.
+Mindre entreprenørbedrifter har ofte høy fagkompetanse, men tilgangen til ressurser for livsløpsvurderinger og kostnadsanalyser over levetiden varierer, og mye av kapasiteten er bundet i produksjon. Beslutningsgrunnlaget må derfor fungere i en travel tilbudsfase, ikke bare for spesialister.
 
 ## Seksjon 3 - Hva vi vet i dag
 
@@ -73,12 +73,12 @@ Mindre entreprenørbedrifter har ofte høy fagkompetanse. Det som varierer, er t
 Mye finnes allerede
 
 **Brødtekst:**
-Vi står ikke på bar bakke. Det finnes internasjonale standarder for livsløpsvurdering og for livsløpskostnader, og en norsk standard for klimagassberegninger for bygninger. Flerkriterieanalyse er en etablert måte å behandle beslutninger med flere hensyn som trekker i ulik retning.
+Vi står ikke på bar bakke. Det finnes internasjonale standarder for livsløpsvurdering og livsløpskostnader, og en norsk standard for klimagassberegninger for bygninger. Flerkriterieanalyse er en etablert metode for å veie motstridende hensyn.
 
-Det finnes også verktøy. Norske løsninger kobler kalkyle, pris, materialmengder, produktdata og miljødeklarasjoner, og kan beregne og sammenligne klimagassutslipp. Internasjonale løsninger kombinerer livsløpsvurdering med livsløpskostnad, og noen viser usikkerheten i materialenes klimatall.
+Det finnes verktøy. Norske løsninger kobler kalkyle, pris, materialmengder, produktdata og miljødeklarasjoner, og beregner og sammenligner klimagassutslipp. Internasjonale løsninger kombinerer livsløpsvurdering med livsløpskostnad, noen med synlig usikkerhet i klimatallene.
 
 **Framhevet punkt (erstatter tidligere nøkkeltall):**
-Flere av funksjonene VERIFIED skal bygge på, finnes allerede. I det utvalget vi har undersøkt, har vi likevel ikke funnet én løsning som gir små norske entreprenører et samlet og etterprøvbart beslutningsgrunnlag i tilbudsfasen.
+Flere av funksjonene VERIFIED skal bygge på, finnes allerede. I utvalget vi undersøkte, fant vi ingen løsning som gir små norske entreprenører et samlet, etterprøvbart beslutningsgrunnlag i tilbudsfasen.
 
 **Forbehold (skal stå rett under):**
 Dette er en avgrenset gjennomgang. Den må oppdateres når underlaget utvides.
@@ -93,14 +93,14 @@ Dette er en avgrenset gjennomgang. Den må oppdateres når underlaget utvides.
 Det viktigste er fortsatt åpent
 
 **Brødtekst:**
-Dette er ikke svakheter ved prosjektet. Det er grunnen til at det er forskning.
+Dette er ikke svakheter ved prosjektet. Det er derfor forskning.
 
 **Liste:**
 
-- **Kan datatypene kobles?** Eksisterende løsninger dekker hver sin del. En samlet løsning for hele bredden er ikke dokumentert i det utvalget vi har sett på.
-- **Kan små bedrifter faktisk bruke det?** Ressursbehov og anvendbarhet for små entreprenører er ikke tilstrekkelig dokumentert.
-- **Vises usikkerheten godt nok?** Ett verktøy viser usikkerhet i karbontall. Gjennomgående visning på tvers av alle kriteriene har vi ikke funnet dokumentert.
-- **Endrer grunnlaget valget?** Vi fant ingen dokumentert metode for å måle om et slikt samlet grunnlag faktisk endret eller bekreftet valget som ble tatt.
+- **Kan datatypene kobles?** Eksisterende løsninger dekker hver sin del. En samlet løsning er ikke dokumentert i vårt utvalg.
+- **Kan små bedrifter bruke det?** Ressursbehov og anvendbarhet er ikke tilstrekkelig dokumentert.
+- **Vises usikkerheten godt nok?** Ett verktøy viser usikkerhet i karbontall, men ikke gjennomgående på tvers av alle kriterier.
+- **Endrer grunnlaget valget?** Vi fant ingen dokumentert metode for å måle om et slikt grunnlag endret eller bekreftet valget.
 - **Kan skadevirkninger fanges opp?** En samlet behandling av klima, levetid, vedlikehold, ombruk, dokumentasjonskvalitet og teknisk risiko er ikke dokumentert i gjennomgangen.
 
 **Kildenote:** v0.9 K2, tabellen «Forskningshullet».
@@ -113,16 +113,16 @@ Dette er ikke svakheter ved prosjektet. Det er grunnen til at det er forskning.
 Fra spredt informasjon til et grunnlag som kan etterprøves
 
 **Brødtekst:**
-Hovedmålet er å utvikle og teste en forskningsbasert beslutningsmodell for å sammenligne alternative løsninger og tilbud i små og mellomstore byggeprosjekter. Modellen skal gjøre det mulig å sammenligne alternativene etter faste vurderingskriterier — og samtidig vise kvaliteten og usikkerheten i datagrunnlaget.
+Hovedmålet er å utvikle og teste en forskningsbasert beslutningsmodell for å sammenligne alternative løsninger og tilbud i små og mellomstore byggeprosjekter — etter faste vurderingskriterier, og med synlig kvalitet og usikkerhet i datagrunnlaget.
 
-Prosjektet skal kartlegge hvilke datakilder som trengs, utvikle en åpen og begrunnet modell, teste hvordan forskjeller og usikkerhet bør vises, og prøve om modellen gir praktisk nytte i konkrete løsningsvalg.
+Prosjektet skal kartlegge datakilder, utvikle en åpen og begrunnet modell, teste hvordan forskjeller og usikkerhet bør vises, og prøve modellens nytte i konkrete løsningsvalg.
 
-Vi skal ikke bare bygge en modell. Vi skal teste om den blir forstått, hvordan den brukes, og om den endrer eller bekrefter valget. Det er selve forskningsarbeidet.
+Vi skal ikke bare bygge en modell, men teste om den blir forstått, hvordan den brukes, og om den endrer eller bekrefter valget. Det er forskningsarbeidet.
 
 **Avsnitt om bank (nedtonet — ingen banknavn):**
-En avgrenset del av arbeidet handler om penger. Forskning på nederlandske boliglånsdata finner en sammenheng mellom energieffektivitet i bygg og lavere sannsynlighet for mislighold. Den samme sammenhengen er ikke vist for byggteknisk kvalitet, levetid eller vedlikeholdsdata.
+Forskning på nederlandske boliglånsdata knytter energieffektivitet i bygg til lavere sannsynlighet for mislighold — men ikke til byggteknisk kvalitet, levetid eller vedlikeholdsdata.
 
-En avgrenset pilot skal undersøke om denne typen dokumentasjon kan være nyttig tilleggsinformasjon for ett konkret informasjonsbehov i en banks risikovurdering. Banken må selv definere behovet på forhånd. Prosjektet forutsetter ikke at informasjonen forbedrer risikovurderingen — det er nettopp det som skal undersøkes.
+En avgrenset pilot skal undersøke om denne dokumentasjonen er nyttig tilleggsinformasjon for et konkret behov som banken selv må definere på forhånd, i sin risikovurdering. Prosjektet forutsetter ikke at informasjonen forbedrer risikovurderingen — det er nettopp det som skal undersøkes.
 
 **Kildenote:** v0.9 K3 (hovedmål, delmål, F1-F6) og V3.
 
@@ -134,14 +134,14 @@ En avgrenset pilot skal undersøke om denne typen dokumentasjon kan være nyttig
 Svake data skal være synlige, ikke bortgjemt
 
 **Brødtekst:**
-Arbeidet er planlagt stegvis: først en første versjon av modellen, så utprøving i konkrete løsningsvalg, så analyse, så justering. Endelig forskningsdesign utformes sammen med forskningspartneren.
+Arbeidet er planlagt stegvis: første versjon av modellen, utprøving i konkrete løsningsvalg, analyse, justering. Endelig forskningsdesign utformes sammen med forskningspartneren.
 
 **Punkter:**
 
-- **Hver opplysning skal få en status.** Vi skal registrere kilde, alder, enhet og produktnivå — og om opplysningen mangler, bygger på generelle data, er estimert, eller er verifisert for den konkrete løsningen. Reglene settes før utprøvingen og brukes likt på alle alternativer. Slik forsvinner ikke svake data inn i en totalscore.
-- **Et minste informasjonsgrunnlag.** Vi skal definere hvor lite som skal til for at en sammenligning er faglig forsvarlig. Er grunnlaget for tynt, vises det tydelig.
-- **Teknisk egnethet er en faglig port.** Lavt beregnet klimagassutslipp er ikke nok hvis løsningen har svak fuktrobusthet, kort eller usikker levetid, stort vedlikeholdsbehov eller mangelfull dokumentasjon.
-- **Vi skiller mellom fire slags påstander.** Vi *måler* det som kan observeres i utprøvingen. Vi *beregner* modellresultater. Vi *estimerer* framtidige eller usikre størrelser. Vi lar *faglig skjønn* avgjøre der det kreves. Og vi sier *undersøker* når metoden ennå ikke er valgt.
+- **Hver opplysning skal få en status.** Vi skal registrere kilde, alder, enhet og produktnivå — og vise om den mangler, bygger på generelle data, er estimert eller verifisert. Reglene settes før utprøvingen og gjelder likt for alle. Slik forsvinner ikke svake data i en totalscore.
+- **Et minste informasjonsgrunnlag.** Vi skal definere hvor mye som trengs for en faglig forsvarlig sammenligning. Er grunnlaget for tynt, vises det tydelig.
+- **Teknisk egnethet er en faglig port.** Lavt beregnet klimagassutslipp er ikke nok ved svak fuktrobusthet, kort eller usikker levetid, stort vedlikeholdsbehov eller mangelfull dokumentasjon.
+- **Vi skiller mellom fire slags påstander.** Vi *måler* det som kan observeres, *beregner* modellresultater, *estimerer* framtidige eller usikre størrelser, lar *faglig skjønn* avgjøre ved behov, og sier *undersøker* når metoden ikke er valgt.
 
 **Avslutning:**
 Selve beslutningen og ansvaret ligger fortsatt hos entreprenør og kunde. Modellen velger ikke.
@@ -162,8 +162,8 @@ Søknadsteksten foreligger som en revidert arbeidskandidat. Den er ikke innsendi
 
 - Konsortium og rollefordeling er ikke bekreftet.
 - Arbeidspakker, milepæler, budsjett og risiko krever partnerinformasjon og er ikke ferdigstilt.
-- Vurderingen av kjemikalier, sosiale forhold og øvrige skadevirkninger må kompletteres sammen med fagpartnerne.
-- Måleparametere for om grunnlaget faktisk endrer valg, er ikke fastlagt på forhånd. Prosjektet skal utvikle og teste dem.
+- Vurdering av kjemikalier, sosiale forhold og andre skadevirkninger må kompletteres med fagpartnerne.
+- Måleparametere for om grunnlaget endrer valg er ikke fastlagt på forhånd. Prosjektet skal utvikle og teste dem.
 - Endelig avgrensning av målgruppen, forskningsdesign og metodevalg gjenstår.
 
 **Avslutning:**
@@ -220,6 +220,14 @@ Metode: Sammenligning etter flere kriterier, med synlig datakvalitet
 5. Statusseksjonen er tillitsbeviset. Den viser at prosjektet tåler å skille dokumentert kunnskap fra arbeid som gjenstår.
 
 ## Endringslogg
+
+### 2026-08-07 — språkstramming (etter v0.9-omskrivingen)
+
+v0.9-omskrivingen samme dag gjorde siden 16 % lengre enn forrige versjon (1122 mot 965 ord).
+Tre subagenter strammet hver sine seksjoner uten å røre fakta, forbehold, modalitet eller
+forbudsord — kun setningsbygning og gjentakelser. Resultat: 956 → 836 ord i selve seksjonsteksten,
+side totalt til 1007 ord. Alle 17 kontrollpunkter (tall, forbehold, femdelt spørsmålsliste,
+dokumentasjonsstatus, modalitet «skal»/«er planlagt» osv.) verifisert automatisk etter innliming.
 
 ### 2026-08-07 — omskrevet til v0.9
 

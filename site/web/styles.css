@@ -252,46 +252,6 @@ body.menu-open .side-menu {
   margin-left: 0;
 }
 
-.side-menu__footer {
-  padding: 1.5rem;
-  border-top: 1px solid rgba(246, 240, 226, 0.08);
-}
-
-/* Discreet Partners Stripe */
-.partner-stripe {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 0.4rem;
-}
-
-.partner-stripe__title {
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: rgba(246, 240, 226, 0.6); /* 60% opacity (WCAG AA compliant) */
-  font-weight: 600;
-}
-
-.partner-stripe__names {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.partner-name {
-  font-family: var(--font-heading);
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--color-text-white);
-  letter-spacing: 0.05em;
-}
-
-.partner-sep {
-  color: var(--color-gold);
-  font-size: 0.8rem;
-}
-
 /* 3. Main Sections & Scrollytelling */
 .main-container {
   margin-top: 64px;
@@ -428,12 +388,6 @@ body.menu-open .side-menu {
   line-height: 1.65;
 }
 
-.italic-text {
-  font-style: italic;
-  font-size: 0.95rem;
-  color: rgba(246, 240, 226, 0.75);
-}
-
 /* Google Stitch Card Layout - small fact cards */
 .facts-grid {
   display: grid;
@@ -478,6 +432,17 @@ body.menu-open .side-menu {
   font-style: italic;
 }
 
+/* Forbehold under et tall eller en påstand. Skal leses som en del av
+   faktaen, ikke som en fotnote man kan hoppe over — derfor gull-strek. */
+.section-caveat {
+  font-size: 0.85rem;
+  line-height: 1.55;
+  color: rgba(246, 240, 226, 0.72);
+  border-left: 2px solid rgba(255, 198, 0, 0.4);
+  padding-left: 0.85rem;
+  margin: 0.25rem 0 0.5rem;
+}
+
 /* Large Highlight Fact Card */
 .fact-card-highlight {
   background: rgba(246, 240, 226, 0.03);
@@ -495,14 +460,6 @@ body.menu-open .side-menu {
 
 .fact-card-highlight:hover {
   border-color: var(--color-gold);
-}
-
-.fact-card-highlight__value {
-  font-family: var(--font-heading);
-  font-size: 2.75rem;
-  font-weight: 700;
-  color: var(--color-gold);
-  line-height: 1;
 }
 
 .fact-card-highlight__text {
@@ -569,6 +526,10 @@ body.menu-open .side-menu {
   font-size: 0.95rem;
   color: rgba(246, 240, 226, 0.85);
   line-height: 1.6;
+}
+
+.context-box-text + .context-box-text {
+  margin-top: 0.85rem;
 }
 
 /* CTA Area (Go to top button) */
@@ -684,42 +645,6 @@ body.menu-open .side-menu {
    konsistent dempet bildetone, subtil reveal (CSS scroll-driven).
    ========================================================= */
 
-/* Konsortium-liste — redaksjonell og myk (ikke ren punktliste) */
-.consortium-list {
-  list-style: none;
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.55rem;
-  margin: 0.25rem 0;
-}
-.consortium-list li {
-  position: relative;
-  padding-left: 1.1rem;
-  font-size: 0.95rem;
-  color: rgba(246, 240, 226, 0.78);
-  line-height: 1.5;
-}
-.consortium-list li::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: 0.55rem;
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  background: var(--color-gold);
-}
-.consortium-list li strong {
-  color: var(--color-text-white);
-  font-weight: 600;
-}
-@media (min-width: 1024px) {
-  .consortium-list {
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem 1.75rem;
-  }
-}
-
 /* Av-"dashboard": faktakort fra bokser til myke, venstre-aksentuerte tekstblokker */
 .fact-card-small {
   background: transparent;
@@ -734,16 +659,6 @@ body.menu-open .side-menu {
   transform: none;
   background: transparent;
   border-color: var(--color-gold);
-}
-
-/* Fakta-viz 1: 32 %-tallet visualisert som en gull-andel av en bar */
-#sec-what-we-know .fact-card-highlight::after {
-  content: "";
-  display: block;
-  height: 6px;
-  border-radius: 3px;
-  margin-top: 0.85rem;
-  background: linear-gradient(90deg, var(--color-gold) 32%, rgba(246, 240, 226, 0.12) 32%);
 }
 
 /* Fakta-viz 2: vet / vet-ikke-kontrast via badge-behandling */
@@ -794,71 +709,3 @@ body.menu-open .side-menu {
   }
 }
 
-/* 8. Page footer — lagbilde + foto-kreditt */
-.page-footer {
-  background-color: var(--color-bg-navy);
-  padding: 4rem 1.5rem 5rem;
-  display: flex;
-  justify-content: center;
-  border-top: 1px solid rgba(246, 240, 226, 0.08);
-  scroll-snap-align: start;
-}
-
-.footer-photo {
-  margin: 0;
-  max-width: 640px;
-  width: 100%;
-  text-align: center;
-}
-
-.footer-photo__eyebrow {
-  font-family: var(--font-heading);
-  font-size: 0.75rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.18em;
-  color: var(--color-gold);
-  margin: 0 0 1rem;
-}
-
-.footer-photo__link {
-  display: block;
-  border-radius: 14px;
-  overflow: hidden;
-  border: 1px solid rgba(246, 240, 226, 0.12);
-  transition: border-color 0.25s ease;
-}
-
-.footer-photo__link:hover,
-.footer-photo__link:focus-visible {
-  border-color: var(--color-gold);
-}
-
-.footer-photo__img {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.footer-photo__caption {
-  margin-top: 1.1rem;
-  font-size: 0.9rem;
-  line-height: 1.55;
-  color: var(--color-text-cream);
-}
-
-.footer-photo__credit {
-  display: block;
-  margin-top: 0.4rem;
-  font-size: 0.8rem;
-  color: rgba(246, 240, 226, 0.6);
-}
-
-.footer-photo__credit a {
-  color: var(--color-gold);
-  text-decoration: none;
-}
-
-.footer-photo__credit a:hover {
-  text-decoration: underline;
-}

@@ -6,7 +6,8 @@ Les denne + `CONTEXT.md` før du gjør noe i repoet.
 ## Hva dette er (og ikke er)
 
 - Dette repoet er **søknadsprosjektet** — selve IPN-søknaden, kildene og verifiseringen.
-- Det er **ikke** VIBS-produktet. VIBS (plattform) og VERIFIED (score-modell) er FoU-*objektet* søknaden handler om. Produktkode, UI, snekkerpilot og nettside hører til `vibs-boligpass/` — ikke her.
+- Det er **ikke** VIBS-produktet. VIBS (plattform) og VERIFIED (score-modell) er FoU-*objektet* søknaden handler om. Produktkode, UI og snekkerpilot hører til `vibs-boligpass/` — ikke her.
+- **Unntak: `site/`.** Den offentlige statussiden for VERIFIED bygges og publiseres herfra (`site/web/`, deployet av Vercel). Den er søknadskommunikasjon, ikke produkt. Regelen for den er enkel: **siden skal aldri si mer enn gjeldende søknadstekst sier.** Se `site/arbeid/faktasjekk-2026-08-07.md`.
 - Skilt ut fra `vibs-boligpass/` 2026-06-28 (se `IPN-FLYTTES.md`).
 
 ## Utlysning og kriterier (fasit: `docs/reference/ipn-barekraft-sannhetsserum-2026-06-21.md` §10)
@@ -41,6 +42,7 @@ Markdown blir da visningslag, generert fra basen. Se `IPN-FLYTTES.md` → «Nest
 
 ## Før du redigerer søknadstekst
 
+- **Gjeldende samlet søknadstekst er `docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md`** (2026-08-07). Den navngir ingen partnere og ingen personer, og oppgir ingen prosentsatser som ikke er kontrollert mot originalanalysen. Ikke legg dette tilbake uten at Lars har bestemt det.
 - Hvilket dokument er kanonisk for endringen? (skjelett = `ipn-hovedokument.md`, prosa = `ipn-samledokument.md` / `ipn-prosjektbeskrivelse-utkast.md`)
 - Er kilden 🟢? Hvis ikke — ikke la den bære setningen.
 - Logg endringen i endringsloggen.

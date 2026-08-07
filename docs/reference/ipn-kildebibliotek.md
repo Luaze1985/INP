@@ -1,6 +1,6 @@
 # Vedlegg C — Kildebibliotek (VERIFIED / IPN)
 
-**Dato:** 2026-06-22 · **Versjon:** 0.1 · **Eier:** SINTEF (primærverifisering) + VIBS (vedlikehold)
+**Dato:** 2026-08-07 · **Versjon:** 0.6 · **Eier:** forskningspartner (primærverifisering) + prosjekteier (vedlikehold)
 **Rolle:** Eneste kanoniske kildeliste for IPN-søknaden. Alle andre dokumenter siterer en **nøkkel** herfra og gjentar ikke full referanse. Jf. [`ipn-kildestrategi-2026-06-22.md`](ipn-kildestrategi-2026-06-22.md).
 
 ---
@@ -43,9 +43,11 @@ Når flere kilder kan støtte samme påstand, brukes denne rekkefølgen:
 | `[NS-EN16627]` | NS 3454 trukket 07.09.2023, erstattet av NS-EN 16627 (LCC). | Primær | [H] | 🟢 | ja | §3 / F1 |
 | `[CPR2024]` | Forordning (EU) 2024/3110 (revidert CPR) – konstruksjons-DPP. | Primær | [H] | 🟢 | ja (EUR-Lex) | §4 / F6 |
 | `[ESPR2024]` | Forordning (EU) 2024/1781 (ESPR) – DPP; arbeidsplan 2025–2030. | Primær | [H/M] | 🟢 | ja (forordn.); arbeidsplandato sekundær | §4 / F6 |
-| `[ISO14040]` | ISO 14040/14044:2006 – LCA prinsipper og krav. | Sekundær | [M] | 🟡 | nei | §3 |
+| `[ISO14040]` | ISO 14040/14044:2006 – LCA prinsipper og krav. Bekreftet 2022, med Amendment 1:2020. Sitert som [2] i v0.9 K2. | Sekundær | [M] | 🟡 | nei | §3 · v0.9 K2 |
 | `[EN15804]` | EN 15804+A2 – EPD core rules (CEN/TC 350). | Sekundær | [M] | 🟡 | nei | §3, §4 |
-| `[ISO15686-5]` | ISO 15686-5:2017 – livsløpskostnad (LCC). | Sekundær | [M] | 🟡 | nei | §3 / F1 |
+| `[ISO15686-5]` | ISO 15686-5:2017 – livsløpskostnad (LCC). Bekreftet 2024. Sitert som [4] i v0.9 K2. | Sekundær | [M] | 🟡 | nei | §3 / F1 · v0.9 K2 |
+| `[NS3720]` | Standard Norge (2018). NS 3720:2018 Metode for klimagassberegninger for bygninger. Sitert som [3] i v0.9 K2. | Sekundær | [M] | 🟡 | nei (bak betalingsmur) | v0.9 K2 |
+| `[Levels2024]` | European Commission, DG Environment (2024). Level(s) Frequently Asked Questions. Bruker pålitelighetsvurdering av datainput, sensitivitetsanalyse og usikkerhetsanalyse som kriterier ved vurdering av LCA-verktøy. Sitert som [14] i v0.9 K2. | Offisiell | [M] | 🟡 | nei | v0.9 K2 / F4 |
 | `[RICS-WLC]` | RICS Whole Life Carbon Assessment, 2. utg. (01.07.2024). | Sekundær | [M] | 🟡 | nei | §3 |
 | `[EUTax]` | EU-taksonomi, Climate Delegated Act + DNSH (revisjon 2024–25). | Sekundær | [H\* ramme, M tall] | 🟡 | via søk | §7 / F5 |
 | `[OmnibusI]` | Omnibus I / CSRD-innsnevring (vedtatt 24.02.2026). | Sekundær | [H\*] | 🟡 | nei (primær OJ) | §7 |
@@ -65,7 +67,11 @@ Når flere kilder kan støtte samme påstand, brukes denne rekkefølgen:
 | `[Benke2025]` | Benke et al. (2025). Harmonized embodied-LCA dataset, N-Amerika. Scientific Data. | Primær | [H] | 🟢 | ja | §6 / F4 |
 | `[Weidema1996]` | Weidema & Wesnæs (1996). Data quality indicators (pedigree). J. Cleaner Prod. | Primær | [H\*] | 🟡 | nei | §6 |
 | `[ecoinvent]` | ecoinvent – pedigree → lognormal/Monte Carlo. | Sekundær | [M] | 🟡 | ja (mirror) | §6 |
-| `[Mecca2023]` | Mecca (2023). MCDA for urban/arkitektonisk bærekraft. DOI 10.1002/mcda.1818. AHP 46 / TOPSIS 20 / MIVES 11 / COPRAS 9. | Sekundær | [H\*] | 🟡 | nei (Wiley 402) | §5 / F4 |
+| `[Mecca2023]` | Mecca (2023). MCDA for urban/arkitektonisk bærekraft. DOI 10.1002/mcda.1818. AHP 46 / TOPSIS 20 / MIVES 11 / COPRAS 9. **Ute av søknadsteksten fra v0.9** — erstattet av `[Munda2006]` som MCDA-grunnlag; AHP/TOPSIS-prosentene er ikke lenger i bruk. | Sekundær | [H\*] | 🟡 | nei (Wiley 402) | §5 / F4 (ikke i v0.9) |
+| `[Munda2006]` | Munda, G. (2006). Multi-Criteria Decision Analysis and Sustainable Development. European Commission, Joint Research Centre, JRC32641. MCDA som egnet tilnærming til bærekraftsproblemer med økonomiske, miljømessige, tekniske og etiske dimensjoner. Sitert som [5] i v0.9 K2. | Primær | [M] | 🟡 | nei | v0.9 K2 / F4 |
+| `[Raheim2023]` | Råheim, Å. F. (2023). Klimagassutslipp fra tekniske systemer i bygninger: En utforskende studie av beregningsmetoder og resultater. Masteroppgave, NTNU. NTNU Open. Manglende produktspesifikke miljødata tvang bruk av EPD-er for lignende produkter → økt usikkerhet. Sitert som [12] i v0.9 K4. | Primær | [M] | 🟡 | nei | v0.9 K4 |
+| `[Liodden2024]` | Liodden, J. M. (2024). Ombruk av tegl i norske bygg. En analyse av livsløpsbaserte klimagassutslipp og variasjon i miljødeklarasjoner. Masteroppgave, NTNU. NTNU Open. Betydelig variasjon mellom EPD-er i samme produktgruppe. Sitert som [13] i v0.9 K2. | Primær | [M] | 🟡 | nei | v0.9 K2 / F3 |
+| `[Reif2023]` | Reif, T. S. (2023). Evaluation of Early-Phase Building LCA Tools. Masteroppgave, NTNU. NTNU Open. Komparativ studie av to tidligfaseverktøy; begrensninger i treffsikkerhet og håndtering av usikkerhet. Sitert som [15] i v0.9 K2. | Primær | [M] | 🟡 | nei | v0.9 K2 / F4 |
 | `[Ciroth2016]` | Ciroth et al. (2016). Uncertainty factors for pedigree i ecoinvent. Int. J. LCA. | Sekundær | [L/M] | 🟡 | nei | §6 |
 | `[MCDM2025]` | Material selection in construction: systematic review on MCDM (2025). DOI 10.1007/s10669-025-10001-w. | Sekundær | [L/M] | 🔴 | nei (abstrakt) | §5 |
 | `[WLC-benchmark-NO]` | Norsk/nordisk WLC-benchmark for bygg (2024–25). | Sekundær | [L] | 🔴 | nei | §3 |
@@ -92,9 +98,10 @@ Når flere kilder kan støtte samme påstand, brukes denne rekkefølgen:
 
 | Nøkkel | Referanse | Prov. | Konf. | Port | Åpnet | Støtter |
 | --- | --- | --- | --- | --- | --- | --- |
-| `[EC3]` | EC3 (Building Transparency, USA). Synlig usikkerhet, enkriterium karbon. | Primær | [H] | 🟢 | ja | §10 / F4 |
-| `[OneClickLCA]` | One Click LCA (FIN). Sterkest dataintegrasjon LCA+EPD+LCC. | Sekundær | [M] | 🟡 | ja (leverandørside) | §10 / F2 |
-| `[Reduzer]` | Reduzer (NO, NTNU). Norsk, 15 000+ EPD, enkriterium i praksis. | Sekundær | [M] | 🟡 | ja (leverandørside) | §10 |
+| `[EC3]` | EC3 (Building Transparency, USA). Synlig usikkerhet, enkriterium karbon. «Uncertainty and statistics» + «Find and compare materials» lest 2026-08-06. Sitert som [9] i v0.9 K2. | Primær | [H] | 🟢 | ja | §10 / F4 · v0.9 K2 |
+| `[OneClickLCA]` | One Click LCA (FIN). Sterkest dataintegrasjon LCA+EPD+LCC. «Life-cycle costing and carbon assessments» lest 2026-08-06. Sitert som [8] i v0.9 K2. | Sekundær | [M] | 🟡 | ja (leverandørside) | §10 / F2 · v0.9 K2 |
+| `[Reduzer]` | Reduzer (NO, NTNU). Norsk, 15 000+ EPD, enkriterium i praksis. Tidligfase, EPD-bibliotek, BIM-integrasjon, sammenligning av material-/leverandør-/designalternativer; brukes til å dokumentere miljøkrav i konkurranser. Lest 2026-08-06. Sitert som [7] i v0.9 K2. | Sekundær | [M] | 🟡 | ja (leverandørside) | §10 · v0.9 K2 |
+| `[SmartKalk]` | EG SmartKalk (NO). Kobler kalkyle, pris og materialmengder; tilgang til NOBB- og EPD-data; genererer FDV-dokumentasjon; beregner og sammenligner klimagassutslipp fra materialvalg. Lest 2026-08-06. Sitert som [6] i v0.9 K2. **Nærmeste norske avgrensning av VERIFIEDs nyhetsverdi.** | Sekundær | [M] | 🟡 | ja (leverandørside) | v0.9 K2 |
 | `[Madaster]` | Madaster (NL). Materialpass/restverdi, porteføljenivå. | Sekundær | [M] | 🟡 | ja (leverandørside) | §10 / F3 |
 | `[Cobuilder]` | Cobuilder (NO). Produktdata-infrastruktur, DPP, FDV. | Sekundær | [M] | 🟡 | ja (leverandørside) | §10 / F6 |
 | `[Concular]` | Concular (DE). Sirkularitet/ombruk + CircularLCA. | Sekundær | [M] | 🟡 | ja (leverandørside) | §10 / F3 |
@@ -109,6 +116,7 @@ Når flere kilder kan støtte samme påstand, brukes denne rekkefølgen:
 
 | Nøkkel | Referanse | Prov. | Konf. | Port | Åpnet | Støtter |
 | --- | --- | --- | --- | --- | --- | --- |
+| `[SSB2026]` | Statistisk sentralbyrå (2026). Bedrifter, etter størrelse og næring, 1. januar 2026. Statistikkbanken, tabell 10309. 68 359 bedrifter i bygge- og anleggsnæringen; 91,2 % med færre enn ti ansatte (inkl. bedrifter uten ansatte); 76,2 % med 1–9 ansatte blant dem som har ansatte. Gjelder hele næringen, ikke VERIFIEDs avgrensede målgruppe. Sitert som [1] i v0.9 K1. | Offisiell | [H] | 🟢 | ja (Statistikkbanken) | v0.9 K1 |
 | `[NOBB]` | NOBB / Norsk Byggtjeneste; GS1/GTIN-regelverk. ~3 mill. varer. | Sekundær | [M] | 🟡 | nei | §4 / F2 |
 | `[EPD-Norge]` | EPD-Norge / ECO Platform / ECO Portal. | Sekundær | [M] | 🟡 | nei | §4 |
 | `[CIRPASS2]` | CIRPASS-2 (bygg-DPP-pilot, Cobuilder). | Sekundær | [M] | 🟡 | nei | §4 / F6 |
@@ -156,11 +164,20 @@ Når flere kilder kan støtte samme påstand, brukes denne rekkefølgen:
 - `business/marked-sintef.md` (SINTEF-markedsanalyse)
 - `forskningsekstraksjon-2026-06-22.md` (innsamlingslogg, Vedlegg D)
 
-De etablerte norske problemtallene (byggfeilkostnad 10–30 mrd/år, konfliktkostnad 2,2 mrd/år, 18 000 kr/m² dyrere enn Sverige) regnes som etablert grunnlag.
+De etablerte norske problemtallene (byggfeilkostnad 10–30 mrd/år, konfliktkostnad 2,2 mrd/år, 18 000 kr/m² dyrere enn Sverige) ble regnet som etablert grunnlag fram til v0.9.
+
+> ⚠️ **Gjelder ikke lenger for søknadsteksten.** Fra v0.9 (2026-08-07) er disse tallene ute; K1 hviler på `[SSB2026]` i stedet. Se endringslogg 0.6. Avsnittet står igjen som historikk over hva tidligere versjoner bygde på.
 
 ---
 
 ### Endringslogg
+- **0.6 (2026-08-07): v0.9-synk.** Søknadskandidat v0.9 (`prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md`) har en egen referanseliste på 15 poster. Biblioteket er avstemt mot den.
+  - **Nye nøkler inn:** `[SSB2026]` (🟢, erstatter bransjetallene som SMB-belegg), `[NS3720]`, `[Levels2024]`, `[Munda2006]`, `[Raheim2023]`, `[Liodden2024]`, `[Reif2023]`, `[SmartKalk]`. Alle 🟡 unntatt `[SSB2026]` — de fire NTNU-oppgavene er åpent tilgjengelige i NTNU Open og bør kunne løftes til 🟢 ved åpning.
+  - **Oppdatert:** `[ISO14040]`, `[ISO15686-5]`, `[EC3]`, `[OneClickLCA]`, `[Reduzer]` — lesedato 2026-08-06 og v0.9-referansenummer lagt inn. Ingen portendring.
+  - **Ute av søknadsteksten fra v0.9** (kildene beholdes i biblioteket, porten er *uendret* — de er ikke nedgradert, bare ikke lenger i bruk): `[Kaza2014]`, `[Mecca2023]`, `[An2020]`, `[GullbrekkenHolme2025]`, `[FinansNorge2024VASK]`, `[PlanGridFMI2018]`, samt bransjetallene UNION 2025 (18 000 kr/m²), BDO 2025 (3,3 % driftsmargin) og Bjørheim 2026 (1 583 konkurser) som aldri fikk egen nøkkel her.
+    **Hvorfor:** v0.9 bygger K1 på offisiell SSB-statistikk i stedet for bransjetall, og sier eksplisitt at prosjektet ikke oppgir generelle prosentsatser før den tilhørende originalanalysen er kontrollert (V1 → «Klima og systemgrense»). 32 %-tallet fra `[Kaza2014]` er derfor ute, og `[Billio2022]` brukes uten prosentsats — bare som dokumentert *sammenheng* i nederlandske boliglånsdata, med eksplisitt forbehold om at studien ikke dekker byggteknisk kvalitet.
+    **Konsekvens:** «Underlag»-avsnittet nedenfor, som regner 10–30 mrd/år, 2,2 mrd/år og 18 000 kr/m² som etablert grunnlag, gjelder ikke lenger for søknadsteksten. Det står igjen som historikk.
+  - **Gjeninnsetting:** kildene over kan tas inn igjen når originalanalysen er kontrollert og porten står 🟢 for den konkrete påstanden. Ingen av dem er parkert (⏸) — de er tilgjengelige, men ubrukte.
 - 0.5 (2026-06-29): Løftet `[Refleksjonsnotat2026]` fra 🔴 til 🟡 som SINTEF/Knotten-faglig intern syntese etter Lars' avklaring. Fortsatt ikke uavhengig belegg og ikke bærende alene; primærkildene må åpnes for søknadstekst.
 - 0.4 (2026-06-28): Markert `[SA2018]` og `[Wiik2025]` ⏸ tatt ut av søknadstekst (Lars' beslutning) — kildene ikke bekreftet å eksistere i åpne registre. Beholdt i biblioteket som parkert; gjeninnsettes ved funn.
 - 0.3 (2026-06-27): Faktisk kildesjekk etter innfletting. Korrigert Kaza-forfattere; nedgradert An2020 og SA2018 til 🟡 fordi fulltekst/primærrapport ikke ble åpnet i denne kontrollen.

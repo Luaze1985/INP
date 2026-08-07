@@ -1,5 +1,5 @@
 # INDEX.yml — ipn-verified
-# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-06-28.
+# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-08-07.
 
 prosjekt:
   navn: VIBS VERIFIED — IPN-søknad
@@ -17,6 +17,23 @@ governance:
   README.md: Kort orientering
   VISNING.md: Kort tur-/møteinngang for GitHub-visning av IPN-materialet
   IPN-FLYTTES.md: Flyttemanifest (kilde→mål, hva som skal slettes etter bekreftelse)
+
+soknadskandidat:
+  # Gjeldende samlet søknadstekst. v0.5–v0.8 finnes ikke i repoet (skrevet utenfor).
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md: GJELDENDE søknadstekst (2026-08-07). Ingen partnernavn, ingen prosentsatser, 15 referanser
+  docs/reference/prosjektbeskrivelse/v0.9-apne-kommentarer-2026-08-05.md: Fem uløste kommentarer fra partnergjennomgangen
+
+nettside:
+  # Publiseres av Vercel/Netlify fra site/web/ (het site/mockup/ fram til 2026-08-07)
+  site/web/index.html: Den publiserte nettsiden
+  site/web/styles.css: Stil for nettsiden
+  site/arbeid/: Arbeidsfiler som IKKE publiseres — faktasjekker, gamle bilder, skjermbilder, skript
+  site/arbeid/bilder-kilder.md: Bildekilder + udokumentert rettighetsstatus (kjent risiko)
+  site/arbeid/faktasjekk-2026-08-07.md: GJELDENDE faktasjekk — hver påstand sporet til v0.9
+  site/tekstmanus.md: Innholdskilde for siden. HTML bygges fra denne
+  site/design-brief.md: Visuell retning
+  site/index.html: Lars' håndkodede læringsfil. Ikke publisert, ikke agentarbeid
+  site/innhold-kanban.md: UTDATERT — kildesortering fra juni 2026, beholdt som historikk
 
 prosjektbeskrivelse:
   # Sju kapitler → én PDF. Opprettet 2026-07-08 (fase 0). WP/Gjennomføring parkert.

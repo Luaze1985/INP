@@ -1,5 +1,12 @@
 # Innhold-Kanban — VERIFIED statusside
 
+> ⚠️ **UTDATERT per 2026-08-07.** Denne kanbanen sorterer fakta som ikke lenger brukes på siden.
+> Søknadskandidat v0.9 bygger K1 på SSB-statistikk i stedet for bransjetall, og oppgir ingen
+> prosentsatser før originalanalysen er kontrollert. Vannskadetallet, 18 000 kr/m², 3,3 %,
+> 1 583 konkurser, 32 %-tallet, byggefeil-tallet og BKA2 er alle ute av den offentlige teksten.
+> **Gjeldende innholdskilde er `site/tekstmanus.md`.** Denne filen står igjen som historikk over
+> hvordan kildesorteringen ble gjort i juni 2026.
+
 Hva som kan stå på den offentlige siden, sortert etter status-portene. **Bar (a):** kun bunnsolide
 🟢-fakta publiseres, hver med direkte kilde. 🟡 = sterk, men venter primærverifisering (SINTEF) —
 frasér med forbehold eller hold tilbake. 🔴 = ute.

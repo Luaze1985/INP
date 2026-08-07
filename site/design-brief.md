@@ -1,7 +1,14 @@
 # Design-brief — VERIFIED scrollytelling-statusside
 
-Sannhetskilde for *utseendet* på `site/`. Bygges etter denne (av oss eller en kode-agent).
-Status: **utkast til godkjenning** (Lars godkjenner). Forankret i grilling 2026-06-28.
+Sannhetskilde for *utseendet* på `site/web/`. Bygges etter denne (av oss eller en kode-agent).
+Status: **utkast til godkjenning** (Lars godkjenner). Forankret i grilling 2026-06-28, endret 2026-08-07.
+
+> **Endring 2026-08-07:** partnere er ute av siden. v0.9 av søknadsteksten navngir ingen partnere og
+> ingen personer, og konsortiet er ikke bekreftet. Partnerstripen, konsortiumslisten, personnavnene og
+> bunnbildet er fjernet fra `site/web/index.html`. Det visuelle uttrykket (gull `#ffc600`, navy
+> `#11111f`, Comfortaa) beholdes uendret. Avsnittene om partnervisning nedenfor gjelder ikke lenger.
+> Innholdet styres nå av `site/tekstmanus.md`, som igjen er bundet til
+> `docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md`.
 
 ## Formål og publikum
 - **Seer:** Forskningsrådet / partnere (investor/partner, fagmiljø).
@@ -49,14 +56,16 @@ Forankret i ekte forbilder (se `benchmark-forbilder.md`). Hever v1 mot toppklass
 - **Bevegelse (middels):** subtil reveal (myk fade/stigning på faktabokser) + **én pinned «vet→vet-ikke»-overgang** der scrollen brukes til å sette kjernekontrasten. Respekter `prefers-reduced-motion`; hold mobil lett. Ikke effektjag.
 - **Fakta-viz:** 1–2 enkle, elegante visuelle grep — visualiser signaturen «vet / vet-ikke» + ett nøkkeltall (~32 %). Faktakort skal lese **redaksjonelt og mykt**, ikke som SaaS-dashboard.
 - **Språk (hard strip):** dagligspråk for «enkle folk». Fjern/forklar EPD, NOBB, LCA, MCDA, DPP i klartekst. Av-KI-fisering: korte setninger, ingen svulstige ord/superlativer, ingen repetert «bro». Se forbudsliste i `benchmark-forbilder.md`.
-- **Bilder:** kuratere distinkte byggebransje-bilder + konsistent dempet **duotone**. Ingen «arbeidere som går»-klisjé.
+- **Bilder:** kuratere distinkte byggebransje-bilder + konsistent dempet **duotone**. ~~Ingen «arbeidere som går»-klisjé.~~ **Endret 2026-08-07 (Lars):** forbudet er opphevet. Bildene som er tatt i bruk er ekte norske trehus- og småhusbilder, og tre av dem viser personer bakfra. Motivtreffet mot målgruppen veier tyngre enn komposisjonsklisjeen. Se `site/arbeid/bilder-kilder.md`.
 - **Rytme:** varier seksjonsmønsteret (full-bleed, split, pinned) — ikke 7 identiske fullskjerm.
 
-## Innhold (gjenstår — separat fra stil)
-- Eksakt seksjonsliste + tekst per boks (jf. narrativ-arc i `innhold-kanban.md`).
-- Kilde til byggebransje-foto (egne bilder? lisensiert?).
+## Innhold
+- Seksjonsliste og tekst per boks: se `site/tekstmanus.md` (avklart 2026-08-07).
+- Bildekilde: fem norske byggeplassbilder er tatt i bruk. **Rettighetsstatus er ikke dokumentert** —
+  se `site/arbeid/bilder-kilder.md` for hva som er kjent og hva som må gjøres.
 
 ## Åpne punkter til Lars
 1. Logo-fil (for eksakt hex + plassering).
 2. Nøytralt mørke bilder, eller en anelse varme i tonen?
-3. Har du byggebransje-bilder, eller må vi skaffe dem?
+3. ~~Har du byggebransje-bilder, eller må vi skaffe dem?~~ Avklart 2026-08-07: fem referansebilder tatt i bruk.
+4. **Nytt:** finn ut hvem som eier referansebildene, og skaff skriftlig bruksrett — eller erstatt dem med egne bilder fra en pilot.

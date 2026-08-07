@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="no">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>VERIFIED — forskningsprosjekt om løsningsvalg i bygg</title>
+  <meta name="description" content="VERIFIED utvikler og tester en måte å sammenligne alternative løsninger i tilbudsfasen — og å vise hvor sikkert grunnlaget faktisk er.">
+
+  <!-- Open Graph / lenke-forhåndsvisning -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="nb_NO">
+  <meta property="og:site_name" content="VERIFIED">
+  <meta property="og:url" content="https://ipn-verified.vercel.app/">
+  <meta property="og:title" content="VERIFIED — Her er hva vi vet. Her er hva vi skal finne ut.">
+  <meta property="og:description" content="Et forskningsprosjekt om hvordan entreprenør og kunde kan sammenligne alternative løsninger, og se kvaliteten på grunnlaget de velger ut fra.">
+  <meta property="og:image" content="https://ipn-verified.vercel.app/bilder/og-bilde.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VERIFIED — Her er hva vi vet. Her er hva vi skal finne ut.">
+  <meta name="twitter:description" content="Et forskningsprosjekt om løsningsvalg i byggeprosjekter.">
+  <meta name="twitter:image" content="https://ipn-verified.vercel.app/bilder/og-bilde.jpg">
+
+  <!-- Comfortaa (overskrifter) og Quicksand (brødtekst, fallback for Hiruko) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Hopp til innhold (a11y) -->
+  <a class="skip-link" href="#main">Hopp til innhold</a>
+
+  <!-- Topplinje på mobil -->
+  <header class="mobile-header">
+    <div class="logo-area">
+      <span class="verified-logo-text">VERIFIED</span>
+    </div>
+    <button class="menu-toggle" type="button" aria-controls="menu-panel" aria-expanded="false" id="menu-toggle-btn">
+      <span class="menu-toggle__icon" aria-hidden="true"></span>
+      <span class="menu-toggle__label">Meny</span>
+    </button>
+  </header>
+
+  <!-- Sidemeny: fast kolonne på desktop, uttrekkbar skuff på mobil -->
+  <aside class="side-menu" aria-label="Prosjektinfo og seksjoner" id="menu-panel">
+    <div class="side-menu__header">
+      <div class="logo-area">
+        <span class="verified-logo-text">VERIFIED</span>
+      </div>
+      <button class="menu-close-btn" type="button" aria-label="Lukk meny" id="menu-close-btn">&times;</button>
+    </div>
+
+    <nav class="menu-navigation">
+      <ul class="section-nav">
+        <li><a href="#sec-intro" class="nav-link active">Intro</a></li>
+        <li><a href="#sec-challenge" class="nav-link">Utfordringen</a></li>
+        <li><a href="#sec-what-we-know" class="nav-link">Hva vi vet</a></li>
+        <li><a href="#sec-what-we-dont-know" class="nav-link">Hva vi ikke vet</a></li>
+        <li><a href="#sec-what-verified-will-find-out" class="nav-link">Hva vi skal finne ut</a></li>
+        <li><a href="#sec-how-we-work" class="nav-link">Slik jobber vi</a></li>
+        <li><a href="#sec-status" class="nav-link">Status nå</a></li>
+      </ul>
+
+      <div class="project-info">
+        <h2 class="project-info__title">Forskningsinfo</h2>
+        <dl>
+          <dt>Prosjekttype</dt>
+          <dd>Innovasjonsprosjekt i næringslivet (IPN)</dd>
+          <dt>Målgruppe</dt>
+          <dd>Små og mellomstore entreprenørbedrifter og deres kunder</dd>
+          <dt>Fase</dt>
+          <dd>Revidert arbeidskandidat — ikke innsendingsklar</dd>
+          <dt>Metode</dt>
+          <dd>Sammenligning etter flere kriterier, med synlig datakvalitet</dd>
+        </dl>
+      </div>
+    </nav>
+  </aside>
+
+  <!-- Hovedinnhold -->
+  <main id="main" class="main-container">
+
+    <!-- Seksjon 1: Intro -->
+    <section id="sec-intro" class="story-section" style="background-image: url('bilder/01-hus-i-terreng.webp');">
+      <div class="story-section__readability-overlay"></div>
+
+      <div class="hero-content">
+        <div class="hero-tag">IPN-forskningsprosjekt</div>
+        <h1 class="hero-title">Her er hva vi vet.<br>Her er hva vi skal finne ut.</h1>
+        <div class="hero-underline"></div>
+        <p class="hero-subtitle">
+          VERIFIED er et forskningsprosjekt om løsningsvalg i byggeprosjekter. Vi utvikler og tester en måte å sammenligne alternative løsninger på — og å vise hvor sikkert grunnlaget faktisk er.
+        </p>
+        <div class="scroll-prompt">
+          <span class="scroll-prompt__text">Bla videre</span>
+          <span class="scroll-prompt__arrow" aria-hidden="true">&darr;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksjon 2: Utfordringen -->
+    <section id="sec-challenge" class="story-section" style="background-image: url('bilder/02-byggeplass-reisverk.webp');">
+      <div class="story-section__readability-overlay"></div>
+
+      <div class="content-box">
+        <div class="section-badge">Utfordringen</div>
+        <h2 class="section-title">Valgene tas før grunnlaget er samlet</h2>
+        <p class="section-paragraph">
+          I små og mellomstore byggeprosjekter tas mange av de viktigste løsningsvalgene i tilbudsfasen. Entreprenøren priser jobben, foreslår alternativer og forklarer dem for kunden. Valgene får betydning for utslipp, levetid, vedlikehold og risiko lenge etterpå.
+        </p>
+        <p class="section-paragraph">
+          Informasjonen som trengs finnes — i produktdata, i FDV-dokumentasjon, i miljødeklarasjoner, i levetidsdata og i prislister. Men den ligger spredt, i ulike formater, og må ofte settes sammen for hånd.
+        </p>
+        <p class="section-paragraph">
+          Når forskjellene mellom alternativene er uklare, kan den billigste løsningen framstå som best, selv om den koster mer over tid.
+        </p>
+
+        <div class="facts-grid">
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              <span class="accent-gold-text">68 359</span> bedrifter var registrert i bygge- og anleggsnæringen 1. januar 2026.
+            </div>
+            <span class="fact-source">Kilde: SSB, tabell 10309</span>
+          </div>
+
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              <span class="accent-gold-text">91,2 %</span> av dem hadde færre enn ti ansatte, når bedrifter uten ansatte regnes med.
+            </div>
+            <span class="fact-source">Kilde: SSB, tabell 10309</span>
+          </div>
+
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              <span class="accent-gold-text">76,2 %</span> hadde mellom én og ni ansatte, blant bedriftene som faktisk hadde ansatte.
+            </div>
+            <span class="fact-source">Kilde: SSB, tabell 10309</span>
+          </div>
+        </div>
+
+        <p class="section-caveat">
+          Tallene gjelder hele bygge- og anleggsnæringen, ikke bare gruppen VERIFIED retter seg mot.
+        </p>
+
+        <p class="section-paragraph">
+          Mindre entreprenørbedrifter har ofte høy fagkompetanse. Det som varierer, er tilgangen til egne ressurser for livsløpsvurderinger og kostnadsanalyser over levetiden. Kapasiteten er bundet i produksjon og utførende arbeid. Et beslutningsgrunnlag må derfor kunne brukes i en travel tilbudsfase — ikke bare av spesialister.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seksjon 3: Hva vi vet i dag -->
+    <section id="sec-what-we-know" class="story-section" style="background-image: url('bilder/03-loefter-takbjelke.webp');">
+      <div class="story-section__readability-overlay"></div>
+
+      <div class="content-box">
+        <div class="section-badge">Hva vi vet</div>
+        <h2 class="section-title">Mye finnes allerede</h2>
+        <p class="section-paragraph">
+          Vi står ikke på bar bakke. Det finnes internasjonale standarder for livsløpsvurdering og for livsløpskostnader, og en norsk standard for klimagassberegninger for bygninger. Flerkriterieanalyse er en etablert måte å behandle beslutninger med flere hensyn som trekker i ulik retning.
+        </p>
+        <p class="section-paragraph">
+          Det finnes også verktøy. Norske løsninger kobler kalkyle, pris, materialmengder, produktdata og miljødeklarasjoner, og kan beregne og sammenligne klimagassutslipp. Internasjonale løsninger kombinerer livsløpsvurdering med livsløpskostnad, og noen viser usikkerheten i materialenes klimatall.
+        </p>
+
+        <div class="fact-card-highlight">
+          <p class="fact-card-highlight__text">
+            Flere av funksjonene VERIFIED skal bygge på, finnes allerede. I det utvalget vi har undersøkt, har vi likevel ikke funnet <span class="accent-gold-text">én løsning</span> som gir små norske entreprenører et samlet og etterprøvbart beslutningsgrunnlag i tilbudsfasen.
+          </p>
+          <span class="fact-source">Dette er en avgrenset gjennomgang. Den må oppdateres når underlaget utvides.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksjon 4: Hva vi ikke vet ennå -->
+    <section id="sec-what-we-dont-know" class="story-section" style="background-image: url('bilder/04-tomrer-i-reisverk.webp');">
+      <div class="story-section__readability-overlay"></div>
+
+      <div class="content-box">
+        <div class="section-badge">Åpne forskningsspørsmål</div>
+        <h2 class="section-title">Det viktigste er fortsatt åpent</h2>
+        <p class="section-paragraph">
+          Dette er ikke svakheter ved prosjektet. Det er grunnen til at det er forskning.
+        </p>
+
+        <ul class="research-questions-list">
+          <li>
+            <strong>Kan datatypene kobles?</strong> Eksisterende løsninger dekker hver sin del. En samlet løsning for hele bredden er ikke dokumentert i det utvalget vi har sett på.
+          </li>
+          <li>
+            <strong>Kan små bedrifter faktisk bruke det?</strong> Ressursbehov og anvendbarhet for små entreprenører er ikke tilstrekkelig dokumentert.
+          </li>
+          <li>
+            <strong>Vises usikkerheten godt nok?</strong> Ett verktøy viser usikkerhet i karbontall. Gjennomgående visning på tvers av alle kriteriene har vi ikke funnet dokumentert.
+          </li>
+          <li>
+            <strong>Endrer grunnlaget valget?</strong> Vi fant ingen dokumentert metode for å måle om et slikt samlet grunnlag faktisk endret eller bekreftet valget som ble tatt.
+          </li>
+          <li>
+            <strong>Kan skadevirkninger fanges opp?</strong> En samlet behandling av klima, levetid, vedlikehold, ombruk, dokumentasjonskvalitet og teknisk risiko er ikke dokumentert i gjennomgangen.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Seksjon 5: Hva VERIFIED skal finne ut -->
+    <section id="sec-what-verified-will-find-out" class="story-section" style="background-image: url('bilder/05-vindsperre-montering.webp');">
+      <div class="story-section__readability-overlay"></div>
+
+      <div class="content-box">
+        <div class="section-badge">Arbeidet</div>
+        <h2 class="section-title">Fra spredt informasjon til et grunnlag som kan etterprøves</h2>
+        <p class="section-paragraph">
+          Hovedmålet er å utvikle og teste en forskningsbasert beslutningsmodell for å sammenligne alternative løsninger og tilbud i små og mellomstore byggeprosjekter. Modellen skal gjøre det mulig å sammenligne alternativene etter faste vurderingskriterier — og samtidig vise kvaliteten og usikkerheten i datagrunnlaget.
+        </p>
+        <p class="section-paragraph">
+          Prosjektet skal kartlegge hvilke datakilder som trengs, utvikle en åpen og begrunnet modell, teste hvordan forskjeller og usikkerhet bør vises, og prøve om modellen gir praktisk nytte i konkrete løsningsvalg.
+        </p>
+        <p class="section-paragraph">
+          Vi skal ikke bare bygge en modell. Vi skal teste om den blir forstått, hvordan den brukes, og om den endrer eller bekrefter valget. Det er selve forskningsarbeidet.
+        </p>
+
+        <div class="research-context-box">
+          <span class="context-box-tag">Avgrenset bankspor</span>
+          <p class="context-box-text">
+            Forskning på nederlandske boliglånsdata finner en sammenheng mellom energieffektivitet i bygg og lavere sannsynlighet for mislighold. Den samme sammenhengen er ikke vist for byggteknisk kvalitet, levetid eller vedlikeholdsdata.
+          </p>
+          <p class="context-box-text">
+            En avgrenset pilot skal undersøke om denne typen dokumentasjon kan være nyttig tilleggsinformasjon for ett konkret informasjonsbehov i en banks risikovurdering. Banken må selv definere behovet på forhånd. Prosjektet forutsetter ikke at informasjonen forbedrer risikovurderingen — det er nettopp det som skal undersøkes.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seksjon 6: Slik jobber vi -->
+    <section id="sec-how-we-work" class="story-section" style="background-image: url('bilder/06-byggeplass-detalj.webp');">
+      <div class="story-section__readability-overlay"></div>
+
+      <div class="content-box">
+        <div class="section-badge">Metode</div>
+        <h2 class="section-title">Svake data skal være synlige, ikke bortgjemt</h2>
+        <p class="section-paragraph">
+          Arbeidet går stegvis: først en første versjon av modellen, så utprøving i konkrete løsningsvalg, så analyse, så justering. Endelig forskningsdesign utformes sammen med forskningspartneren.
+        </p>
+
+        <ul class="research-questions-list">
+          <li>
+            <strong>Hver opplysning får en status.</strong> Vi registrerer kilde, alder, enhet og produktnivå — og om opplysningen mangler, bygger på generelle data, er estimert, eller er verifisert for den konkrete løsningen. Reglene settes før utprøvingen og brukes likt på alle alternativer. Slik forsvinner ikke svake data inn i en totalscore.
+          </li>
+          <li>
+            <strong>Et minste informasjonsgrunnlag.</strong> Vi definerer hvor lite som skal til for at en sammenligning er faglig forsvarlig. Er grunnlaget for tynt, vises det tydelig.
+          </li>
+          <li>
+            <strong>Teknisk egnethet er en faglig port.</strong> Lavt beregnet klimagassutslipp er ikke nok hvis løsningen har svak fuktrobusthet, kort eller usikker levetid, stort vedlikeholdsbehov eller mangelfull dokumentasjon.
+          </li>
+          <li>
+            <strong>Vi skiller mellom fire slags påstander.</strong> Vi <em>måler</em> det som kan observeres i utprøvingen. Vi <em>beregner</em> modellresultater. Vi <em>estimerer</em> framtidige eller usikre størrelser. Vi lar <em>faglig skjønn</em> avgjøre der det kreves. Og vi sier <em>undersøker</em> når metoden ennå ikke er valgt.
+          </li>
+        </ul>
+
+        <p class="section-paragraph">
+          Selve beslutningen og ansvaret ligger fortsatt hos entreprenør og kunde. Modellen velger ikke.
+        </p>
+      </div>
+    </section>
+
+    <!-- Seksjon 7: Status nå -->
+    <section id="sec-status" class="story-section" style="background-image: url('bilder/07-hus-ferdig.webp');">
+      <div class="story-section__readability-overlay"></div>
+
+      <div class="content-box">
+        <div class="section-badge">Status nå</div>
+        <h2 class="section-title">Hvor arbeidet står</h2>
+        <p class="section-paragraph">
+          Søknadsteksten foreligger som en revidert arbeidskandidat. Den er ikke innsendingsklar.
+        </p>
+
+        <ul class="research-questions-list">
+          <li>Konsortium og rollefordeling er ikke bekreftet.</li>
+          <li>Arbeidspakker, milepæler, budsjett og risiko krever partnerinformasjon og er ikke ferdigstilt.</li>
+          <li>Vurderingen av kjemikalier, sosiale forhold og øvrige skadevirkninger må kompletteres sammen med fagpartnerne.</li>
+          <li>Måleparametere for om grunnlaget faktisk endrer valg, er ikke fastlagt på forhånd. Prosjektet skal utvikle og teste dem.</li>
+          <li>Endelig avgrensning av målgruppen, forskningsdesign og metodevalg gjenstår.</li>
+        </ul>
+
+        <p class="section-paragraph">
+          Vi legger dette ut fordi et prosjekt om synlig datakvalitet bør tåle å vise sin egen.
+        </p>
+
+        <div class="cta-area">
+          <a href="#sec-intro" class="cta-button">Tilbake til toppen</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Skuffemeny på mobil + markering av aktiv seksjon -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const body = document.body;
+      const toggleBtn = document.getElementById('menu-toggle-btn');
+      const closeBtn = document.getElementById('menu-close-btn');
+      const navLinks = document.querySelectorAll('.nav-link');
+      const sections = document.querySelectorAll('.story-section');
+
+      const openMenu = () => {
+        body.classList.add('menu-open');
+        toggleBtn.setAttribute('aria-expanded', 'true');
+      };
+
+      const closeMenu = () => {
+        body.classList.remove('menu-open');
+        toggleBtn.setAttribute('aria-expanded', 'false');
+      };
+
+      toggleBtn.addEventListener('click', openMenu);
+      closeBtn.addEventListener('click', closeMenu);
+
+      navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+          closeMenu();
+          navLinks.forEach(l => l.classList.remove('active'));
+          link.classList.add('active');
+        });
+      });
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            const id = entry.target.getAttribute('id');
+            navLinks.forEach(link => {
+              link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+            });
+          }
+        });
+      }, { root: null, rootMargin: '-50% 0px -50% 0px', threshold: 0 });
+
+      sections.forEach(section => observer.observe(section));
+    });
+  </script>
+</body>
+
+</html>

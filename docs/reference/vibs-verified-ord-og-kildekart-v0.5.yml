@@ -1,0 +1,611 @@
+# docs/reference/vibs-verified-ord-og-kildekart-v0.5.yml
+# Status: REVIDERT FORSLAG — teknisk kontrollert, ikke godkjent av Lars.
+# Ontologisk kontrollkart; erstatter ikke kildedom, kildebibliotek eller søknadstekst.
+# Opprinnelse: AGY-forslag fra handoff 38, revidert av Codex etter handoff 39.
+# Dato: 2026-08-02
+
+meta:
+  prosjekt: VIBS VERIFIED — IPN-søknad
+  dokumenttype: ontologisk kontrollkart
+  versjon_forslag: "0.2-draft"
+  godkjenningsstatus: venter på Lars
+  opprinnelse: AGY-forslag fra handoff 38; revidert av Codex etter handoff 39
+  autoritet: >
+    Kartet forklarer roller, begreper og kontrollregler. Det er ikke en
+    selvstendig kilde og kan ikke alene endre tekst-, kilde- eller portstatus.
+  basert_på:
+    - AGENTS.md
+    - CONTEXT.md
+    - INDEX.yml
+    - docs/agents/domain.md
+    - docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.5.md
+    - docs/reference/prosjektbeskrivelse/sannhetsserum-oppdatering-v0.5.md
+    - docs/reference/prosjektbeskrivelse/arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md
+    - docs/reference/ipn-kildebibliotek.md
+    - docs/reference/vibs-verified-kildedom-2026-06-27.md
+    - docs/reference/state-of-the-art-verified-ipn.md
+    - research/evidence_matrix.md
+
+# ─────────────────────────────────────────────
+# 1. AKTIVT STATUS
+# ─────────────────────────────────────────────
+versjonsstatus:
+  v0_4:
+    rolle: låst baseline for innholdsdekning
+    status: fryst — endres ikke
+    kan_regnes_som_slettet: false
+    merknad: >
+      Gjennomføring, arbeidspakker, risiko, utnyttelse og referansedel
+      fra v0.4 gjelder fortsatt der v0.5 ikke eksplisitt erstatter dem.
+  v0_5:
+    rolle: aktiv K/V-integrasjonskandidat
+    status: tekstpresisering gjennomført; kildepass og innflettingskontroll gjenstår
+    innsendingsklar: false
+    erstatter_v04_fullt: false
+    åpen_port: C7 (kilde- og komprimeringspass)
+    tekstgrunnlag:
+      - k1-bakgrunn-godkjent-v0.1.md
+      - k2-nyhetsverdi-godkjent-v0.1.md
+      - k3-forskning-godkjent-v0.1.md
+      - k4-metode-godkjent-v0.1.md
+      - v1-baerekraft-godkjent-v0.1.md
+      - v2-dnsh-godkjent-v0.1.md
+      - v3-okonomiske-virkninger-bankrelevans-godkjent-v0.1.md
+
+# ─────────────────────────────────────────────
+# 2. DOKUMENTROLLER
+# ─────────────────────────────────────────────
+dokumentroller:
+  kanonisk:
+    beskrivelse: >
+      Innflettingsmål for søknadstekst. Disse filene er ikke gjeldende
+      tekstfasit før C7 er lukket.
+    filer:
+      - docs/reference/prosjektbeskrivelse/k1-bakgrunn.md
+      - docs/reference/prosjektbeskrivelse/k2-nyhetsverdi.md
+      - docs/reference/prosjektbeskrivelse/k3-forskning.md
+      - docs/reference/prosjektbeskrivelse/k4-metode.md
+      - docs/reference/prosjektbeskrivelse/v1-baerekraft.md
+      - docs/reference/prosjektbeskrivelse/v2-sikkerhet.md
+      - docs/reference/prosjektbeskrivelse/v3-okonomi.md
+    endres_av: ingen agent uten eksplisitt godkjenning fra Lars
+
+  baseline:
+    beskrivelse: Låst referansepunkt for innholdsdekning. Endres aldri.
+    filer:
+      - docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.4.md
+
+  kandidat:
+    beskrivelse: >
+      Aktiv K/V-integrasjonskandidat. Godkjente tekstpresiseringer fra
+      arbeidsversjonene. Kildeavhengige formuleringer er registrerte
+      reviewunntak — kan ikke flyttes til kanonisk mål før kildeporten er lukket.
+    filer:
+      - docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.5.md
+
+  arbeidsversjon:
+    beskrivelse: >
+      Godkjent ordlydfasit for K1–K4 og V1–V3. Disse filene styrer ordlyd;
+      de er ikke innsendingsklar prosa.
+    filer:
+      - docs/reference/prosjektbeskrivelse/arbeidsversjoner/k1-bakgrunn-godkjent-v0.1.md
+      - docs/reference/prosjektbeskrivelse/arbeidsversjoner/k2-nyhetsverdi-godkjent-v0.1.md
+      - docs/reference/prosjektbeskrivelse/arbeidsversjoner/k3-forskning-godkjent-v0.1.md
+      - docs/reference/prosjektbeskrivelse/arbeidsversjoner/k4-metode-godkjent-v0.1.md
+      - docs/reference/prosjektbeskrivelse/arbeidsversjoner/v1-baerekraft-godkjent-v0.1.md
+      - docs/reference/prosjektbeskrivelse/arbeidsversjoner/v2-dnsh-godkjent-v0.1.md
+      - docs/reference/prosjektbeskrivelse/arbeidsversjoner/v3-okonomiske-virkninger-bankrelevans-godkjent-v0.1.md
+
+  review:
+    beskrivelse: Omfang, avgrensninger og beslutninger for reviewrunden.
+    filer:
+      - docs/reference/prosjektbeskrivelse/arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md
+      - docs/reference/prosjektbeskrivelse/arbeidsversjoner/00-konsistenskontroll-godkjente-arbeidsversjoner-v0.1.md
+      - docs/reference/prosjektbeskrivelse/reviews/2026-07-29-tekstpresisering-v0.5.md
+      - docs/reference/prosjektbeskrivelse/sannhetsserum-oppdatering-v0.5.md
+
+  kildekontroll:
+    beskrivelse: >
+      Kildebiblioteket er gjeldende register for portstatus og provenans.
+      Kildedommen er et autoritativt avstemmingsgrunnlag fra 2026-06-27,
+      men nyere, eksplisitt loggede Lars-beslutninger i kildebiblioteket og
+      CONTEXT.md gjelder ved tidskonflikt.
+    filer:
+      - docs/reference/ipn-kildebibliotek.md         # kanonisk kildeliste
+      - docs/reference/vibs-verified-kildedom-2026-06-27.md  # avstemmingsgrunnlag datert 2026-06-27
+    gjeldende_register_for_portstatus: docs/reference/ipn-kildebibliotek.md
+    konfliktregel: >
+      AGENTS.md styrer sannhetsreglene. Ved konflikt mellom kildedommen og
+      nyere beslutning gjelder den nyere, eksplisitt loggede beslutningen;
+      konflikten beholdes synlig til Lars har avgjort den.
+
+  research_workdocs:
+    beskrivelse: Syntese- og arbeidsdokumenter; ikke kilderegister eller innsendingsprosa.
+    filer:
+      - research/evidence_matrix.md
+      - docs/reference/state-of-the-art-verified-ipn.md
+
+  research_intake:
+    beskrivelse: >
+      Generert inntak med råfiler, påstandsregister, faktasjekker og
+      SINTEF-pakker. Arbeidsgrunnlag under .scratch; ikke kanonisk og ikke
+      selvstendig belegg.
+    rot: .scratch/research-intake/gen-2026-07-29-01/
+    inngang: .scratch/research-intake/gen-2026-07-29-01/README.md
+
+  historikk:
+    beskrivelse: >
+      Støtte- og referanselag. Er ikke gjeldende K/V-tekstgrunnlag.
+      Endres ikke; brukes for sporing og sammenligning.
+    filer:
+      - docs/reference/ipn-hovedokument.md
+      - docs/reference/ipn-samledokument.md
+      - docs/reference/ipn-prosjektbeskrivelse-utkast.md
+
+# ─────────────────────────────────────────────
+# 3. GODKJENT ORDBRUK
+# ─────────────────────────────────────────────
+godkjent_ordbruk:
+  løsningsvalg:
+    definisjon: >
+      Valget mellom flere mulige løsninger for samme byggeoppgave i
+      tilbudsfasen. Bredere enn produktvalg — kan omfatte produkter,
+      montering, vedlikehold og forventet levetid.
+    kilde: CONTEXT.md (Låst begrepsbruk)
+    godkjent_siden: v0.5
+
+  alternativer:
+    definisjon: >
+      Konkrete valgmuligheter innenfor et løsningsvalg: nyanskaffelse,
+      vedlikehold, reparasjon, rehabilitering, ombruk, ulike produkter
+      eller utførelsesmåter for samme behov.
+    kilde: HANDOFF-godkjent-review 4.1
+
+  VERIFIED:
+    definisjon: >
+      Et FoU-prosjekt som skal utvikle og teste en felles måte å samle,
+      vekte og forklare informasjon om alternative løsninger. Vises i
+      et enkelt sammenligningsverktøy.
+    kilde: CONTEXT.md
+    unngå: at VERIFIED «velger» eller «anbefaler automatisk»
+
+  sammenligning:
+    definisjon: >
+      En åpen framstilling av fordeler, ulemper, usikkerhet og begrunnelse
+      for hvert alternativ. Entreprenør og kunde bruker den sammen;
+      entreprenøren har faglig ansvar for tilbudet.
+    kilde: CONTEXT.md
+    unngå: ["svart boks", "automatisk beslutning"]
+
+  beslutningsstøtte:
+    definisjon: >
+      Modellen sammenligner, viser forskjeller og usikkerhet, forklarer
+      grunnlaget — men tar ikke beslutningen.
+    kilde: HANDOFF-godkjent-review 4.2
+    unngå: ["automatisk beslutningstaker", "anbefaler", "velger"]
+
+  usikkerhet:
+    definisjon: >
+      Synlig datakvalitet, manglende data, datagrunnlag og
+      forutsetninger — ikke skjult i en totalscore.
+    kilde: SoA §6; HANDOFF 4.3
+    datastatus_ordlyd: >
+      En opplysning mangler, bygger på generelle data, er estimert
+      eller er verifisert for den konkrete løsningen.
+
+  teknisk_risiko:
+    definisjon: >
+      Dokumenterte farer ved et alternativ knyttet til levetid,
+      fuktrobusthet, vedlikehold, dokumentasjonskvalitet og egnethet.
+      Skal vises separat og ikke skjules bak lavt klimagassutslipp
+      eller lav pris.
+    kilde: V2 operative regler
+
+  brukerforutsetning:
+    definisjon: >
+      Informasjonen skal være mulig å bruke i tilbudsfasen uten å
+      forutsette fagkunnskap og tid som mange små bedrifter ikke har.
+    kilde: CONTEXT.md
+    unngå: "spesialister"
+
+  FoU_hull:
+    definisjon: >
+      Et avgrenset kunnskapsgap som må dokumenteres mot eksisterende
+      forskning, metoder og verktøy. Et mulig gap er en FoU-hypotese fram
+      til primærkilder og moteksempler er kontrollert.
+    kandidater_til_kildesjekk:
+      - "koblingen mellom holdbarhet og finansiell risiko"
+      - "SMB-atferd og bruk av beslutningsverktøy i norsk tilbudsfase"
+    bruk: Ikke framstill kandidatene som bekreftede fraværspåstander før SoA-kontrollen er lukket.
+
+  mulighetsrom:
+    definisjon: >
+      Brukes om klimaeffekt: norske kilder peker på at tidlige
+      materialvalg kan gi et betydelig rom for reduksjon uten
+      merkostnad. Ikke et løfte om VERIFIED-effekt.
+    kilde: V1 (v0.5), sannhetsserum-oppdatering-v0.5.md
+
+  state_of_the_art:
+    definisjon: >
+      Eksisterende kunnskap, metoder, standarder og verktøy.
+      Brukes bare for å kartlegge hva som finnes og hvor det stopper
+      — ikke som belegg for VERIFIEDs effekt. AGY leser og kartlegger;
+      AGY introduserer ikke nye påstander om SoA uten eksisterende kildegrunnlag.
+    kilde: SoA-dokumentet, kildedom, evidence_matrix
+
+# ─────────────────────────────────────────────
+# 4. FORMULERINGER SOM SKAL UNNGÅS
+# ─────────────────────────────────────────────
+unngå:
+  - uttrykk: "produktvalg"
+    når: hele løsningen (inkl. montering, vedlikehold, levetid) menes
+    anbefalt_erstatning: "løsningsvalg"
+    begrunnelse: For smalt; AGENTS.md og CONTEXT.md er eksplisitte.
+
+  - uttrykk: "VERIFIED velger / anbefaler automatisk"
+    når: alltid
+    anbefalt_erstatning: "VERIFIED viser, sammenligner og forklarer"
+    begrunnelse: Bryter beslutningsstøtte-regelen (HANDOFF 4.2, CONTEXT.md).
+
+  - uttrykk: "svart boks"
+    når: alltid
+    anbefalt_erstatning: "sammenligning med synlig datagrunnlag og usikkerhet"
+    begrunnelse: CONTEXT.md, V2 operative regler.
+
+  - uttrykk: "spesialister"
+    når: brukes om brukergruppen
+    anbefalt_erstatning: '"entreprenør og kunde" eller "ikke-spesialister"'
+    begrunnelse: CONTEXT.md brukerforutsetning.
+
+  - uttrykk: "VERIFIED reduserer utslipp / feil / omarbeid / risiko"
+    når: brukes som etablert effekt
+    anbefalt_erstatning: >
+      "VERIFIED skal teste om …" / "prosjektet skal undersøke om …"
+    begrunnelse: >
+      Ingen kilde bekrefter kausal effekt (evidence_matrix, HANDOFF 14:
+      «Ikke skriv at VERIFIED allerede reduserer …»).
+
+  - uttrykk: "[Wiik2025] som bærende primærkilde"
+    når: alltid i innsendingsprosa
+    anbefalt_erstatning: "[EBA_NO2023] og [KD2024]"
+    begrunnelse: >
+      ⏸ Parkert 2026-06-28 (Lars). Konsortie-internt uindeksert notat.
+      Kildedom §5.3 og §6.2 er eksplisitte.
+
+  - uttrykk: "[SA2018] som bekreftet primærkilde"
+    når: i innsendingsprosa uten forbehold
+    anbefalt_erstatning: Midlertidig parkert ⏸; gjeninnsett når kilde lokaliseres.
+    begrunnelse: >
+      Kollisjon mellom kildedom (🟢 rad 24) og kildebibliotek (🟡 ⏸,
+      Lars' beslutning 2026-06-28). Se avvik A-01.
+
+  - uttrykk: "[An2021] / [Billio_SAFE261] / [Harerusten2022] som primærnøkler"
+    når: alltid
+    anbefalt_erstatning: >
+      Bruk [An2020] og [Billio2022] innenfor dokumentert omfang.
+      Ikke erstatt Harerusten2022 med [SA2018] i innsendingsprosa før
+      [SA2018] er lokalisert, åpnet og godkjent gjeninnsatt.
+    begrunnelse: Utdaterte/feil nøkler; [SA2018] er fortsatt parkert.
+
+  - uttrykk: "16–20 MNOK som IPN-grense"
+    når: alltid
+    anbefalt_erstatning: "1–16 MNOK, maks 50 %"
+    begrunnelse: Rettet i kildedom §5.5; NFR_IPN2026 [H].
+
+  - uttrykk: "agentkonsensus som belegg"
+    når: alltid
+    begrunnelse: Eksplisitt forbudt i AGENTS.md kilde-/sannhetsregel 4.
+
+  - uttrykk: "integrasjonsflate om VIBS-plattformen"
+    når: inntil dataflyt og arkitektur er nærmere definert
+    anbefalt_erstatning: "testflate"
+    begrunnelse: HANDOFF 4.4.
+
+  - uttrykk: "forsikring og takst som konkrete hovedspor"
+    når: i søknadsteksten
+    begrunnelse: Tatt ut i HANDOFF 4.5 og K2-konsistensretting.
+
+# ─────────────────────────────────────────────
+# 5. KILDEPORTER OG PROVENANS
+# ─────────────────────────────────────────────
+kildeporter:
+  grønn:
+    symbol: "🟢"
+    kode: "[H]"
+    betyr: >
+      Primær eller offisiell-autoritativ kilde åpnet og verifisert
+      for den påstanden den støtter. Kan bære en søknadssetning alene.
+    forbehold: >
+      En kilde kan være 🟢 for én påstand og svakere for en annen
+      (jf. EN15978-2026: 🟢 for publisering, ikke for detaljbestemmelser).
+
+  gul:
+    symbol: "🟡"
+    koder: ["[H*]", "[M]"]
+    betyr: >
+      Sterk men primær ikke åpnet [H*], eller sekundær/konsortie-intern [M].
+      Støtter internt. Åpne primær eller fraser med forbehold før bærende bruk.
+
+  rød:
+    symbol: "🔴"
+    kode: "[L]"
+    betyr: Kun søketreff / metadata. Ikke siterbar.
+
+  parkert:
+    symbol: "⏸"
+    betyr: >
+      Tatt ut av søknadstekst. Bevart i kildebibliotek og hoveddokument.
+      Kan gjeninnsettes når kildeporten lukkes (🟢) eller kilden lokaliseres.
+
+provenans:
+  primær:
+    betyr: Originalkilden selv. Kan bære setning alene hvis 🟢.
+  sekundær:
+    betyr: Referert via annen kilde / kun sammendrag. Aldri bærende alene.
+  konsortie_intern:
+    betyr: >
+      VIBS'/SINTEFs eget arbeid. Aldri uavhengig belegg.
+      Brukes for å hente primærsitater og intern syntese.
+
+# ─────────────────────────────────────────────
+# 6. UTVALGTE KONTROLLKILDER MED STATUS
+# (ikke komplett register; full liste og gjeldende status står i kildebiblioteket)
+# ─────────────────────────────────────────────
+kilderegister:
+  omfang: >
+    Utvalgte kontrollnøkler som er relevante for v0.5 og åpne konflikter.
+    Dette er ikke en komplett kildeliste. Manglende nøkkel betyr ikke at
+    kilden er utgått eller avvist.
+  gjeldende_fullregister: docs/reference/ipn-kildebibliotek.md
+  grønne:
+    - nøkkel: "[EN15978-2026]"
+      port: "🟢¹"
+      merknad: "🟢 for publisering/eksistens; standardtekst ikke lest."
+    - nøkkel: "[NS-EN16627]"
+      port: "🟢"
+    - nøkkel: "[CPR2024]"
+      port: "🟢"
+    - nøkkel: "[ESPR2024]"
+      port: "🟢"
+    - nøkkel: "[NFR_IPN2026]"
+      port: "🟢"
+    - nøkkel: "[Edelen2018]"
+      port: "🟢"
+    - nøkkel: "[Lohman2023]"
+      port: "🟢"
+    - nøkkel: "[Benke2025]"
+      port: "🟢"
+    - nøkkel: "[Billio2022]"
+      port: "🟢"
+    - nøkkel: "[Kaza2014]"
+      port: "🟢"
+    - nøkkel: "[EBA_EU2023]"
+      port: "🟢"
+    - nøkkel: "[FinansNorge2024VASK]"
+      port: "🟢"
+    - nøkkel: "[Nordic2023]"
+      port: "🟢"
+    - nøkkel: "[BKA2]"
+      port: "🟢"
+    - nøkkel: "[EC3]"
+      port: "🟢"
+
+  gule:
+    - nøkkel: "[An2020]"
+      port: "🟡"
+      merknad: >
+        Metadata bekreftet; Wiley-fulltekst ga 403.
+        34 %-tallet må åpnes i fulltekst/akseptert manus.
+        Gjelder kommersielle CMBS-lån, ikke boliglån.
+      venter_på: SINTEF fulltekst
+    - nøkkel: "[Mecca2023]"
+      port: "🟡"
+      merknad: "Wiley-betalingsmur (402). Metodefordeling bekreftet [H*]."
+      venter_på: SINTEF fulltekst
+    - nøkkel: "[GullbrekkenHolme2025]"
+      port: "🟡"
+      merknad: "Via bestillingsverk [M]. SINTEF åpner fulltekst → 🟢."
+      venter_på: SINTEF fulltekst
+    - nøkkel: "[KD2024]"
+      port: "🟡"
+      merknad: >
+        Via bestillingsverk [M]. NB: A1–A3-tall attribuert «Asplan Viak/DiBK 2024»
+        — avklar om samme rapport.
+      venter_på: SINTEF primærverifisering
+    - nøkkel: "[EBA_NO2023]"
+      port: "🟡"
+      merknad: >
+        Via bestillingsverk [M]. Ikke European Banking Authority.
+        Brukes for 20 %-materialvalg i boligblokker.
+      venter_på: primærverifisering
+    - nøkkel: "[Weidema1996]"
+      port: "🟡"
+    - nøkkel: "[Byggforsk700.320]"
+      port: "🟡"
+      merknad: "Bak betalingsmur. Eksplisitt forbehold: ikke for konkret bygningsdel."
+    - nøkkel: "[BoE_PS25-25]"
+      port: "🟡"
+    - nøkkel: "[Ingvaldsen2008]"
+      port: "🟡"
+    - nøkkel: "[OneClickLCA]"
+      port: "🟡"
+    - nøkkel: "[Bjørheim2026]"
+      port: "🟡"
+    - nøkkel: "[BDO2025]"
+      port: "🟡"
+    - nøkkel: "[UNION2025]"
+      port: "🟡"
+
+  røde:
+    - nøkkel: "[EN17472]"
+      port: "🔴"
+    - nøkkel: "[MCDM2025]"
+      port: "🔴"
+    - nøkkel: "[WLC-benchmark-NO]"
+      port: "🔴"
+    - nøkkel: "[2050Materials]"
+      port: "🔴"
+    - nøkkel: "[VIBS-FoUpanel]"
+      port: "🔴"
+      merknad: "Ikke siterbar i søknad."
+
+  parkerte:
+    - nøkkel: "[SA2018]"
+      port: "⏸"
+      parkert: "2026-06-28 (Lars)"
+      betingelse: "Gjeninnsett når kilden lokaliseres/åpnes."
+      konflikt: >
+        ADVARSEL — inkonsistens: kildedom-2026-06-27.md rad 24 markerer
+        SA2018 som 🟢 («Ny kilde: Erstatt Harerusten2022 med denne primærkilden»),
+        mens ipn-kildebibliotek.md markerer den som 🟡 ⏸ og sier kilden ikke er
+        bekreftet å eksistere i åpne registre (Lars' beslutning 2026-06-28).
+        Kildebiblioteket er nyere; bibliotekets beslutning gjelder inntil Lars avgjør.
+    - nøkkel: "[Wiik2025]"
+      port: "⏸"
+      parkert: "2026-06-28 (Lars)"
+      betingelse: >
+        Gjeninnsett bare hvis SINTEF dokumenterer at notatet finnes.
+        Aldri bærende alene selv da (konsortie-internt).
+
+# ─────────────────────────────────────────────
+# 7. KONTROLLREGLER FOR KILDEBRUK
+# ─────────────────────────────────────────────
+kontrollregler:
+  før_bruk_i_søknadstekst:
+    - "Er kilden 🟢? Hvis ikke — bær ikke setningen på den kilden alene."
+    - "Er kilden konsortie-intern? Aldri uavhengig belegg."
+    - "Er kilden parkert (⏸)? Ikke ta den inn igjen uten Lars' godkjenning."
+    - "Gjentas et tall fra en sekundærkilde? Spor det til primær."
+    - "Brukes 'EBA'? Sjekk om det er [EBA_EU2023] (bank) eller [EBA_NO2023] (bygg)."
+
+  state_of_the_art_regler:
+    - >
+      SoA kartlegger eksisterende kunnskap — det er ikke belegg for
+      VERIFIEDs effekt. Skill «metoden finnes» fra «VERIFIED virker».
+    - >
+      Ingen agent introduserer ny SoA-påstand uten kildegrunnlag fra
+      kildebiblioteket, kildedom eller SoA-dokumentet.
+    - >
+      SINTEF kan primærverifisere [An2020], [GullbrekkenHolme2025],
+      [KD2024], [Mecca2023] m.fl. Verifiseringen er beslutningsgrunnlag;
+      portstatus endres først etter godkjenning og loggført beslutning.
+
+  eba_kollisjon:
+    regel: >
+      «EBA» er alltid fullt utskrevet ved første gangs nevnelse.
+      [EBA_EU2023] = European Banking Authority (finans).
+      [EBA_NO2023] = Entreprenørforeningen Bygg og Anlegg (bygg/klima).
+      Nøklene slås aldri sammen.
+
+  kildestatus_endring:
+    regel: >
+      SINTEF primærverifiserer vitenskapelige kilder. Codex og AGY kan
+      kontrollere og registrere en eksplisitt godkjent beslutning, men kan
+      ikke avgjøre grensetilfeller selv. Lars godkjenner grensetilfeller.
+      Enhver statusendring logges med hvem, hva og hvorfor.
+
+  agentkonsensus:
+    regel: Agentkonsensus er aldri belegg. (AGENTS.md kilde-/sannhetsregel 4)
+
+  historiske_dokumenter:
+    regel: >
+      ipn-hovedokument.md, ipn-samledokument.md og
+      ipn-prosjektbeskrivelse-utkast.md gjøres ikke gjeldende igjen.
+      De er støtte- og referanselag.
+
+# ─────────────────────────────────────────────
+# 8. KONTROLLERTE AVVIK I DET OPPRINNELIGE FORSLAGET
+# ─────────────────────────────────────────────
+kontrollerte_avvik:
+  - id: A-01
+    tema: SA2018 har motstridende portstatus
+    behandling: Beholdt synlig som K-01; nyere parkering gjelder operativt inntil Lars avgjør.
+
+  - id: A-02
+    tema: Feil filsti til ipn-hovedokument.md
+    behandling: Rettet til eksisterende filsti og kontrollert mot repoet.
+
+  - id: A-03
+    tema: Kildedommen var angitt som eneste sannhetskilde for portstatus
+    behandling: >
+      Rettet til et tids- og beslutningshierarki med kildebiblioteket som
+      gjeldende register og kildedommen som datert avstemmingsgrunnlag.
+
+  - id: A-04
+    tema: Myndighet til å endre kildestatus var formulert for absolutt
+    behandling: >
+      Rettet i tråd med AGENTS.md: SINTEF verifiserer, Lars avgjør
+      grensetilfeller, og utførende agenter kan registrere godkjente beslutninger.
+
+  - id: A-05
+    tema: Kilderegisteret framstod som en komplett liste over aktive kilder
+    behandling: Markert som et utvalg; ipn-kildebibliotek.md er fullregisteret.
+
+  - id: A-06
+    tema: Research-syntese og research-intake var slått sammen
+    behandling: >
+      Skilt i research_workdocs og research_intake. Begge er arbeidsgrunnlag,
+      ikke selvstendig belegg eller innsendingsprosa.
+
+# ─────────────────────────────────────────────
+# 9. ÅPNE KONFLIKTER (krever Lars' avgjørelse)
+# ─────────────────────────────────────────────
+åpne_konflikter:
+  - id: K-01
+    tema: SA2018 portstatus
+    problem: >
+      Kildedom markerer [SA2018] 🟢; kildebibliotek markerer den ⏸ 🟡.
+      Lars' beslutning (2026-06-28) gjelder, men konflikten er ikke
+      ryddet i kildedom-dokumentet.
+    avgjøres_av: Lars
+
+  - id: K-02
+    tema: An2020 bruksomfang i søknadstekst
+    problem: >
+      [An2020] gjelder kommersielle CMBS-lån (næringsbygg), ikke boliglån.
+      34 %-tallet er ikke primærverifisert.
+    avgjøres_av: SINTEF (fulltekst) + Lars
+
+  - id: K-03
+    tema: KD2024 attribusjon
+    problem: >
+      A1–A3-tall attribuert «Asplan Viak/DiBK 2024» i Kunnskapsfil.
+      Avklar om dette er samme rapport som KD2024.
+    avgjøres_av: Lars / SINTEF
+
+  - id: K-04
+    tema: Omnibus I primærkilde
+    problem: >
+      Vedtatt 24.02.2026; kun sekundærsitert. Substans og dato bør
+      bekreftes mot OJ/EUR-Lex.
+    avgjøres_av: SINTEF primærverifisering
+
+  - id: K-05
+    tema: SMB-definisjon og markedsandel
+    problem: >
+      SMB-definisjon og andel av næringen ikke avklart.
+      Tidligfasepåstanden må primærverifiseres i [KD2024].
+    avgjøres_av: Lars + SINTEF
+
+  - id: K-06
+    tema: Banken i F5 — konkret informasjonsbehov
+    problem: >
+      Banken er ikke navngitt og bankens konkrete behov er ikke definert.
+      Pilotering kan ikke starte uten dette.
+    avgjøres_av: Lars
+
+# ─────────────────────────────────────────────
+# Endringslogg
+# ─────────────────────────────────────────────
+endringslogg:
+  - versjon: "0.2-draft"
+    dato: "2026-08-02"
+    hvem: Codex, handoff 39
+    hva: >
+      Rettet YAML-syntaks, filsti, dokumenthierarki, statusmyndighet,
+      registeromfang og skillet mellom research-workdocs og intake.
+      K-01–K-06 er beholdt åpne. Venter på Lars' godkjenning.
+  - versjon: "0.1-draft"
+    dato: "2026-08-02"
+    hvem: AGY (Antigravity) — read-only review, handoff 38
+    hva: Første forslag opprettet. Ikke godkjent.

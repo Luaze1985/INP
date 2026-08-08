@@ -1,10 +1,50 @@
 # Anbefalt arbeidsrekkefølge
 
+**Status:** Internt konsekvens- og gjennomføringskart
+
+**Utgangspunkt:** Dagens mapper, søknadskandidat `v0.5` og eksisterende
+nettsidemanus
+
+**Utførelse:** Ingen endring gjennomføres før Lars har godkjent kildepass og
+endringskart
+
 ## Målet
 
 Målet er å gjøre forskningsgrunnlaget forståelig, etterprøvbart og klart for
 kollegagjennomgang og senere SINTEF-vurdering. Vi skal ikke rydde direkte i
 søknaden før kildeidentitet, metodepåstander og markedsbildet er avstemt.
+
+## Det som allerede er ferdig
+
+- Perplexity-funnene er brukt som kontrollgrunnlag og holdt adskilt fra
+  originalkildene.
+- De viktigste kildeblandingene, metodeoverstrekkene og markedspåstandene er
+  identifisert.
+- Kollegapakken, avklaringslisten og et internt endringskart er laget.
+- En sperreliste hindrer at kjente problemkilder og gamle aliaser kommer inn i
+  ny aktiv tekst uten kontroll.
+- Søknaden og nettsiden er foreløpig urørt.
+
+Det som gjenstår, er derfor ikke en ny bred gjennomgang. Arbeidet må nå gå fra
+kontrollfunn til beslutninger, originalkontroll og ett godkjent
+endringsgrunnlag.
+
+## Hva som skal endres dersom vurderingen godkjennes
+
+Dette dokumentet er den samlede inngangen. De detaljerte radene ligger i
+[endringskartet for søknaden](../internt/endringskart-aktiv-soknad.md) og
+[endringskartet for nettsiden](../internt/endringskart-ipn-nettside.md).
+
+| Dokumentlag | Dagens versjon beholdes | Ny leveranse etter godkjenning |
+| --- | --- | --- |
+| Samlet søknadstekst | `soknadstekst-samlet-kandidat-v0.5.md` | Ny kildekorrigert kandidat `v0.6` |
+| K3 og state of the art | Dagens kandidatnotater beholdes som reviewgrunnlag | Nye versjonerte kandidater med rettet identitet, metode og gapformulering |
+| Kildebibliotek og kildedom | Dagens filer beholdes som historikk til beslutningen er logget | Oppdatert, avstemt status med endringslogg og klikkbare originaler |
+| Ord- og kildekart | Dagens reviderte forslag beholdes | Oppdatert kontrollkart etter Lars' godkjenning |
+| Nettside | `site/tekstmanus.md`, `innhold-kanban.md` og `index.html` beholdes | Ny versjonert tekstkandidat; HTML endres først etter egen publiseringsport |
+
+Hver endringsrad skal vise fil og seksjon, dagens påstand, berørt kilde,
+godkjent vurdering, handling, foreslått formulering og godkjenningskrav.
 
 ## 1. Gi innspill til «Behold, Ta ut, Avklar»
 

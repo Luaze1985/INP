@@ -1,5 +1,12 @@
 # Kort oversikt til kollegaer
 
+**Status:** Internt beslutningsgrunnlag
+
+**Gjelder:** Kildepass for søknadskandidat `v0.5`
+
+**Neste versjon etter godkjenning:** Ny søknadskandidat `v0.6` og egen
+versjonert nettsidekandidat
+
 ## Hva er gjennomgått?
 
 Vi har kontrollert forsknings- og markedsgrunnlaget som brukes rundt
@@ -9,6 +16,37 @@ forskningspåstander og eksisterende verktøy.
 Hovedbildet er positivt, men flere formuleringer er sterkere enn dokumentasjonen
 tillater. Dette betyr ikke at prosjektideen er svekket. Det betyr at
 søknadsgrunnlaget må bli mer presist før det kan regnes som ferdig.
+
+## Kildestatus i korte trekk
+
+Det kanoniske kildebiblioteket har 60 oppføringer: 15 grønne, 40 gule og fem
+røde. To av de gule kildene er allerede parkert. Tallene viser statusen i
+kildebiblioteket, men er ikke en ferdig fasit etter den nyere kontrollen.
+
+Kontrollen har i tillegg gitt 11 sperreposter. De omfatter usikre kilder, gamle
+aliaser og feil kobling mellom kilde og påstand. Det betyr ikke at 11 kilder er
+«slettet». Sperrene hindrer at usikre eller erstattede opplysninger kommer inn
+i aktiv tekst før de er avklart.
+
+Det viktigste skillet nå er:
+
+- kilder som kan brukes innenfor en tydelig avgrenset påstand;
+- kilder som trenger original, sidetall eller presis identitetskontroll;
+- kilder og kildekoblinger som holdes ute av aktiv bruk.
+
+## Slik henger dokumentene sammen
+
+1. Denne oversikten kan leses alene.
+2. [Den samlede kildevurderingen](02-detaljert-arbeidsnotat.md) viser alle
+   registrerte kilder, nye kandidater, hva som faktisk er lest, og hva kildene
+   kan brukes til.
+3. [Beslutningslisten](03-behold-ta-ut-avklar.md) viser hva kollegaene skal gi
+   innspill til og hva Lars skal godkjenne.
+4. [Arbeidsrekkefølgen](04-anbefalt-arbeidsrekkefolge.md) viser hvordan en
+   godkjent vurdering skal føres videre til søknaden, kildefilene og nettsiden.
+
+Kildene skal kunne spores i begge retninger: fra en påstand til kildekortet og
+videre til originalen, og fra kildekortet til dokumentene som må endres.
 
 ## Behold
 
@@ -59,6 +97,24 @@ Først rydder vi kildeidentitet og påstander. Deretter skiller vi tydelig mello
 dokumenterte fakta, prosjektets hypoteser og spørsmål som må vurderes av
 SINTEF. Søknaden endres først etter en samlet faglig gjennomgang og Lars'
 godkjenning.
+
+Før søknaden kan skrives ferdig, gjenstår særlig fire ting:
+
+1. avstemme kildebiblioteket mot den nyere kontrollen og sperrelisten;
+2. kontrollere originalene som bærer de viktigste tallene og metodepåstandene;
+3. ferdigstille et avgrenset og datert konkurrentbilde;
+4. godkjenne et endringskart før søknadsteksten redigeres.
+
+Godkjenningen gjelder kildevurderingen og endringsgrunnlaget. Den innebærer
+ikke at dagens `v0.5` eller nettsidefiler skal overskrives. Endringene skal
+utføres i nye, versjonerte kandidater som kan sammenlignes med dagens tekst.
+
+Virkningen på søknaden er først og fremst at nyhetsverdien må beskrives mer
+presist. VERIFIED bør ikke hevde at prosjektet er alene om LCA, LCC,
+usikkerhetsvisning eller tilbudsstøtte. FoU-høyden bør i stedet knyttes til den
+forklarbare kombinasjonen av klima, kostnad, levetid, teknisk risiko og usikre
+data, og til at denne kombinasjonen skal prøves ut hos små entreprenører i
+tilbudsfasen.
 
 Dette notatet er internt. Ingenting er sendt, og ingen kildeporter eller
 søknadstekster er endret.

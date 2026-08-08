@@ -1,8 +1,42 @@
 # Behold, ta ut og avklar
 
+**Status:** Internt beslutningsark for kildepasset til `v0.5`
+
+**Bruk:** Kollegaene gir innspill. Lars godkjenner kilder, uttak, avklaringer
+og videre tekstendring.
+
 Dette er en arbeidsliste for kollegagjennomgang. «Ta ut» betyr ut av videre
 aktiv tekst inntil forholdet er rettet eller dokumentert. Det betyr ikke at
 historikken skal slettes.
+
+## Slik gir vi innspill
+
+For hvert punkt brukes én av tre merknader:
+
+- **Enig:** anbefalingen kan gå videre til Lars' beslutning.
+- **Uenig:** skriv kort hvilken kilde, påstand eller avgrensning som bør endres.
+- **Må undersøkes:** angi hvilken original, passasje eller fagperson som kan
+  løse spørsmålet.
+
+Kjernekilder som skal brukes, godkjennes enkeltvis etter kontroll. Kilder som
+ikke er klare for bruk, kan besluttes gruppevis. Ingen kollegamerknad endrer
+kildestatus alene.
+
+## Kjernekilder til enkeltvis kontroll
+
+| Kilde | Anbefalt rolle | Må være dokumentert før godkjenning |
+| --- | --- | --- |
+| `[NFR_IPN2026]` | Formalia | Offisiell utlysning og korrekt ramme |
+| `[EN15978-2026]` | Standardens eksistens og virkeområde | Skill nyhetsside fra standardtekst og avklar datoetikett |
+| `[NS-EN16627]` | LCC-retning | Skill standardstatus fra detaljerte metodekrav |
+| `[CPR2024]` og `[ESPR2024]` | Regelverksramme for produktpass | Bruk bare bestemmelser som faktisk er åpnet |
+| `[Edelen2018]` | Transparent datakvalitet | Registrer passasje; fjern absolutt aggregeringsforbud |
+| `[EBA_EU2023]` | Grønn finans-kontekst | Frivillig policy, ikke dokumentert VERIFIED-effekt |
+| `[Billio2022]` og `[Kaza2014]` | Energi og boliglånsrisiko | Hold geografi, marked og assosiasjon atskilt |
+| `[EC3]` | Dokumentert konkurrentfunksjon | Produktpåstand, ikke uavhengig effektbevis |
+| `[FinansNorge2024VASK]` | Vannskader i 2023 | Skill publiserte tall fra beregnet årstall |
+| `[Nordic2023]` | SMB- og kapasitetskontekst | Unngå generalisering til alle SMB-er |
+| `[BKA2]` | Mulig faglig grenseflate | Kontroller beløp, rolle og synergi hver for seg |
 
 ## Behold
 

@@ -1,5 +1,5 @@
 # INDEX.yml — ipn-verified
-# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-08-03.
+# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-08-04.
 
 prosjekt:
   navn: VIBS VERIFIED — IPN-søknad
@@ -24,11 +24,13 @@ governance:
   .githooks/pre-commit: Lokal Git-port som stopper nye sperrede linjer
 
 prosjektbeskrivelse:
-  # Arbeidsversjoner styrer ordlyd, v0.4 innholdsdekning og v0.5 samlet K/V-integrasjon.
-  status: Tekstpresisering pågår; kildeport og samlet kontroll gjenstår
+  # Arbeidsversjoner styrer ordlyd, v0.4 innholdsdekning og v0.6 kildekontrollert K/V-integrasjon.
+  status: v0.6 er kontrollkandidat; avgrenset partnerpass, innflettingskontroll og Lars' godkjenning gjenstår
   kvalitetsport: C7 — tekstpresisering og kildepass holdes som separate kontroller
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.4.md: Låst baseline for innholdsdekning
-  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.5.md: Aktiv K/V-integrasjonskandidat for godkjente tekstpresiseringer
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.5.md: Tidligere K/V-integrasjonskandidat for godkjente tekstpresiseringer
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.6.md: Aktiv kontrollkandidat med kildeavgrensning og språkport
+  docs/reference/prosjektbeskrivelse/k3-forskning-sannhetsserum-v0.6.md: Intern K3-kontroll for påstander, kilder og FoU-gap
   docs/reference/prosjektbeskrivelse/arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md: Beslutninger, avgrensninger og filkart
   docs/reference/prosjektbeskrivelse/arbeidsversjoner/00-konsistenskontroll-godkjente-arbeidsversjoner-v0.1.md: Konsistenskontroll C1–C7
   docs/reference/prosjektbeskrivelse/arbeidsversjoner/k1-bakgrunn-godkjent-v0.1.md: Gjeldende tekstgrunnlag K1
@@ -47,6 +49,9 @@ prosjektbeskrivelse:
   docs/reference/prosjektbeskrivelse/v2-sikkerhet.md: Kanonisk innflettingsmål V2 — eldre tekst
   docs/reference/prosjektbeskrivelse/v3-okonomi.md: Kanonisk innflettingsmål V3 — eldre tekst
   docs/reference/prosjektbeskrivelse/reviews/2026-07-29-tekstpresisering-v0.5.md: Omfang, avgrensninger og kontroll for v0.5
+  docs/reference/prosjektbeskrivelse/reviews/2026-08-05-tilbakemeldingsregister-v0.6.md: Komplett register for tilbakemeldinger, beslutninger, kildebehov og parkering
+  docs/reference/prosjektbeskrivelse/reviews/2026-08-05-v0.6-overflatepass-2-3-timer.md: Avgrenset arbeidsbeskrivelse for partnerlesbar v0.6
+  docs/reference/prosjektbeskrivelse/reviews/2026-08-05-v0.7-grunnlagsarbeid-og-partnerprosess.md: Porter for metode, kilder, virkninger, konsortium, arbeidspakker og budsjett
 
 samle_og_referansedokumenter:
   docs/reference/ipn-hovedokument.md: Samlet skjelett og parkering — ikke gjeldende K/V-tekstgrunnlag
@@ -61,6 +66,7 @@ referanse_og_fakta:
   docs/reference/ipn-multiagent-workflow-2026-07-08.md: Multiagent-workflow for K1–K4 + V1–V3 → PDF (faser, gates, kostnad)
   docs/reference/ipn-tilbakemeldinger-aksjonsliste-2026-06-22.md: F1–F16 aksjonsliste fra team
   docs/reference/state-of-the-art-verified-ipn.md: SoA-gapanalyse
+  docs/reference/vibs-verified-ord-og-kildekart-v0.5.yml: Ontologisk kontrollkart v0.5 (revidert 0.2-draft, teknisk kontrollert — venter på Lars' godkjenning)
   docs/reference/state-of-the-art-leseark-2026-06-21.html: SoA-leseark
   docs/reference/boligspor-innovasjon-notat.md: Innovasjonsnotat
   docs/reference/forskning-kunnskapsbase.md: Etablert norsk tallgrunnlag (fallback for 🟡)
@@ -82,6 +88,7 @@ sintef_kildekonsolidering:
   docs/sintef/internt/uttaks-og-sperrelogg.md: Foreslått sperrelogg som bevarer identitet og hindrer gjenimport
   docs/sintef/internt/endringskart-aktiv-soknad.md: Tørrkjøringskart for tre aktive reviewflater
   docs/sintef/internt/endringskart-ipn-nettside.md: Tørrkjøringskart for tekstmanus, innholdskanban og HTML-plassholdere
+  docs/sintef/internt/sprakport-v0.6.md: Obligatorisk kontroll mot KI-rytme, intern selvsnakk og for sterke påstander
   docs/sintef/pakke-lagret-ikke-sendt/00-les-meg.md: Status og avgrensning for lagret kontrollpakke
   docs/sintef/pakke-lagret-ikke-sendt/prioriterte-sporsmal.md: Femten prioriterte kontrollspørsmål
   docs/sintef/pakke-lagret-ikke-sendt/svarmal.md: Svarmal for en eventuell senere SINTEF-kontroll
@@ -97,7 +104,7 @@ verifisering:
   docs/reference/vibs-verified-språkanalyse-2026-06-27.md: Språk-/guardrail-analyse (Codex-jobb)
 
 handoffs:
-  # Neste ledige nummer: 44
+  # Neste ledige nummer: 46
   docs/handoffs/26_orchestrering_ipn_kilder_nettside.md: Orkestrering kilder
   docs/handoffs/27_kildesjekk_handoff.md: Kildesjekk
   docs/handoffs/29_agy_kildeverifisering_gjennomgang_handoff.md: AGY-samordning (ga kildedommen)
@@ -115,6 +122,8 @@ handoffs:
   docs/handoffs/41_codex_perplexity-inntak_og_kildepensjonering_handoff.md: Codex-inntak av Perplexity-funn og plan for kunnskapsfiler, sperreposter og pensjonering
   docs/handoffs/42_codex_agentisk_intake_outtake_og_sintef-forberedelse_handoff.md: Agentroster, intake/outtake-pipeline og kontrollert SINTEF-forberedelse
   docs/handoffs/43_codex_finskriving_og_nytt_kildeinntak_handoff.md: Finskriving av kollegapakken og kontrollert batchinntak av nye kilder og konkurrenter
+  docs/handoffs/44_claude_v0.6-overflatepass_og_partnerkandidat_handoff.md: Claude-orkestrert 2–3 timers overflatepass for partnerlesbar v0.6
+  docs/handoffs/45_claude_v0.7-grunnlagsarbeid_og_partnerprosess_handoff.md: Blokkert grunnlagsløp fram mot v0.7 og kontrollert partnerprosess
 
 provenance:
   provenance/agents/: Agent-kjøringer (reconciliation + teamwork_preview) som produserte verifiseringen — audit trail

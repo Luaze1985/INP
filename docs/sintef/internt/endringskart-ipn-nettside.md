@@ -15,6 +15,12 @@ Den største omdømmerisikoen er formuleringer som kan forstås som at SINTEF
 allerede har kvalitetssikret VERIFIED, søknaden eller kildene. Det er ikke
 dokumentert. SINTEF-kontrollen er planlagt, og pakken er ikke sendt.
 
+Den samlede kildevurderingen står i
+`../kollegapakke/02-detaljert-arbeidsnotat.md`. Ved godkjenning skal dagens
+`site/tekstmanus.md`, `site/innhold-kanban.md` og `site/index.html` beholdes.
+Første leveranse er en ny, versjonert tekstkandidat. HTML endres bare gjennom
+en senere, separat publiseringsport.
+
 ## Tre lag som ikke må blandes
 
 | Lag | Hva hører hjemme her | Hva skal ikke inn |
@@ -80,3 +86,12 @@ godkjenning før innfletting.
 6. Hvilken kilde skal være offentlig dokumentasjon for hvert publisert faktapunkt?
 
 Ingen av forslagene i dette kartet er gjennomført i `site/`.
+
+## Krav til ny nettsidekandidat
+
+- Bare godkjente kjernekilder kan bære offentlige faktapåstander.
+- Prosjekthypoteser skrives som spørsmål som skal undersøkes.
+- Interne statusfarger, sperreposter og KI-kontrollspor publiseres ikke.
+- Hvert offentlig faktapunkt skal kunne spores tilbake til kildevurderingen.
+- Kandidaten skal ha egen versjon og sammenlignes med dagens tekstmanus før
+  eventuell innfletting.

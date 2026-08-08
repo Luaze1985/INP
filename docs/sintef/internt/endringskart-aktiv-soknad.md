@@ -13,6 +13,11 @@ Kildegrunnlaget for handlingene er Perplexity-funnene datert 2026-08-03,
 `ipn-kildebibliotek.md`, den daterte kildedommen og ord-/kildekartet. Et
 Perplexity-funn er kontrollspor, ikke autoritativ status.
 
+Den menneskevennlige, samlede vurderingen står i
+`../kollegapakke/02-detaljert-arbeidsnotat.md`. Ved godkjenning skal dette
+kartet brukes til å opprette nye versjonerte kandidater. Låst `v0.4`, dagens
+`v0.5` og kanoniske K/V-mål skal ikke overskrives som del av kildepasset.
+
 ## 1. Aktiv K/V-kandidat `soknadstekst-samlet-kandidat-v0.5.md`
 
 | Fil / linje / anker | Påstand | Kilde/status | Anbefalt handling | Grunn og senere godkjenningskrav |
@@ -96,5 +101,20 @@ Perplexity-funn er kontrollspor, ikke autoritativ status.
 6. Konkurrentutvalget er ikke komplett, og full produktdokumentasjon mangler
    særlig for Concular og ORIS.
 
-Ingen anbefalt handling i tabellene er gjennomført. Neste trinn er Lars'
-prioritering og en separat, eksplisitt godkjent tekst-/statusoppgave.
+Den avgrensede tekstoppgaven ble godkjent og gjennomført 2026-08-04 for samlet
+søknadskandidat og K3-sannhetsserum. Kanoniske K/V-filer, SoA-kandidaten,
+kildebiblioteket, kildedommen og ord-/kildekartet er ikke endret som del av
+denne oppgaven.
+
+## Opprettet etter godkjenning
+
+- samlet søknadskandidat `soknadstekst-samlet-kandidat-v0.6.md`;
+- K3-kontroll `k3-forskning-sannhetsserum-v0.6.md`;
+- obligatorisk språkport `sprakport-v0.6.md`.
+
+## Gjenstår ved endelig godkjenning
+
+- kontrollert innfletting fra `v0.6` til de kanoniske K1–K4/V1–V3-filene;
+- eventuell ny SoA-kandidat dersom den fortsatt skal brukes;
+- oppdatert kildebibliotek, kildedom og ord-/kildekart med logget beslutning;
+- oppdatering av nettsiden etter det separate endringskartet for offentlig tekst.

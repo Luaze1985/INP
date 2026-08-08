@@ -39,6 +39,16 @@ Originalene er portrett, så utsnittet er valgt per bilde slik at motivet sitter
 
 Bilde 1 og 5 brukes to ganger med ulikt utsnitt, siden det er fem originalbilder til sju seksjoner.
 
+## Teambilde (lagt inn 2026-08-07)
+
+`site/web/bilder/team-folkene-bak.webp` — tre personer ved en fjord, laget av `Referansebilder INP side
+nettside/VIBS team.JPEG` (portrett 1500×2000). Beskåret for å fjerne utblåst himmel, mild avmetning,
+skalert til 1100 px bred WebP.
+
+**Rettighet:** dette er teamets eget bilde (VIBS), i motsetning til de fem byggeplassbildene. Ingen
+kjent rettighetssperre. Vises på siden **uten navn** (Lars' beslutning 2026-08-07) — bildetekst og
+alt-tekst navngir ingen, i tråd med at v0.9 ikke navngir personer eller bekrefter konsortiet.
+
 ## Avvik fra design-briefen
 
 `site/design-brief.md` sa opprinnelig «Ingen «arbeidere som går»-klisjé». Tre av de fem bildene er

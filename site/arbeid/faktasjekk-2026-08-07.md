@@ -10,6 +10,13 @@
 > domstabellen er re-verifisert mot gjeldende `site/web/index.html`: samme fakta, samme forbehold,
 > samme modalitet — bare kortere setninger. 17 automatiske kontrollpunkter (tallene, femdelt
 > spørsmålsliste, dokumentasjonsstatus, modalitet, forbudsord) er kjørt på nytt og bekrefter dette.
+>
+> **Oppdatert samme dag — UI/UX-løft (ticket 03/04/05/08).** Rent visuelt/strukturelt, ingen nye
+> påstander. Én synlig faktaendring: **76,2 %-tallet** (rad 8 under) vises ikke lenger på siden — det
+> ble kuttet fordi det er redundant med 91,2 % (begge sier «små bedrifter dominerer»), og 91,2 % er
+> nå løftet til ett framhevet ankertall. 76,2 % er fortsatt en sann SSB-verdi i v0.9 og
+> kildebiblioteket; det er bare ikke lenger vist. Alle øvrige tall, forbehold og modalitet uendret.
+> Teambilde lagt inn uten navn (se `bilder-kilder.md`).
 
 ## Regel som er brukt
 

@@ -36,6 +36,11 @@ Mønsteret finnes allerede i `provenance/agents/` (auditor, challengers, explore
 orchestrator, sentinel) — gjenbruk strukturen `BRIEFING.md` + `progress.md` + domeneoutput ved
 større kjøringer.
 
+For research-intake, kilde-/konkurrentavstemming, SINTEF-pakker og kontrollert
+outtake gjelder den varige rollemodellen i `docs/agents/intake-outtake.md`.
+Aktive run-artefakter og mottakerutkast skal ligge under `.scratch`, ikke i
+kanoniske kilde- eller søknadsfiler.
+
 > Flere agenter gir **bredde**, ikke automatisk **sannhet**. Verifiser funn; ikke behandl
 > agent-konsensus som belegg (jf. kildereglene).
 

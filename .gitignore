@@ -27,3 +27,6 @@ tmp/
 *.pdf
 *.docx
 *.zip
+
+# Ubrukte høyoppløste bakgrunns-originaler (serveres ikke; siden bruker .jpg)
+site/mockup/kandidater/*.png

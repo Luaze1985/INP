@@ -1,11 +1,11 @@
 <!doctype html>
-<html lang="no">
+<html lang="nb">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>VERIFIED — forskningsprosjekt om løsningsvalg i bygg</title>
-  <meta name="description" content="VERIFIED utvikler og tester en måte å sammenligne alternative løsninger i tilbudsfasen — og å vise hvor sikkert grunnlaget faktisk er.">
+  <title>VERIFIED — Forskningsprosjekt</title>
+  <meta name="description" content="VERIFIED er et forskningsprosjekt som undersøker om pris, klima, levetid og kvalitet kan samles i én forklarbar score for tilbudsfasen.">
 
   <!-- Open Graph / lenke-forhåndsvisning -->
   <meta property="og:type" content="website">
@@ -13,26 +13,26 @@
   <meta property="og:site_name" content="VERIFIED">
   <meta property="og:url" content="https://ipn-verified.vercel.app/">
   <meta property="og:title" content="VERIFIED — Her er hva vi vet. Her er hva vi skal finne ut.">
-  <meta property="og:description" content="Et forskningsprosjekt om hvordan entreprenør og kunde kan sammenligne alternative løsninger, og se kvaliteten på grunnlaget de velger ut fra.">
+  <meta property="og:description" content="Forskningsprosjekt som undersøker om pris, klima, levetid og kvalitet kan samles i én forklarbar score — slik at entreprenør og kunde ser hva de velger i tilbudsfasen.">
   <meta property="og:image" content="https://ipn-verified.vercel.app/bilder/og-bilde.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="VERIFIED — Her er hva vi vet. Her er hva vi skal finne ut.">
-  <meta name="twitter:description" content="Et forskningsprosjekt om løsningsvalg i byggeprosjekter.">
+  <meta name="twitter:description" content="Forskningsprosjekt som gir entreprenør og kunde et bedre grunnlag i tilbudsfasen.">
   <meta name="twitter:image" content="https://ipn-verified.vercel.app/bilder/og-bilde.jpg">
 
-  <!-- Comfortaa (overskrifter) og Quicksand (brødtekst, fallback for Hiruko) -->
+  <!-- Import Comfortaa (headings) and Quicksand (body text fallback for Hiruko) from Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
+  
   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-  <!-- Hopp til innhold (a11y) -->
+  <!-- Accessibility skip-link -->
   <a class="skip-link" href="#main">Hopp til innhold</a>
 
-  <!-- Topplinje på mobil -->
+  <!-- Mobile Top Bar (Header) -->
   <header class="mobile-header">
     <div class="logo-area">
       <span class="verified-logo-text">VERIFIED</span>
@@ -43,7 +43,7 @@
     </button>
   </header>
 
-  <!-- Sidemeny: fast kolonne på desktop, uttrekkbar skuff på mobil -->
+  <!-- Sticky/Drawer Side Menu (aside) -->
   <aside class="side-menu" aria-label="Prosjektinfo og seksjoner" id="menu-panel">
     <div class="side-menu__header">
       <div class="logo-area">
@@ -52,244 +52,255 @@
       <button class="menu-close-btn" type="button" aria-label="Lukk meny" id="menu-close-btn">&times;</button>
     </div>
 
-    <nav class="menu-navigation">
+    <nav class="menu-navigation" aria-label="Seksjonsoversikt">
+      <!-- Section Nav linked to the 7 sections -->
       <ul class="section-nav">
         <li><a href="#sec-intro" class="nav-link active">Intro</a></li>
         <li><a href="#sec-challenge" class="nav-link">Utfordringen</a></li>
         <li><a href="#sec-what-we-know" class="nav-link">Hva vi vet</a></li>
         <li><a href="#sec-what-we-dont-know" class="nav-link">Hva vi ikke vet</a></li>
         <li><a href="#sec-what-verified-will-find-out" class="nav-link">Hva vi skal finne ut</a></li>
-        <li><a href="#sec-how-we-work" class="nav-link">Slik jobber vi</a></li>
+        <li><a href="#sec-why-us" class="nav-link">Hvorfor oss</a></li>
         <li><a href="#sec-status" class="nav-link">Status nå</a></li>
       </ul>
 
+      <!-- Project Metadata / Information -->
       <div class="project-info">
         <h2 class="project-info__title">Forskningsinfo</h2>
         <dl>
           <dt>Prosjekttype</dt>
           <dd>Innovasjonsprosjekt i næringslivet (IPN)</dd>
           <dt>Målgruppe</dt>
-          <dd>Små og mellomstore entreprenørbedrifter og deres kunder</dd>
-          <dt>Fase</dt>
-          <dd>Revidert arbeidskandidat — ikke innsendingsklar</dd>
-          <dt>Metode</dt>
-          <dd>Sammenligning etter flere kriterier, med synlig datakvalitet</dd>
+          <dd>SMB-entreprenører og boligkjøpere</dd>
+          <dt>Metodikk</dt>
+          <dd>Systematisk sammenligning av egenskaper og atferdsstudier</dd>
         </dl>
       </div>
     </nav>
+    
+    <!-- Partner Stripe in Sidebar Footer -->
+    <div class="side-menu__footer">
+      <div class="partner-stripe">
+        <span class="partner-stripe__title">IPN-Forskningsprosjekt</span>
+        <div class="partner-stripe__names">
+          <span class="partner-name">VERIFIED</span>
+          <span class="partner-sep">&bull;</span>
+          <span class="partner-name">SINTEF AS</span>
+        </div>
+      </div>
+    </div>
   </aside>
 
-  <!-- Hovedinnhold -->
+  <!-- Main Scroll Container -->
   <main id="main" class="main-container">
-
-    <!-- Seksjon 1: Intro -->
+    
+    <!-- Section 1: Hero / Intro (Image: referanse 1) -->
     <section id="sec-intro" class="story-section" style="background-image: url('bilder/01-hus-i-terreng.webp');">
       <div class="story-section__readability-overlay"></div>
-
+      
       <div class="hero-content">
-        <div class="hero-tag">IPN-forskningsprosjekt</div>
+        <div class="hero-tag">IPN-Forskningsprosjekt</div>
+        <!-- Exact Hero title -->
         <h1 class="hero-title">Her er hva vi vet.<br>Her er hva vi skal finne ut.</h1>
         <div class="hero-underline"></div>
+        <!-- Exact Hero subline -->
         <p class="hero-subtitle">
-          VERIFIED er et forskningsprosjekt om løsningsvalg i byggeprosjekter. Vi utvikler og tester en måte å sammenligne alternative løsninger på — og å vise hvor sikkert grunnlaget faktisk er.
+          VERIFIED er et forskningsprosjekt som skal utvikle en uavhengig beslutningsmodell for tilbudsfasen i små og mellomstore byggeprosjekter. Prosjektet undersøker om én forklarbar score kan samle pris, klimadata, levetid og kvalitet — slik at entreprenør og kunde ser hva de faktisk velger før tilbudet prissettes.
         </p>
         <div class="scroll-prompt">
-          <span class="scroll-prompt__text">Bla videre</span>
+          <span class="scroll-prompt__text">Scroll ned for å se status</span>
           <span class="scroll-prompt__arrow" aria-hidden="true">&darr;</span>
         </div>
       </div>
     </section>
 
-    <!-- Seksjon 2: Utfordringen -->
+    <!-- Section 2: Utfordringen (Image: referanse 2) -->
     <section id="sec-challenge" class="story-section" style="background-image: url('bilder/02-byggeplass-reisverk.webp');">
       <div class="story-section__readability-overlay"></div>
-
+      
       <div class="content-box">
         <div class="section-badge">Utfordringen</div>
-        <h2 class="section-title">Valgene tas før grunnlaget er samlet</h2>
+        <h2 class="section-title">Når forskjellene er usynlige, vinner det billigste tilbudet</h2>
         <p class="section-paragraph">
-          I små og mellomstore byggeprosjekter tas mange sentrale løsningsvalg i tilbudsfasen: entreprenøren priser jobben og foreslår alternativer. Valgene får betydning for utslipp, levetid, vedlikehold og risiko lenge etterpå.
+          I tilbudsfasen skal entreprenøren prise jobben og begrunne løsningsvalgene sine for kunden. I dag ligger data om pris, utslipp, levetid og vedlikehold spredt i ulike systemer. Mindre håndverksbedrifter har høy fagkompetanse, men mangler tid og spesialistverktøy til tunge livsløpsanalyser under tilbudspresset.
         </p>
         <p class="section-paragraph">
-          Informasjonen finnes — i produktdata, FDV-dokumentasjon, miljødeklarasjoner, levetidsdata og prislister — men ligger spredt, i ulike formater, og må ofte settes sammen for hånd.
+          Kunden får på sin side tilbud der kun prislappen er synlig, uten mulighet til å se om et dyrere valg gir lavere strømregning, lengre levetid eller mindre fuktrisiko. Resultatet er at det billigste tilbudet på papiret ofte vinner, selv når det blir det dyreste over tid.
         </p>
-        <p class="section-paragraph">
-          Når forskjellene er uklare, kan det billigste alternativet virke best for kunden — selv om det koster mer over tid.
-        </p>
+        
+        <!-- Grid layout for the facts (Google Stitch pattern) -->
+        <div class="facts-grid">
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              Vannskader kostet samfunnet <span class="accent-gold-text">5,1 milliarder kroner</span> i erstatninger i 2023, noe som tilsvarer rundt 10 skader hver eneste time.
+            </div>
+            <span class="fact-source">Kilde: Finans Norge 2023</span>
+          </div>
 
-        <div class="fact-anchor">
-          <p class="fact-anchor__support"><strong>68 359</strong> bedrifter var registrert i bygge- og anleggsnæringen 1. januar 2026.</p>
-          <p class="fact-anchor__value">91,2&nbsp;%</p>
-          <p class="fact-anchor__label">av dem hadde færre enn ti ansatte, inkludert bedrifter uten ansatte.</p>
-          <p class="section-caveat">Tallene gjelder hele bygge- og anleggsnæringen, ikke bare målgruppen til VERIFIED.</p>
-          <p class="fact-anchor__source">Kilde: SSB, tabell 10309</p>
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              Norske boliger er i snitt <span class="accent-gold-text">18 000 kr/m²</span> dyrere å bygge enn i Sverige, noe som setter marginene under ekstremt press.
+            </div>
+            <span class="fact-source">Kilde: UNION 2025</span>
+          </div>
+
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              Gjennomsnittlig driftsmargin i byggebransjen lå på kun <span class="accent-gold-text">3,3 %</span> i 2024, så feilvalg og reklamasjoner slår hardt på en presset økonomi.
+            </div>
+            <span class="fact-source">Kilde: BDO 2025</span>
+          </div>
+
+          <div class="fact-card-small">
+            <div class="fact-card-small__text">
+              I 2025 ble det registrert <span class="accent-gold-text">1 583</span> konkurser i bygg og anlegg, en tydelig indikasjon på sårbarheten i bransjen.
+            </div>
+            <span class="fact-source">Kilde: SSB / Brønnøysundregistrene 2025</span>
+          </div>
         </div>
 
-        <p class="section-paragraph">
-          Mindre entreprenørbedrifter har ofte høy fagkompetanse, men tilgangen til ressurser for livsløpsvurderinger og kostnadsanalyser over levetiden varierer, og mye av kapasiteten er bundet i produksjon. Beslutningsgrunnlaget må derfor fungere i en travel tilbudsfase, ikke bare for spesialister.
+        <p class="section-paragraph italic-text">
+          Forskning indikerer at minst halvparten av alle boliger har minst én byggefeil, med en årlig samfunnskostnad på mellom 10 og 30 milliarder kroner. (Kilde: Gullbrekken & Holme 2025)
         </p>
       </div>
     </section>
 
-    <!-- Seksjon 3: Hva vi vet i dag -->
+    <!-- Section 3: Hva vi vet i dag (Image: referanse 3) -->
     <section id="sec-what-we-know" class="story-section" style="background-image: url('bilder/03-loefter-takbjelke.webp');">
       <div class="story-section__readability-overlay"></div>
-
+      
       <div class="content-box">
-        <div class="section-badge">Hva vi vet</div>
-        <h2 class="section-title">Mye finnes allerede</h2>
+        <div class="section-badge">Hva vi vet i dag</div>
+        <h2 class="section-title">Standardene og dataene finnes — verdiscoren mangler</h2>
         <p class="section-paragraph">
-          Vi står ikke på bar bakke. Det finnes internasjonale standarder for livsløpsvurdering og livsløpskostnader, og en norsk standard for klimagassberegninger for bygninger. Flerkriterieanalyse er en etablert metode for å veie motstridende hensyn.
-        </p>
-        <p class="section-paragraph">
-          Det finnes verktøy. Norske løsninger kobler kalkyle, pris, materialmengder, produktdata og miljødeklarasjoner, og beregner og sammenligner klimagassutslipp. Internasjonale løsninger kombinerer livsløpsvurdering med livsløpskostnad, noen med synlig usikkerhet i klimatallene.
+          Etablerte standarder for klimagassberegninger og spesialistverktøy for miljødeklarasjoner (EPD) dekker deler av datagrunnlaget. Men ingen eksisterende verktøy samler pris, klimadata, levetid og kvalitet til én uavhengig verdiscore som passer i snekkerens tilbudshverdag.
         </p>
 
         <div class="fact-card-highlight">
+          <div class="fact-card-highlight__value">ca. 32 %</div>
           <p class="fact-card-highlight__text">
-            Flere av funksjonene VERIFIED skal bygge på, finnes allerede. I utvalget vi undersøkte, fant vi ingen <span class="accent-gold-text">løsning</span> som gir små norske entreprenører et samlet, etterprøvbart beslutningsgrunnlag i tilbudsfasen.
+            lavere risiko for mislighold av lån er registrert på energieffektive boliger. VERIFIED undersøker om teknisk holdbarhet og kvalitet har samme finansielle verdi for bank og forsikring.
           </p>
-          <span class="fact-source">Dette er en avgrenset gjennomgang. Den må oppdateres når underlaget utvides.</span>
+          <span class="fact-source">Kilde: Kaza 2014; Billio 2022</span>
         </div>
       </div>
     </section>
 
-    <!-- Seksjon 4: Hva vi ikke vet ennå -->
+    <!-- Section 4: Hva vi ikke vet (ennå) (Image: referanse 4) -->
     <section id="sec-what-we-dont-know" class="story-section" style="background-image: url('bilder/04-tomrer-i-reisverk.webp');">
       <div class="story-section__readability-overlay"></div>
-
+      
       <div class="content-box">
         <div class="section-badge">Åpne forskningsspørsmål</div>
-        <h2 class="section-title">Det viktigste er fortsatt åpent</h2>
+        <h2 class="section-title">Det prosjektet skal besvare</h2>
         <p class="section-paragraph">
-          Dette er ikke svakheter ved prosjektet. Det er derfor forskning.
+          Dette er forskningsfronten. Vi har dokumenterte gap i kunnskapen som dette prosjektet skal tette:
         </p>
-
+        
         <ul class="research-questions-list">
           <li>
-            <strong>Kan datatypene kobles?</strong> Eksisterende løsninger dekker hver sin del. En samlet løsning er ikke dokumentert i vårt utvalg.
+            <strong>Data i tilbudsfasen:</strong> Hvilke miljø- og levetidsdata kan samles inn tidlig nok, uten at tilbudsarbeidet blir for tungt for små bedrifter?
           </li>
           <li>
-            <strong>Kan små bedrifter bruke det?</strong> Ressursbehov og anvendbarhet er ikke tilstrekkelig dokumentert.
+            <strong>Vektlegging under usikkerhet:</strong> Hvordan bør en modell veie pris, klimadata og levetid sammen når datakvaliteten varierer?
           </li>
           <li>
-            <strong>Vises usikkerheten godt nok?</strong> Ett verktøy viser usikkerhet i karbontall, men ikke gjennomgående på tvers av alle kriterier.
+            <strong>Beslutningseffekt:</strong> Endrer entreprenør og kunde valg i praksis når usikkerhet og kvalitet vises åpent i tilbudet?
           </li>
           <li>
-            <strong>Endrer grunnlaget valget?</strong> Vi fant ingen dokumentert metode for å måle om et slikt grunnlag endret eller bekreftet valget.
-          </li>
-          <li>
-            <strong>Kan skadevirkninger fanges opp?</strong> En samlet behandling av klima, levetid, vedlikehold, ombruk, dokumentasjonskvalitet og teknisk risiko er ikke dokumentert i gjennomgangen.
+            <strong>Finansiell verdi:</strong> Betyr dokumentert kvalitet og økt holdbarhet lavere finansiell risiko for bank og forsikring?
           </li>
         </ul>
       </div>
     </section>
 
-    <!-- Seksjon 5: Hva VERIFIED skal finne ut -->
+    <!-- Section 5: Hva VERIFIED skal finne ut (Image: referanse 5) -->
     <section id="sec-what-verified-will-find-out" class="story-section" style="background-image: url('bilder/05-vindsperre-montering.webp');">
       <div class="story-section__readability-overlay"></div>
-
+      
       <div class="content-box">
         <div class="section-badge">Arbeidet</div>
-        <h2 class="section-title">Fra spredt informasjon til et grunnlag som kan etterprøves</h2>
+        <h2 class="section-title">Fra spredte data til en forklarbar verdiscore</h2>
         <p class="section-paragraph">
-          Hovedmålet er å utvikle og teste en forskningsbasert beslutningsmodell for å sammenligne alternative løsninger og tilbud i små og mellomstore byggeprosjekter — etter faste vurderingskriterier, og med synlig kvalitet og usikkerhet i datagrunnlaget.
+          VERIFIED skal utvikle en uavhengig beslutningsmodell som skal veie pris, utslipp, levetid, vedlikehold og risiko sammen. Modellen skal ikke skjule usikkerhet, men synliggjøre svak dokumentasjon slik at avgjørelsene blir tryggere.
         </p>
         <p class="section-paragraph">
-          Prosjektet skal kartlegge datakilder, utvikle en åpen og begrunnet modell, teste hvordan forskjeller og usikkerhet bør vises, og prøve modellens nytte i konkrete løsningsvalg.
+          Målet er at entreprenøren kan begrunne et bedre valg, og at kunden kan se hvorfor det er bedre — slik at det beste tilbudet vinner, ikke bare det billigste.
         </p>
         <p class="section-paragraph">
-          Vi skal ikke bare bygge en modell, men teste om den blir forstått, hvordan den brukes, og om den endrer eller bekrefter valget. Det er forskningsarbeidet.
+          En egen del av forskningen handler om penger. Vi vet at energieffektive boliger har lavere risiko for mislighold av lån — men ingen har vist det samme for byggteknisk kvalitet og holdbarhet. Sammen med finans- og forsikringsaktører skal vi undersøke om bedre dokumentert kvalitet kan gi tryggere lånevilkår.
         </p>
-
-        <div class="research-context-box">
-          <span class="context-box-tag">Avgrenset bankspor</span>
-          <p class="context-box-text">
-            Forskning på nederlandske boliglånsdata knytter energieffektivitet i bygg til lavere sannsynlighet for mislighold — men ikke til byggteknisk kvalitet, levetid eller vedlikeholdsdata.
-          </p>
-          <p class="context-box-text">
-            En avgrenset pilot skal undersøke om denne dokumentasjonen er nyttig tilleggsinformasjon for et konkret behov som banken selv må definere på forhånd, i sin risikovurdering. Prosjektet forutsetter ikke at informasjonen forbedrer risikovurderingen — det er nettopp det som skal undersøkes.
-          </p>
-        </div>
+        <p class="section-paragraph">
+          Vi skal ikke bare bygge en modell. Vi skal teste om den blir forstått, om den brukes, og om den faktisk påvirker valg. Det er forskningsarbeidet.
+        </p>
       </div>
     </section>
 
-    <!-- Seksjon 6: Slik jobber vi -->
-    <section id="sec-how-we-work" class="story-section" style="background-image: url('bilder/06-byggeplass-detalj.webp');">
+    <!-- Section 6: Hvorfor vi er de rette (Image: kandidat-6.jpg - arkitekttegning) -->
+    <section id="sec-why-us" class="story-section" style="background-image: url('bilder/06-byggeplass-detalj.webp');">
       <div class="story-section__readability-overlay"></div>
-
+      
       <div class="content-box">
-        <div class="section-badge">Metode</div>
-        <h2 class="section-title">Svake data skal være synlige, ikke bortgjemt</h2>
+        <div class="section-badge">Gjennomføring</div>
+        <h2 class="section-title">Et tverrfaglig samarbeid i byggesektoren</h2>
         <p class="section-paragraph">
-          Arbeidet er planlagt stegvis: første versjon av modellen, utprøving i konkrete løsningsvalg, analyse, justering. Endelig forskningsdesign utformes sammen med forskningspartneren.
+          Prosjektet forutsetter et tett samarbeid mellom forskningsmiljø, utførende entreprenører og aktører som forvalter bygnings- og finansdata.
         </p>
-
-        <ol class="method-steps">
-          <li>
-            <strong>Hver opplysning skal få en status.</strong> Vi skal registrere kilde, alder, enhet og produktnivå — og vise om den mangler, bygger på generelle data, er estimert eller verifisert. Reglene settes før utprøvingen og gjelder likt for alle. Slik forsvinner ikke svake data i en totalscore.
-          </li>
-          <li>
-            <strong>Et minste informasjonsgrunnlag.</strong> Vi skal definere hvor mye som trengs for en faglig forsvarlig sammenligning. Er grunnlaget for tynt, vises det tydelig.
-          </li>
-          <li>
-            <strong>Teknisk egnethet er en faglig port.</strong> Lavt beregnet klimagassutslipp er ikke nok ved svak fuktrobusthet, kort eller usikker levetid, stort vedlikeholdsbehov eller mangelfull dokumentasjon.
-          </li>
-          <li>
-            <strong>Vi skiller mellom fire slags påstander.</strong> Vi <em>måler</em> det som kan observeres, <em>beregner</em> modellresultater, <em>estimerer</em> framtidige eller usikre størrelser, lar <em>faglig skjønn</em> avgjøre ved behov, og sier <em>undersøker</em> når metoden ikke er valgt.
-          </li>
-        </ol>
-
         <p class="section-paragraph">
-          Selve beslutningen og ansvaret ligger fortsatt hos entreprenør og kunde. Modellen velger ikke.
+          SINTEF AS leder det faglige arbeidet med verifiseringsmodellen, analysemetodikk og vitenskapelig kvalitetssikring.
         </p>
+        <p class="section-paragraph">
+          Roller og fagområder i prosjektet:
+        </p>
+        <ul class="consortium-list">
+          <li><strong>Forskningspartner (SINTEF AS)</strong> — forskning, verifisering og faglige metoder</li>
+          <li><strong>Utførende entreprenører &amp; håndverkere</strong> — testarena for praktisk bruk i tilbudsfasen</li>
+          <li><strong>Produkt- og dataeiere</strong> — tilgang til EPD, produktdata og dokumentasjon</li>
+          <li><strong>Finans &amp; forsikring</strong> — utforsker koblingen mellom teknisk kvalitet og finansiell risiko</li>
+          <li><strong>Kommunale pilotarenaer</strong> — testflate for byggeprosjekter og kravstilling</li>
+        </ul>
       </div>
     </section>
 
-    <!-- Seksjon 7: Status nå -->
+    <!-- Section 7: Status nå (Image: kandidat-7.jpg - råbetong) -->
     <section id="sec-status" class="story-section" style="background-image: url('bilder/07-hus-ferdig.webp');">
       <div class="story-section__readability-overlay"></div>
-
+      
       <div class="content-box">
         <div class="section-badge">Status nå</div>
-        <h2 class="section-title">Hvor arbeidet står</h2>
+        <h2 class="section-title">Veien videre</h2>
         <p class="section-paragraph">
-          Søknadsteksten foreligger som en revidert arbeidskandidat. Den er ikke innsendingsklar.
+          VERIFIED har kartlagt forskningsfronten og identifisert kunnskapsgapene som prosjektet skal tette. Søknadsprosessen pågår, og vi planlegger pilotprosjekter med entreprenører, finans- og forsikringsaktører og kommuner.
         </p>
-
-        <ul class="remaining-list">
-          <li>Konsortium og rollefordeling er ikke bekreftet.</li>
-          <li>Arbeidspakker, milepæler, budsjett og risiko krever partnerinformasjon og er ikke ferdigstilt.</li>
-          <li>Vurdering av kjemikalier, sosiale forhold og andre skadevirkninger må kompletteres med fagpartnerne.</li>
-          <li>Måleparametere for om grunnlaget endrer valg er ikke fastlagt på forhånd. Prosjektet skal utvikle og teste dem.</li>
-          <li>Endelig avgrensning av målgruppen, forskningsdesign og metodevalg gjenstår.</li>
-        </ul>
-
         <p class="section-paragraph">
-          Vi legger dette ut fordi et prosjekt om synlig datakvalitet bør tåle å vise sin egen.
+          SINTEF starter kvalitetssikringen av det vitenskapelige grunnlaget i <strong>midten av august 2026</strong>. Alle data og påstander på denne siden vil da løpende kvalitetssikres mot originale kilder for å sikre full gjennomsiktighet.
         </p>
-
-      </div>
-    </section>
-
-    <!-- Teamblokk: rolig avslutning, tre personer, uten navn -->
-    <section id="sec-team" class="team-block">
-      <div class="team-block__inner">
-        <figure class="team-block__figure">
-          <img class="team-block__img" src="bilder/team-folkene-bak.webp" width="1100" height="1178" loading="lazy"
-               alt="Tre av personene bak VERIFIED, fotografert ute ved en fjord.">
-        </figure>
-        <div class="team-block__text">
-          <p class="team-block__eyebrow">Folkene bak</p>
-          <p class="team-block__lead">Et initiativ fra folk i byggenæringen.</p>
+        
+        <div class="cta-area cta-area--multi">
+          <a href="mailto:kontakt@verified.no" class="cta-button cta-button--primary">Kontakt prosjektet</a>
           <a href="#sec-intro" class="cta-button">Tilbake til toppen</a>
         </div>
       </div>
     </section>
 
+    <!-- Footer: lagbilde fra Listers kapitaldag + foto-kreditt -->
+    <footer class="page-footer">
+      <figure class="footer-photo">
+        <p class="footer-photo__eyebrow">Folkene bak</p>
+        <a class="footer-photo__link" href="https://www.listernyskaping.no/det-skjer-i-lister/fulltreffer-for-frste-kapitaldag-i-lister" target="_blank" rel="noopener noreferrer">
+          <img class="footer-photo__img" src="bilder/team-folkene-bak.webp" width="2500" height="1875" loading="lazy"
+               alt="Fire av personene bak VERIFIED på Listers første kapitaldag: Christine Reinertsen, Lars Erik Brekne Johnsen, Bjørn Skeime og Lars Gunnar Stokke.">
+        </a>
+        <figcaption class="footer-photo__caption">
+          Bildet viser Christine Reinertsen, Lars Erik Brekne Johnsen, Bjørn Skeime og Lars Gunnar Stokke.
+          <span class="footer-photo__credit">Bildet: <a href="https://www.listernyskaping.no/det-skjer-i-lister/fulltreffer-for-frste-kapitaldag-i-lister" target="_blank" rel="noopener noreferrer">Lister Nyskaping</a></span>
+        </figcaption>
+      </figure>
+    </footer>
+
   </main>
 
-  <!-- Skuffemeny på mobil + markering av aktiv seksjon -->
+  <!-- Tiny interactive JavaScript for the mobile drawer menu -->
   <script>
     document.addEventListener('DOMContentLoaded', () => {
       const body = document.body;
@@ -298,6 +309,7 @@
       const navLinks = document.querySelectorAll('.nav-link');
       const sections = document.querySelectorAll('.story-section');
 
+      // Mobile Menu Toggle
       const openMenu = () => {
         body.classList.add('menu-open');
         toggleBtn.setAttribute('aria-expanded', 'true');
@@ -311,6 +323,7 @@
       toggleBtn.addEventListener('click', openMenu);
       closeBtn.addEventListener('click', closeMenu);
 
+      // Close menu when clicking a link
       navLinks.forEach(link => {
         link.addEventListener('click', () => {
           closeMenu();
@@ -319,16 +332,27 @@
         });
       });
 
+      // Scrollspy active class synchronization
+      const observerOptions = {
+        root: null,
+        rootMargin: '-50% 0px -50% 0px',
+        threshold: 0
+      };
+
       const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
           if (entry.isIntersecting) {
             const id = entry.target.getAttribute('id');
             navLinks.forEach(link => {
-              link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+              if (link.getAttribute('href') === `#${id}`) {
+                link.classList.add('active');
+              } else {
+                link.classList.remove('active');
+              }
             });
           }
         });
-      }, { root: null, rootMargin: '-50% 0px -50% 0px', threshold: 0 });
+      }, observerOptions);
 
       sections.forEach(section => observer.observe(section));
     });

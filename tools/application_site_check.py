@@ -36,8 +36,9 @@ DEFAULT_HTML = REPO_ROOT / "site/web/index.html"
 WORD_RE = re.compile(r"[^\W_]+", re.UNICODE)
 NUMBER_RE = re.compile(
     r"(?<![\w])(?:~|ca\.\s*)?\d{1,3}(?:[ .\u00a0]\d{3})+(?:[,.]\d+)?"
-    r"|(?<![\w])(?:~|ca\.\s*)?\d+[,.]\d+\s*%?"
-    r"|(?<![\w])\d+\s*%",
+    r"|(?<![\w])(?:~|ca\.\s*)?\d+[,.]\d+\s*(?:%|prosent)?"
+    r"|(?<![\w])\d+\s*%"
+    r"|(?<![\w])\d+\s*(?:skader?|mrd\.?|milliarder?|millioner?|mnok|kroner?|kr\b)",
     re.IGNORECASE,
 )
 ENTITY_RE = re.compile(
@@ -69,7 +70,9 @@ class Report:
     application: str
     manuscript: str
     website: str
+    application_manuscript_overlap: float
     manuscript_html_overlap: float
+    html_manuscript_overlap: float
     findings: list[Finding]
 
     @property
@@ -126,7 +129,15 @@ def active_manuscript(markdown: str) -> str:
         if (pos := markdown.find(marker, start)) != -1
     ]
     end = min(endpoints) if endpoints else len(markdown)
-    return markdown[start:end]
+    active = markdown[start:end]
+    # These are editorial instructions about deliberately hidden elements, not
+    # public copy. Keeping them would make removed claims look active.
+    active = re.sub(
+        r"(?m)^\*\*(?:Partnerstripe|Søknadsramme|Alt-strategi):\*\*.*(?:\n(?!\n).*)*",
+        "",
+        active,
+    )
+    return active
 
 
 def markdown_to_text(markdown: str) -> str:
@@ -164,9 +175,38 @@ def shingle_overlap(expected: str, actual: str, size: int = 4) -> float:
     return len(expected_shingles & actual_shingles) / len(expected_shingles)
 
 
+def unsupported_sentences(text: str, reference: str, *, size: int = 4) -> list[str]:
+    """Return substantial sentences with no exact phrase anchor in reference."""
+    reference_words = normalized_words(reference)
+    reference_shingles = {
+        tuple(reference_words[index : index + size])
+        for index in range(max(0, len(reference_words) - size + 1))
+    }
+    candidates = re.split(r"(?<=[.!?])\s+|\n+", text)
+    unsupported: list[str] = []
+    seen: set[str] = set()
+    for candidate in candidates:
+        candidate = re.sub(r"\s+", " ", candidate).strip(" -–—:;")
+        words = normalized_words(candidate)
+        if len(words) < 8:
+            continue
+        shingles = {
+            tuple(words[index : index + size])
+            for index in range(len(words) - size + 1)
+        }
+        if shingles & reference_shingles:
+            continue
+        folded = candidate.casefold()
+        if folded not in seen:
+            seen.add(folded)
+            unsupported.append(candidate)
+    return unsupported
+
+
 def normalize_number(value: str) -> str:
     value = value.casefold().replace("\u00a0", " ")
     value = re.sub(r"^(?:~|ca\.\s*)", "", value)
+    value = value.replace("prosent", "%")
     value = value.replace(" ", "").replace(".", "").replace(",", ".")
     return value
 
@@ -208,6 +248,7 @@ def compare(
     website_path: Path,
     *,
     minimum_overlap: float = 0.55,
+    minimum_application_overlap: float = 0.10,
 ) -> Report:
     paths = [application_path, manuscript_path, website_path]
     missing = [path for path in paths if not path.is_file()]
@@ -216,7 +257,9 @@ def compare(
             Finding("error", "input", rel(path), rel(path), "Canonical input is missing")
             for path in missing
         ]
-        return Report(rel(application_path), rel(manuscript_path), rel(website_path), 0.0, findings)
+        return Report(
+            rel(application_path), rel(manuscript_path), rel(website_path), 0.0, 0.0, 0.0, findings
+        )
 
     application_source = read_text(application_path)
     manuscript_source = read_text(manuscript_path)
@@ -226,15 +269,49 @@ def compare(
     website_text = html_to_text(website_source)
 
     findings: list[Finding] = []
-    overlap = shingle_overlap(manuscript_text, website_text)
-    if overlap < minimum_overlap:
+    application_overlap = shingle_overlap(manuscript_text, application_text)
+    manuscript_overlap = shingle_overlap(manuscript_text, website_text)
+    html_overlap = shingle_overlap(website_text, manuscript_text)
+    if application_overlap < minimum_application_overlap:
+        findings.append(
+            Finding(
+                "error",
+                "application-manuscript-overlap",
+                f"{application_overlap:.1%}",
+                rel(manuscript_path),
+                "Active manuscript has too little deterministic phrase support in the application",
+            )
+        )
+    if manuscript_overlap < minimum_overlap:
         findings.append(
             Finding(
                 "error",
                 "manuscript-html-overlap",
-                f"{overlap:.1%}",
+                f"{manuscript_overlap:.1%}",
                 rel(website_path),
                 f"Website matches less than {minimum_overlap:.0%} of the active manuscript",
+            )
+        )
+    if html_overlap < minimum_overlap:
+        findings.append(
+            Finding(
+                "error",
+                "html-manuscript-overlap",
+                f"{html_overlap:.1%}",
+                rel(website_path),
+                f"Less than {minimum_overlap:.0%} of public HTML is anchored in the manuscript",
+            )
+        )
+
+    for sentence in unsupported_sentences(website_text, manuscript_text):
+        line = first_line_containing(website_source, sentence[:40])
+        findings.append(
+            Finding(
+                "error",
+                "unsupported-prose-website",
+                sentence,
+                f"{rel(website_path)}:{line}",
+                "Public sentence has no four-word phrase anchor in the active manuscript",
             )
         )
 
@@ -258,24 +335,31 @@ def compare(
                 )
 
     application_folded = application_text.casefold()
-    for entity in sorted(entities(website_text)):
-        if entity.casefold() not in application_folded:
-            line = first_line_containing(website_source, entity)
-            findings.append(
-                Finding(
-                    "warning",
-                    "unmatched-name",
-                    entity,
-                    f"{rel(website_path)}:{line}",
-                    "Public name or organization does not occur in the application text; review it",
+    entity_inputs = (
+        ("manuscript", manuscript_source, manuscript_text, manuscript_path),
+        ("website", website_source, website_text, website_path),
+    )
+    for label, source, text, path in entity_inputs:
+        for entity in sorted(entities(text)):
+            if entity.casefold() not in application_folded:
+                line = first_line_containing(source, entity)
+                findings.append(
+                    Finding(
+                        "error",
+                        f"unmatched-name-{label}",
+                        entity,
+                        f"{rel(path)}:{line}",
+                        "Name or organization does not occur in the application text",
+                    )
                 )
-            )
 
     return Report(
         rel(application_path),
         rel(manuscript_path),
         rel(website_path),
-        overlap,
+        application_overlap,
+        manuscript_overlap,
+        html_overlap,
         findings,
     )
 
@@ -285,7 +369,9 @@ def report_payload(report: Report) -> dict[str, object]:
         "application": report.application,
         "manuscript": report.manuscript,
         "website": report.website,
+        "application_manuscript_overlap": round(report.application_manuscript_overlap, 4),
         "manuscript_html_overlap": round(report.manuscript_html_overlap, 4),
+        "html_manuscript_overlap": round(report.html_manuscript_overlap, 4),
         "blocking_count": report.blocking_count,
         "finding_count": len(report.findings),
         "findings": [asdict(finding) for finding in report.findings],
@@ -297,7 +383,9 @@ def print_human(report: Report) -> None:
     print(f"Application: {report.application}")
     print(f"Manuscript:  {report.manuscript}")
     print(f"Website:     {report.website}")
+    print(f"Application/manuscript overlap: {report.application_manuscript_overlap:.1%}")
     print(f"Manuscript/HTML overlap: {report.manuscript_html_overlap:.1%}")
+    print(f"HTML/manuscript overlap: {report.html_manuscript_overlap:.1%}")
     if not report.findings:
         print("OK: no deterministic drift found")
         return
@@ -316,6 +404,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--manuscript", type=Path, default=DEFAULT_MANUSCRIPT)
     parser.add_argument("--website", type=Path, default=DEFAULT_HTML)
     parser.add_argument("--minimum-overlap", type=float, default=0.55)
+    parser.add_argument("--minimum-application-overlap", type=float, default=0.10)
     parser.add_argument("--json", action="store_true")
     parser.add_argument("--report", type=Path, help="Write the same JSON payload to a file")
     return parser
@@ -325,14 +414,15 @@ def main(argv: Sequence[str] | None = None) -> int:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8")
     args = build_parser().parse_args(argv)
-    if not 0 <= args.minimum_overlap <= 1:
-        print("--minimum-overlap must be between 0 and 1", file=sys.stderr)
+    if not 0 <= args.minimum_overlap <= 1 or not 0 <= args.minimum_application_overlap <= 1:
+        print("overlap thresholds must be between 0 and 1", file=sys.stderr)
         return 2
     report = compare(
         args.application,
         args.manuscript,
         args.website,
         minimum_overlap=args.minimum_overlap,
+        minimum_application_overlap=args.minimum_application_overlap,
     )
     payload = report_payload(report)
     if args.report:

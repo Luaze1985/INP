@@ -24,6 +24,17 @@ class ApplicationSiteCheckTests(unittest.TestCase):
         self.assertIn("Aktiv tekst", active)
         self.assertNotIn("32 %", active)
 
+    def test_active_manuscript_excludes_hidden_editorial_copy(self) -> None:
+        source = """## Seksjon 1 - Intro
+Aktiv tekst.
+**Søknadsramme:** vises ikke. Rammen er 1-16 MNOK.
+## Flyt og budskap
+Internt.
+"""
+        active = application_site_check.active_manuscript(source)
+        self.assertIn("Aktiv tekst", active)
+        self.assertNotIn("16 MNOK", active)
+
     def test_html_parser_includes_metadata_and_alt_text(self) -> None:
         source = """<meta name="description" content="Offentlig beskrivelse">
         <style>hemmelig</style><img alt="Synlig alternativ"><p>Brødtekst</p>"""
@@ -91,6 +102,45 @@ class ApplicationSiteCheckTests(unittest.TestCase):
                 app, manuscript, website, minimum_overlap=0.5
             )
             self.assertEqual(report.blocking_count, 0)
+
+    def test_unmatched_name_is_blocking(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            app = root / "app.md"
+            manuscript = root / "manus.md"
+            website = root / "index.html"
+            copy = "Prosjektet tester en modell som skal brukes i tilbudsfasen."
+            app.write_text(copy, encoding="utf-8")
+            manuscript.write_text("## Seksjon 1 - Intro\n" + copy, encoding="utf-8")
+            website.write_text(f"<p>{copy}</p><p>SINTEF AS deltar.</p>", encoding="utf-8")
+            report = application_site_check.compare(
+                app, manuscript, website, minimum_overlap=0
+            )
+            self.assertTrue(
+                any(f.check == "unmatched-name-website" for f in report.findings)
+            )
+            self.assertGreater(report.blocking_count, 0)
+
+    def test_extra_public_sentence_is_blocking(self) -> None:
+        manuscript = "Prosjektet tester en modell som skal brukes i tilbudsfasen."
+        website = (
+            manuscript
+            + " Banken har allerede bekreftet at modellen gir lavere økonomisk risiko."
+        )
+        unsupported = application_site_check.unsupported_sentences(website, manuscript)
+        self.assertEqual(
+            unsupported,
+            ["Banken har allerede bekreftet at modellen gir lavere økonomisk risiko."],
+        )
+
+    def test_plain_integer_with_unit_is_extracted(self) -> None:
+        values = application_site_check.numbers("Det skjer rundt 10 skader hver time.")
+        self.assertIn("10skader", values)
+
+    def test_percent_word_and_symbol_normalize_equally(self) -> None:
+        word = application_site_check.numbers("91,2 prosent")
+        symbol = application_site_check.numbers("91,2 %")
+        self.assertEqual(set(word), set(symbol))
 
     def test_low_overlap_is_blocking(self) -> None:
         overlap = application_site_check.shingle_overlap(

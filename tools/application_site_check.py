@@ -38,21 +38,30 @@ NUMBER_RE = re.compile(
     r"(?<![\w])(?:~|ca\.\s*)?\d{1,3}(?:[ .\u00a0]\d{3})+(?:[,.]\d+)?"
     r"|(?<![\w])(?:~|ca\.\s*)?\d+[,.]\d+\s*(?:%|prosent)?"
     r"|(?<![\w])\d+\s*%"
-    r"|(?<![\w])\d+\s*(?:skader?|mrd\.?|milliarder?|millioner?|mnok|kroner?|kr\b)",
+    r"|(?<![\w])\d+\s*[-–]\s*\d+(?:\s*%|\s+[a-zæøå]+)?"
+    r"|(?<![\w])\d+\s*(?:skader?|bedrifter?|banker?|år|ansatte|timer?|personer?|"
+    r"boliger?|prosjekter?|mrd\.?|milliarder?|millioner?|mnok|kroner?|kr\b)",
     re.IGNORECASE,
 )
 ENTITY_RE = re.compile(
     r"\b(?:[A-ZÆØÅ][\wÆØÅæøå-]+(?:[ \t]+|/|&)){1,3}[A-ZÆØÅ][\wÆØÅæøå-]+\b"
+    r"|\b[A-ZÆØÅ]{2,}\b"
 )
 
 # Common labels and sentence starts are not useful named-entity candidates.
 ENTITY_STOPWORDS = {
+    "CTA",
     "IPN Forskningsprosjekt",
     "Hva VERIFIED",
     "Her Her",
     "Kilde Finans Norge",
     "Kilde SSB",
     "Kilde BDO",
+}
+
+PUBLIC_INTERFACE_ALLOWLIST = {
+    "hopp til innhold",
+    "prosjektinfo og seksjoner",
 }
 
 
@@ -175,26 +184,20 @@ def shingle_overlap(expected: str, actual: str, size: int = 4) -> float:
     return len(expected_shingles & actual_shingles) / len(expected_shingles)
 
 
-def unsupported_sentences(text: str, reference: str, *, size: int = 4) -> list[str]:
-    """Return substantial sentences with no exact phrase anchor in reference."""
-    reference_words = normalized_words(reference)
-    reference_shingles = {
-        tuple(reference_words[index : index + size])
-        for index in range(max(0, len(reference_words) - size + 1))
-    }
+def unsupported_sentences(text: str, reference: str) -> list[str]:
+    """Return claim-like sentences not present in full in the reference."""
+    reference_normalized = " ".join(normalized_words(reference))
     candidates = re.split(r"(?<=[.!?])\s+|\n+", text)
     unsupported: list[str] = []
     seen: set[str] = set()
     for candidate in candidates:
         candidate = re.sub(r"\s+", " ", candidate).strip(" -–—:;")
         words = normalized_words(candidate)
-        if len(words) < 8:
+        if len(words) < 3:
             continue
-        shingles = {
-            tuple(words[index : index + size])
-            for index in range(len(words) - size + 1)
-        }
-        if shingles & reference_shingles:
+        if candidate.casefold() in PUBLIC_INTERFACE_ALLOWLIST:
+            continue
+        if " ".join(words) in reference_normalized:
             continue
         folded = candidate.casefold()
         if folded not in seen:
@@ -311,7 +314,7 @@ def compare(
                 "unsupported-prose-website",
                 sentence,
                 f"{rel(website_path)}:{line}",
-                "Public sentence has no four-word phrase anchor in the active manuscript",
+                "Public sentence is not present in full in the active manuscript",
             )
         )
 

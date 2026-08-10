@@ -133,6 +133,24 @@ Internt.
             ["Banken har allerede bekreftet at modellen gir lavere økonomisk risiko."],
         )
 
+    def test_supported_prefix_does_not_hide_unsupported_suffix(self) -> None:
+        manuscript = "Prosjektet tester en modell i tilbudsfasen."
+        website = (
+            "Prosjektet tester en modell i tilbudsfasen og velger automatisk for kunden."
+        )
+        self.assertEqual(
+            application_site_check.unsupported_sentences(website, manuscript),
+            [website],
+        )
+
+    def test_short_unsupported_claim_is_detected(self) -> None:
+        self.assertEqual(
+            application_site_check.unsupported_sentences(
+                "Banken har godkjent modellen.", "Prosjektet tester modellen."
+            ),
+            ["Banken har godkjent modellen."],
+        )
+
     def test_plain_integer_with_unit_is_extracted(self) -> None:
         values = application_site_check.numbers("Det skjer rundt 10 skader hver time.")
         self.assertIn("10skader", values)
@@ -141,6 +159,9 @@ Internt.
         word = application_site_check.numbers("91,2 prosent")
         symbol = application_site_check.numbers("91,2 %")
         self.assertEqual(set(word), set(symbol))
+
+    def test_single_token_organization_is_extracted(self) -> None:
+        self.assertIn("SINTEF", application_site_check.entities("SINTEF deltar i arbeidet."))
 
     def test_low_overlap_is_blocking(self) -> None:
         overlap = application_site_check.shingle_overlap(

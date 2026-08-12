@@ -1,5 +1,5 @@
 /*
-  mockup-styles.css — INNHOLDSTRO DESIGN-MOCKUP
+  styles.css — INNHOLDSTRO STATUSSIDE
   -----------------------------------------------
   Stiler basert på VIBS merkevareguide og Handoff #31:
   - Fargepalett: navy-sort (#11111f) base, gull (#ffc600) aksenter, hvit tekst.
@@ -289,7 +289,7 @@ body.menu-open .side-menu {
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 0;
 }
 
 /* 4. Hero Section */
@@ -305,6 +305,7 @@ body.menu-open .side-menu {
   letter-spacing: 0.25em;
   color: var(--color-gold);
   font-weight: 600;
+  margin-bottom: 0.7rem;
 }
 
 .hero-title {
@@ -313,6 +314,7 @@ body.menu-open .side-menu {
   font-weight: 700;
   color: var(--color-text-white);
   line-height: 1.3;
+  margin-bottom: 0.9rem;
 }
 
 .hero-underline {
@@ -320,6 +322,7 @@ body.menu-open .side-menu {
   height: 3px;
   background-color: var(--color-gold);
   border-radius: 2px;
+  margin-bottom: 1.2rem;
 }
 
 .hero-subtitle {
@@ -331,7 +334,7 @@ body.menu-open .side-menu {
 }
 
 .scroll-prompt {
-  margin-top: 2rem;
+  margin-top: 1.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -377,6 +380,7 @@ body.menu-open .side-menu {
   border-radius: 6px;
   font-weight: 600;
   background: rgba(255, 198, 0, 0.02);
+  margin-bottom: 0.7rem;
 }
 
 .section-title {
@@ -385,6 +389,7 @@ body.menu-open .side-menu {
   font-weight: 700;
   color: var(--color-text-white);
   line-height: 1.25;
+  margin-bottom: 1.2rem;
 }
 
 .section-paragraph {
@@ -392,6 +397,11 @@ body.menu-open .side-menu {
   color: rgba(246, 240, 226, 0.85);
   font-weight: 400;
   line-height: 1.65;
+  max-width: 62ch;
+}
+
+.section-paragraph + .section-paragraph {
+  margin-top: 0.85rem;
 }
 
 /* Google Stitch Card Layout - small fact cards */
@@ -644,7 +654,7 @@ body.menu-open .side-menu {
   
   .content-box {
     max-width: 700px;
-    gap: 1.75rem;
+    gap: 0;
   }
   
   .section-title {
@@ -692,21 +702,60 @@ body.menu-open .side-menu {
 }
 #sec-what-we-dont-know .section-badge::before { content: "?\00a0"; }
 
-/* Konsistent dempet bildetone: navy-monokrom (duotone-lean) via blend + varm overlay */
+/* Samme grunnbehandling for alle hovedbilder: naturlige, lett dempede farger.
+   Gradientene brukes bare for lesbarhet og kan følge tekstplasseringen. */
 .story-section {
-  background-color: #232336;
-  background-blend-mode: luminosity;
+  background-color: transparent;
+  background-blend-mode: normal;
 }
 .story-section__readability-overlay {
   background:
-    linear-gradient(180deg, rgba(17, 17, 31, 0.55) 0%, rgba(17, 17, 31, 0.75) 100%),
+    linear-gradient(180deg, rgba(17, 17, 31, 0.65) 0%, rgba(17, 17, 31, 0.85) 100%),
     radial-gradient(circle at 70% 28%, rgba(255, 198, 0, 0.06) 0%, rgba(255, 198, 0, 0) 55%);
 }
+
+#sec-what-we-know {
+  background-position: center;
+}
+
+#sec-what-verified-will-find-out {
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  #sec-what-we-know {
+    background-position: 60% center;
+  }
+  #sec-what-verified-will-find-out {
+    background-position: 40% center;
+  }
+}
+
 @media (min-width: 1024px) {
   .story-section__readability-overlay {
     background:
       linear-gradient(90deg, rgba(17, 17, 31, 0.88) 0%, rgba(17, 17, 31, 0.45) 55%, rgba(17, 17, 31, 0.68) 100%),
       radial-gradient(circle at 75% 25%, rgba(255, 198, 0, 0.07) 0%, rgba(255, 198, 0, 0) 50%);
+  }
+
+  /* Seksjon 3: Venstrestilt med mørk gradient fra venstre */
+  #sec-what-we-know {
+    justify-content: flex-start;
+  }
+  #sec-what-we-know .story-section__readability-overlay {
+    background:
+      linear-gradient(90deg, rgba(17, 17, 31, 0.92) 0%, rgba(17, 17, 31, 0.55) 55%, rgba(17, 17, 31, 0.25) 100%),
+      radial-gradient(circle at 75% 25%, rgba(255, 198, 0, 0.07) 0%, rgba(255, 198, 0, 0) 50%);
+  }
+
+  /* Seksjon 5: Høyrestilt med mørk gradient fra høyre */
+  #sec-what-verified-will-find-out {
+    justify-content: flex-end;
+  }
+  #sec-what-verified-will-find-out .story-section__readability-overlay {
+    background:
+      linear-gradient(270deg, rgba(17, 17, 31, 0.92) 0%, rgba(17, 17, 31, 0.55) 55%, rgba(17, 17, 31, 0.25) 100%),
+      radial-gradient(circle at 25% 25%, rgba(255, 198, 0, 0.07) 0%, rgba(255, 198, 0, 0) 50%);
   }
 }
 
@@ -738,7 +787,7 @@ body.menu-open .side-menu {
   display: flex;
   flex-direction: column;
   gap: 0.35rem;
-  margin: 0.75rem 0;
+  margin: 1.5rem 0 0;
 }
 .fact-anchor__support {
   font-size: 0.95rem;
@@ -924,6 +973,21 @@ body.menu-open .side-menu {
 }
 
 /* Page Footer & Team Photo (Lister Kapitaldag) */
+.image-disclosure {
+  background: var(--color-bg-navy);
+  padding: 3rem 1.5rem 0;
+  border-top: 1px solid rgba(246, 240, 226, 0.12);
+}
+
+.image-disclosure p {
+  max-width: 70ch;
+  margin: 0 auto;
+  color: rgba(246, 240, 226, 0.72);
+  font-size: 0.9rem;
+  line-height: 1.65;
+  text-align: center;
+}
+
 .page-footer {
   background-color: var(--color-bg-navy);
   padding: 3.5rem 1.5rem 4.5rem;
@@ -933,7 +997,8 @@ body.menu-open .side-menu {
 }
 
 .footer-photo {
-  max-width: 520px;
+  width: 100%;
+  max-width: 900px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -970,8 +1035,21 @@ body.menu-open .side-menu {
 .footer-photo__img {
   display: block;
   width: 100%;
-  max-height: 380px;
+  height: auto;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
+}
+
+@media (min-width: 1024px) {
+  .image-disclosure {
+    grid-column: 2;
+    padding: 4rem 6rem 0;
+  }
+
+  .page-footer {
+    grid-column: 2;
+    padding: 5rem 6rem 6rem;
+  }
 }
 
 .footer-photo__caption {

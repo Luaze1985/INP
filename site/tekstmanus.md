@@ -1,19 +1,19 @@
 # Tekstmanus - VERIFIED-nettsiden
 
-**Dato:** 2026-08-07
+**Dato:** 2026-08-11
 **Status:** gjeldende tekst for `site/web/index.html`. Dette manuset er kilden — HTML-en bygges fra det, ikke omvendt.
-**Faktagrunnlag:** `docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md`. Ingenting på siden skal si mer enn v0.9 sier.
+**Faktagrunnlag:** `docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.0.md`. Ingenting på siden skal si mer enn v1.0 sier.
 
 ## Bruksregel
 
 Siden skal ikke vise interne statusfarger. Den skal vise en enkel forskningsfortelling: hva vi vet,
 hva vi ikke vet, og hva VERIFIED skal teste.
 
-Tre harde regler, arvet fra v0.9:
+Tre harde regler, videreført i v1.0:
 
-1. **Ingen prosentsatser** som ikke er kontrollert mot originalanalysen. v0.9 sier dette rett ut om
+1. **Ingen prosentsatser** som ikke er kontrollert mot originalanalysen. v1.0 sier dette rett ut om
    klimaeffekt, og prinsippet gjelder hele siden.
-2. **Ingen partnernavn og ingen personnavn.** v0.9 nevner ingen — bare «forskningspartneren».
+2. **Ingen partnernavn og ingen personnavn.** v1.0 nevner ingen — bare «forskningspartneren».
    Konsortiet er ikke bekreftet. Siden kan ikke love det søknaden ikke bekrefter.
 3. **Forbehold følger med tallet.** Når et tall gjelder noe bredere enn VERIFIEDs målgruppe, skal
    det stå. Prosjektets egen tese er at datakvalitet skal være synlig — da må siden selv oppføre seg slik.
@@ -23,47 +23,32 @@ Tre harde regler, arvet fra v0.9:
 **Badge:** IPN-forskningsprosjekt
 
 **Overskrift:**
-Her er hva vi vet.
-Her er hva vi skal finne ut.
+Hva bygger vi valget på?
 
 **Brødtekst:**
-VERIFIED er et forskningsprosjekt om løsningsvalg i byggeprosjekter. Vi utvikler og tester en måte å sammenligne alternative løsninger på — og å vise hvor sikkert grunnlaget faktisk er.
+VERIFIED undersøker hvordan entreprenør og kunde kan sammenligne flere løsninger når opplysningene er spredt og av ulik kvalitet.
 
 **Scroll-prompt:**
 Bla videre
 
-**Kildenote:** v0.9 Sammendrag.
+**Kildenote:** v1.0 Sammendrag.
 
 ## Seksjon 2 - Utfordringen
 
 **Badge:** Utfordringen
 
 **Overskrift:**
-Valgene tas før grunnlaget er samlet
+Valget tas før alle opplysningene er samlet
 
 **Brødtekst:**
-I små og mellomstore byggeprosjekter tas mange sentrale løsningsvalg i tilbudsfasen: entreprenøren priser jobben og foreslår alternativer. Valgene får betydning for utslipp, levetid, vedlikehold og risiko lenge etterpå.
+To løsninger kan begge være faglig forsvarlige. Den billigste er likevel ikke alltid den beste når vi også ser på miljøbelastning og teknisk kvalitet.
 
-Informasjonen finnes — i produktdata, FDV-dokumentasjon, miljødeklarasjoner, levetidsdata og prislister — men ligger spredt, i ulike formater, og må ofte settes sammen for hånd.
-
-Når forskjellene er uklare, kan det billigste alternativet virke best for kunden — selv om det koster mer over tid.
+I tilbudsfasen skal entreprenøren forklare forskjellene for kunden. Opplysningene finnes, men ligger spredt og må ofte settes sammen for hånd.
 
 **Faktakort:**
 
-68 359 bedrifter var registrert i bygge- og anleggsnæringen 1. januar 2026.
-Stille kilde: SSB, tabell 10309 / `SSB2026`.
-
-91,2 prosent av dem hadde færre enn ti ansatte, inkludert bedrifter uten ansatte.
-Stille kilde: SSB, tabell 10309 / `SSB2026`.
-
-76,2 prosent av bedriftene med ansatte hadde mellom én og ni ansatte.
-Stille kilde: SSB, tabell 10309 / `SSB2026`.
-
-**Forbehold (skal stå synlig under kortene):**
-Tallene gjelder hele bygge- og anleggsnæringen, ikke bare målgruppen til VERIFIED.
-
-**Avsluttende avsnitt:**
-Mindre entreprenørbedrifter har ofte høy fagkompetanse, men tilgangen til ressurser for livsløpsvurderinger og kostnadsanalyser over levetiden varierer, og mye av kapasiteten er bundet i produksjon. Beslutningsgrunnlaget må derfor fungere i en travel tilbudsfase, ikke bare for spesialister.
+76,2 % av bedriftene med ansatte i hele bygge- og anleggsnæringen hadde mellom én og ni ansatte 1. januar 2026.
+Stille kilde: SSB, tabell 10309 / `[SSB2026]`.
 
 ## Seksjon 3 - Hva vi vet i dag
 
@@ -73,17 +58,11 @@ Mindre entreprenørbedrifter har ofte høy fagkompetanse, men tilgangen til ress
 Mye finnes allerede
 
 **Brødtekst:**
-Vi står ikke på bar bakke. Det finnes internasjonale standarder for livsløpsvurdering og livsløpskostnader, og en norsk standard for klimagassberegninger for bygninger. Flerkriterieanalyse er en etablert metode for å veie motstridende hensyn.
+Det finnes allerede standarder og verktøy for å vurdere miljøbelastning, kostnader over tid og klimagassutslipp. Leverandørene oppgir at SmartKalk, Reduzer og One Click LCA dekker ulike deler av behovet.
 
-Det finnes verktøy. Norske løsninger kobler kalkyle, pris, materialmengder, produktdata og miljødeklarasjoner, og beregner og sammenligner klimagassutslipp. Internasjonale løsninger kombinerer livsløpsvurdering med livsløpskostnad, noen med synlig usikkerhet i klimatallene.
+I materialet vi har gjennomgått, fant vi ikke ett verktøy som samler opplysningene og viser hvordan de er vurdert. Gjennomgangen gjelder små norske entreprenører i tilbudsfasen og må oppdateres når vi undersøker mer materiale.
 
-**Framhevet punkt (erstatter tidligere nøkkeltall):**
-Flere av funksjonene VERIFIED skal bygge på, finnes allerede. I utvalget vi undersøkte, fant vi ingen løsning som gir små norske entreprenører et samlet, etterprøvbart beslutningsgrunnlag i tilbudsfasen.
-
-**Forbehold (skal stå rett under):**
-Dette er en avgrenset gjennomgang. Den må oppdateres når underlaget utvides.
-
-**Kildenote:** v0.9 K2 «Standarder og metoder» + «Eksisterende løsninger og prosjektets avgrensning».
+**Kildenote:** v1.0 K2 «Standarder og metoder» + «Dagens metoder og løsninger».
 
 ## Seksjon 4 - Hva vi ikke vet ennå
 
@@ -93,60 +72,52 @@ Dette er en avgrenset gjennomgang. Den må oppdateres når underlaget utvides.
 Det viktigste er fortsatt åpent
 
 **Brødtekst:**
-Dette er ikke svakheter ved prosjektet. Det er derfor forskning.
 
-**Liste:**
+**Kan datatypene kobles?** Eksisterende løsninger dekker hver sin del. En samlet løsning er ikke dokumentert i vårt utvalg.
 
-- **Kan datatypene kobles?** Eksisterende løsninger dekker hver sin del. En samlet løsning er ikke dokumentert i vårt utvalg.
-- **Kan små bedrifter bruke det?** Ressursbehov og anvendbarhet er ikke tilstrekkelig dokumentert.
-- **Vises usikkerheten godt nok?** Ett verktøy viser usikkerhet i karbontall, men ikke gjennomgående på tvers av alle kriterier.
-- **Endrer grunnlaget valget?** Vi fant ingen dokumentert metode for å måle om et slikt grunnlag endret eller bekreftet valget.
-- **Kan skadevirkninger fanges opp?** En samlet behandling av klima, levetid, vedlikehold, ombruk, dokumentasjonskvalitet og teknisk risiko er ikke dokumentert i gjennomgangen.
+**Kan små bedrifter bruke det?** Ressursbehov og anvendbarhet er ikke tilstrekkelig dokumentert.
 
-**Kildenote:** v0.9 K2, tabellen «Forskningshullet».
+**Vises usikkerheten godt nok?** Gjennomgående visning av datakvalitet og usikkerhet på tvers av kriteriene er ikke dokumentert i gjennomgangen.
+
+**Endrer grunnlaget valget?** Vi fant ingen dokumentert metode for å måle om et slikt grunnlag endret eller bekreftet valget.
+
+**Kan skadevirkninger fanges opp?** En samlet behandling av klima, levetid, vedlikehold, ombruk, dokumentasjonskvalitet og teknisk risiko er ikke dokumentert i gjennomgangen.
+
+**Kildenote:** v1.0 K2, tabellen «Forskningshullet».
 
 ## Seksjon 5 - Hva VERIFIED skal finne ut
 
 **Badge:** Arbeidet
 
 **Overskrift:**
-Fra spredt informasjon til et grunnlag som kan etterprøves
+Fra spredte opplysninger til en sammenligning vi kan kontrollere
 
 **Brødtekst:**
-Hovedmålet er å utvikle og teste en forskningsbasert beslutningsmodell for å sammenligne alternative løsninger og tilbud i små og mellomstore byggeprosjekter — etter faste vurderingskriterier, og med synlig kvalitet og usikkerhet i datagrunnlaget.
+VERIFIED utvikler og tester en forskningsbasert beslutningsmodell for å sammenligne alternative løsninger i små og mellomstore byggeprosjekter. Modellen skal samtidig vise kvaliteten og usikkerheten i datagrunnlaget.
 
-Prosjektet skal kartlegge datakilder, utvikle en åpen og begrunnet modell, teste hvordan forskjeller og usikkerhet bør vises, og prøve modellens nytte i konkrete løsningsvalg.
-
-Vi skal ikke bare bygge en modell, men teste om den blir forstått, hvordan den brukes, og om den endrer eller bekrefter valget. Det er forskningsarbeidet.
+Prosjektet tester om entreprenører og kunder forstår grunnlaget, hvordan de bruker det, og om det endrer eller bekrefter valget.
 
 **Avsnitt om bank (nedtonet — ingen banknavn):**
-Forskning på nederlandske boliglånsdata knytter energieffektivitet i bygg til lavere sannsynlighet for mislighold — men ikke til byggteknisk kvalitet, levetid eller vedlikeholdsdata.
+Prosjektet skal også undersøke om opplysninger om byggets tekniske kvalitet, forventede levetid og vedlikeholdsbehov kan være nyttige for en bank. Før dette testes, må banken si hvilke opplysninger den trenger.
 
-En avgrenset pilot skal undersøke om denne dokumentasjonen er nyttig tilleggsinformasjon for et konkret behov som banken selv må definere på forhånd, i sin risikovurdering. Prosjektet forutsetter ikke at informasjonen forbedrer risikovurderingen — det er nettopp det som skal undersøkes.
-
-**Kildenote:** v0.9 K3 (hovedmål, delmål, F1-F6) og V3.
+**Kildenote:** v1.0 K3 (hovedmål, delmål, F1-F6) og V3.
 
 ## Seksjon 6 - Slik jobber vi
 
 **Badge:** Metode
 
 **Overskrift:**
-Svake data skal være synlige, ikke bortgjemt
+Vi skal vise hva vi vet – og hva vi ikke vet
 
 **Brødtekst:**
-Arbeidet er planlagt stegvis: første versjon av modellen, utprøving i konkrete løsningsvalg, analyse, justering. Endelig forskningsdesign utformes sammen med forskningspartneren.
+Vi utvikler modellen steg for steg og prøver den når konkrete løsninger skal sammenlignes. Det skal være tydelig hvilke opplysninger som finnes, er usikre eller mangler.
 
-**Punkter:**
-
-- **Hver opplysning skal få en status.** Vi skal registrere kilde, alder, enhet og produktnivå — og vise om den mangler, bygger på generelle data, er estimert eller verifisert. Reglene settes før utprøvingen og gjelder likt for alle. Slik forsvinner ikke svake data i en totalscore.
-- **Et minste informasjonsgrunnlag.** Vi skal definere hvor mye som trengs for en faglig forsvarlig sammenligning. Er grunnlaget for tynt, vises det tydelig.
-- **Teknisk egnethet er en faglig port.** Lavt beregnet klimagassutslipp er ikke nok ved svak fuktrobusthet, kort eller usikker levetid, stort vedlikeholdsbehov eller mangelfull dokumentasjon.
-- **Vi skiller mellom fire slags påstander.** Vi *måler* det som kan observeres, *beregner* modellresultater, *estimerer* framtidige eller usikre størrelser, lar *faglig skjønn* avgjøre ved behov, og sier *undersøker* når metoden ikke er valgt.
+Før utprøvingen bestemmer vi hvilke opplysninger som må være på plass for at løsninger skal kunne sammenlignes. De samme reglene skal gjelde for alle løsningene.
 
 **Avslutning:**
-Selve beslutningen og ansvaret ligger fortsatt hos entreprenør og kunde. Modellen velger ikke.
+Selve beslutningen og ansvaret ligger hos entreprenør og kunde.
 
-**Kildenote:** v0.9 K4 (forskningsløype, dokumentasjonstillit, teknisk egnethet, begrepsbruk) og V2.
+**Kildenote:** v1.0 K4 (forskningsløype, dokumentasjonstillit, teknisk egnethet, begrepsbruk) og V2.
 
 ## Seksjon 7 - Status nå
 
@@ -156,22 +127,35 @@ Selve beslutningen og ansvaret ligger fortsatt hos entreprenør og kunde. Modell
 Hvor arbeidet står
 
 **Brødtekst:**
-Søknadsteksten foreligger som en revidert arbeidskandidat. Den er ikke innsendingsklar.
+Søknadsteksten er revidert, men det gjenstår arbeid før den kan sendes inn.
 
 **Liste over hva som gjenstår:**
 
-- Konsortium og rollefordeling er ikke bekreftet.
-- Arbeidspakker, milepæler, budsjett og risiko krever partnerinformasjon og er ikke ferdigstilt.
-- Vurdering av kjemikalier, sosiale forhold og andre skadevirkninger må kompletteres med fagpartnerne.
-- Måleparametere for om grunnlaget endrer valg er ikke fastlagt på forhånd. Prosjektet skal utvikle og teste dem.
-- Endelig avgrensning av målgruppen, forskningsdesign og metodevalg gjenstår.
-
-**Avslutning:**
-Vi legger dette ut fordi et prosjekt om synlig datakvalitet bør tåle å vise sin egen.
+- Hvilke organisasjoner som skal delta, og hvilke roller de skal ha, er ikke bekreftet.
+- Planen for arbeidet, tidsplanen, budsjettet og risikoene er ikke ferdig.
+- Hvordan forskningen skal gjennomføres og måles, må avklares.
 
 **CTA:** Tilbake til toppen
 
-**Kildenote:** v0.9 «Åpent / mangler» og «Gjennomføring, arbeidspakker, budsjett og organisering».
+**Kildenote:** v1.0 «Åpent / mangler» og «Gjennomføring, arbeidspakker, budsjett og organisering».
+
+## Avslutningsbilde
+
+**Tilgjengelighetsnavn for bildeopplysningen:** Opplysning om illustrasjonsbilder
+
+**Bildeopplysning før fotografiet:** Noen av illustrasjonsbildene på siden er KI-genererte. De viser
+ikke faktiske kunder, byggeplasser eller møter. Bildet fra Kapitaldagen i Lister nedenfor er et
+fotografi.
+
+**Eyebrow:** Deler av prosjektgruppen i VERIFIED
+
+**Bildetekst:** Foto fra Kapitaldagen i Lister.
+
+**Bildelenke:** Kilde for bildet.
+
+**Alt-tekst:** Fire personer står sammen under Kapitaldagen i Lister.
+
+Bildet navngir ingen personer og brukes ikke som dokumentasjon på bekreftet konsortium eller roller.
 
 ## Mikrocopy
 
@@ -187,25 +171,23 @@ Status nå
 **Forskningsinfo i sidemenyen:**
 Prosjekttype: Innovasjonsprosjekt i næringslivet (IPN)
 Målgruppe: Små og mellomstore entreprenørbedrifter og deres kunder
-Fase: Revidert arbeidskandidat — ikke innsendingsklar
-Metode: Sammenligning etter flere kriterier, med synlig datakvalitet
+Fase: Søknadsteksten er under arbeid og kan ikke sendes inn ennå
+Metode: Vi sammenligner flere sider ved hver løsning og viser hva som er sikkert og usikkert
 
 **Partnerstripe:** ingen. Fjernet 2026-08-07 — v0.9 navngir ingen partnere, og konsortiet er ikke bekreftet.
 
-**Søknadsramme:** vises ikke. Rammen 1-16 MNOK er utlysningens, ikke prosjektets søknadsbeløp.
+**Søknadsramme:** vises ikke. Utlysningens ramme er ikke prosjektets søknadsbeløp.
 
 **Scroll-prompt:** Bla videre
 **CTA:** Tilbake til toppen
 
 ## Metadata
 
-**Title:** VERIFIED — forskningsprosjekt om løsningsvalg i bygg
+**Nettleser-, OG- og Twitter-tittel:** VERIFIED — forskning på løsningsvalg i byggeprosjekter
 
-**Meta description:** VERIFIED utvikler og tester en måte å sammenligne alternative løsninger i tilbudsfasen — og å vise hvor sikkert grunnlaget faktisk er.
+**Meta description:** VERIFIED undersøker hvordan entreprenør og kunde kan sammenligne mulige løsninger når opplysningene er spredt og usikre.
 
-**OG-tittel:** VERIFIED — Her er hva vi vet. Her er hva vi skal finne ut.
-
-**OG-beskrivelse:** Et forskningsprosjekt om hvordan entreprenør og kunde kan sammenligne alternative løsninger, og se kvaliteten på grunnlaget de velger ut fra.
+**OG- og Twitter-beskrivelse:** VERIFIED undersøker hvordan entreprenør og kunde kan sammenligne mulige løsninger når opplysningene er spredt og usikre.
 
 **OG-bilde:** `bilder/og-bilde.jpg`. Byttet fra teamfotoet 2026-08-07, da personnavn gikk ut av teksten.
 
@@ -220,6 +202,44 @@ Metode: Sammenligning etter flere kriterier, med synlig datakvalitet
 5. Statusseksjonen er tillitsbeviset. Den viser at prosjektet tåler å skille dokumentert kunnskap fra arbeid som gjenstår.
 
 ## Endringslogg
+
+### 2026-08-11 — ny åpning og presisert SSB-anker
+
+Heroen og utfordringen er kortet ned til en sammenhengende forskningsfortelling. SSB-tallet er beholdt
+med populasjon, fortidsform og observasjonsdato. Nettside og manus er synkronisert.
+
+### 2026-08-11 — faktadelen som vendepunkt
+
+«Hva vi vet» og «Hva vi ikke vet» er kortet fra gjentakelser og spørsmålspunkter til fire avsnitt.
+Forbeholdene om leverandøropplysninger og avgrenset gjennomgang er beholdt.
+
+### 2026-08-11 — forskningsarbeid og metode
+
+Arbeidsdelen er kortet og har fått et illustrerende eksempel fra tilbudsfasen. Bankpiloten er avgrenset
+til ett behov som banken må definere før utprøvingen. Metodepunktene er omskrevet til prosa uten å
+fjerne synlig usikkerhet, teknisk egnethet eller ansvar.
+
+### 2026-08-11 — status og leserytme
+
+Statusdelen er redusert til fire punkter, og den selvforklarende avslutningssetningen er fjernet.
+Nettsiden bruker nå en felles avstandsrytme mellom badge, overskrift og sammenhengende avsnitt.
+
+### 2026-08-12 — Kapitaldagen tilbake i avslutningen
+
+Bildet fra Kapitaldagen i Lister er satt tilbake med nøytral bildetekst, alt-tekst og fotokreditt.
+Ingen personer, partnere eller roller navngis.
+
+### 2026-08-12 — unik bilderekke og lik fargebehandling
+
+Alle sju hovedseksjoner bruker nå hvert sitt motiv. Seksjon 6 bruker tømreren med takbjelken, og
+seksjon 7 bruker kundesamtalen ved ferdig hus. Alle hovedbilder vises med naturlige, lett dempede
+farger; gradienten brukes bare for å gjøre teksten lesbar.
+
+### 2026-08-12 — åpningen og bildeopplysning
+
+Seksjon 2 bruker et motiv med synlig ansikt i stedet for et nytt ryggmotiv. Seksjon 6 bruker en
+plansamtale for å bevare sju unike hovedmotiver. Før Kapitaldagen-fotografiet opplyses det tydelig om
+at noen illustrasjonsbilder er KI-genererte.
 
 ### 2026-08-07 — språkstramming (etter v0.9-omskrivingen)
 

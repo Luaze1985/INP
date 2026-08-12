@@ -28,7 +28,7 @@ from typing import Sequence
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_APPLICATION = (
     REPO_ROOT
-    / "docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md"
+    / "docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.0.md"
 )
 DEFAULT_MANUSCRIPT = REPO_ROOT / "site/tekstmanus.md"
 DEFAULT_HTML = REPO_ROOT / "site/web/index.html"

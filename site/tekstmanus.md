@@ -26,7 +26,7 @@ Tre harde regler, videreført i v1.0:
 Hva bygger vi valget på?
 
 **Brødtekst:**
-VERIFIED undersøker hvordan entreprenør og kunde kan sammenligne flere løsninger når opplysningene er spredt og av ulik kvalitet.
+VERIFIED undersøker hvordan entreprenør og kunde kan sammenligne flere løsninger når opplysningene er spredt og av ulik kvalitet. Prosjektet undersøker om tilbudsarbeidet kan få færre dokumentasjonsmangler og tydeligere alternativer, målt mot tiden grunnlaget koster i bruk.
 
 **Scroll-prompt:**
 Bla videre
@@ -43,7 +43,7 @@ Valget tas før alle opplysningene er samlet
 **Brødtekst:**
 To løsninger kan begge være faglig forsvarlige. Den billigste er likevel ikke alltid den beste når vi også ser på miljøbelastning og teknisk kvalitet.
 
-I tilbudsfasen skal entreprenøren forklare forskjellene for kunden. Opplysningene finnes, men ligger spredt og må ofte settes sammen for hånd.
+I tilbudsfasen skal entreprenøren forklare forskjellene for kunden. Informasjonen er spredt mellom produktdata, priser, miljødeklarasjoner og teknisk dokumentasjon. Den bruker ulike formater og må ofte sammenstilles manuelt. For mange små entreprenører tar det tid og krever fagkunnskap å finne, forstå og sammenligne disse opplysningene.
 
 **Faktakort:**
 
@@ -58,7 +58,7 @@ Stille kilde: SSB, tabell 10309 / `[SSB2026]`.
 Mye finnes allerede
 
 **Brødtekst:**
-Det finnes allerede standarder og verktøy for å vurdere miljøbelastning, kostnader over tid og klimagassutslipp. Leverandørene oppgir at SmartKalk, Reduzer og One Click LCA dekker ulike deler av behovet.
+Det finnes allerede standarder og verktøy for å vurdere miljøbelastning, kostnader over tid og klimagassutslipp. Verktøy som SmartKalk, Reduzer og One Click LCA dekker ulike deler av behovet.
 
 I materialet vi har gjennomgått, fant vi ikke ett verktøy som samler opplysningene og viser hvordan de er vurdert. Gjennomgangen gjelder små norske entreprenører i tilbudsfasen og må oppdateres når vi undersøker mer materiale.
 
@@ -75,9 +75,9 @@ Det viktigste er fortsatt åpent
 
 **Kan datatypene kobles?** Eksisterende løsninger dekker hver sin del. En samlet løsning er ikke dokumentert i vårt utvalg.
 
-**Kan små bedrifter bruke det?** Ressursbehov og anvendbarhet er ikke tilstrekkelig dokumentert.
+**Kan små bedrifter bruke det?** Vi vet ikke nok om hvor mye tid, penger og fagkunnskap det krever å bruke verktøyene.
 
-**Vises usikkerheten godt nok?** Gjennomgående visning av datakvalitet og usikkerhet på tvers av kriteriene er ikke dokumentert i gjennomgangen.
+**Vises usikkerheten godt nok?** Gjennomgangen viser ikke at verktøyene tydelig viser hvor sikre opplysningene er, på tvers av kriteriene.
 
 **Endrer grunnlaget valget?** Vi fant ingen dokumentert metode for å måle om et slikt grunnlag endret eller bekreftet valget.
 
@@ -112,7 +112,9 @@ Vi skal vise hva vi vet – og hva vi ikke vet
 **Brødtekst:**
 Vi utvikler modellen steg for steg og prøver den når konkrete løsninger skal sammenlignes. Det skal være tydelig hvilke opplysninger som finnes, er usikre eller mangler.
 
-Før utprøvingen bestemmer vi hvilke opplysninger som må være på plass for at løsninger skal kunne sammenlignes. De samme reglene skal gjelde for alle løsningene.
+Datagrunnlaget kan for eksempel omfatte varedata fra NOBB og GTIN, miljødeklarasjoner (EPD-er), FDV-dokumentasjon og prisdata.
+
+Før pilotene starter, fastsetter prosjektet sammen med forskningspartneren og pilotbedriftene hva som er godt nok datagrunnlag for en faglig forsvarlig sammenligning. For hvert tall og hver opplysning skal modellen vise kilde, alder og om den er verifisert for den konkrete løsningen, et estimat eller generelle data. De samme reglene skal gjelde for alle løsningene.
 
 **Avslutning:**
 Selve beslutningen og ansvaret ligger hos entreprenør og kunde.
@@ -132,8 +134,8 @@ Søknadsteksten er revidert, men det gjenstår arbeid før den kan sendes inn.
 **Liste over hva som gjenstår:**
 
 - Hvilke organisasjoner som skal delta, og hvilke roller de skal ha, er ikke bekreftet.
-- Planen for arbeidet, tidsplanen, budsjettet og risikoene er ikke ferdig.
-- Hvordan forskningen skal gjennomføres og måles, må avklares.
+- Arbeidspakkene, tidsplanen, budsjettet og risikoene er ikke ferdigstilt.
+- Det gjenstår også å avklare hvordan forskningen skal gjennomføres og måles.
 
 **CTA:** Tilbake til toppen
 
@@ -202,6 +204,10 @@ Metode: Vi sammenligner flere sider ved hver løsning og viser hva som er sikker
 5. Statusseksjonen er tillitsbeviset. Den viser at prosjektet tåler å skille dokumentert kunnskap fra arbeid som gjenstår.
 
 ## Endringslogg
+
+### 2026-08-27 — konkretisert datagrunnlag og forenklet språk
+
+Utfordringen presiserer hvorfor spredt informasjon er krevende å bruke i tilbudsfasen. Verktøyeksemplene er formulert som verktøy, ikke leverandører. Forskningsspørsmålene om brukbarhet og usikkerhet er skrevet i enklere språk. Metodedelen viser eksempler på datakilder og forklarer hvordan kilde, alder og dokumentasjonsstatus skal vises likt for alternativene. Statusdelen nevner arbeidspakker eksplisitt.
 
 ### 2026-08-11 — ny åpning og presisert SSB-anker
 

@@ -37,10 +37,13 @@
     <div class="logo-area">
       <span class="verified-logo-text">VERIFIED</span>
     </div>
-    <button class="menu-toggle" type="button" aria-controls="menu-panel" aria-expanded="false" id="menu-toggle-btn">
-      <span class="menu-toggle__icon" aria-hidden="true"></span>
-      <span class="menu-toggle__label">Meny</span>
-    </button>
+    <div class="header-actions">
+      <button class="language-toggle" type="button" data-language-toggle aria-pressed="false">EN</button>
+      <button class="menu-toggle" type="button" aria-controls="menu-panel" aria-expanded="false" id="menu-toggle-btn">
+        <span class="menu-toggle__icon" aria-hidden="true"></span>
+        <span class="menu-toggle__label">Meny</span>
+      </button>
+    </div>
   </header>
 
   <!-- Sticky/Drawer Side Menu (aside) -->
@@ -49,7 +52,10 @@
       <div class="logo-area">
         <span class="verified-logo-text">VERIFIED</span>
       </div>
-      <button class="menu-close-btn" type="button" aria-label="Lukk meny" id="menu-close-btn">&times;</button>
+      <div class="header-actions">
+        <button class="language-toggle" type="button" data-language-toggle aria-pressed="false">EN</button>
+        <button class="menu-close-btn" type="button" aria-label="Lukk meny" id="menu-close-btn">&times;</button>
+      </div>
     </div>
 
     <nav class="menu-navigation" aria-label="Seksjonsoversikt">
@@ -93,7 +99,7 @@
         <h1 class="hero-title">Hva bygger vi valget på?</h1>
         <div class="hero-underline"></div>
         <p class="hero-subtitle">
-          VERIFIED undersøker hvordan entreprenør og kunde kan sammenligne flere løsninger når opplysningene er spredt og av ulik kvalitet.
+          VERIFIED undersøker hvordan entreprenør og kunde kan sammenligne flere løsninger når opplysningene er spredt og av ulik kvalitet. Prosjektet undersøker om tilbudsarbeidet kan få færre dokumentasjonsmangler og tydeligere alternativer, målt mot tiden grunnlaget koster i bruk.
         </p>
         <div class="scroll-prompt">
           <span class="scroll-prompt__text">Bla videre</span>
@@ -113,7 +119,7 @@
           To løsninger kan begge være faglig forsvarlige. Den billigste er likevel ikke alltid den beste når vi også ser på miljøbelastning og teknisk kvalitet.
         </p>
         <p class="section-paragraph">
-          I tilbudsfasen skal entreprenøren forklare forskjellene for kunden. Opplysningene finnes, men ligger spredt og må ofte settes sammen for hånd.
+          I tilbudsfasen skal entreprenøren forklare forskjellene for kunden. Informasjonen er spredt mellom produktdata, priser, milj&oslash;deklarasjoner og teknisk dokumentasjon. Den bruker ulike formater og m&aring; ofte sammenstilles manuelt. For mange sm&aring; entrepren&oslash;rer tar det tid og krever fagkunnskap &aring; finne, forst&aring; og sammenligne disse opplysningene.
         </p>
 
         <div class="fact-anchor">
@@ -134,7 +140,7 @@
         <div class="section-badge">Hva vi vet</div>
         <h2 class="section-title">Mye finnes allerede</h2>
         <p class="section-paragraph">
-          Det finnes allerede standarder og verktøy for å vurdere miljøbelastning, kostnader over tid og klimagassutslipp. Leverandørene oppgir at SmartKalk, Reduzer og One Click LCA dekker ulike deler av behovet.
+          Det finnes allerede standarder og verktøy for å vurdere miljøbelastning, kostnader over tid og klimagassutslipp. Verktøy som SmartKalk, Reduzer og One Click LCA dekker ulike deler av behovet.
         </p>
         <p class="section-paragraph">
           I materialet vi har gjennomgått, fant vi ikke ett verktøy som samler opplysningene og viser hvordan de er vurdert. Gjennomgangen gjelder små norske entreprenører i tilbudsfasen og må oppdateres når vi undersøker mer materiale.
@@ -151,8 +157,8 @@
         <h2 class="section-title">Det viktigste er fortsatt åpent</h2>
         <ul class="research-questions-list">
           <li><strong>Kan datatypene kobles?</strong> Eksisterende løsninger dekker hver sin del. En samlet løsning er ikke dokumentert i vårt utvalg.</li>
-          <li><strong>Kan små bedrifter bruke det?</strong> Ressursbehov og anvendbarhet er ikke tilstrekkelig dokumentert.</li>
-          <li><strong>Vises usikkerheten godt nok?</strong> Gjennomgående visning av datakvalitet og usikkerhet på tvers av kriteriene er ikke dokumentert i gjennomgangen.</li>
+          <li><strong>Kan små bedrifter bruke det?</strong> Vi vet ikke nok om hvor mye tid, penger og fagkunnskap det krever å bruke verktøyene.</li>
+          <li><strong>Vises usikkerheten godt nok?</strong> Gjennomgangen viser ikke at verktøyene tydelig viser hvor sikre opplysningene er, på tvers av kriteriene.</li>
           <li><strong>Endrer grunnlaget valget?</strong> Vi fant ingen dokumentert metode for å måle om et slikt grunnlag endret eller bekreftet valget.</li>
           <li><strong>Kan skadevirkninger fanges opp?</strong> En samlet behandling av klima, levetid, vedlikehold, ombruk, dokumentasjonskvalitet og teknisk risiko er ikke dokumentert i gjennomgangen.</li>
         </ul>
@@ -189,7 +195,10 @@
           Vi utvikler modellen steg for steg og prøver den når konkrete løsninger skal sammenlignes. Det skal være tydelig hvilke opplysninger som finnes, er usikre eller mangler.
         </p>
         <p class="section-paragraph">
-          Før utprøvingen bestemmer vi hvilke opplysninger som må være på plass for at løsninger skal kunne sammenlignes. De samme reglene skal gjelde for alle løsningene.
+          Datagrunnlaget kan for eksempel omfatte varedata fra NOBB og GTIN, miljødeklarasjoner (EPD-er), FDV-dokumentasjon og prisdata.
+        </p>
+        <p class="section-paragraph">
+          Før pilotene starter, fastsetter prosjektet sammen med forskningspartneren og pilotbedriftene hva som er godt nok datagrunnlag for en faglig forsvarlig sammenligning. For hvert tall og hver opplysning skal modellen vise kilde, alder og om den er verifisert for den konkrete løsningen, et estimat eller generelle data. De samme reglene skal gjelde for alle løsningene.
         </p>
         <p class="section-paragraph">
           Selve beslutningen og ansvaret ligger hos entreprenør og kunde.
@@ -210,8 +219,8 @@
 
         <ul class="remaining-list">
           <li>Hvilke organisasjoner som skal delta, og hvilke roller de skal ha, er ikke bekreftet.</li>
-          <li>Planen for arbeidet, tidsplanen, budsjettet og risikoene er ikke ferdig.</li>
-          <li>Hvordan forskningen skal gjennomføres og måles, må avklares.</li>
+          <li>Arbeidspakkene, tidsplanen, budsjettet og risikoene er ikke ferdigstilt.</li>
+          <li>Det gjenstår også å avklare hvordan forskningen skal gjennomføres og måles.</li>
         </ul>
         
         <div class="cta-area">
@@ -247,6 +256,69 @@
       const closeBtn = document.getElementById('menu-close-btn');
       const navLinks = document.querySelectorAll('.nav-link');
       const sections = document.querySelectorAll('.story-section');
+      const languageButtons = document.querySelectorAll('[data-language-toggle]');
+      const norwegianTitle = 'VERIFIED — forskning på løsningsvalg i byggeprosjekter';
+      const englishTitle = 'VERIFIED — research on choices in construction projects';
+      const english = {
+        'Hopp til innhold': 'Skip to content', 'Meny': 'Menu', 'Lukk meny': 'Close menu',
+        'Prosjektinfo og seksjoner': 'Project information and sections', 'Seksjonsoversikt': 'Sections',
+        'Utfordringen': 'The challenge', 'Hva vi vet': 'What we know', 'Hva vi ikke vet': 'What we do not know',
+        'Hva vi skal finne ut': 'What we will find out', 'Slik jobber vi': 'How we work', 'Status nå': 'Current status',
+        'Forskningsinfo': 'Research information', 'Prosjekttype': 'Project type',
+        'Innovasjonsprosjekt i næringslivet (IPN)': 'Innovation project in industry (IPN)', 'Målgruppe': 'Target group',
+        'Små og mellomstore entreprenørbedrifter og deres kunder': 'Small and medium-sized contractors and their customers',
+        'Fase': 'Stage', 'Søknadsteksten er under arbeid og kan ikke sendes inn ennå': 'The application is being prepared and cannot yet be submitted',
+        'Metode': 'Method', 'Vi sammenligner flere sider ved hver løsning og viser hva som er sikkert og usikkert': 'We compare several aspects of each solution and show what is certain and uncertain',
+        'IPN-forskningsprosjekt': 'IPN research project', 'Hva bygger vi valget på?': 'What do we base the choice on?',
+        'VERIFIED undersøker hvordan entreprenør og kunde kan sammenligne flere løsninger når opplysningene er spredt og av ulik kvalitet. Prosjektet undersøker om tilbudsarbeidet kan få færre dokumentasjonsmangler og tydeligere alternativer, målt mot tiden grunnlaget koster i bruk.': 'VERIFIED examines how contractors and customers can compare several solutions when information is scattered and of varying quality. The project examines whether tender work can have fewer documentation gaps and clearer alternatives, measured against the time the basis takes to use.',
+        'Bla videre': 'Scroll down', 'Valget tas før alle opplysningene er samlet': 'The choice is made before all information is assembled',
+        'To løsninger kan begge være faglig forsvarlige. Den billigste er likevel ikke alltid den beste når vi også ser på miljøbelastning og teknisk kvalitet.': 'Two solutions can both be technically sound. The cheapest is not always the best when environmental impact and technical quality are also considered.',
+        'I tilbudsfasen skal entreprenøren forklare forskjellene for kunden. Informasjonen er spredt mellom produktdata, priser, miljødeklarasjoner og teknisk dokumentasjon. Den bruker ulike formater og må ofte sammenstilles manuelt. For mange små entreprenører tar det tid og krever fagkunnskap å finne, forstå og sammenligne disse opplysningene.': 'During the tender phase, the contractor must explain the differences to the customer. Information is scattered across product data, prices, environmental declarations and technical documentation. It uses different formats and often has to be assembled manually. For many small contractors, finding, understanding and comparing this information takes time and expertise.',
+        'av bedriftene med ansatte i hele bygge- og anleggsnæringen hadde mellom én og ni ansatte 1. januar 2026.': 'of businesses with employees in the construction industry had between one and nine employees on 1 January 2026.',
+        'Kilde: SSB, tabell 10309.': 'Source: Statistics Norway, table 10309.',
+        'Mye finnes allerede': 'Much already exists',
+        'Det finnes allerede standarder og verktøy for å vurdere miljøbelastning, kostnader over tid og klimagassutslipp. Verktøy som SmartKalk, Reduzer og One Click LCA dekker ulike deler av behovet.': 'Standards and tools already exist for assessing environmental impact, costs over time and greenhouse gas emissions. Tools such as SmartKalk, Reduzer and One Click LCA cover different parts of the need.',
+        'I materialet vi har gjennomgått, fant vi ikke ett verktøy som samler opplysningene og viser hvordan de er vurdert. Gjennomgangen gjelder små norske entreprenører i tilbudsfasen og må oppdateres når vi undersøker mer materiale.': 'In the material we reviewed, we found no single tool that brings the information together and shows how it has been assessed. The review concerns small Norwegian contractors in the tender phase and must be updated as more material is examined.',
+        'Åpne forskningsspørsmål': 'Open research questions', 'Det viktigste er fortsatt åpent': 'The most important questions remain open',
+        'Kan datatypene kobles?': 'Can the data types be connected?', 'Eksisterende løsninger dekker hver sin del. En samlet løsning er ikke dokumentert i vårt utvalg.': 'Existing solutions each cover part of the need. An integrated solution is not documented in our sample.',
+        'Kan små bedrifter bruke det?': 'Can small businesses use it?', 'Vi vet ikke nok om hvor mye tid, penger og fagkunnskap det krever å bruke verktøyene.': 'We do not know enough about how much time, money and expertise the tools require.',
+        'Vises usikkerheten godt nok?': 'Is uncertainty shown clearly enough?', 'Gjennomgangen viser ikke at verktøyene tydelig viser hvor sikre opplysningene er, på tvers av kriteriene.': 'The review does not show that the tools clearly indicate how reliable the information is across the criteria.',
+        'Endrer grunnlaget valget?': 'Does the basis change the choice?', 'Vi fant ingen dokumentert metode for å måle om et slikt grunnlag endret eller bekreftet valget.': 'We found no documented method for measuring whether such a basis changed or confirmed the choice.',
+        'Kan skadevirkninger fanges opp?': 'Can harmful effects be captured?', 'En samlet behandling av klima, levetid, vedlikehold, ombruk, dokumentasjonskvalitet og teknisk risiko er ikke dokumentert i gjennomgangen.': 'An integrated treatment of climate, service life, maintenance, reuse, documentation quality and technical risk is not documented in the review.',
+        'Arbeidet': 'The work', 'Fra spredte opplysninger til en sammenligning vi kan kontrollere': 'From scattered information to a comparison we can verify',
+        'VERIFIED utvikler og tester en forskningsbasert beslutningsmodell for å sammenligne alternative løsninger i små og mellomstore byggeprosjekter. Modellen skal samtidig vise kvaliteten og usikkerheten i datagrunnlaget.': 'VERIFIED develops and tests a research-based decision model for comparing alternative solutions in small and medium-sized construction projects. The model will also show the quality and uncertainty of the underlying data.',
+        'Prosjektet tester om entreprenører og kunder forstår grunnlaget, hvordan de bruker det, og om det endrer eller bekrefter valget.': 'The project tests whether contractors and customers understand the basis, how they use it, and whether it changes or confirms the choice.',
+        'Prosjektet skal også undersøke om opplysninger om byggets tekniske kvalitet, forventede levetid og vedlikeholdsbehov kan være nyttige for en bank. Før dette testes, må banken si hvilke opplysninger den trenger.': 'The project will also examine whether information about a building’s technical quality, expected service life and maintenance needs can be useful to a bank. Before this is tested, the bank must specify the information it needs.',
+        'Vi skal vise hva vi vet – og hva vi ikke vet': 'We will show what we know — and what we do not know',
+        'Vi utvikler modellen steg for steg og prøver den når konkrete løsninger skal sammenlignes. Det skal være tydelig hvilke opplysninger som finnes, er usikre eller mangler.': 'We develop the model step by step and test it when concrete solutions are compared. It must be clear which information exists, is uncertain or is missing.',
+        'Datagrunnlaget kan for eksempel omfatte varedata fra NOBB og GTIN, miljødeklarasjoner (EPD-er), FDV-dokumentasjon og prisdata.': 'The data basis may, for example, include product data from NOBB and GTIN, environmental product declarations (EPDs), operation and maintenance documentation, and price data.',
+        'Før pilotene starter, fastsetter prosjektet sammen med forskningspartneren og pilotbedriftene hva som er godt nok datagrunnlag for en faglig forsvarlig sammenligning. For hvert tall og hver opplysning skal modellen vise kilde, alder og om den er verifisert for den konkrete løsningen, et estimat eller generelle data. De samme reglene skal gjelde for alle løsningene.': 'Before the pilots begin, the project, research partner and pilot companies define what constitutes a sufficient data basis for a professionally sound comparison. For every figure and piece of information, the model will show its source, age, and whether it is verified for the specific solution, an estimate, or general data. The same rules will apply to all solutions.',
+        'Selve beslutningen og ansvaret ligger hos entreprenør og kunde.': 'The decision itself and responsibility remain with the contractor and customer.',
+        'Hvor arbeidet står': 'Where the work stands', 'Søknadsteksten er revidert, men det gjenstår arbeid før den kan sendes inn.': 'The application has been revised, but work remains before it can be submitted.',
+        'Hvilke organisasjoner som skal delta, og hvilke roller de skal ha, er ikke bekreftet.': 'Which organisations will participate and what roles they will have has not been confirmed.',
+        'Arbeidspakkene, tidsplanen, budsjettet og risikoene er ikke ferdigstilt.': 'The work packages, schedule, budget and risks are not finalised.',
+        'Det gjenstår også å avklare hvordan forskningen skal gjennomføres og måles.': 'It also remains to clarify how the research will be conducted and measured.',
+        'Tilbake til toppen': 'Back to top', 'Opplysning om illustrasjonsbilder': 'Information about illustrative images',
+        'Noen av illustrasjonsbildene på siden er KI-genererte. De viser ikke faktiske kunder, byggeplasser eller møter. Bildet fra Kapitaldagen i Lister nedenfor er et fotografi.': 'Some of the illustrative images on this page are AI-generated. They do not show real customers, construction sites or meetings. The photo from Kapitaldagen i Lister below is a photograph.',
+        'Deler av prosjektgruppen i VERIFIED': 'Parts of the VERIFIED project group', 'Fire personer står sammen under Kapitaldagen i Lister.': 'Four people stand together at Kapitaldagen i Lister.',
+        'Foto fra Kapitaldagen i Lister.': 'Photo from Kapitaldagen i Lister.', 'Kilde for bildet': 'Image source'
+      };
+      const original = new Map();
+      const textNodes = [];
+      const walker = document.createTreeWalker(document.body, NodeFilter.SHOW_TEXT);
+      while (walker.nextNode()) {
+        const node = walker.currentNode;
+        if (node.parentElement.closest('script')) continue;
+        const key = node.nodeValue.replace(/\s+/g, ' ').trim();
+        if (key && english[key]) { original.set(node, node.nodeValue); textNodes.push([node, key]); }
+      }
+      const setLanguage = (isEnglish) => {
+        document.documentElement.lang = isEnglish ? 'en' : 'nb';
+        document.title = isEnglish ? englishTitle : norwegianTitle;
+        textNodes.forEach(([node, key]) => { node.nodeValue = isEnglish ? english[key] : original.get(node); });
+        languageButtons.forEach(button => { button.textContent = isEnglish ? 'NO' : 'EN'; button.setAttribute('aria-pressed', String(isEnglish)); });
+      };
+      languageButtons.forEach(button => button.addEventListener('click', () => setLanguage(document.documentElement.lang !== 'en')));
 
       // Mobile Menu Toggle
       const openMenu = () => {

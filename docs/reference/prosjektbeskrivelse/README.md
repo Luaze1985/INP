@@ -52,7 +52,10 @@ Arbeidsversjonene er ordlydskilden. `v0.4` skal ikke endres og bevarer innholdsd
 | `v3-okonomi.md` | Virkninger | ~1 | Eldre måltekst — godkjent arbeidsversjon finnes |
 | `g1-gjennomforing.md` | Gjennomføring | ~1 (+~2 AP) | Nytt utkast — forankret i låst budsjett v2.1 (handoff #50) |
 
-**Gjennomføring og arbeidspakker (AP1–AP6) er skrevet ut** i `g1-gjennomforing.md` etter handoff #50 (v2.1-låsen 2026-08-26). Tallene der er bindende; endres bare via budsjettfilene. Tidligere parkering (WP1–WP5) er dermed hevet.
+**Historisk AP1–AP6-materiale:** `g1-gjennomforing.md` dokumenterer den tidligere
+32-MNOK-modellen etter handoff #50. Den er avløst av IF-only-beslutningen og
+skal ikke brukes som gjeldende gjennomførings- eller budsjettgrunnlag. Gjeldende
+arbeidsretning omfatter bare AP1–AP3 som angitt øverst.
 
 ## Regler som gjelder alle sju
 

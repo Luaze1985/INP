@@ -1,8 +1,8 @@
 # VERIFIED – partneroppfølging og e-postplan
 
-**Dato:** 2026-08-29  
-**Status:** Utkast til intern godkjenning. Ingen e-post er sendt.  
-**Grunnlag:** [Partnerdialog – transkriptutdrag 01](2026-08-28-partnerdialog-innspill-01.md), gjeldende søknadskandidat v1.5 og IF-only-arbeidskandidat v1.6.  
+**Dato:** 2026-08-29
+**Status:** Utkast til intern godkjenning. Ingen e-post er sendt.
+**Grunnlag:** [Partnerdialog – transkriptutdrag 01](2026-08-28-partnerdialog-innspill-01.md), gjeldende søknadskandidat v1.5 og IF-only-arbeidskandidat v1.6.
 **Foreslått svarfrist:** 11. september 2026. Endres før utsending dersom den ikke passer den reelle søknadsplanen.
 
 ## Formål og utsendelsesregler
@@ -59,8 +59,8 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 
 ## E-post 0 – felles oppfølging
 
-**Til:** Bekreftede møtedeltakere  
-**Språk:** Engelsk  
+**Til:** Bekreftede møtedeltakere
+**Språk:** Engelsk
 **Emne:** Follow-up – VERIFIED partner meeting – next steps
 
 > Hello all,
@@ -80,14 +80,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > The full partner brief is here: [LENKE]. Please reply with corrections by 11
 > September 2026.
 >
-> Best regards,  
+> Best regards,
 > [NAVN]
 
 ## E-post 1 – Forskningsrådet
 
-**Til:** Riktig veileder/kontaktpunkt hos Forskningsrådet  
-**Kopi:** [Prosjektansvarlig]  
-**Språk:** Norsk  
+**Til:** Riktig veileder/kontaktpunkt hos Forskningsrådet
+**Kopi:** [Prosjektansvarlig]
+**Språk:** Norsk
 **Emne:** Avklaringsspørsmål – roller og støtteberettigelse i VERIFIED
 
 > Hei,
@@ -105,14 +105,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > Bakgrunn og foreløpig rolleoversikt: [LENKE]. Vi tar gjerne en kort veiledning
 > og ber om svar eller møtetid innen 11. september 2026.
 >
-> Vennlig hilsen,  
+> Vennlig hilsen,
 > [NAVN]
 
 ## E-post 2 – SINTEF / Lars Gullbrekken
 
-**Til:** Lars Gullbrekken, SINTEF Community – e-postadresse bekreftes  
-**Kopi:** [Prosjektansvarlig], [Lars Erik]  
-**Språk:** Norsk  
+**Til:** Lars Gullbrekken, SINTEF Community – e-postadresse bekreftes
+**Kopi:** [Prosjektansvarlig], [Lars Erik]
+**Språk:** Norsk
 **Emne:** Oppfølging – FoU-avgrensning og mulig SINTEF-bidrag i VERIFIED
 
 > Hei Lars,
@@ -130,14 +130,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > Hele partnernotatet ligger her: [LENKE]. Kan vi ta et 45-minutters møte, og
 > få en kort skriftlig respons innen 11. september 2026?
 >
-> Vennlig hilsen,  
+> Vennlig hilsen,
 > [NAVN]
 
 ## E-post 3 – Norsk Byggtjeneste / NOBB
 
-**Til:** Bjørn Lindebrekke, Norsk Byggtjeneste – e-postadresse bekreftes  
-**Kopi:** [Prosjektansvarlig], [Bjørn Arne Skeime], [Lars Erik]  
-**Språk:** Norsk  
+**Til:** Bjørn Lindebrekke, Norsk Byggtjeneste – e-postadresse bekreftes
+**Kopi:** [Prosjektansvarlig], [Bjørn Arne Skeime], [Lars Erik]
+**Språk:** Norsk
 **Emne:** Oppfølging – NOBB-data, datakvalitet og mulig rolle i VERIFIED
 
 > Hei Bjørn,
@@ -156,14 +156,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > Hele partnernotatet ligger her: [LENKE]. Kan dere svare kort eller foreslå et
 > møte innen 11. september 2026?
 >
-> Vennlig hilsen,  
+> Vennlig hilsen,
 > [NAVN]
 
 ## E-post 4 – Standard Norge
 
-**Til:** Marte Haugland og Tanja, Standard Norge – e-postadresser bekreftes  
-**Kopi:** [Prosjektansvarlig], [Lars Erik]  
-**Språk:** Norsk  
+**Til:** Marte Haugland og Tanja, Standard Norge – e-postadresser bekreftes
+**Kopi:** [Prosjektansvarlig], [Lars Erik]
+**Språk:** Norsk
 **Emne:** Oppfølging – standardbruk, rettigheter og mulig rolle i VERIFIED
 
 > Hei Marte og Tanja,
@@ -183,14 +183,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > Hele partnernotatet ligger her: [LENKE]. Vi ber om en kort avklaringssamtale
 > og innspill innen 11. september 2026.
 >
-> Vennlig hilsen,  
+> Vennlig hilsen,
 > [NAVN]
 
 ## E-post 5 – Axon / Dmytro
 
-**Til:** Dmytro Nalyvaiko, Axon – e-postadresse bekreftes  
-**Kopi:** [Prosjektansvarlig], [Bjørn Arne Skeime], [Lars Erik]  
-**Språk:** Engelsk  
+**Til:** Dmytro Nalyvaiko, Axon – e-postadresse bekreftes
+**Kopi:** [Prosjektansvarlig], [Bjørn Arne Skeime], [Lars Erik]
+**Språk:** Engelsk
 **Emne:** Follow-up – possible technical delivery for VERIFIED
 
 > Hi Dmytro,
@@ -208,14 +208,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > The full partner brief is here: [LINK]. This is an exploration, not a request
 > for a commitment. Please reply by 11 September 2026.
 >
-> Best regards,  
+> Best regards,
 > [NAME]
 
 ## E-post 6 – Åpenhet / Kleng Bråtveit
 
-**Til:** Kleng Bråtveit, Åpenhet – e-postadresse bekreftes  
-**Kopi:** [Prosjektansvarlig], [Lars Erik]  
-**Språk:** Norsk  
+**Til:** Kleng Bråtveit, Åpenhet – e-postadresse bekreftes
+**Kopi:** [Prosjektansvarlig], [Lars Erik]
+**Språk:** Norsk
 **Emne:** Oppfølging – brukerinnsikt og forklarbar visualisering i VERIFIED
 
 > Hei Kleng,
@@ -233,14 +233,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > Hele partnernotatet ligger her: [LENKE]. Kan vi få en kort respons eller møtetid
 > innen 11. september 2026?
 >
-> Vennlig hilsen,  
+> Vennlig hilsen,
 > [NAVN]
 
 ## E-post 7 – Norsk Katapult Digital / Bjørn Aase Dimmen
 
-**Til:** Bjørn Aase Dimmen, Norsk Katapult Digital – e-postadresse bekreftes  
-**Kopi:** [Prosjektansvarlig], [Lars Erik]  
-**Språk:** Norsk  
+**Til:** Bjørn Aase Dimmen, Norsk Katapult Digital – e-postadresse bekreftes
+**Kopi:** [Prosjektansvarlig], [Lars Erik]
+**Språk:** Norsk
 **Emne:** Oppfølging – test, datakvalitet og mulig KI-bidrag i VERIFIED
 
 > Hei Bjørn,
@@ -257,14 +257,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > Hele partnernotatet ligger her: [LENKE]. Dette er en forespørsel om avklaring,
 > ikke en bestilling. Svar gjerne innen 11. september 2026.
 >
-> Vennlig hilsen,  
+> Vennlig hilsen,
 > [NAVN]
 
 ## E-post 8 – D Takst / Trond Dugan
 
-**Til:** Trond Dugan, D Takst – e-postadresse bekreftes  
-**Kopi:** [Prosjektansvarlig], [Bjørn Arne Skeime]  
-**Språk:** Norsk  
+**Til:** Trond Dugan, D Takst – e-postadresse bekreftes
+**Kopi:** [Prosjektansvarlig], [Bjørn Arne Skeime]
+**Språk:** Norsk
 **Emne:** Oppfølging – takst-, levetids- og verdiperspektiv i VERIFIED
 
 > Hei Trond,
@@ -283,14 +283,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > Hele partnernotatet ligger her: [LENKE]. Svar gjerne eller foreslå et møte innen
 > 11. september 2026.
 
-> Vennlig hilsen,  
+> Vennlig hilsen,
 > [NAVN]
 
 ## E-post 9 – Hunton / Camilla
 
-**Til:** Camilla [etternavn og virksomhet bekreftes]  
-**Kopi:** [Prosjektansvarlig], [Bjørn Arne Skeime]  
-**Språk:** Norsk  
+**Til:** Camilla [etternavn og virksomhet bekreftes]
+**Kopi:** [Prosjektansvarlig], [Bjørn Arne Skeime]
+**Språk:** Norsk
 **Emne:** Oppfølging – mulig produktdata- og materialbidrag til VERIFIED
 
 > Hei Camilla,
@@ -309,14 +309,14 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > Hele partnernotatet ligger her: [LENKE]. Vi ber bare om interesse og korrekt
 > kontaktpunkt innen 11. september 2026.
 
-> Vennlig hilsen,  
+> Vennlig hilsen,
 > [NAVN]
 
 ## E-post 10 – John / virksomhet bekreftes først
 
-**Til:** John [fullt navn og virksomhet bekreftes før utsending]  
-**Kopi:** [Prosjektansvarlig]  
-**Språk:** Norsk eller engelsk etter bekreftet mottaker  
+**Til:** John [fullt navn og virksomhet bekreftes før utsending]
+**Kopi:** [Prosjektansvarlig]
+**Språk:** Norsk eller engelsk etter bekreftet mottaker
 **Emne:** Oppfølging – bekreftelse av kontaktpunkt og mulig bidrag til VERIFIED
 
 > Hei John,
@@ -334,7 +334,7 @@ Gunnar Stokke). Bekreft avsender og eventuelle kopimottakere før utsending.
 > Kort prosjektbrief: [LENKE]. Vi ber kun om kontakt- og rolleavklaring innen 11.
 > september 2026.
 
-> Vennlig hilsen,  
+> Vennlig hilsen,
 > [NAVN]
 
 ## Aktører som ikke skal få e-post nå

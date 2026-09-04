@@ -69,17 +69,6 @@ Tilstand og kjente risikoer. Oppdatert: **2026-09-04**.
 - **Én enkel økonomioversikt:** Bare de fem formelle kostnadsbærerne vises som finansierende aktører. Leverandørkjøp er samlet under Vi Bygger Sammen AS.
 - **Deterministisk kalkyle er forenklet:** `budsjett/kalkulator.py` og `tools/budget_validator.py` bruker kun AP1–AP3 og validerer kostnadsbærer mot aktørmatrise uten Python-`assert`.
 
-## Forrige endring: v1.5 satt som aktiv kandidat (2026-08-27)
-
-- **V1.5 er aktiv Source Guard-kandidat:** Lars bekreftet 2026-08-27 at
-  `soknadstekst-samlet-kandidat-v1.5.md` var gjeldende kandidat. V1.7 er nyere
-  arbeidsgrunnlag, men Source Guard er ikke flyttet dit ennå.
-- **Source Guard er flyttet til v1.5:** Registeret, kontrollskriptet og
-  standardbanen i nettsidekontrollen peker på v1.5. Historiske v1.0-rapporter
-  beholdes som historikk.
-- **Revisjonslogg:** Kontroller, kandidater og åpne porter er samlet i
-  `docs/reference/prosjektbeskrivelse/reviews/2026-08-27-revisjonspass-logg-v1.5.md`.
-
 ## Siste endringer: søknadskandidat v1.0 og Source Guard v1.0/v0.6 (2026-08-10)
 
 - **SINTEF-kritisk sporing (F1–F7) inntatt:** Samlet kritisk analyse lagret i `.scratch/sintef-forskningssoek-intake/`. `[ZEN2020-24]` er åpnet og godkjent for avgrensede material- og klimagasspåstander. `[ZEN-sirk2023]` er teknisk verifisert, men holdes utenfor aktiv prosa til Lars har lest sammendraget. `[Ingvaldsen2008]` er verifisert, men tatt ut av v1.0 som for gammel og sperret som SP-12. Wiik2025 forblir ⏸.
@@ -143,11 +132,10 @@ _Unngå_: DNB, Flekkefjord Sparebank, kreditt- og bankspor.
 
 - **Bilderettigheter (ny 2026-08-07):** de fem bildene på den offentlige siden har ukjent opphav.
   Rettighetshaver bør spores og skriftlig bruksrett innhentes, eller bildene erstattes med egne.
-- **v1.5 er arbeidskandidat.** Partnerkommentarene og den avgrensede kildeporten er behandlet,
-  men menneskelig godkjenning må fortsatt lukkes før teksten går inn i Forskningsrådets skjema.
-- **Aktive v1.5-kilder er portet.** Tre NTNU-fulltekster og de brukte standardbeskrivelsene er
-  åpnet og godkjent smalt. Tre produktkilder står 🟡 og brukes bare som tydelig merkede
-  leverandøropplysninger.
+- **v1.7 er nyeste arbeidskandidat, men ikke aktivert.** Partneroppgavene er konkretisert,
+  mens rollekort, avtaler, leverandørtilbud og menneskelig godkjenning fortsatt er åpne.
+- **Source Guard må flyttes i en egen beslutning.** V1.7 har bestått en eksplisitt skanning,
+  men den aktive konfigurasjonen og nettsiden er ikke oppdatert til kandidaten.
 - **🟡 venter på primær:** `[An2020]`, `[GullbrekkenHolme2025]`, `[KD2024]`, `[Mecca2023]` (Wiley-betalingsmur) m.fl. SINTEF åpner fulltekst **midten av august 2026** → 🟢. Ikke innsendingsklar før disse er 🟢 eller fraset med forbehold.
 - **Parkerte kilder (⏸):** `[Wiik2025]` og `[SA2018]` venter på at kilden lokaliseres;
   `[Ingvaldsen2008]` og `[Munda2006]` er ute av v1.0 etter aldersregelen.

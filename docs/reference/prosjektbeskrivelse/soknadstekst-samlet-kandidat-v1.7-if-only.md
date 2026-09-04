@@ -1,7 +1,7 @@
 # VERIFIED — søknadskandidat v1.7, IF-only
 
-**Dato:** 2026-09-04  
-**Status:** Arbeidskandidat for IPN. Ikke innsendingsklar. Partnerroller og kostnadsfordeling er foreløpige inntil rollekort og avtalegrunnlag er godkjent.  
+**Dato:** 2026-09-04
+**Status:** Arbeidskandidat for IPN. Ikke innsendingsklar. Partnerroller og kostnadsfordeling er foreløpige inntil rollekort og avtalegrunnlag er godkjent.
 **Avgrensning:** Industriell forskning i AP1–AP3. AP4–AP6 og eksperimentell utvikling inngår ikke.
 
 ## Sammendrag
@@ -93,6 +93,11 @@ VERIFIED forutsetter ikke en bestemt klimaeffekt, kostnadsbesparelse eller endre
 
 Vi Bygger Sammen AS foreslås som prosjektansvarlig. Konsortiemodellen har foreløpig én kandidat til metode- og valideringspartner, to kandidater til selvstendige SMB-partnere og én kandidat til data- og standardpartner. Ingen av partnerrollene er bekreftet før et rollekort og et avtalegrunnlag dokumenterer oppgaver, kapasitet, kostnader, resultatbruk og rettigheter.
 
+Navnene på partner- og leverandørkandidatene settes først inn i
+søknadsteksten når den enkelte rolleporten er lukket. Den interne
+partneroversikten beholder navnene slik at oppfølgingen kan være konkret uten
+at kandidaten framstiller interesse som avtale.
+
 Prosjektet planlegger å kjøpe avgrenset FoU fra en navngitt FoU-leverandør, forutsatt bekreftet juridisk enhet, tilbud, markedspris, forskningsleveranser og rettigheter. En teknisk underleverandør kan bare betegnes som FoU-leverandør dersom en selvstendig FoU-oppgave og korrekt kontraktsrolle blir dokumentert.
 
 En spesialist på brukerinnsikt kan vurderes for avgrenset arbeid med forståelighet og forklarbarhet dersom dette blir en konkret forskningsleveranse i AP1–AP3. Ordinær søknadsrådgivning og prosjektbistand skal holdes utenfor FoU-budsjettet. En standardiseringsfaglig rådgiver kan bidra med standardkart, begreper og lisens-/bruksgrenser, men er ikke foreslått som formell partner. Det skal ikke loves en ny standard.
@@ -158,7 +163,7 @@ Bare åpne, uavhengige kilder kan bære faktapåstander i søknaden. Interne mø
 
 ## Referanser
 
-[1] SSB, virksomheter i bygge- og anleggsnæringen, per 1. januar 2026.  
-[2] ISO 14040, Life cycle assessment — Principles and framework.  
-[3] NS 3720, Metode for klimagassberegninger for bygninger.  
+[1] SSB, virksomheter i bygge- og anleggsnæringen, per 1. januar 2026.
+[2] ISO 14040, Life cycle assessment — Principles and framework.
+[3] NS 3720, Metode for klimagassberegninger for bygninger.
 [4] ISO 15686-5, Life-cycle costing.

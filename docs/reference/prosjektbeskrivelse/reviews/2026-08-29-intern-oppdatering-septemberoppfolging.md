@@ -1,8 +1,8 @@
 # Intern oppdatering – VERIFIED de neste fem ukene
 
-**Til:** Lars Gunnar og Bjørn  
-**Fra:** Lars Erik  
-**Dato:** 2026-08-29  
+**Til:** Lars Gunnar og Bjørn
+**Fra:** Lars Erik
+**Dato:** 2026-08-29
 **Status:** Forslag til intern prioritering. Ingen ekstern oppfølging er sendt.
 
 > **Anbefaling:** Bruk september til to dype spor: SINTEF skal hjelpe oss å
@@ -103,8 +103,8 @@ Fra oktober har Lars Erik normalt kapasitet på to dager og to kvelder per uke; 
 
 ## Kilder
 
-[1] `2026-08-28-partnerdialog-innspill-01.md` – møtets innspill, talerkart og åpne avklaringer.  
-[2] `2026-08-29-partneroppfolging-e-postplan.md` – tidligere bred e-postplan med individuelle utkast.  
+[1] `2026-08-28-partnerdialog-innspill-01.md` – møtets innspill, talerkart og åpne avklaringer.
+[2] `2026-08-29-partneroppfolging-e-postplan.md` – tidligere bred e-postplan med individuelle utkast.
 [3] `soknadstekst-samlet-kandidat-v1.6-if-only.md` – arbeidskandidat med AP1–AP3-avgrensning.
 
 ## Endringslogg

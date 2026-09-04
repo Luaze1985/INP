@@ -19,10 +19,10 @@ WORK_PACKAGES = (
 # Dette er de eneste aktørene som bærer prosjektkostnad og egenfinansiering.
 COST_CARRIERS = (
     {"id": "vibs", "name": "Vi Bygger Sammen AS", "role": "Prosjektansvarlig", "total_cost_nok": 12_600_000, "support_rate_percent": 50},
-    {"id": "d_takst", "name": "D Takst AS", "role": "Samarbeidspartner", "total_cost_nok": 1_500_000, "support_rate_percent": 50},
-    {"id": "espeland", "name": "Byggmester Espeland AS", "role": "Samarbeidspartner", "total_cost_nok": 300_000, "support_rate_percent": 50},
-    {"id": "norgesbygg_sor", "name": "Norgesbygg Sør AS", "role": "Samarbeidspartner", "total_cost_nok": 300_000, "support_rate_percent": 50},
-    {"id": "norsk_byggtjeneste", "name": "Norsk Byggtjeneste AS", "role": "Samarbeidspartner", "total_cost_nok": 1_300_000, "support_rate_percent": 50},
+    {"id": "d_takst", "name": "D Takst AS", "role": "Kandidat samarbeidspartner", "total_cost_nok": 1_500_000, "support_rate_percent": 50},
+    {"id": "espeland", "name": "Byggmester Espeland AS", "role": "Kandidat samarbeidspartner", "total_cost_nok": 300_000, "support_rate_percent": 50},
+    {"id": "norgesbygg_sor", "name": "Norgesbygg Sør AS", "role": "Kandidat samarbeidspartner", "total_cost_nok": 300_000, "support_rate_percent": 50},
+    {"id": "norsk_byggtjeneste", "name": "Norsk Byggtjeneste AS", "role": "Kandidat samarbeidspartner", "total_cost_nok": 1_300_000, "support_rate_percent": 50},
 )
 
 # Samme kostnadsbærere som over, fordelt på AP1-AP3. Alle beløp er hele NOK.

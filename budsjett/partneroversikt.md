@@ -1,8 +1,8 @@
 # Partneroversikt og bekreftelsesporter — VERIFIED IF-only
 
-**Oppdatert:** 2026-09-04  
+**Oppdatert:** 2026-09-04
 **Status:** Internt arbeidsgrunnlag. Ingen partnerrolle er bindende før rollekort,
-juridisk enhet, kostnader, egenfinansiering og avtale er skriftlig bekreftet.  
+juridisk enhet, kostnader, egenfinansiering og avtale er skriftlig bekreftet.
 **Avgrensning:** Industriell forskning i AP1–AP3. AP4–AP6, banker og
 finansaktører inngår ikke.
 

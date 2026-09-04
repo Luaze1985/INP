@@ -13,8 +13,8 @@ Opprettet 2026-07-08 (fase 0 i `../ipn-multiagent-workflow-2026-07-08.md`).
 - **Budsjett-/aktørgrunnlag:** `../../../budsjett/partneroversikt.md` og
   `../../../budsjett/kalkulator.py`
 - **Status:** ikke innsendingsklar. Partnerkandidatene, leverandørtilbudene,
-  rettighetene og støtteforutsetningene må bekreftes. Source Guard peker fortsatt
-  på v1.5 til en egen flyttebeslutning er tatt.
+  rettighetene og støtteforutsetningene må bekreftes. Aktivering i Source Guard
+  er utsatt til en egen flyttebeslutning.
 
 V1.7 gjør partneroppgavene vurderbare uten å framstille interesse som avtale.
 VIBS er prosjektansvarlig; de øvrige navngitte rollene er foreløpige og følger
@@ -50,12 +50,11 @@ Arbeidsversjonene er ordlydskilden. `v0.4` skal ikke endres og bevarer innholdsd
 | `v1-baerekraft.md` | Virkninger | ~1,5 | Eldre måltekst — godkjent arbeidsversjon finnes |
 | `v2-sikkerhet.md` | Virkninger | ~1 | Eldre måltekst — godkjent arbeidsversjon finnes |
 | `v3-okonomi.md` | Virkninger | ~1 | Eldre måltekst — godkjent arbeidsversjon finnes |
-| `g1-gjennomforing.md` | Gjennomføring | ~1 (+~2 AP) | Nytt utkast — forankret i låst budsjett v2.1 (handoff #50) |
 
-**Historisk AP1–AP6-materiale:** `g1-gjennomforing.md` dokumenterer den tidligere
-32-MNOK-modellen etter handoff #50. Den er avløst av IF-only-beslutningen og
-skal ikke brukes som gjeldende gjennomførings- eller budsjettgrunnlag. Gjeldende
-arbeidsretning omfatter bare AP1–AP3 som angitt øverst.
+**Historisk AP1–AP6-materiale:** Den tidligere 32-MNOK-modellen er avløst av
+IF-only-beslutningen og skal ikke brukes som gjeldende gjennomførings- eller
+budsjettgrunnlag. Gjeldende arbeidsretning omfatter bare AP1–AP3 som angitt
+øverst.
 
 ## Regler som gjelder alle sju
 

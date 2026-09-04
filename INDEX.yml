@@ -19,10 +19,9 @@ governance:
   IPN-FLYTTES.md: Flyttemanifest (kilde→mål, hva som skal slettes etter bekreftelse)
 
 soknadskandidat:
-  # Nyeste arbeidsretning er IF-only. Source Guard peker fortsatt på v1.5.
+  # Nyeste arbeidsretning er IF-only. Aktivering i Source Guard er utsatt til egen beslutning.
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.7-if-only.md: NYESTE arbeidskandidat (2026-09-04). AP1–AP3, konkrete partneroppgaver og bekreftelsesporter; ikke innsendingsklar
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.6-if-only.md: Historisk IF-only-baseline fra 2026-08-27
-  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.5.md: Aktiv Source Guard-kandidat fra 2026-08-27; historisk 32,0-MNOK-modell
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.0.md: Historisk arbeidskandidat fra 2026-08-10
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md: Historisk kandidat fra 2026-08-07
   docs/reference/prosjektbeskrivelse/v0.9-apne-kommentarer-2026-08-05.md: Beslutningshistorikk for fem partnerkommentarer
@@ -33,7 +32,6 @@ nettside:
   site/web/styles.css: Stil for nettsiden
   site/arbeid/: Arbeidsfiler som IKKE publiseres — faktasjekker, gamle bilder, skjermbilder, skript
   site/arbeid/bilder-kilder.md: Bildekilder + udokumentert rettighetsstatus (kjent risiko)
-  site/arbeid/faktasjekk-2026-08-11.md: GJELDENDE faktasjekk — nettsiden kontrollert mot v1.0
   site/arbeid/faktasjekk-2026-08-07.md: Historisk faktasjekk mot v0.9
   site/tekstmanus.md: Innholdskilde for siden. HTML bygges fra denne
   site/design-brief.md: Visuell retning

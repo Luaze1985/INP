@@ -1,10 +1,10 @@
 # Partnerdialog – transkriptutdrag 01
 
-**Registrert:** 2026-08-28  
-**Møtedato:** Ikke oppgitt  
+**Registrert:** 2026-08-28
+**Møtedato:** Ikke oppgitt
 **Kilde:** Fire transkriptutdrag og en full transkripteksport med møtetittelen
-«Project Verified - placeholder», levert av Lars i arbeidsdialogen 2026-08-28  
-**Status:** Internt partnerinnspill og beslutningshistorikk. Ikke uavhengig belegg.  
+«Project Verified - placeholder», levert av Lars i arbeidsdialogen 2026-08-28
+**Status:** Internt partnerinnspill og beslutningshistorikk. Ikke uavhengig belegg.
 **Omfang:** Fire utdrag; ikke et fullstendig møtereferat.
 
 ## Hva som faktisk kommer fram i utdraget

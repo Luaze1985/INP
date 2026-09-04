@@ -1,7 +1,7 @@
 # VERIFIED — søknadskandidat v1.6, IF-only
 
-**Dato:** 2026-08-27  
-**Status:** Arbeidskandidat for IPN. Ikke innsendingsklar.  
+**Dato:** 2026-08-27
+**Status:** Arbeidskandidat for IPN. Ikke innsendingsklar.
 **Avgrensning:** Industriell forskning i AP1–AP3. AP4–AP6 og eksperimentell utvikling inngår ikke.
 
 ## Sammendrag
@@ -79,7 +79,7 @@ Alle aktivitetene i denne kandidaten er industriell forskning og beregnet med 50
 
 ## Referanser
 
-[1] SSB, virksomheter i bygge- og anleggsnæringen, per 1. januar 2026.  
-[2] ISO 14040, Life cycle assessment — Principles and framework.  
-[3] NS 3720, Metode for klimagassberegninger for bygninger.  
+[1] SSB, virksomheter i bygge- og anleggsnæringen, per 1. januar 2026.
+[2] ISO 14040, Life cycle assessment — Principles and framework.
+[3] NS 3720, Metode for klimagassberegninger for bygninger.
 [4] ISO 15686-5, Life-cycle costing.

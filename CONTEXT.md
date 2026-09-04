@@ -1,8 +1,93 @@
 # CONTEXT.md — ipn-verified
 
-Tilstand og kjente risikoer. Oppdatert: **2026-08-07**.
+Tilstand og kjente risikoer. Oppdatert: **2026-09-04**.
 
-## Siste endring: v0.9 inn, nettsiden rettet etter den (2026-08-07)
+## Siste endring: v1.7 IF-only med konkrete partnerporter (2026-09-04)
+
+- **V1.7 IF-only er nyeste arbeidskandidat:** Den beholder AP1–AP3 og
+  16,0/8,0/8,0 MNOK-rammen, men gjør ansvar, leveranser, akseptkriterier og
+  beslutningsporter tydelige. Den er ikke innsendingsklar og er ikke aktiv
+  Source Guard-kandidat.
+- De fire samarbeidspartnerne fra v1.6 er nå uttrykkelig **kandidater**, ikke
+  bekreftede partnere. Hver må dokumentere nødvendig FoU-oppgave, egne timer og
+  kostnader, egenfinansiering, resultatbruk, rettigheter og skriftlig vilje.
+- Partner-for-partner-rollekort og bekreftelsesporter ligger i
+  `docs/reference/prosjektbeskrivelse/arbeidsversjoner/06-partnerroller-og-bekreftelsesporter-v1.7.md`.
+- `budsjett/partneroversikt.md` er oppdatert fra den foreldede AP1–AP6-modellen
+  til IF-only. Leverandørunderfordeling under VIBS står åpen til tilbud og
+  juridiske enheter er dokumentert.
+- VIBS er fortsatt prosjektansvarlig. SINTEF er foreslått FoU-leverandør,
+  Axon teknisk underleverandør, Norsk Byggtjeneste første partnerkandidat,
+  Sør Bygg nærstående og John ekstern reviewer. BEWI og finansaktører er ute.
+
+## Forrige endring: e-postplan for partneroppfølging (2026-08-29)
+
+- Utsendelsesklar plan med én felles takk og ti individuelle e-postutkast ligger i
+  `docs/reference/prosjektbeskrivelse/reviews/2026-08-29-partneroppfolging-e-postplan.md`.
+- Planen prioriterer først Forskningsrådet, SINTEF, Norsk Byggtjeneste/NOBB,
+  Standard Norge og Axon. Den ber om avklaringer, ikke om forpliktelser.
+- E-postadresser, juridiske enheter, avsender og kopimottakere må bekreftes før
+  utsending. Ingen e-post er sendt.
+- En kort intern oppdatering til Lars Gunnar og Bjørn prioriterer SINTEF og Kleng
+  som dype spor, John som hurtigtest og øvrige aktører som «hold varme». Se
+  `docs/reference/prosjektbeskrivelse/reviews/2026-08-29-intern-oppdatering-septemberoppfolging.md`.
+
+## Forrige endring: partnerdialog registrert som internt innspill (2026-08-28)
+
+- Fire transkriptutdrag fra en partnerdialog er registrert i
+  `docs/reference/prosjektbeskrivelse/reviews/2026-08-28-partnerdialog-innspill-01.md`.
+- Utdraget støtter at gjennomførbarhet, målbare attributter og mulige krav er
+  åpne FoU-spørsmål. Det er ikke uavhengig belegg.
+- Møteformuleringen «lage en ny standard» er sperret som direkte resultatpåstand.
+  Trygg retning er metode- og datagrunnlag som kan være relevant som innspill til
+  senere standardiseringsarbeid.
+- Identiteten til John og Camilla er fortsatt ikke sikkert bekreftet. Fulltranskriptet
+  avklarer at «degree platform» viser til Grønn Plattform og «LIBS/VIPS/VIPPS» til
+  VIBS, men råutdragene beholdes uendret som mottatt.
+- Det andre utdraget blander FoU, VIBS-produktfunksjoner, bankbruk og mulig
+  standardisering. Sporene er skilt i notatet. Banksporet forblir ute av IF-only,
+  og Standard Norges juridiske rolle og lisensvilkår er åpne avklaringer.
+- Det tredje utdraget gir et mulig AP1/AP2-spor om manglende NOBB-produktdata og
+  en API-basert tilbakemeldingssløyfe til produsent. Funksjonen og API-vilkårene
+  er ikke verifisert. Maskinlæring kan ikke erstatte manglende produsentdata uten
+  synlig provenans, usikkerhet og egen validering.
+- Påstander om høyere pris, bedre kvalitet, lengre levetid, lavere energibruk,
+  billigere lån og besparelser er registrert som hypoteser, ikke dokumentert
+  effekt. Partnerinteresse er heller ikke behandlet som bindende deltakelse.
+- Det fjerde utdraget setter offisiell avklaring av støtteberettigelse øverst på
+  oppfølgingslisten. Axons rolle er fortsatt udefinert, og en foreløpig dato
+  30. oktober skal ikke overføres til dagens IPN-løp med løpende frist.
+- Full transkripteksport er gjennomgått. Et foreløpig talerkart er lagt inn med
+  sikkerhetsgrader. Bjørn Arne Skeime, Lars Gullbrekken, Bjørn Lindebrekke,
+  Bjørn Aase Dimmen, Kleng Bråtveit, Lars Erik og Dmytro kan kobles sikkert til
+  sentrale utsagn. Møtelederen, fordelingen mellom Marte/Tanja og identiteten til
+  John og Camilla krever fortsatt bekreftelse.
+
+## Forrige endring: v1.6 IF-only arbeidskandidat (2026-08-27)
+
+- **V1.6 IF-only er opprettet som arbeidskandidat:** Søknaden er avgrenset til AP1–AP3, 16,0 MNOK, 8,0 MNOK søkt støtte og 8,0 MNOK egenfinansiering. Den er ikke aktiv Source Guard-kandidat og ikke innsendingsklar.
+- **Én enkel økonomioversikt:** Bare de fem formelle kostnadsbærerne vises som finansierende aktører. Leverandørkjøp er samlet under Vi Bygger Sammen AS.
+- **Deterministisk kalkyle er forenklet:** `budsjett/kalkulator.py` og `tools/budget_validator.py` bruker kun AP1–AP3 og validerer kostnadsbærer mot aktørmatrise uten Python-`assert`.
+
+## Forrige endring: v1.5 satt som aktiv kandidat (2026-08-27)
+
+- **V1.5 er aktiv Source Guard-kandidat:** Lars bekreftet 2026-08-27 at
+  `soknadstekst-samlet-kandidat-v1.5.md` var gjeldende kandidat. V1.7 er nyere
+  arbeidsgrunnlag, men Source Guard er ikke flyttet dit ennå.
+- **Source Guard er flyttet til v1.5:** Registeret, kontrollskriptet og
+  standardbanen i nettsidekontrollen peker på v1.5. Historiske v1.0-rapporter
+  beholdes som historikk.
+- **Revisjonslogg:** Kontroller, kandidater og åpne porter er samlet i
+  `docs/reference/prosjektbeskrivelse/reviews/2026-08-27-revisjonspass-logg-v1.5.md`.
+
+## Siste endringer: søknadskandidat v1.0 og Source Guard v1.0/v0.6 (2026-08-10)
+
+- **SINTEF-kritisk sporing (F1–F7) inntatt:** Samlet kritisk analyse lagret i `.scratch/sintef-forskningssoek-intake/`. `[ZEN2020-24]` er åpnet og godkjent for avgrensede material- og klimagasspåstander. `[ZEN-sirk2023]` er teknisk verifisert, men holdes utenfor aktiv prosa til Lars har lest sammendraget. `[Ingvaldsen2008]` er verifisert, men tatt ut av v1.0 som for gammel og sperret som SP-12. Wiik2025 forblir ⏸.
+- **Søknadskandidat v1.0 opprettet og satt aktiv:** Fem partnerkommentarer er løst, kildeporten er gjennomført og `soknadstekst-samlet-kandidat-v1.0.md` er nå gjeldende prosakandidat.
+- **Source Guard oppdatert:** `governance/source-blocklist.json` og `tools/source_guard.py` peker på `soknadstekst-samlet-kandidat-v1.0.md` og `k3-forskning-sannhetsserum-v0.6.md`. Registeret har 12 sperreposter; SP-12 er `[Ingvaldsen2008]`.
+- **Deterministisk repolinse opprettet:** `tools/repo_lens.py` analyserer versjoner, kildestatuser, Source Guard-dekning og siterings-drift.
+
+## Forrige endring: v0.9 inn, nettsiden rettet etter den (2026-08-07)
 
 Søknadskandidat **v0.9** er rullet inn i repoet som markdown
 (`docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md`). Den er en klart mer
@@ -15,8 +100,8 @@ Den publiserte nettsiden sto med et faktagrunnlag v0.9 hadde forlatt — 32 %-ta
 `site/arbeid/faktasjekk-2026-08-07.md` for full sporing påstand for påstand.
 
 - **v0.5–v0.8 finnes ikke i repoet.** De er skrevet utenfor. Hoppet er notert, ikke rekonstruert.
-- **Fem åpne kommentarer** fra partnergjennomgangen er hentet ut av Word-fila til
-  `prosjektbeskrivelse/v0.9-apne-kommentarer-2026-08-05.md`. Ingen er behandlet.
+- **Fem partnerkommentarer** fra v0.9 er hentet ut av Word-fila og behandlet i
+  `soknadstekst-samlet-kandidat-v1.0.md` 2026-08-10. Kommentarfilen beholdes som beslutningshistorikk.
 - **`site/mockup/` er døpt om til `site/web/`.** Det var aldri en mockup — det er den publiserte
   siden. `vercel.json` og `netlify.toml` peker dit nå.
 - **Bilderettigheter er en åpen risiko.** Fem nye byggeplassbilder er tatt i bruk uten dokumentert
@@ -36,6 +121,15 @@ _Unngå_: «svart boks», «automatisk beslutning».
 **Brukerforutsetning:** Informasjonen skal være mulig å bruke i tilbudsfasen uten å forutsette fagkunnskap og tid som mange små bedrifter ikke har.  
 _Unngå_: «spesialister».
 
+**IF-only søknad:** Denne revisjonen av VERIFIED avgrenser søknadens FoU- og budsjettgrunnlag til industriell forskning i AP1–AP3. AP4–AP6 og eksperimentell utvikling inngår ikke i kandidatteksten eller kostnadsmatrisen.
+_Unngå_: å omtale AP4–AP6 som industriell forskning eller å beholde EU-beløp i den forenklede søknadsøkonomien.
+
+**Grovsortert kostnadsfordeling:** Søknadsteksten skal vise én integrert, kort økonomioversikt med formelle kostnadsbærere, deres prosjektkostnad, søkt støtte og egenfinansiering. Innkjøpte leverandører vises samlet under prosjektansvarlig, og referanseaktører vises ikke som finansierende aktører.
+_Unngå_: dobbelttelling av leverandørkostnader som både VIBS-kostnad og egenfinansiering hos leverandøren.
+
+**Bankavgrensning:** Banker og finansaktører inngår ikke i VERIFIEDs IF-only-søknad, verken som partner, leverandør, referanseaktør eller brukergruppe.
+_Unngå_: DNB, Flekkefjord Sparebank, kreditt- og bankspor.
+
 ## Status nå
 
 - **Søknadstekst:** tre kanoniske dokumenter er språkvasket (presens→futurum, sjargong fjernet) og kildedom er flettet inn.
@@ -49,17 +143,19 @@ _Unngå_: «spesialister».
 
 - **Bilderettigheter (ny 2026-08-07):** de fem bildene på den offentlige siden har ukjent opphav.
   Rettighetshaver bør spores og skriftlig bruksrett innhentes, eller bildene erstattes med egne.
-- **Kommentarene til v0.9 er ubehandlet.** Tre av fem gjelder avgrensning og struktur og bør avklares
-  før teksten går inn i Forskningsrådets skjema.
-- **v0.9s kilder er ikke primærverifisert.** Fire NTNU-masteroppgaver ligger åpent i NTNU Open og
-  bør kunne løftes til 🟢 raskt. `[SSB2026]` er allerede 🟢.
+- **v1.5 er arbeidskandidat.** Partnerkommentarene og den avgrensede kildeporten er behandlet,
+  men menneskelig godkjenning må fortsatt lukkes før teksten går inn i Forskningsrådets skjema.
+- **Aktive v1.5-kilder er portet.** Tre NTNU-fulltekster og de brukte standardbeskrivelsene er
+  åpnet og godkjent smalt. Tre produktkilder står 🟡 og brukes bare som tydelig merkede
+  leverandøropplysninger.
 - **🟡 venter på primær:** `[An2020]`, `[GullbrekkenHolme2025]`, `[KD2024]`, `[Mecca2023]` (Wiley-betalingsmur) m.fl. SINTEF åpner fulltekst **midten av august 2026** → 🟢. Ikke innsendingsklar før disse er 🟢 eller fraset med forbehold.
-- **Parkerte kilder (⏸):** `[Wiik2025]`, `[SA2018]` venter på at kilden lokaliseres/dokumenteres.
+- **Parkerte kilder (⏸):** `[Wiik2025]` og `[SA2018]` venter på at kilden lokaliseres;
+  `[Ingvaldsen2008]` og `[Munda2006]` er ute av v1.0 etter aldersregelen.
 - **Fortsatt ikke innsendingsklar:** K/V-utkastet mangler Lars-/Lars Gunnar-avklaringer om SMB-definisjon,
   baseline, målepunkter, metodevalg, bankavgrensning og konkrete DNSH-tiltak. WP1–WP5 og
   Gjennomføring er fortsatt parkert.
 - **Ingen SQLite ennå.** Kildestatus, provenans og audit er markdown for hånd → drifter, krever manuell avstemming. Se AGENTS.md → «dokumentdatabasert».
-- **Nylig utskilt fra `vibs-boligpass/`.** Originalfilene ligger fortsatt der, markert «IPN FLYTTES». Repoet er ikke git-initiert ennå (se `IPN-FLYTTES.md`).
+- **Nylig utskilt fra `vibs-boligpass/`.** Originalfilene ligger fortsatt der, markert «IPN FLYTTES» (se `IPN-FLYTTES.md`).
 - **Ingen nummerert handoff #30** dokumenterer at Codex-rettingen/språkjobben er utført, selv om begge er gjort.
 
 ## Pekere

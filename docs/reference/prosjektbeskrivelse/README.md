@@ -3,7 +3,24 @@
 Sju kapitler, ett dokument hver. Slås sammen til én PDF når utkastet er ferdig.
 Opprettet 2026-07-08 (fase 0 i `../ipn-multiagent-workflow-2026-07-08.md`).
 
-## Gjeldende arbeidsgrunnlag
+## Gjeldende arbeidsretning 2026-09-04
+
+- **Nyeste arbeidskandidat:** `soknadstekst-samlet-kandidat-v1.7-if-only.md`
+- **Avgrensning:** industriell forskning i AP1–AP3, 16,0 MNOK kostnad,
+  8,0 MNOK søkt støtte og 8,0 MNOK egenfinansiering
+- **Partnergrunnlag:**
+  `arbeidsversjoner/06-partnerroller-og-bekreftelsesporter-v1.7.md`
+- **Budsjett-/aktørgrunnlag:** `../../../budsjett/partneroversikt.md` og
+  `../../../budsjett/kalkulator.py`
+- **Status:** ikke innsendingsklar. Partnerkandidatene, leverandørtilbudene,
+  rettighetene og støtteforutsetningene må bekreftes. Source Guard peker fortsatt
+  på v1.5 til en egen flyttebeslutning er tatt.
+
+V1.7 gjør partneroppgavene vurderbare uten å framstille interesse som avtale.
+VIBS er prosjektansvarlig; de øvrige navngitte rollene er foreløpige og følger
+bekreftelsesportene i partnergrunnlaget.
+
+## Historisk arbeidsgrunnlag
 
 - **Beslutninger og avgrensninger:** `arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md`
 - **Gjeldende tekstgrunnlag:** de sju `*-godkjent-v0.1.md`-filene i `arbeidsversjoner/`
@@ -16,7 +33,8 @@ Opprettet 2026-07-08 (fase 0 i `../ipn-multiagent-workflow-2026-07-08.md`).
 - **Senere grunnlagsløp mot v0.7:** `reviews/2026-08-05-v0.7-grunnlagsarbeid-og-partnerprosess.md`
 - **Kollegareview mot Sannhetsserum:** `sannhetsserum-oppdatering-v0.5.md`
 - **Kanoniske innflettingsmål:** de sju K/V-filene i tabellen under
-- **Status:** `v0.6` skal gjennom et avgrenset 2–3 timers partnerpass; tyngre metode-, kilde-, partner- og gjennomføringsvalg er parkert til et senere v0.7-løp
+- **Historisk status:** `v0.6` skulle gjennom et avgrenset partnerpass; dette er
+  senere avløst av v1.7 IF-only-retningen over.
 - **Åpen kvalitetsport C7:** kildeverifisering, kildehenvisninger og endelig innflettingskontroll
 
 Arbeidsversjonene er ordlydskilden. `v0.4` skal ikke endres og bevarer innholdsdekningen. `v0.5` bevares som tidligere integrasjonskandidat. `v0.6` er den nye kontrollkandidaten for kildeavgrensning, språk og samsvar med K3-sannhetsserumet. De kanoniske kapittelfilene er målfilene og inneholder foreløpig eldre tekst.
@@ -32,8 +50,9 @@ Arbeidsversjonene er ordlydskilden. `v0.4` skal ikke endres og bevarer innholdsd
 | `v1-baerekraft.md` | Virkninger | ~1,5 | Eldre måltekst — godkjent arbeidsversjon finnes |
 | `v2-sikkerhet.md` | Virkninger | ~1 | Eldre måltekst — godkjent arbeidsversjon finnes |
 | `v3-okonomi.md` | Virkninger | ~1 | Eldre måltekst — godkjent arbeidsversjon finnes |
+| `g1-gjennomforing.md` | Gjennomføring | ~1 (+~2 AP) | Nytt utkast — forankret i låst budsjett v2.1 (handoff #50) |
 
-**Arbeidspakker (WP1–WP5) og Gjennomføring er fortsatt parkert.** De skal ikke skrives inn i disse kapitlene uten egen godkjenning.
+**Gjennomføring og arbeidspakker (AP1–AP6) er skrevet ut** i `g1-gjennomforing.md` etter handoff #50 (v2.1-låsen 2026-08-26). Tallene der er bindende; endres bare via budsjettfilene. Tidligere parkering (WP1–WP5) er dermed hevet.
 
 ## Regler som gjelder alle sju
 

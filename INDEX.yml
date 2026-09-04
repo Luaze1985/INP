@@ -1,5 +1,5 @@
 # INDEX.yml — ipn-verified
-# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-08-07.
+# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-09-04.
 
 prosjekt:
   navn: VIBS VERIFIED — IPN-søknad
@@ -19,9 +19,13 @@ governance:
   IPN-FLYTTES.md: Flyttemanifest (kilde→mål, hva som skal slettes etter bekreftelse)
 
 soknadskandidat:
-  # Gjeldende samlet søknadstekst. v0.5–v0.8 finnes ikke i repoet (skrevet utenfor).
-  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md: GJELDENDE søknadstekst (2026-08-07). Ingen partnernavn, ingen prosentsatser, 15 referanser
-  docs/reference/prosjektbeskrivelse/v0.9-apne-kommentarer-2026-08-05.md: Fem uløste kommentarer fra partnergjennomgangen
+  # Nyeste arbeidsretning er IF-only. Source Guard peker fortsatt på v1.5.
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.7-if-only.md: NYESTE arbeidskandidat (2026-09-04). AP1–AP3, konkrete partneroppgaver og bekreftelsesporter; ikke innsendingsklar
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.6-if-only.md: Historisk IF-only-baseline fra 2026-08-27
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.5.md: Aktiv Source Guard-kandidat fra 2026-08-27; historisk 32,0-MNOK-modell
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.0.md: Historisk arbeidskandidat fra 2026-08-10
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md: Historisk kandidat fra 2026-08-07
+  docs/reference/prosjektbeskrivelse/v0.9-apne-kommentarer-2026-08-05.md: Beslutningshistorikk for fem partnerkommentarer
 
 nettside:
   # Publiseres av Vercel/Netlify fra site/web/ (het site/mockup/ fram til 2026-08-07)
@@ -29,7 +33,8 @@ nettside:
   site/web/styles.css: Stil for nettsiden
   site/arbeid/: Arbeidsfiler som IKKE publiseres — faktasjekker, gamle bilder, skjermbilder, skript
   site/arbeid/bilder-kilder.md: Bildekilder + udokumentert rettighetsstatus (kjent risiko)
-  site/arbeid/faktasjekk-2026-08-07.md: GJELDENDE faktasjekk — hver påstand sporet til v0.9
+  site/arbeid/faktasjekk-2026-08-11.md: GJELDENDE faktasjekk — nettsiden kontrollert mot v1.0
+  site/arbeid/faktasjekk-2026-08-07.md: Historisk faktasjekk mot v0.9
   site/tekstmanus.md: Innholdskilde for siden. HTML bygges fra denne
   site/design-brief.md: Visuell retning
   site/index.html: Lars' håndkodede læringsfil. Ikke publisert, ikke agentarbeid
@@ -45,6 +50,11 @@ prosjektbeskrivelse:
   docs/reference/prosjektbeskrivelse/v1-baerekraft.md: Virkninger — SDG, CO₂-mekanisme, sirkulærøkonomi
   docs/reference/prosjektbeskrivelse/v2-sikkerhet.md: Virkninger — DNSH-tabell (må skrives fra bunn)
   docs/reference/prosjektbeskrivelse/v3-okonomi.md: Virkninger — bro til grønn finans
+  docs/reference/prosjektbeskrivelse/reviews/2026-08-28-partnerdialog-innspill-01.md: Løpende registrering av transkriptutdrag fra partnerdialog; internt innspill, usikker transkripsjon og søknadsdom
+  docs/reference/prosjektbeskrivelse/reviews/2026-08-29-partneroppfolging-e-postplan.md: Utkast til e-postbasert individuell partneroppfølging etter møtedialogen
+  docs/reference/prosjektbeskrivelse/reviews/2026-08-29-intern-oppdatering-septemberoppfolging.md: Kort intern e-post og femukers prioritering for SINTEF, Kleng, John og øvrige aktører
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/06-partnerroller-og-bekreftelsesporter-v1.7.md: Rollekort, AP1–AP3-oppgaver, leveranser, akseptkriterier og bekreftelsesporter for partnerkandidatene
+  budsjett/partneroversikt.md: IF-only aktør- og kostnadsoversikt med fem kostnadsbærere og åpne leverandørporter
 
 kanoniske_dokumenter:
   docs/reference/ipn-hovedokument.md: Skjelett — påstand + kildenøkkel + status (parkering for ⏸)

@@ -1,6 +1,6 @@
 # VERIFIED — søknadskandidat v1.7, IF-only
 
-**Dato:** 2026-09-04
+**Sist oppdatert:** 2026-09-06
 **Status:** Arbeidskandidat for IPN. Ikke innsendingsklar. Partnerroller og kostnadsfordeling er foreløpige inntil rollekort og avtalegrunnlag er godkjent.
 **Avgrensning:** Industriell forskning i AP1–AP3. AP4–AP6 og eksperimentell utvikling inngår ikke.
 
@@ -29,16 +29,18 @@ miljødeklarasjoner, levetidsvurderinger og prisdata. Kildene kan ha ulike
 formater, detaljeringsnivå og bruksbegrensninger. SSB registrerte 68 359
 virksomheter i bygge- og anleggsnæringen per 1. januar 2026; 91,2 prosent hadde
 færre enn ti ansatte når virksomheter uten ansatte regnes med [1].
-Beslutningsgrunnlaget må derfor være mulig å bruke uten å forutsette
-spesialistkapasitet hos små entreprenører.
+Prosjektet legger derfor til grunn at beslutningsgrunnlaget må være mulig å
+bruke uten å forutsette spesialistkapasitet hos små entreprenører. Dette er en
+brukerforutsetning som skal prøves, ikke en slutning fra SSB-tallene alene.
 
 ## K2 – Nyhetsverdi og forskningshull
 
 ISO 14040 gir et rammeverk for livsløpsvurdering, NS 3720 beskriver
 klimagassberegninger for bygninger, og ISO 15686-5 omhandler
-livsløpskostnader [2–4]. De løser ikke alene hvordan opplysninger med ulik
-dokumentasjonsstyrke skal brukes tidlig i tilbudsfasen, hvordan avveininger skal
-forklares, eller hvordan usikkerhet skal påvirke sammenligningen.
+livsløpskostnader [2–4]. VERIFIED undersøker hvordan opplysninger med ulik
+dokumentasjonsstyrke kan brukes tidlig i tilbudsfasen, hvordan avveininger kan
+forklares, og hvordan usikkerhet kan påvirke sammenligningen. Det er en
+avgrenset forskningsoppgave, ikke en påstand om at standardene mangler dette.
 
 VERIFIED skal undersøke en avgrenset, forklarbar metode for å angi nødvendige
 data, koble opplysninger uten å gjøre mangler til sikre verdier, synliggjøre
@@ -346,6 +348,7 @@ kriteriene allerede er oppfylt.
 | Kvalitet – tydelige og relevante mål | Utfordringen, forskningsspørsmålene og AP1–AP3 avgrenser tilbudsfasen, datakvalitet, sammenligning og usikkerhet. | Endelig forskningsdesign og avgrensede tilbudsoppgaver. |
 | Kvalitet – ambisjon og state of the art | Prosjektet utfordrer hvordan ulike data, dokumentasjonsstyrke og usikkerhet kan vises sammen; AP2–AP3 prøver regelsett og sensitiviteter. | Oppdatert, primærverifisert kunnskapsstatus og tydelig avgrensning mot eksisterende løsninger. |
 | Kvalitet – behov og nye markeder | Utfordringen og effekt- og gevinstkjeden beskriver et mulig behov hos tilbudsutfører og senere kjøper. | Verifisert behov, betalerhypotese og markedstilgang. |
+| Kvalitet – kjønnsperspektiv | Prosjektet har foreløpig ikke identifisert et kjønnsavhengig faglig utfall i metodegrunnlaget. | Vurder om rekruttering, brukertest, datainnsamling eller analyse kan gi systematiske kjønnsforskjeller; dokumenter begrunnelse og eventuelle tiltak før innsending. |
 | Kvalitet – etikk | AP1 avgrenser data, lisens, personvern og sikkerhetsansvar; modellen skal ikke profilere personer eller fatte automatiske beslutninger. | Konkret etikk- og datahåndteringsplan. |
 | Kvalitet – solide metoder, modeller og antakelser | Forskningsprotokoll, provenans, datakvalitetsklasser, harmonisering, usikkerhetsanalyse og modellfrys i AP1–AP3. | Faglig metodeansvar, måleprotokoll og verifisert datagrunnlag. |
 | Effekter – formål og bærekraftsmål | Forventet nytte og måleplanen undersøker beslutningsgrunnlag, dokumentasjon og avveininger. | Konkrete, målbare klima-/miljø- og samfunnseffekter; ingen effekt skal påstås før den er dokumentert. |
@@ -381,7 +384,7 @@ kriteriene allerede er oppfylt.
 |---|---|---|---|
 | 2026-09-04 | Codex, arbeidsutkast | Opprettet v1.7 fra v1.6. Konkretiserte ansvar, leveranser, akseptkriterier og porter i AP1–AP3; endret partneromtale fra fastslåtte roller til foreløpige kandidater; la inn rollekort, partneravklaringer og eksplisitt kildeport. | Partnerdialogen dokumenterer mulige bidrag, men ikke bindende deltakelse. Gjennomføringen må kunne vurderes uten at søknaden overdriver avtaler eller støtteberettigelse. |
 | 2026-09-06 | Codex, arbeidsutkast | Presiserte at VIBS-raden skal underfordeles i egne kostnader og dokumenterte kjøp, og at likviditet beregnes etter periodisering. | Hindre oppdiktede leverandørpriser, dobbelttelling og udokumentert reserveanslag. |
-| 2026-09-06 | Codex, arbeidsutkast | Markerte femradsfordelingen som VIBS' kvalifiserte forslag og møtereferatet som indikativt kontrollspor. | Partnerfordelingen ble ikke avtalt i møtet; oppgave og dokumentert kompetanse skal styre videre fordeling. |
+| 2026-09-06 | Codex, arbeidsutkast | Markerte kostnadsfordelingen som VIBS' kvalifiserte forslag og møtereferatet som indikativt kontrollspor. | Partnerfordelingen ble ikke avtalt i møtet; oppgave og dokumentert kompetanse skal styre videre fordeling. |
 | 2026-09-06 | Codex, arbeidsutkast | La inn en egen verdiskapingsdel med økonomisk mekanisme for entreprenører, produsenter, dataaktører og VIBS, samt plan for å dokumentere faktisk bruk, betalingsvilje og leveransekostnad. | Knytte forventet nytte til en etterprøvbar økonomisk årsakskjede uten å framstille scenarioer eller framtidig lønnsomhet som dokumentert effekt. |
 | 2026-09-06 | Codex, arbeidsutkast | Samlet og konkretiserte verdiskapingsdelen for entreprenør, tilbudsmottaker, byggevareprodusent, dataaktør og VIBS. | Erstatte abstrakte nytteord med konkrete arbeidsoppgaver, målinger og vilkår for økonomisk verdi. |
 | 2026-09-06 | Codex, arbeidsutkast | Samlet dagens verdikjede, målelogikk, arbeidspakkestyring, timefordelingsport og NFR-kriteriematrise i v1.7. Synliggjorde at dagens budsjett bare har én SMB-kandidat og at et mulig andre testcase krever egen beslutning. | Lage én gjennomgangskandidat uten å finne på timer, satser, partneravtaler eller dokumenterte effekter. |
@@ -389,7 +392,7 @@ kriteriene allerede er oppfylt.
 
 ## Referanser
 
-[1] SSB, virksomheter i bygge- og anleggsnæringen, per 1. januar 2026.
-[2] ISO 14040, Life cycle assessment — Principles and framework.
-[3] NS 3720, Metode for klimagassberegninger for bygninger.
-[4] ISO 15686-5, Life-cycle costing.
+[1] Statistisk sentralbyrå (2026). *Bedrifter, etter størrelse og næring, 1. januar 2026.* Statistikkbanken, tabell 10309. <!-- source-key: [SSB2026] -->
+[2] ISO (2006, bekreftet 2022). *ISO 14040:2006 Environmental management - Life cycle assessment - Principles and framework*, med Amendment 1:2020. <!-- source-key: [ISO14040] -->
+[3] Standard Norge (2018). *NS 3720:2018 Metode for klimagassberegninger for bygninger.* <!-- source-key: [NS3720] -->
+[4] ISO (2017, bekreftet 2024). *ISO 15686-5:2017 Buildings and constructed assets - Service life planning - Part 5: Life-cycle costing.* <!-- source-key: [ISO15686-5] -->

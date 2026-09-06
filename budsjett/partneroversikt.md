@@ -6,6 +6,10 @@ juridisk enhet, kostnader, egenfinansiering og avtale er skriftlig bekreftet.
 **Avgrensning:** Industriell forskning i AP1–AP3. AP4–AP6, banker og
 finansaktører inngår ikke.
 
+Aktørbeløpene er VIBS' kvalifiserte forslag innenfor 16,0/8,0/8,0-rammen. De
+ble ikke avtalt i møtet. Referatet brukes bare som indikativt kontrollspor;
+oppgaver og dokumentert aktørkompetanse skal styre den videre fordelingen.
+
 Dette dokumentet følger den deterministiske modellen i `budsjett/kalkulator.py`.
 Leverandørkjøp ligger i kostnaden til Vi Bygger Sammen AS og skal ikke summeres
 som egne kostnadsbærere.
@@ -41,6 +45,22 @@ Leverandørene under har ikke egne NFR-delbudsjetter. Endelig beløp og
 AP-fordeling skal fylles inn først når tilbud, aktivitet og støtteberettigelse er
 kontrollert. Summen skal alltid ligge innenfor VIBS-raden på 12,6 MNOK.
 
+VIBS-raden skal underfordeles i fem poster. `Ikke priset` betyr at beløpet er
+ukjent, ikke at kostnaden er null:
+
+| VIBS-underpost | Beløp | Port før beløp kan settes |
+|---|---:|---|
+| Egne personal- og indirekte kostnader | Ikke priset | Navngitte personer, årslønn, beregnet timesats, timer per person/AP og kapasitetskontroll. |
+| Innkjøpt FoU fra SINTEF | Ikke priset | Tilbud fra korrekt juridisk enhet med markedspris, timer, AP-leveranser og rettigheter. |
+| Teknisk underleveranse fra Axon | Ikke priset | Avgrenset tilbud med juridisk enhet, pris, leveransested, IP/dataansvar og skille mot ordinær VIBS-utvikling. |
+| Eventuelle rådgiver-/spesialisttjenester | Ikke priset | Valgt juridisk leverandør, nødvendig IF-oppgave og tilbud; ellers settes posten til 0. |
+| Eventuelle test-/spesialistleveranser | Ikke priset | Valgt juridisk leverandør, nødvendig IF-test, tilbud og data-/IP-vilkår; ellers settes posten til 0. |
+| **Sum VIBS** | **12,6 MNOK** | Alle underposter er dokumentert eller eksplisitt 0 og summerer til rammen. |
+
+Likviditetsbehovet kan først beregnes etter at underpostene er periodisert mot
+lønn, fakturaer, betalingsfrister og forventede støtteutbetalinger. Det står
+derfor ikke et reservebeløp i arbeidsgrunnlaget.
+
 | Aktør | Foreløpig rolle | Mulig AP1–AP3-leveranse | Bekreftelsesport |
 |---|---|---|---|
 | SINTEF, juridisk enhet uavklart | FoU-leverandør | Forskningsprotokoll; metode og harmonisering; usikkerhets-/sensitivitetsanalyse og faglig anbefaling om modellfrys | Juridisk enhet, TDI-/markedstilbud, kapasitet, publisering og rettigheter. |
@@ -65,6 +85,10 @@ eventuelle deltakere må navngis, få mandat og klassifiseres etter faktisk roll
 
 ## 5. Felles port før en kandidat kan kalles formell samarbeidspartner
 
+Rolle- og uavhengighetskravene bygger på
+[Forskningsrådets bindende utlysning](https://www.forskningsradet.no/utlysninger/2026/innovasjonsprosjekt-naringslivet-industri-og-tjenestenaringer/),
+åpnet 2026-09-06. Kravene skal kontrolleres på nytt før innsending.
+
 En kandidat beholdes som formell samarbeidspartner bare når følgende kjede er
 dokumentert:
 
@@ -84,3 +108,4 @@ Hvis porten ikke lukkes, omklassifiseres aktøren etter faktisk bidrag:
 | Dato | Hvem | Hva | Hvorfor |
 |---|---|---|---|
 | 2026-09-04 | Codex | Erstattet AP1–AP6/32 MNOK-oversikten med IF-only AP1–AP3, fem kostnadsbærere, oppgaver og bekreftelsesporter. | Samsvare med ADR 0002, kalkulatoren og beslutningen om å revurdere alle partnerroller. |
+| 2026-09-06 | Codex | Delte VIBS-raden i egne kostnader, SINTEF, Axon og eventuelle rådgiver-/testkjøp uten å sette udokumenterte beløp. La til dokumentasjons- og likviditetsport. | Hindre historiske anslag, dobbelttelling og udokumentert kontantbehov. |

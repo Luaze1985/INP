@@ -110,6 +110,12 @@ Banker og andre finansaktører inngår ikke i denne IF-only-kandidaten, verken s
 
 Innkjøpt FoU, teknisk arbeid og øvrige spesialisttjenester inngår i prosjektansvarligs kostnad og står derfor ikke som egne finansierende aktører. Tabellen er en foreløpig kostnadsfordeling og er ikke dokumentasjon på at samarbeid eller finansiering er avtalt.
 
+Fordelingen er prosjektansvarligs kvalifiserte forslag, ikke en fordeling som
+ble avtalt i møtet. Møtereferatet brukes bare som indikativt kontrollspor.
+Nødvendige oppgaver og dokumentert aktørkompetanse skal styre neste revisjon,
+og egenfinansiering er ubekreftet til hver aktør har levert et godkjent
+budsjett- og finansieringsgrunnlag.
+
 | Foreløpig kostnadsbærer | Prosjektkostnad | Søkt støtte | Egenfinansiering |
 |---|---:|---:|---:|
 | Vi Bygger Sammen AS | 12,6 MNOK | 6,3 MNOK | 6,3 MNOK |
@@ -120,6 +126,14 @@ Innkjøpt FoU, teknisk arbeid og øvrige spesialisttjenester inngår i prosjekta
 | **Sum** | **16,0 MNOK** | **8,0 MNOK** | **8,0 MNOK** |
 
 Alle aktivitetene i denne kandidaten er budsjettert som industriell forskning med 50 prosent støtte. Dette er en arbeidsforutsetning, ikke en avgjørelse om støtteberettigelse eller støtteintensitet. Kostnadene må kontrolleres mot utlysningen, korrekt statsstøtteregelverk, selskapsstørrelse, uavhengighet, tilbud og avtalegrunnlag før innsending. Leverandørkjøp skal underfordeles i prosjektansvarligs budsjett og ikke dobbelttelles som egenfinansiering hos leverandøren.
+
+Prosjektansvarligs rad på 12,6 MNOK skal deles i egne personal- og indirekte
+kostnader, innkjøpt FoU, teknisk underleveranse og eventuelle nødvendige
+rådgiver- eller testtjenester. Underpostene er ikke priset i denne kandidaten.
+Beløp settes først når bemanningsgrunnlag og tilbud fra korrekt juridisk enhet
+er dokumentert; alle postene må da summeres til 12,6 MNOK og fordeles på AP og
+kostnadstype. Likviditetsbehovet skal beregnes fra den periodiserte lønns- og
+betalingsplanen og oppgis ikke som et udokumentert reserveanslag.
 
 ## Rollekort som beslutningsgrunnlag
 
@@ -160,6 +174,8 @@ Bare åpne, uavhengige kilder kan bære faktapåstander i søknaden. Interne mø
 | Dato | Hvem | Endring | Begrunnelse |
 |---|---|---|---|
 | 2026-09-04 | Codex, arbeidsutkast | Opprettet v1.7 fra v1.6. Konkretiserte ansvar, leveranser, akseptkriterier og porter i AP1–AP3; endret partneromtale fra fastslåtte roller til foreløpige kandidater; la inn rollekort, partneravklaringer og eksplisitt kildeport. | Partnerdialogen dokumenterer mulige bidrag, men ikke bindende deltakelse. Gjennomføringen må kunne vurderes uten at søknaden overdriver avtaler eller støtteberettigelse. |
+| 2026-09-06 | Codex, arbeidsutkast | Presiserte at VIBS-raden skal underfordeles i egne kostnader og dokumenterte kjøp, og at likviditet beregnes etter periodisering. | Hindre oppdiktede leverandørpriser, dobbelttelling og udokumentert reserveanslag. |
+| 2026-09-06 | Codex, arbeidsutkast | Markerte femradsfordelingen som VIBS' kvalifiserte forslag og møtereferatet som indikativt kontrollspor. | Partnerfordelingen ble ikke avtalt i møtet; oppgave og dokumentert kompetanse skal styre videre fordeling. |
 
 ## Referanser
 

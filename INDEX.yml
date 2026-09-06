@@ -52,7 +52,13 @@ prosjektbeskrivelse:
   docs/reference/prosjektbeskrivelse/reviews/2026-08-29-partneroppfolging-e-postplan.md: Utkast til e-postbasert individuell partneroppfølging etter møtedialogen
   docs/reference/prosjektbeskrivelse/reviews/2026-08-29-intern-oppdatering-septemberoppfolging.md: Kort intern e-post og femukers prioritering for SINTEF, Kleng, John og øvrige aktører
   docs/reference/prosjektbeskrivelse/arbeidsversjoner/06-partnerroller-og-bekreftelsesporter-v1.7.md: Rollekort, AP1–AP3-oppgaver, leveranser, akseptkriterier og bekreftelsesporter for partnerkandidatene
+  budsjett/README.md: Status og kontrollrutine for IF-only-budsjettet
+  budsjett/fordelingsplan.md: Avstemt 16,0/8,0/8,0-plan, VIBS-underposter og beslutningsporter
+  budsjett/beregningsformler.md: IF-only-formler, dokumentasjonskrav og likviditetsmetode
+  budsjett/kalkulator.py: Deterministisk sannhetskilde for AP-er, kostnadsbærere og upriset VIBS-underfordeling
   budsjett/partneroversikt.md: IF-only aktør- og kostnadsoversikt med fem kostnadsbærere og åpne leverandørporter
+  tools/budget_validator.py: Matematisk validering og innsendingsklarhetsstatus for budsjettet
+  tools/verify_budget_consistency.py: Kontroll av tall og dokumentdrift i aktiv budsjettpakke
 
 kanoniske_dokumenter:
   docs/reference/ipn-hovedokument.md: Skjelett — påstand + kildenøkkel + status (parkering for ⏸)

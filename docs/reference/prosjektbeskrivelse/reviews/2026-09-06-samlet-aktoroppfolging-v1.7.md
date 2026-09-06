@@ -479,9 +479,9 @@ kontakt eller bestilling.
 2. **Faglig kjerne:** SINTEF og Åpenhet/Kleng avklarer henholdsvis
    forskningsdesign og forståelighets-/prosjektgrense. Ekstern reviewer
    identifiseres og får den avtalte kandidaten.
-3. **Kostnadsbærere:** Norsk Byggtjeneste, D Takst, Byggmester Espeland og
-   Norgesbygg Sør får separate rollekort. Norsk Byggtjeneste må velge
-   partner- eller leverandørspor ut fra faktisk bidrag.
+3. **Kandidater til kostnadsbærende samarbeidspartnere:** Norsk Byggtjeneste,
+   D Takst, Byggmester Espeland og Norgesbygg Sør får separate rollekort. Norsk
+   Byggtjeneste må velge partner- eller leverandørspor ut fra faktisk bidrag.
 4. **Avgrensede leveranser:** Axon og Standard Norge avklares. Katapult-/testaktør
    velges bare dersom SINTEFs forskningsdesign viser et udekket behov.
 5. **Dataaktører:** Hunton og NORDAN kontaktes separat når produktkategorier,

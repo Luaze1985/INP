@@ -22,8 +22,7 @@ TABLE_EXPECTATIONS = {
         "rows": {
             "Vi Bygger Sammen AS": ("2,6", "4,3", "5,7", "12,6", "6,3", "6,3"),
             "D Takst AS, partnerkandidat": ("0,1", "0,6", "0,8", "1,5", "0,75", "0,75"),
-            "Byggmester Espeland AS, partnerkandidat": ("0,0", "0,1", "0,2", "0,3", "0,15", "0,15"),
-            "Norgesbygg Sør AS, partnerkandidat": ("0,0", "0,1", "0,2", "0,3", "0,15", "0,15"),
+            "Byggmester Espeland AS, partnerkandidat": ("0,0", "0,2", "0,4", "0,6", "0,30", "0,30"),
             "Norsk Byggtjeneste AS, partnerkandidat": ("0,3", "0,4", "0,6", "1,3", "0,65", "0,65"),
             "Sum": ("3,0", "5,5", "7,5", "16,0", "8,0", "8,0"),
         },
@@ -33,8 +32,7 @@ TABLE_EXPECTATIONS = {
         "rows": {
             "Vi Bygger Sammen AS": ("2,6", "4,3", "5,7", "12,6", "6,3", "6,3"),
             "D Takst AS": ("0,1", "0,6", "0,8", "1,5", "0,75", "0,75"),
-            "Byggmester Espeland AS": ("0,0", "0,1", "0,2", "0,3", "0,15", "0,15"),
-            "Norgesbygg Sør AS": ("0,0", "0,1", "0,2", "0,3", "0,15", "0,15"),
+            "Byggmester Espeland AS": ("0,0", "0,2", "0,4", "0,6", "0,30", "0,30"),
             "Norsk Byggtjeneste AS": ("0,3", "0,4", "0,6", "1,3", "0,65", "0,65"),
             "Sum": ("3,0", "5,5", "7,5", "16,0", "8,0", "8,0"),
         },
@@ -44,8 +42,7 @@ TABLE_EXPECTATIONS = {
         "rows": {
             "Vi Bygger Sammen AS": ("12,6", "6,3", "6,3"),
             "Kandidat: metode- og valideringspartner": ("1,5", "0,75", "0,75"),
-            "Kandidat: SMB-partner A": ("0,3", "0,15", "0,15"),
-            "Kandidat: SMB-partner B": ("0,3", "0,15", "0,15"),
+            "Kandidat: SMB-partner A": ("0,6", "0,30", "0,30"),
             "Kandidat: data- og standardpartner": ("1,3", "0,65", "0,65"),
             "Sum": ("16,0", "8,0", "8,0"),
         },

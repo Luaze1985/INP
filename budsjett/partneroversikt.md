@@ -20,8 +20,7 @@ som egne kostnadsbærere.
 |---|---|---:|---:|---:|---:|---:|---:|---|
 | Vi Bygger Sammen AS | Prosjektansvarlig | 2,6 | 4,3 | 5,7 | 12,6 | 6,3 | 6,3 | Bemanning, finansieringsevne og leverandørunderfordeling dokumenteres. |
 | D Takst AS | Kandidat som samarbeidspartner | 0,1 | 0,6 | 0,8 | 1,5 | 0,75 | 0,75 | Juridisk enhet, timer, eget behov, resultatbruk og forpliktelse bekreftes. |
-| Byggmester Espeland AS | Kandidat som samarbeidspartner | 0,0 | 0,1 | 0,2 | 0,3 | 0,15 | 0,15 | Egen IF-oppgave, timer, resultatbruk og forpliktelse bekreftes. |
-| Norgesbygg Sør AS | Kandidat som samarbeidspartner | 0,0 | 0,1 | 0,2 | 0,3 | 0,15 | 0,15 | Bidraget må være forskjellig fra Espelands og dokumenteres særskilt. |
+| Byggmester Espeland AS | Kandidat som samarbeidspartner | 0,0 | 0,2 | 0,4 | 0,6 | 0,30 | 0,30 | Egen IF-oppgave, timer, resultatbruk og forpliktelse bekreftes. Overtar fullt SMB-case-ansvar etter at Sørbygg utgikk. |
 | Norsk Byggtjeneste AS | Førstekandidat som samarbeidspartner | 0,3 | 0,4 | 0,6 | 1,3 | 0,65 | 0,65 | Juridisk enhet, data-/API-rettigheter, egenfinansiering og resultatbruk bekreftes. |
 | **Sum** |  | **3,0** | **5,5** | **7,5** | **16,0** | **8,0** | **8,0** |  |
 

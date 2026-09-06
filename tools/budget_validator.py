@@ -28,7 +28,7 @@ def validate_all() -> dict[str, int]:
     require(all(wp["type"] == kalkulator.PROJECT_TYPE == "IF" for wp in work_packages.values()), "Alle arbeidspakker skal være IF")
     require(sum(wp["budget_nok"] for wp in work_packages.values()) == kalkulator.PROJECT_TOTAL_NOK, "Arbeidspakkene summerer ikke til prosjektrammen")
     require(set(kalkulator.ACTOR_AP_MATRIX) == carrier_ids, "Matrisen og kostnadsbærerne har ulike aktørsett")
-    require(tuple(carriers) == kalkulator.LOCKED_COST_CARRIER_IDS, "Budsjettet skal ha nøyaktig de fem besluttede kostnadsbærerne")
+    require(tuple(carriers) == kalkulator.LOCKED_COST_CARRIER_IDS, "Budsjettet skal ha nøyaktig de fire besluttede kostnadsbærerne")
 
     for carrier_id, carrier in carriers.items():
         require(carrier["total_cost_nok"] >= 0, f"Negativ kostnad for {carrier['name']}")

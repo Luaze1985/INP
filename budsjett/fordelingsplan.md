@@ -27,21 +27,20 @@ hver kostnadsbærer fordi alle aktivitetene foreløpig er klassifisert som IF.
 Klassifisering, støtteberettigelse og endelig støtte må bekreftes før
 innsending og fastsettes endelig i et eventuelt tilskuddsbrev.
 
-## 2. Fem kostnadsbærere og AP-fordeling
+## 2. Fire kostnadsbærere og AP-fordeling
 
 | Kostnadsbærer | AP1 | AP2 | AP3 | Kostnad | Søkt støtte | Egenfinansiering |
 |---|---:|---:|---:|---:|---:|---:|
 | Vi Bygger Sammen AS | 2,6 | 4,3 | 5,7 | 12,6 | 6,3 | 6,3 |
 | D Takst AS, partnerkandidat | 0,1 | 0,6 | 0,8 | 1,5 | 0,75 | 0,75 |
-| Byggmester Espeland AS, partnerkandidat | 0,0 | 0,1 | 0,2 | 0,3 | 0,15 | 0,15 |
-| Norgesbygg Sør AS, partnerkandidat | 0,0 | 0,1 | 0,2 | 0,3 | 0,15 | 0,15 |
+| Byggmester Espeland AS, partnerkandidat | 0,0 | 0,2 | 0,4 | 0,6 | 0,30 | 0,30 |
 | Norsk Byggtjeneste AS, partnerkandidat | 0,3 | 0,4 | 0,6 | 1,3 | 0,65 | 0,65 |
 | **Sum** | **3,0** | **5,5** | **7,5** | **16,0** | **8,0** | **8,0** |
 
 Beløpene er MNOK. Kandidat betyr at deltakelse, kostnad, finansiering og rolle
 ikke er bekreftet. Hvis en kandidat tas ut eller omklassifiseres, må hele
 matrisen avstemmes på nytt; beløpet kan ikke bare flyttes til VIBS uten en
-dokumentert aktivitet og kostnad.
+dokumentert aktivitet og kostnad. Sørbygg er tatt ut av konsortiet grunnet nærstående relasjon til VIBS.
 
 ## 3. VIBS-raden på 12,6 MNOK
 

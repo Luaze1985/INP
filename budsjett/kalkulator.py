@@ -21,8 +21,7 @@ WORK_PACKAGES = (
 COST_CARRIERS = (
     {"id": "vibs", "name": "Vi Bygger Sammen AS", "role": "Prosjektansvarlig", "total_cost_nok": 12_600_000, "support_rate_percent": 50},
     {"id": "d_takst", "name": "D Takst AS", "role": "Kandidat samarbeidspartner", "total_cost_nok": 1_500_000, "support_rate_percent": 50},
-    {"id": "espeland", "name": "Byggmester Espeland AS", "role": "Kandidat samarbeidspartner", "total_cost_nok": 300_000, "support_rate_percent": 50},
-    {"id": "norgesbygg_sor", "name": "Norgesbygg Sør AS", "role": "Kandidat samarbeidspartner", "total_cost_nok": 300_000, "support_rate_percent": 50},
+    {"id": "espeland", "name": "Byggmester Espeland AS", "role": "Kandidat samarbeidspartner", "total_cost_nok": 600_000, "support_rate_percent": 50},
     {"id": "norsk_byggtjeneste", "name": "Norsk Byggtjeneste AS", "role": "Kandidat samarbeidspartner", "total_cost_nok": 1_300_000, "support_rate_percent": 50},
 )
 
@@ -30,7 +29,6 @@ LOCKED_COST_CARRIER_IDS = (
     "vibs",
     "d_takst",
     "espeland",
-    "norgesbygg_sor",
     "norsk_byggtjeneste",
 )
 
@@ -38,8 +36,7 @@ LOCKED_COST_CARRIER_IDS = (
 ACTOR_AP_MATRIX = {
     "vibs": {"AP1": 2_600_000, "AP2": 4_300_000, "AP3": 5_700_000},
     "d_takst": {"AP1": 100_000, "AP2": 600_000, "AP3": 800_000},
-    "espeland": {"AP1": 0, "AP2": 100_000, "AP3": 200_000},
-    "norgesbygg_sor": {"AP1": 0, "AP2": 100_000, "AP3": 200_000},
+    "espeland": {"AP1": 0, "AP2": 200_000, "AP3": 400_000},
     "norsk_byggtjeneste": {"AP1": 300_000, "AP2": 400_000, "AP3": 600_000},
 }
 

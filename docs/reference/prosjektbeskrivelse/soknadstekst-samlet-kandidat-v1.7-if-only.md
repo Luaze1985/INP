@@ -12,23 +12,104 @@ Prosjektet undersøker hvordan informasjon fra produktdata, FDV, miljødeklarasj
 
 Prosjektet er avgrenset til industriell forskning. Det skal etablere metodegrunnlag, datamodell og usikkerhetsmodell før eventuell videre utvikling vurderes i et eget senere løp.
 
-## Utfordringen
+## K1 – Bakgrunn og utfordring
 
-Mange løsningsvalg tas mens entreprenøren priser jobben og forklarer tilbudet for kunden. Informasjonen som trengs er ofte spredt og ulikt dokumentert. Pris er lett å sammenligne, mens levetid, vedlikehold, klima, teknisk egnethet og dokumentasjonskvalitet er vanskeligere å vurdere samlet.
+### Tilbudsfasen og sammenligningsbehovet
 
-Bygge- og anleggsnæringen består i stor grad av små bedrifter. SSB registrerte 68 359 bedrifter i næringen per 1. januar 2026. Når bedrifter uten ansatte regnes med, hadde 91,2 prosent færre enn ti ansatte [1]. Beslutningsgrunnlaget må derfor være mulig å bruke i vanlig tilbudsarbeid.
+I tilbudsfasen priser entreprenøren arbeidet, foreslår alternative løsninger og
+forklarer dem for kunden. Pris er ofte lett å sammenligne. Forskjeller i
+levetid, vedlikehold, klima, teknisk egnethet, dokumentasjon og risiko kan være
+vanskeligere å se samlet. VERIFIED skal undersøke hvordan slike avveininger kan
+gjøres synlige uten at usikkerheten skjules.
 
-## Hva prosjektet skal forske på
+### Spredt informasjon og små virksomheter
 
-Hovedmålet er å utvikle og dokumentere en forklarbar beslutningsmodell for sammenligning av alternative løsninger i tilbudsfasen.
+Relevante opplysninger kan ligge i produktdata, FDV-dokumentasjon,
+miljødeklarasjoner, levetidsvurderinger og prisdata. Kildene kan ha ulike
+formater, detaljeringsnivå og bruksbegrensninger. SSB registrerte 68 359
+virksomheter i bygge- og anleggsnæringen per 1. januar 2026; 91,2 prosent hadde
+færre enn ti ansatte når virksomheter uten ansatte regnes med [1].
+Beslutningsgrunnlaget må derfor være mulig å bruke uten å forutsette
+spesialistkapasitet hos små entreprenører.
 
-Prosjektet undersøker tre spørsmål:
+## K2 – Nyhetsverdi og forskningshull
 
-- Hvilke opplysninger som må være tilgjengelige tidlig nok til at alternativer kan sammenlignes.
-- Hvordan ulike opplysninger kan harmoniseres uten at svake eller manglende data skjules.
-- Hvordan datakvalitet og usikkerhet kan synliggjøres i en sammenligning av kostnad, klima, levetid og teknisk kvalitet.
+ISO 14040 gir et rammeverk for livsløpsvurdering, NS 3720 beskriver
+klimagassberegninger for bygninger, og ISO 15686-5 omhandler
+livsløpskostnader [2–4]. De løser ikke alene hvordan opplysninger med ulik
+dokumentasjonsstyrke skal brukes tidlig i tilbudsfasen, hvordan avveininger skal
+forklares, eller hvordan usikkerhet skal påvirke sammenligningen.
 
-Eksisterende standarder og metoder beskriver deler av grunnlaget, blant annet livsløpsvurdering, klimagassberegning og livsløpskostnader [2–4]. VERIFIED undersøker hvordan dette kan brukes sammen i den konkrete tilbudssituasjonen.
+VERIFIED skal undersøke en avgrenset, forklarbar metode for å angi nødvendige
+data, koble opplysninger uten å gjøre mangler til sikre verdier, synliggjøre
+vekting og usikkerhet, og prøve om framstillingen er forståelig i en avgrenset
+tilbudssituasjon. Nyhetsverdien ligger ikke i å hevde én universell score eller
+å automatisere fagansvar.
+
+## K3 – Mål og FoU-spørsmål
+
+### Hovedmål og delmål
+
+Hovedmålet er å utvikle og prøve et forskningsbasert metodegrunnlag for å
+sammenligne alternative løsninger i tilbudsfasen. Metoden skal vise både
+forskjeller mellom alternativene og kvaliteten og usikkerheten i datagrunnlaget.
+
+Delmålene er å avgrense nødvendige data, utvikle en sporbar
+sammenligningsmetode, prøve hvordan forklaring og usikkerhet forstås, og
+dokumentere begrensningene som må være synlige før en modell kan fryses.
+
+### FoU-spørsmål
+
+| ID | FoU-spørsmål |
+|---|---|
+| F1 | Hvilket minste informasjonsgrunnlag trengs for å sammenligne kostnad, klima, levetid, vedlikehold og teknisk kvalitet på en faglig forsvarlig måte? |
+| F2 | Hvordan kan produktdata, dokumentasjon og prisopplysninger kobles når definisjon, tidspunkt og dokumentasjonskvalitet varierer? |
+| F3 | Hvordan kan reparasjon, rehabilitering, ombruk og nyanskaffelse sammenlignes uten at estimert levetid eller faglig skjønn framstår som målte fakta? |
+| F4 | Hvordan kan vekting og usikkerhet forklares slik at entreprenør og kunde ser hvilke forutsetninger resultatet bygger på? |
+| F5 | Hvordan kan modellens sporbarhet, datamangel og følsomhet dokumenteres slik at resultatet kan ettergås og prøves på en ny avgrenset kategori? |
+
+## K4 – Metode, forskningsetikk og datahåndtering
+
+Forskningsløypen følger AP1–AP3. Først fastsettes protokoll, datakvalitet og
+avgrensninger. Deretter prøves harmoniserings- og måleregler på avgrensede
+tilbudssituasjoner. Til slutt undersøkes hvordan vekting og usikkerhet påvirker
+resultatet, før modellen enten fryses med synlige begrensninger eller sendes
+til omarbeiding.
+
+For hver opplysning skal metoden kunne vise kilde, tidspunkt, enhet,
+produktnivå og dokumentasjonsstatus. Manglende, generelle, estimerte og
+verifiserte opplysninger skal ikke blandes sammen. Teknisk egnethet er en
+faglig port; modellen erstatter ikke entreprenørens eller fagpersonens ansvar.
+
+Prosjektet skal samle inn minst mulig persondata. Kommersielt sensitive
+opplysninger, datarettigheter, lagring, tilgang og eventuell anonymisering
+avgrenses i AP1 før analyse. VERIFIED skal ikke bruke personprofilering eller
+automatisk beslutning. Usikkerhet, faglig dissens og datamangler skal være
+synlige i beslutningsgrunnlaget.
+
+## V1 – Miljø og bærekraft
+
+VERIFIED skal undersøke om et tydeligere sammenligningsgrunnlag kan gjøre det
+mulig å vurdere nyanskaffelse, reparasjon, rehabilitering, ombruk og utsatt
+utskifting på en mer sporbar måte. Klima, materialmengde, levetid og
+livsløpskostnad kan bare beregnes eller estimeres innen en avtalt systemgrense
+og med synlige forutsetninger. Prosjektet oppgir ingen generell klimaeffekt
+eller prosentsats.
+
+| Effektområde | Hva som kan undersøkes | Sammenligningsgrunnlag |
+|---|---|---|
+| Klima og ressursbruk | Beregnet klima- og materialkonsekvens innen valgt systemgrense. | Avgrensede alternativer i samme tilbudsoppgave. |
+| Levetid og vedlikehold | Dokumentert, estimert eller faglig vurdert informasjon skal holdes fra hverandre. | Avtalt analyseperiode og oppgitte forutsetninger. |
+| Brukbarhet og dokumentasjon | Tidsbruk, forståelse og synlige datamangler kan måles. | Definert arbeidsflyt før og under utprøving. |
+
+## V2 – Do-no-harm
+
+Et lavt beregnet klimaavtrykk er ikke tilstrekkelig dersom løsningen har svak
+teknisk egnethet, kort eller usikker levetid, stort vedlikeholdsbehov eller
+mangelfull dokumentasjon. Relevante forhold knyttet til kjemikalier, sosiale
+forhold, transport, ansvar og faktisk materialbesparelse skal avgrenses i
+protokollen. Uavklarte forhold skal vises som uavklarte, ikke regnes som
+positive effekter.
 
 ## Arbeidspakker, ansvar og beslutningsporter
 
@@ -83,13 +164,15 @@ AP3 skal undersøke hvordan usikkerhet og vekting påvirker sammenligningen. Må
 
 Metoden utvikles trinnvis og dokumenteres slik at faglige valg, kildegrunnlag og begrensninger kan ettergås. Praktisk beslutnings- og kommersiell effekt er ikke et akseptkriterium for modellfrys. AP1 skal likevel fastsette hvordan slike effekter kan måles etterpå, slik at en senere pilot ikke blander sammen opplevd nytte, teknisk kvalitet og økonomisk gevinst.
 
-## Forventet nytte
+## V3 – Økonomiske virkninger og utnyttelse
+
+### Forventet nytte
 
 Prosjektet skal gi et tydeligere grunnlag for å undersøke forskjeller mellom alternative løsninger. Det kan gjøre det lettere å se når en billig løsning på kort sikt har svak dokumentasjon eller andre avveininger som bør diskuteres.
 
 VERIFIED forutsetter ikke en bestemt klimaeffekt, kostnadsbesparelse eller endret beslutning før dette er undersøkt. Prosjektet skal ikke bruke personprofilering eller automatisk beslutning.
 
-## Hvorfor dette kan gi økonomisk verdi
+### Hvorfor dette kan gi økonomisk verdi
 
 I de avgrensede tilbudsoppgavene prosjektet velger, skal VERIFIED kartlegge
 arbeidet med å finne og sette sammen produktblad, miljødeklarasjoner,
@@ -302,6 +385,7 @@ kriteriene allerede er oppfylt.
 | 2026-09-06 | Codex, arbeidsutkast | La inn en egen verdiskapingsdel med økonomisk mekanisme for entreprenører, produsenter, dataaktører og VIBS, samt plan for å dokumentere faktisk bruk, betalingsvilje og leveransekostnad. | Knytte forventet nytte til en etterprøvbar økonomisk årsakskjede uten å framstille scenarioer eller framtidig lønnsomhet som dokumentert effekt. |
 | 2026-09-06 | Codex, arbeidsutkast | Samlet og konkretiserte verdiskapingsdelen for entreprenør, tilbudsmottaker, byggevareprodusent, dataaktør og VIBS. | Erstatte abstrakte nytteord med konkrete arbeidsoppgaver, målinger og vilkår for økonomisk verdi. |
 | 2026-09-06 | Codex, arbeidsutkast | Samlet dagens verdikjede, målelogikk, arbeidspakkestyring, timefordelingsport og NFR-kriteriematrise i v1.7. Synliggjorde at dagens budsjett bare har én SMB-kandidat og at et mulig andre testcase krever egen beslutning. | Lage én gjennomgangskandidat uten å finne på timer, satser, partneravtaler eller dokumenterte effekter. |
+| 2026-09-06 | Codex, arbeidsutkast | Bygget v1.7 om fra en temakandidat til en samlet prosjektbeskrivelse med K1–K4 og V1–V3, mens IF-only-avgrensningen, AP1–AP3 og dagens åpne porter er beholdt. | Gjøre kandidaten mulig å lese som hel søknadstekst før videre gjennomgang. |
 
 ## Referanser
 

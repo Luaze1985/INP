@@ -34,8 +34,8 @@ Følgende likheter må alltid holde:
 
 ```text
 AP1 + AP2 + AP3 = 3,0 + 5,5 + 7,5 = 16,0 MNOK
-sum fem kostnadsbærere = 12,6 + 1,5 + 0,3 + 0,3 + 1,3 = 16,0 MNOK
-sum støtte = 6,3 + 0,75 + 0,15 + 0,15 + 0,65 = 8,0 MNOK
+sum fire kostnadsbærere = 12,6 + 1,5 + 0,6 + 1,3 = 16,0 MNOK
+sum støtte = 6,3 + 0,75 + 0,30 + 0,65 = 8,0 MNOK
 sum egenfinansiering = 8,0 MNOK
 ```
 

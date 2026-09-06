@@ -10,22 +10,47 @@ base: soknadstekst-samlet-kandidat-v1.7-if-only.md
 ## Formål og bruk
 
 Dette dokumentet samler oppfølgingen av alle aktuelle aktører i VERIFIED. Det
-bygger på v1.7 IF-only, partnerdialogen registrert 28. august 2026,
-oppfølgingsplanen fra 29. august og rollekortene fra 4. september.
+bygger på v1.7 IF-only, åpne primærkilder kontrollert 6. september 2026,
+partnerdialogen registrert 28. august, oppfølgingsplanen fra 29. august og
+rollekortene fra 4. september.
 
-Opplysningene nedenfor er **forslag som mottakeren skal korrigere eller
-bekrefte**. Møteoppmøte, positive utsagn og interesse er ikke avtale,
-egenfinansiering eller bindende deltakelse. «Sendeklar» betyr derfor at teksten
-kan brukes etter at mottaker, juridisk enhet, avsender og eventuelle lenker er
-kontrollert. Ingen av tekstene er sendt.
+Virksomhetsfakta nedenfor er kontrollert mot Brønnøysundregistrene, aktørenes
+egne nettsteder eller andre åpne offentlige primærkilder. Aktørenes egne
+beskrivelser dokumenterer hva de selv oppgir å tilby, ikke kvalitet, effekt
+eller egnethet for VERIFIED. Partnerdialogen brukes bare som et gjenkjennelig
+kontrollspor med sikkerhetsgrad. Den dokumenterer ikke virksomhetsfakta,
+kompetanse, interesse, avtale, egenfinansiering eller deltakelse.
+
+Alle formuleringer om behov, oppgave, leveranse og egen resultatbruk er **VIBS'
+konkrete forslag som mottakeren skal korrigere eller bekrefte**. «Sendeklar»
+betyr derfor at teksten kan brukes etter at mottaker, juridisk enhet, avsender
+og eventuelle lenker er kontrollert. Ingen av tekstene er sendt.
 
 De fire feltene brukes likt for alle:
 
-- **Behov:** Aktørens mulige eget behov som må bekreftes av aktøren.
-- **Oppgave:** Den konkrete aktiviteten prosjektet foreslår.
-- **Leveranse:** Det mottakeren faktisk skal levere, med en kontrollerbar slutt.
-- **Egen resultatbruk:** Hvordan aktøren selv kan bruke resultatet. Dette er en
-  foreslått bruk, ikke en lovet effekt eller forhåndsavtalt rettighet.
+- **Behov:** VIBS' forslag til hvilket konkret behov som kan gjøre rollen
+  relevant for aktøren. Aktøren må selv korrigere eller bekrefte behovet.
+- **Oppgave:** VIBS' forslag til avgrenset aktivitet.
+- **Leveranse:** VIBS' forslag til et kontrollerbart resultat fra oppgaven.
+- **Egen resultatbruk:** VIBS' forslag til hvordan aktøren selv kan skape verdi
+  av resultatet. Dette er ikke en dokumentert effekt, lovet gevinst eller
+  forhåndsavtalt rettighet.
+
+## Bevislinje og leserekkefølge
+
+Hver rolle skal vurderes i denne rekkefølgen:
+
+1. **Verifisert virksomhetsgrunnlag:** juridisk identitet, ordinær virksomhet,
+   produkter/tjenester og synlig kompetanse fra åpne primærkilder.
+2. **Referatspor:** hva dialognotatet knytter til aktøren, med sikkerhetsgrad.
+   Dette brukes bare for å gjøre henvendelsen gjenkjennelig.
+3. **VIBS' forslag:** behov, oppgave, leveranse og egen resultatbruk som aktøren
+   inviteres til å korrigere, bekrefte eller avslå.
+4. **Rolleport:** juridisk enhet, ressurser, økonomi, rettigheter og skriftlig
+   vilje må dokumenteres før forslaget kan bli en prosjektrolle.
+
+Den fullstendige faktamatrisen og alle primærkildene ligger i
+`research/2026-09-06-aktorverifisering-primarkilder.md`.
 
 ## Rolleklasser
 
@@ -41,26 +66,51 @@ De fire feltene brukes likt for alle:
 
 ## Samlet status og anbefalt neste handling
 
-Statusene er siste dokumenterte status i repoet per 6. september 2026. De sier
-ikke at kontakt faktisk er tatt etter 29. august.
+Statusene skiller åpne virksomhetsfakta fra indikasjoner i det interne
+referatet per 6. september 2026. De sier ikke at kontakt faktisk er tatt etter
+29. august eller at en aktør har uttrykt verifisert interesse.
 
 | Aktør | Rolleklasse nå | Dokumentert status | Neste handling | Port før aktiv rolle |
 |---|---|---|---|---|
 | Vi Bygger Sammen AS (VIBS) | Prosjektansvarlig | Søkerrollen er valgt; operativt rollekort er åpent | Intern beslutning og komplett eget rollekort | Styrebeslutning, finansiering, bemanning, leverandørfordeling, dataansvar og IP-kjede |
-| SINTEF | FoU-leverandørkandidat | Interesse/faglige innspill registrert; ingen bindende leveranse | Arbeidsmøte og deretter tilbud | Juridisk enhet, forskningsdesign, timer, pris, kapasitet, publisering, data og IP |
-| Norsk Byggtjeneste AS / NOBB | Formell partnerkandidat med leverandør som alternativ | Interesse og problemforståelse registrert; rolle og finansiering ikke avtalt | Be aktøren velge rolle ut fra faktisk bidrag | Full partnerport, eller tilbud/dataavtale dersom rollen er leverandør |
-| D Takst AS | Formell partnerkandidat med fagleverandør som alternativ | Takstperspektiv og mulig praksisrolle registrert | Kort samtale og komplett rollekort | Juridisk enhet, nødvendig eget FoU-bidrag, timer, egenfinansiering, resultatbruk og rettigheter |
+| SINTEF | FoU-leverandørkandidat | Fagmiljø verifisert; referatet har en sikker person-/temakobling, men ingen leveranse er bekreftet | Arbeidsmøte og deretter tilbud | Juridisk enhet, forskningsdesign, timer, pris, kapasitet, publisering, data og IP |
+| Norsk Byggtjeneste AS / NOBB | Formell partnerkandidat med leverandør som alternativ | Enhet og NOBB-tjenester verifisert; referatet har en sikker person-/temakobling, men ingen rolle er bekreftet | Be aktøren velge rolle ut fra faktisk bidrag | Full partnerport, eller tilbud/dataavtale dersom rollen er leverandør |
+| D Takst AS | Formell partnerkandidat med fagleverandør som alternativ | Juridisk enhet verifisert; fagkompetanse er ikke primærkildeverifisert, og referatkoblingen er bare sannsynlig | Bekreft først kompetanse, kontakt og kapasitet; send deretter rollekort | Juridisk enhet, nødvendig eget FoU-bidrag, timer, egenfinansiering, resultatbruk og rettigheter |
 | Byggmester Espeland AS | Formell partnerkandidat | Navngitt i tidligere kandidat; ingen dokumentert forpliktelse | Send rollekort med avgrenset AP2–AP3-case | Egne timer, egenfinansiering, nødvendig bidrag, datatillatelse, uavhengighet og resultatbruk |
 | Norgesbygg Sør AS | Formell partnerkandidat | Navngitt i tidligere kandidat; ingen dokumentert forpliktelse | Send rollekort med kontrasterende AP2–AP3-case | Samme partnerport som Espeland, pluss dokumentert forskjell mellom casene |
-| Axon | Teknisk leverandørkandidat | Tidlig interesse registrert; juridisk enhet og leveranse uavklart | Be om avgrenset teknisk tilbud | Juridisk enhet, pris, leveransested, data/sikkerhet, kode-IP og skille mot VIBS-produktutvikling |
-| Åpenhet / Kleng Bråtveit | Rådgiver nå; mulig spesialistleverandør | Interesse og mulig egen nytte registrert; ingen forskningsleveranse avtalt | Arbeidsmøte om forståelighet og rollegrense | Avgrenset leveranse som skiller FoU fra søknadsråd, design og markedsføring; ellers rådgiver utenfor FoU |
-| Standard Norge | Mulig avgrenset rådgiver | Mulig rolle diskutert; ingen avtale eller mandat | Kort rolle- og lisensavklaring | Juridisk enhet, mandat, pris ved kjøp og skriftlige bruks-/lisensgrenser |
-| Katapult-/testaktør | Leverandørkandidat; juridisk aktør ikke valgt | Norsk Katapult Digital, ÅKP og DigiCat er omtalt som alternativer | Velg høyst én nødvendig juridisk aktør etter forskningsdesign | Navngitt kontraktsmotpart, ikke-overlappende IF-behov, tilbud, testmiljø, data, sikkerhet og IP |
+| Axon | Teknisk leverandørkandidat | Person og programvaretjenester verifisert; juridisk kontraktsenhet er tvetydig; referatet indikerer tema, ikke interesse som faktum | Bekreft juridisk enhet og be deretter om avgrenset teknisk tilbud | Juridisk enhet, pris, leveransested, data/sikkerhet, kode-IP og skille mot VIBS-produktutvikling |
+| Åpenhet / Kleng Bråtveit | Rådgiver nå; mulig spesialistleverandør | Enhet, personkobling og ordinære tjenester verifisert; referatet indikerer mulig nytte, ikke vilje eller avtale | Arbeidsmøte om forståelighet og rollegrense | Avgrenset leveranse som skiller FoU fra søknadsråd, design og markedsføring; ellers rådgiver utenfor FoU |
+| Standard Norge | Mulig avgrenset rådgiver | Enhet og standardiseringsmandat verifisert; referatets person-/temakobling er sannsynlig, men ingen rolle er bekreftet | Kort rolle- og lisensavklaring | Juridisk enhet, mandat, pris ved kjøp og skriftlige bruks-/lisensgrenser |
+| ÅKP AS / Norsk Katapult Digital / DigiCat | Leverandørkandidat | ÅKP AS er verifisert som juridisk driftsaktør; Norsk Katapult Digital og DigiCat er senter-/merkenavn; referatet har sikker personkobling, men ingen bestilling | Vurder én avgrenset leveranse fra ÅKP AS etter forskningsdesign | Ikke-overlappende IF-behov, tilbud, testmiljø, data, sikkerhet og IP |
 | Hunton Fiber AS | Mulig dataaktør | Aktuell i arbeidsgrunnlaget; kontakt og bidrag ikke bekreftet | Bekreft kontakt og be om avgrenset datadialog | Skriftlig datatillatelse, datasett, provenans, lisens, oppdatering og retting |
 | NORDAN AS | Mulig dataaktør | Aktuell i arbeidsgrunnlaget; kontakt og bidrag ikke bekreftet | Bekreft kontakt og be om avgrenset vindus-/fasadecase | Samme dataport som Hunton, separat for NORDAN |
-| Sør Bygg AS | Parkert nærstående aktør | Nærståendeforhold registrert; rolle ikke avklart | Ingen prosjektinvitasjon før skriftlig NFR-avklaring | NFR-svar om rolle, timer, data og rapportering; deretter habilitets- og dataavtale |
+| Sør Bygg AS | Parkert mulig nærstående aktør | Enhet og byggevirksomhet verifisert; nærståendeforholdet er ikke dokumentert i primærkildepakken og må kontrolleres separat | Verifiser eier-/kontrollforhold; ingen prosjektinvitasjon før eventuell skriftlig NFR-avklaring | Eier-/kontrollgrunnlag, NFR-svar om rolle, timer, data og rapportering; deretter habilitets- og dataavtale |
 | Farsund kommune | Parkert mulig referanseaktør | Mulig offentlig rolle omtalt; nødvendig behov ikke dokumentert | Ikke kontakt om deltakelse før forskningsbehov er definert | Konkret offentlig krav-/anskaffelsescase, samtykke, data, tidsbruk og rolle |
 | Ekstern reviewer | Rådgiver utenfor konsortiet | Mulig reviewer omtalt; identitet og virksomhet er uavklart | Bekreft identitet før bestilling | Navn, virksomhet, habilitet, mandat, pris og mottaker av notatet |
+
+## Primærkildegrunnlag og referatspor
+
+Tabellen er kontrollporten mellom fakta og forslag. «Sikker» eller «sannsynlig»
+i siste kolonne gjelder bare hvem referatet ser ut til å knytte til et tema; det
+sier ikke at utsagnet er korrekt eller at aktøren ønsker en rolle.
+
+| Aktør | Verifisert virksomhetsgrunnlag | Åpen primærkilde | Referatspor og sikkerhet |
+|---|---|---|---|
+| VIBS | Vi Bygger Sammen AS, org.nr. 934 354 796, utvikler teknologi for entreprenørbransjen og står som utvikler av VIBS Mobile. Produkteffekt er ikke verifisert. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/934354796), [VIBS Mobile](https://play.google.com/store/apps/details?id=com.vibs.mobile.prod) | Plattformdemo og håndverkerbehov er sikkert koblet til Bjørn Arne Skeime. Kun kontrollspor. |
+| SINTEF | SINTEF Community oppgir FoU og forskningsbasert rådgivning for bygg. Community er et institutt i SINTEF AS; korrekt kontraktsenhet må oppgis i tilbudet. | [SINTEF-enheter](https://www.sintef.no/kontakt-oss/fakturainformasjon-sintef/), [SINTEF Community](https://www.sintef.no/sintef-community/) | FoU-høyde og søknadstilpasning er sikkert koblet til Lars Gullbrekken. Ikke belegg for oppdrag. |
+| Norsk Byggtjeneste / NOBB | Norsk Byggtjeneste AS, org.nr. 910 934 538, tilbyr NOBB-produktdata og integrasjons-/API-tjenester. NOBB er ikke juridisk enhet. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/910934538), [NOBB](https://byggtjeneste.no/norsk-byggevarebase/), [support/API-er](https://support.byggtjeneste.no/) | NOBB-data, datakvalitet og API er sikkert koblet til Bjørn Lindebrekke. Funksjoner og vilkår må likevel bekreftes separat. |
+| D Takst | D Takst AS, org.nr. 938 036 519, er juridisk verifisert. Åpne primærkilder som er kontrollert dokumenterer ikke særskilt takstkompetanse, metode eller sertifisering. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/938036519) | Takst-/verdivurdering er sannsynlig koblet til Trond Dugan. Identitet og kompetanse må bekreftes direkte. |
+| Byggmester Espeland | Byggmester Espeland AS, org.nr. 924 332 395, driver prosjektering, tømrer- og byggearbeid. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/924332395), [egen nettside](https://www.byggmesterespeland.no/) | Ikke identifisert i talerkartet. Ingen slutning fra referatet. |
+| Norgesbygg Sør | Norgesbygg Sør AS, org.nr. 996 835 804, driver oppføring av bygninger og er oppført som lokal Norgeshus-forhandler. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/996835804), [Norgeshus-forhandlere](https://www.norgeshus.no/forhandlere) | Ikke identifisert i talerkartet. Ingen slutning fra referatet. |
+| Axon | Dmytro Nalyvaiko og Axons programvare-, arkitektur-, QA- og skytjenester er verifisert på axon.dev. Juridisk kontraktsenhet er ikke entydig verifisert. | [Axon](https://www.axon.dev/about-us), [Dmytro Nalyvaiko](https://www.axon.dev/blog-writers/dmytro-nalyvaiko) | Teknisk profil er sikkert koblet til Dmytro. Referatets tidlige interesse er bare en indikasjon. |
+| Åpenhet / Kleng | Åpenhet AS, org.nr. 916 202 342, er koblet til Kleng Bråtveit og tilbyr blant annet datavisualisering, UX, datahåndtering og webutvikling. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/916202342), [Åpenhet](https://apenhet.com/about) | Data/formidling og mulig partnernytte er sikkert koblet til Kleng. Ikke belegg for vilje eller resultatbruk. |
+| Standard Norge | Standard Norge, org.nr. 985 942 897, utvikler og forvalter standarder og organiserer standardiseringsarbeid. Standard Online AS er en annen enhet. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/985942897), [Standard Norge](https://standard.no/om-oss/standard-norge/), [organisasjonene](https://standard.no/om-oss/) | Standardisering og standard-IP er sannsynlig koblet til Tanja og Marte Haugland. Ikke belegg for mandat eller ny standard. |
+| ÅKP / Norsk Katapult Digital / DigiCat | ÅKP AS, org.nr. 981 575 679, driver Norsk Katapult Digital; DigiCat er senter-/merkenavn for testing av digitalisering, blant annet KI, IoT og virtuelle prototyper. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/981575679), [ÅKP](https://www.aakp.no/norsk-katapult-digitaldigicat/om-digicat/norsk-katapultsenter/), [Norsk Katapult](https://norskkatapult.no/katapulter/) | Maskinlæring og prosjektrefleksjon er sikkert koblet til Bjørn Aase Dimmen. Ikke belegg for test eller bestilling. |
+| Hunton | Hunton Fiber AS, org.nr. 964 014 256, produserer trefiberbaserte byggematerialer og publiserer blant annet FDV, EPD, DoP og tekniske godkjenninger. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/964014256), [dokumentasjon](https://www.hunton.no/dokumentasjon/) | «Camilla» kan ikke sikkert kobles til Hunton. Ingen interesse kan utledes. |
+| NORDAN | NORDAN AS, org.nr. 979 776 233, produserer vinduer og dører og publiserer FDV-, vedlikeholds- og ytelsesdokumentasjon. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/979776233), [vedlikehold/FDV](https://www.nordan.no/vedlikehold-av-vinduer-og-dorer/) | Bare sannsynlig omtale i en gruppe produsenter. Ingen deltakelse eller interesse kan utledes. |
+| Sør Bygg | Sør Bygg AS, org.nr. 919 790 601, driver oppføring av bygninger. Norgeshus bruker markedsnavnet «Norgeshus Sør-Bygg AS». Nærståenderelasjonen må dokumenteres separat. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/919790601), [Norgeshus](https://www.norgeshus.no/forhandlere/norgeshus-soer-bygg-as) | Ikke identifisert i talerkartet. Ingen slutning fra referatet. |
+| Farsund kommune | Farsund kommune, org.nr. 964 083 266, har tjenester innen plan, bygg/eiendom, næring og klima og deltar i offentlig innkjøpssamarbeid. Dette dokumenterer ikke et VERIFIED-behov. | [Brønnøysund](https://virksomhet.brreg.no/nb/oppslag/enheter/964083266), [kommunens tjenester](https://www.farsund.kommune.no/), [samarbeidsorganisasjoner](https://www.farsund.kommune.no/om-kommunen/samarbeidsorganisasjoner/) | Ikke identifisert i talerkartet. Ingen slutning fra referatet. |
+| Ekstern reviewer / «John» | Identiteten er uverifisert. At John Roger Moen og BADIGITAL AS finnes, beviser ikke at personen er møtedeltakeren eller har et reviewmandat. | [Brønnøysund: John Roger Moen](https://virksomhet.brreg.no/nb/oppslag/enheter/984494114), [Brønnøysund: BADIGITAL AS](https://virksomhet.brreg.no/nb/oppslag/enheter/819823502) | Koblingen til John Roger Moen / DB Digital er eksplisitt uavklart. Brukes bare som påminnelse om identitetskontroll. |
 
 **Eksplisitt ute:** BEWI, banker og øvrige finansaktører er ute av IF-only og
 skal ikke følges opp som partner, leverandør, referanseaktør eller brukergruppe.
@@ -69,8 +119,8 @@ rolle-, kilde-, budsjett- og konsistenskontroll.
 
 ## 1. Vi Bygger Sammen AS (VIBS)
 
-**Rolle nå:** Prosjektansvarlig søker. Rollen er valgt, men det operative
-rollekortet er ikke komplett.
+**VIBS' rollebeslutning:** Prosjektansvarlig søker. Rollen er valgt, men det
+operative rollekortet er ikke komplett.
 
 - **Behov:** VIBS trenger et etterprøvbart metodegrunnlag for sammenligning i
   tilbudsfasen, og et tydelig skille mellom VERIFIED-forskning og ordinær
@@ -95,8 +145,9 @@ rollekortet er ikke komplett.
 
 ## 2. SINTEF
 
-**Rolle nå:** Kandidat til innkjøpt FoU-leverandør, ikke partner, kostnadsbærer
-eller AP-eier.
+**VIBS' rolleforslag:** Kandidat til innkjøpt FoU-leverandør, ikke partner,
+kostnadsbærer eller AP-eier. SINTEF Community er et faglig instituttnavn;
+juridisk kontraktsmotpart må oppgis av SINTEF i tilbudet.
 
 - **Behov:** SINTEFs eget faglige og strategiske behov må beskrives av SINTEF;
   prosjektets behov er en uavhengig forskningsfaglig avgrensning og metode som
@@ -124,10 +175,10 @@ eller AP-eier.
 
 ## 3. Norsk Byggtjeneste AS / NOBB
 
-**Rolle nå:** Førstekandidat som formell samarbeidspartner. Dersom bidraget i
-hovedsak er datatilgang, API eller bestilt tjeneste, skal rollen være
-leverandør i stedet. NOBB er data-/tjenestegrunnlaget; Norsk Byggtjeneste AS er
-den mulige juridiske aktøren, som må bekreftes.
+**VIBS' rolleforslag:** Førstekandidat som formell samarbeidspartner. Dersom
+bidraget i hovedsak er datatilgang, API eller bestilt tjeneste, skal rollen være
+leverandør i stedet. NOBB er et produkt/tjenestegrunnlag; den verifiserte
+juridiske enheten er Norsk Byggtjeneste AS, org.nr. 910 934 538.
 
 - **Behov:** Foreslått eget behov er å lære hvordan datamangler, provenans og
   dokumentasjonsstyrke kan synliggjøres i data- og datakvalitetstjenester.
@@ -153,8 +204,10 @@ den mulige juridiske aktøren, som må bekreftes.
 
 ## 4. D Takst AS
 
-**Rolle nå:** Kandidat som formell samarbeidspartner, med avgrenset
-fagleverandør som alternativ.
+**VIBS' rolleforslag:** Mulig formell samarbeidspartner, med avgrenset
+fagleverandør som alternativ. Før forslaget konkretiseres må D Takst dokumentere
+ordinære tjenester, relevante kvalifikasjoner og faktisk kapasitet; åpne
+primærkilder har foreløpig bare verifisert juridisk enhet.
 
 - **Behov:** Foreslått eget behov er mer systematiske og etterprøvbare regler
   for å skille dokumentert, beregnet, estimert og faglig vurdert informasjon om
@@ -170,18 +223,20 @@ fagleverandør som alternativ.
 
 **Sendeklar rolleavklaring**
 
-> Hei Trond. Vi ønsker å avklare om D Takst har et eget behov og et nødvendig,
-> selvstendig FoU-bidrag i VERIFIED – ikke å legge til grunn at partnerstatus
-> eller budsjett er avtalt. Forslaget er datakrav i AP1, takstfaglig annotering
+> Hei Trond. Vi har verifisert D Takst AS som juridisk enhet, men vil først be
+> dere beskrive ordinære taksttjenester, relevante kvalifikasjoner og faktisk
+> kapasitet. VIBS' foreløpige forslag er datakrav i AP1, takstfaglig annotering
 > og skjønnsregler i AP2 og scenario-/usikkerhetsprøving i AP3. Kan dere
 > korrigere behov, oppgave, leveranse og egen resultatbruk, og oppgi ansvarlig
-> fagperson og realistiske timer? Hvis dette bare er en kjøpt ekspertvurdering,
-> klassifiserer vi rollen som leverandør i stedet.
+> fagperson og realistiske timer? Ingen partnerstatus eller finansiering er
+> avtalt. Hvis bidraget bare er en kjøpt ekspertvurdering, foreslår VIBS en
+> leverandørrolle i stedet.
 
 ## 5. Byggmester Espeland AS
 
-**Rolle nå:** Kandidat som formell liten samarbeidspartner for praksis- og
-tilbudscase. Ingen budsjettert AP1-aktivitet.
+**VIBS' rolleforslag:** Kandidat som formell liten samarbeidspartner for
+praksis- og tilbudscase. Ingen budsjettert AP1-aktivitet. Referatet gir ingen
+indikasjon om denne aktøren; hele forslaget må derfor prøves direkte.
 
 - **Behov:** Foreslått eget behov er et mer forståelig og dokumentert grunnlag
   for å forklare avveininger mellom alternative løsninger i tilbudsarbeidet.
@@ -206,8 +261,9 @@ tilbudscase. Ingen budsjettert AP1-aktivitet.
 
 ## 6. Norgesbygg Sør AS
 
-**Rolle nå:** Kandidat som formell liten samarbeidspartner med et case som må
-være vesentlig forskjellig fra Espelands. Må ikke forveksles med Sør Bygg AS.
+**VIBS' rolleforslag:** Kandidat som formell liten samarbeidspartner med et case
+som må være vesentlig forskjellig fra Espelands. Må ikke forveksles med Sør
+Bygg AS. Referatet gir ingen indikasjon om denne aktøren.
 
 - **Behov:** Foreslått eget behov er å undersøke om et dokumentert
   sammenligningsgrunnlag fungerer i andre tilbudssituasjoner eller
@@ -233,8 +289,10 @@ være vesentlig forskjellig fra Espelands. Må ikke forveksles med Sør Bygg AS.
 
 ## 7. Axon
 
-**Rolle nå:** Kandidat som teknisk underleverandør. FoU-leverandør brukes bare
-dersom et selvstendig forskningsbidrag dokumenteres. Juridisk enhet er uavklart.
+**VIBS' rolleforslag:** Kandidat som teknisk underleverandør. FoU-leverandør
+brukes bare dersom et selvstendig forskningsbidrag dokumenteres. Dmytro
+Nalyvaiko og Axons ordinære programvaretjenester er verifisert, men juridisk
+kontraktsenhet er uavklart.
 
 - **Behov:** Axons eget behov må beskrives av Axon. Prosjektets behov er en
   sikker, sporbar og reproduserbar teknisk analyseflyt for forskningsmodellen,
@@ -262,9 +320,11 @@ dersom et selvstendig forskningsbidrag dokumenteres. Juridisk enhet er uavklart.
 
 ## 8. Åpenhet / Kleng Bråtveit
 
-**Rolle nå:** Ekstern rådgiver for prosjekt- og brukerinnsikt. Kan bare bli
-spesialistleverandør i AP1–AP3 dersom en nødvendig forskningsleveranse skilles
-klart fra søknadsrådgivning, kommunikasjon og design.
+**VIBS' rolleforslag:** Ekstern rådgiver for prosjekt- og brukerinnsikt. Åpenhet
+AS, Kleng Bråtveit og selskapets data-/visualiserings-/UX-tjenester er
+verifisert. Aktøren kan bare bli spesialistleverandør i AP1–AP3 dersom en
+nødvendig forskningsleveranse skilles klart fra søknadsrådgivning,
+kommunikasjon og design.
 
 - **Behov:** Foreslått eget behov er læring og metodeutvikling om hvordan
   komplekse avveininger og usikkerhet kan forklares forståelig. Kleng må
@@ -290,8 +350,9 @@ klart fra søknadsrådgivning, kommunikasjon og design.
 
 ## 9. Standard Norge
 
-**Rolle nå:** Mulig avgrenset faglig rådgiver, ikke formell partner. VERIFIED
-skal ikke love en ny standard eller en formell standardiseringsprosess.
+**VIBS' rolleforslag:** Mulig avgrenset faglig rådgiver, ikke formell partner.
+Standard Norges mandat og skillet mot Standard Online AS er verifisert.
+VERIFIED skal ikke love en ny standard eller en formell standardiseringsprosess.
 
 - **Behov:** Standard Norges eget behov må beskrives av dem. Prosjektets behov
   er å skille gjeldende standardkrav fra prosjektets metodeforslag og avklare
@@ -314,12 +375,14 @@ skal ikke love en ny standard eller en formell standardiseringsprosess.
 > opplyse hvilken juridisk enhet og hvilke vilkår som gjelder? En aktiv rolle
 > tas bare inn dersom mandat og leveranse er skriftlig avklart.
 
-## 10. Aktuell katapult-/testaktør
+## 10. ÅKP AS / Norsk Katapult Digital (aktuell testaktør)
 
-**Rolle nå:** Kandidat til én avgrenset test- eller spesialistleveranse. Norsk
-Katapult Digital, ÅKP og DigiCat er alternativer i arbeidsgrunnlaget, ikke én
-samlet aktør. Juridisk kontraktsmotpart skal velges først når forskningsdesignet
-viser et nødvendig og ikke-overlappende behov.
+**VIBS' rolleforslag:** ÅKP AS vurderes som juridisk kandidat til én avgrenset
+test- eller spesialistleveranse. Norsk Katapult Digital og DigiCat er
+senter-/merkenavn som primærkildene knytter til ÅKP AS, ikke separate
+selskapsalternativer. Kontraktsenheten må likevel bekreftes i et eventuelt
+tilbud, og rollen brukes bare dersom forskningsdesignet viser et nødvendig og
+ikke-overlappende behov.
 
 - **Behov:** Den valgte aktørens eget behov må beskrives av aktøren. Prosjektets
   mulige behov er uavhengig kontroll av datakvalitet, klassifisering av mangler
@@ -333,9 +396,10 @@ viser et nødvendig og ikke-overlappende behov.
   testkompetanse eller metodeerfaring. Ingen gjenbruk av prosjektdata eller
   resultater forutsettes uten avtale.
 
-**Sendeklar rolleavklaring – brukes først etter valg av juridisk aktør**
+**Sendeklar rolleavklaring – brukes først når forskningsbehovet er definert**
 
-> Hei [navn]. Vi undersøker behovet for ett avgrenset testoppdrag i VERIFIED;
+> Hei Bjørn. Vi undersøker behovet for ett avgrenset testoppdrag fra ÅKP AS /
+> Norsk Katapult Digital i VERIFIED;
 > ingen leveranse eller finansiering er avtalt. Aktuell oppgave er å kontrollere
 > [datakvalitet / håndtering av datamangler / reproduserbarhet] etter en
 > forhåndsdefinert protokoll, med testlogg og avviksrapport. Kan dere korrigere
@@ -346,8 +410,10 @@ viser et nødvendig og ikke-overlappende behov.
 
 ## 11. Hunton Fiber AS
 
-**Rolle nå:** Mulig data- og materialaktør uten delbudsjett. Kontaktpersonen
-«Camilla» i transkriptet er ikke sikkert identifisert som Hunton-representant.
+**VIBS' rolleforslag:** Mulig data- og materialaktør uten delbudsjett. Huntons
+produktområde og dokumenttyper er verifisert, men kontaktpersonen «Camilla» i
+referatet er ikke sikkert identifisert som Hunton-representant, og interesse kan
+ikke utledes.
 
 - **Behov:** Foreslått eget behov er å se hvordan egne produktdata, datamangler
   og dokumentasjonsgrenser blir forstått i en sporbar sammenligning. Dette må
@@ -373,8 +439,9 @@ viser et nødvendig og ikke-overlappende behov.
 
 ## 12. NORDAN AS
 
-**Rolle nå:** Mulig data- og materialaktør uten delbudsjett. Korrekt foretaksnavn
-og kontaktperson skal bekreftes; «Nordang» skal ikke brukes.
+**VIBS' rolleforslag:** Mulig data- og materialaktør uten delbudsjett. Foretak,
+produktområde og dokumenttyper er verifisert, men kontakt og interesse er ikke.
+Korrekt juridisk skrivemåte er NORDAN AS; «Nordang» skal ikke brukes.
 
 - **Behov:** Foreslått eget behov er å se hvordan ytelses-, miljø- og
   vedlikeholdsdata for vindu-/fasadeløsninger kan framstilles med tydelige
@@ -399,8 +466,10 @@ og kontaktperson skal bekreftes; «Nordang» skal ikke brukes.
 
 ## 13. Sør Bygg AS
 
-**Rolle nå:** Parkert nærstående mulig data-/testarena. Ikke formell partner,
-FoU-leverandør eller underleverandør. Må ikke forveksles med Norgesbygg Sør AS.
+**VIBS' rolleforslag:** Parkert mulig nærstående data-/testarena. Ikke formell
+partner, FoU-leverandør eller underleverandør. Enhet og byggevirksomhet er
+verifisert, men nærståenderelasjonen må dokumenteres separat mot eier- og
+kontrollgrunnlag. Må ikke forveksles med Norgesbygg Sør AS.
 
 - **Behov:** Eventuelt eget behov skal ikke formuleres som prosjektbehov før
   Forskningsrådet har avklart om og hvordan aktøren kan omtales og bidra.
@@ -413,8 +482,9 @@ FoU-leverandør eller underleverandør. Må ikke forveksles med Norgesbygg Sør 
 
 **Sendeklar intern rolleavklaring – ikke ekstern invitasjon**
 
-> Sør Bygg holdes utenfor prosjektorganiseringen inntil Forskningsrådet har
-> svart skriftlig på om en nærstående aktør kan bidra med data eller case, og
+> Sør Bygg holdes utenfor prosjektorganiseringen til eier-/kontrollforholdet er
+> dokumentert. Dersom selskapet er nærstående, må Forskningsrådet svare
+> skriftlig på om aktøren kan bidra med data eller case, og
 > hvordan timer, data og rapportering i så fall skal håndteres. Det skal ikke
 > avtales oppgave, leveranse eller resultatbruk før denne porten er lukket. Et
 > eventuelt senere bidrag må merkes særskilt og kan ikke brukes som belegg for
@@ -422,7 +492,9 @@ FoU-leverandør eller underleverandør. Må ikke forveksles med Norgesbygg Sør 
 
 ## 14. Farsund kommune
 
-**Rolle nå:** Parkert mulig offentlig krav-/referanseaktør uten delbudsjett.
+**VIBS' rolleforslag:** Parkert mulig offentlig krav-/referanseaktør uten
+delbudsjett. Kommunens juridiske identitet og relevante offentlige tjenesteflater
+er verifisert; et behov eller samtykke i VERIFIED er ikke dokumentert.
 
 - **Behov:** Kommunens eget behov er ikke dokumentert. Prosjektet skal først
   vise at et konkret offentlig krav-, tillatelses- eller anskaffelsescase er
@@ -447,9 +519,10 @@ FoU-leverandør eller underleverandør. Må ikke forveksles med Norgesbygg Sør 
 
 ## 15. Ekstern reviewer
 
-**Rolle nå:** Avgrenset rådgiver utenfor konsortiet og AP1–AP3. Personen omtalt
-som «John» er ikke sikkert identifisert; navn og virksomhet må bekreftes før
-kontakt eller bestilling.
+**VIBS' rolleforslag:** Avgrenset rådgiver utenfor konsortiet og AP1–AP3.
+Personen omtalt som «John» er ikke sikkert identifisert. At John Roger Moen og
+BADIGITAL AS finnes i åpne registre, identifiserer ikke møtedeltakeren; navn,
+virksomhet og kompetanse må bekreftes før kontakt eller bestilling.
 
 - **Behov:** Reviewerens eget behov er ikke et prosjektkriterium. Prosjektets
   behov er en habil og praktisk hurtigvurdering av om søknaden bør sendes eller
@@ -518,6 +591,7 @@ Kopier én rad per faktisk svar. «Interesse» skal aldri oppgraderes til
 
 ## Grunnlag
 
+- `research/2026-09-06-aktorverifisering-primarkilder.md`
 - `docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.7-if-only.md`
 - `docs/reference/prosjektbeskrivelse/arbeidsversjoner/06-partnerroller-og-bekreftelsesporter-v1.7.md`
 - `docs/reference/prosjektbeskrivelse/reviews/2026-08-28-partnerdialog-innspill-01.md`
@@ -529,4 +603,5 @@ Kopier én rad per faktisk svar. «Interesse» skal aldri oppgraderes til
 
 | Dato | Utført av | Endring | Grunnlag og hvorfor | Status |
 |---|---|---|---|---|
+| 2026-09-06 | Codex | La inn primærkildekontroll av juridisk identitet, ordinær virksomhet, tjenester og synlig kompetanse. Skilte dette fra referatspor med sikkerhetsgrad og merket alle behov, oppgaver, leveranser og egen resultatbruk som VIBS' forslag. Rettet ÅKP/DigiCat-strukturen og strammet portene for SINTEF, Axon, D Takst, Sør Bygg, Hunton og ekstern reviewer. | Referatet gir bare indikasjoner. Roller skal bygge på primærverifisert virksomhetsgrunnlag og deretter bekreftes direkte av aktøren. | Internt arbeidsgrunnlag. Ingen melding er sendt og ingen rolle er bekreftet. |
 | 2026-09-06 | Codex | Samlet status, firepunkts rollekort og korte rolleavklaringer for alle aktuelle aktører. Skilte prosjektansvarlig, formelle partnerkandidater, leverandørkandidater, rådgivere, dataaktører, parkerte aktører og aktører ute av IF-only. | Gjøre v1.7, siste dokumenterte partnerdialog og rollekortene praktisk anvendelige uten å framstille interesse som avtale. | Internt arbeidsgrunnlag. Ingen melding er sendt og ingen rolle er endret. |

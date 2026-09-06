@@ -63,7 +63,7 @@ AP2 skal utvikle og prøve regler for å gjøre opplysninger fra ulike kilder sa
 - **Planlagt FoU-leverandør** foreslås som faglig metodeansvarlig for målemodell, harmoniseringsregler og dokumentasjon av kunnskapshull.
 - **Data- og standardpartnerkandidaten** foreslås å utvikle og kontrollere regler for kobling mellom produktidentifikatorer, produktegenskaper og dokumentasjon, med synlig provenans.
 - **Metode- og valideringspartnerkandidaten** foreslås å vurdere om variabler og skalaer gir en faglig forsvarlig fremstilling av levetid, vedlikehold og teknisk tilstand.
-- **To SMB-partnerkandidater** foreslås å prøve modellen uavhengig i hver sin tilbudssituasjon og registrere hvor den blir uforståelig, ufullstendig eller lite relevant.
+- **SMB-partnerkandidaten** foreslås å prøve modellen i en avgrenset tilbudssituasjon og registrere hvor den blir uforståelig, ufullstendig eller lite relevant. Et eventuelt ytterligere tilbudseksempel må ha en egen nødvendig rolle og finansiering før det tas inn.
 - **Planlagt teknisk underleverandør** kan implementere den avgrensede, reproduserbare analyseflyten som trengs for å prøve forskningsmodellen. Ordinær plattform-, grensesnitt- og produktutvikling inngår ikke.
 
 **Akseptkriterium og port:** AP2 godkjennes når samme dokumenterte regelsett kan anvendes på de valgte tilbudssituasjonene, alle transformasjoner kan spores tilbake til kildegrunnlaget, og manglende eller ikke-sammenlignbare opplysninger vises i stedet for å fylles inn som sikre verdier. Avvik og uløste harmoniseringsproblemer skal dokumenteres før de inngår i AP3.
@@ -76,12 +76,12 @@ AP3 skal undersøke hvordan usikkerhet og vekting påvirker sammenligningen. Må
 - **Planlagt FoU-leverandør** foreslås som faglig metodeansvarlig for usikkerhets- og sensitivitetsanalyse og for den forskningsfaglige anbefalingen før modellfrys.
 - **Data- og standardpartnerkandidaten** foreslås å kontrollere hvordan datamangler og varierende dokumentasjonsstyrke slår ut i modellen.
 - **Metode- og valideringspartnerkandidaten** foreslås å validere faglige forutsetninger og usikkerhetsintervaller innen sine avklarte fagområder.
-- **To SMB-partnerkandidater** foreslås å vurdere om begrunnelser, forbehold og usikkerhet er forståelige i de to tilbudssituasjonene, uten at modellen overtar entreprenørens faglige ansvar.
+- **SMB-partnerkandidaten** foreslås å vurdere om begrunnelser, forbehold og usikkerhet er forståelige i den avgrensede tilbudssituasjonen, uten at modellen overtar entreprenørens faglige ansvar.
 - **Planlagt teknisk underleverandør** kan levere den tekniske kjøringen som gjør analyser og resultater reproduserbare. Teknisk leveranse gir ikke i seg selv rollen som FoU-leverandør.
 
 **Akseptkriterium og sluttport:** AP3 godkjennes når alternative vektinger og sentrale usikkerheter er testet, endringer i resultatet kan forklares, og modellen er versjonert med kilder, forutsetninger, begrensninger og kjente feilkilder. Modellfrys vedtas bare dersom forskningsgrunnlaget kan etterprøves. Hvis porten ikke nås, skal kunnskapshull og behov for omarbeiding dokumenteres; det skal ikke hevdes at modellen er validert.
 
-Metoden utvikles trinnvis og dokumenteres slik at faglige valg, kildegrunnlag og begrensninger kan ettergås. Måleparametere for senere praktisk beslutningseffekt er ikke fastlagt i dette IF-løpet.
+Metoden utvikles trinnvis og dokumenteres slik at faglige valg, kildegrunnlag og begrensninger kan ettergås. Praktisk beslutnings- og kommersiell effekt er ikke et akseptkriterium for modellfrys. AP1 skal likevel fastsette hvordan slike effekter kan måles etterpå, slik at en senere pilot ikke blander sammen opplevd nytte, teknisk kvalitet og økonomisk gevinst.
 
 ## Forventet nytte
 
@@ -89,9 +89,89 @@ Prosjektet skal gi et tydeligere grunnlag for å undersøke forskjeller mellom a
 
 VERIFIED forutsetter ikke en bestemt klimaeffekt, kostnadsbesparelse eller endret beslutning før dette er undersøkt. Prosjektet skal ikke bruke personprofilering eller automatisk beslutning.
 
+## Hvorfor dette kan gi økonomisk verdi
+
+I de avgrensede tilbudsoppgavene prosjektet velger, skal VERIFIED kartlegge
+arbeidet med å finne og sette sammen produktblad, miljødeklarasjoner,
+vedlikeholdskrav, priser og tekniske egenskaper. Prosjektet skal undersøke om
+denne arbeidsflyten kan gjennomføres med kortere tid, færre synlige mangler og
+mindre behov for etterfølgende rettelser og avklaringer. Dette er en
+forskningshypotese, ikke en dokumentert beskrivelse av alle entreprenørers
+tilbudsarbeid.
+
+Tilbudsmottakeren skal få se hva alternativene koster, hvilke egenskaper som
+skiller dem, hvilket vedlikehold de krever, hvilke forutsetninger som gjelder,
+og hvor opplysningene kommer fra. Dette kan gjøre det lettere å velge og
+redusere misforståelser og nye avklaringsrunder. Prosjektet skal måle om
+tilbudsmottakeren faktisk forstår innholdet bedre, ikke bare om presentasjonen
+oppleves som god.
+
+Byggevareprodusenten kan få vite hvilke produktopplysninger entreprenøren og
+tilbudsmottakeren mangler eller misforstår. Dataaktørene kan se hvor
+produktidentifikatorer, dokumenter og datafelt ikke lar seg koble sammen. Denne
+kunnskapen kan brukes til å rette mangler og gjøre produktinformasjonen enklere
+å finne og bruke. Eventuelle besparelser eller nye inntekter hos disse aktørene
+må dokumenteres separat og skal ikke regnes som VIBS' inntekt.
+
+For entreprenøren skal prosjektet måle tiden som brukes på oppslag,
+sammenstilling, rettelser og spørsmål før og etter bruk av VERIFIED. Frigjort
+tid skal verdsettes med bedriftens faktiske timekostnad og bare regnes som
+økonomisk verdi når den kan brukes til flere tilbud, annet inntektsgivende
+arbeid eller en reell kostnadsreduksjon. Målingen skal samtidig kontrollere at
+dokumentasjonskvaliteten og forståeligheten ikke svekkes.
+
+For VIBS kan forskningsresultatene danne grunnlag for en senere tjeneste til
+entreprenører og prosjektorganisasjoner gjennom abonnement eller prosjektlisens,
+med betaling for nødvendig oppstart og integrasjon. Dette forutsetter at VIBS
+har avtalte rettigheter til å bruke resultatene, at en identifisert kjøper vil
+betale for den målte forbedringen, og at betalingen overstiger kostnadene ved
+data, oppstart, drift og støtte. En lønnsom og gjentakbar tjeneste forutsetter
+også at samme metode kan brukes hos flere kunder uten tilsvarende vekst i
+manuelt arbeid.
+
+### Effekt- og gevinstkjede
+
+Den økonomiske hypotesen skal vurderes som seks adskilte ledd. Et resultat i ett
+ledd er ikke bevis for neste ledd.
+
+| Ledd | Hva prosjektet eller den senere kommersielle testen må vise | Bevis som ikke er tilstrekkelig alene |
+|---|---|---|
+| Forskningsresultat | En versjonert og etterprøvbar modell med synlige kilder, datakvalitet og usikkerhet. | At modellen gir bruker- eller økonomisk nytte. |
+| Tilbudsprosess | Endring i tidsbruk, manuelle oppslag, dokumentasjonsmangler, rettelser eller forklaringssteg i en avgrenset tilbudsoppgave. | At forbedringen er verdifull nok til å betale for. |
+| Kundeverdi | At en identifisert budsjetteier kan knytte den målte endringen til en kostnad, risiko eller bedre beslutning. | At aktøren vil kjøpe eller fornye en tjeneste. |
+| Betalingssignal | Betalt pilot, bestilling eller fornyelse fra en bestemt juridisk kjøper. | At inntekten dekker kundespesifikke kostnader. |
+| Dekningsbidrag | Fakturert inntekt overstiger dokumenterte kostnader til data, oppstart, drift og støtte per kunde. | At løsningen kan gjentas effektivt. |
+| Skalerbarhet | Nye kunder eller produktkategorier kan tas inn uten tilsvarende vekst i onboarding-, integrasjons- og supportarbeid. | At markedet eller samlet lønnsomhet er dokumentert. |
+
+Før kommersialisering kan vurderes, skal VIBS fastsette et sammenligningsgrunnlag
+for tilbudsoppgaven og føre tids-, kostnads- og kvalitetsdata. Frigjort tid er
+bare økonomisk gevinst når den kan knyttes til reell kostnadsreduksjon eller
+annet inntektsgivende arbeid. Partnernes eventuelle resultatbruk skal måles
+separat og må ikke dobbelttelles som VIBS-inntekt.
+
+### Måleplan og porter for verdi
+
+AP1 skal gjøre følgende måleplan til del av forskningsprotokollen. Den viser hva
+som skal observeres, ikke hvilke resultater prosjektet vil oppnå. VIBS er
+ansvarlig for samlet målelogg; hver partner bekrefter bare egne data.
+
+| Målepunkt | Sammenligningsgrunnlag og kilde | Når / ansvar | Beslutningsport |
+|---|---|---|---|
+| Tilbudsoppgave og datagrunnlag | Avgrenset oppgave, alternativer, kilder, mangler, lisensstatus og tidspunkt før bruk av modellen. | AP1; VIBS med relevant partner. | Uegnede eller ulovlige data tas ut før AP2. |
+| Arbeidsflyt og kvalitet | Tidslogg for oppslag, sammenstilling, rettelser og spørsmål; synlige mangler og forklaringssteg i samme type oppgave. | Baseline før AP2 og måling i AP2; VIBS og SMB-partnerkandidat. | Bare endring uten skjult kvalitetstap går videre som prosesshypotese. |
+| Forståelse og beslutningsgrunnlag | Strukturert test av korrekt gjenfortelling av alternativer, forbehold og usikkerhet; ikke bare tilfredshet. | AP2–AP3; VIBS og metodepartnerkandidat. | Resultatet brukes bare dersom forbehold og begrensninger fortsatt forstås. |
+| Økonomisk verdi hos bruker | Dokumentert timekostnad og eventuell reell kostnadsreduksjon eller inntektsgivende bruk av frigjort tid. | Først etter modellfrys i separat pilot; kundens budsjettansvarlige. | Ingen økonomisk gevinst uten identifisert budsjetteier og godkjent beregning. |
+| Betaling og dekningsbidrag | Bestilling, faktura eller fornyelse; data-, oppstarts-, drifts- og brukerstøttekostnad per kunde. | Først etter modellfrys i separat kommersielt løp; VIBS. | Ingen lønnsomhetspåstand uten faktiske inntekts- og kostnadsdata. |
+
+En mulig andre SMB-test er ikke budsjettert eller organisert i denne kandidaten.
+Den kan først tas inn dersom den får en dokumentert nødvendig oppgave, eget
+rollekort, time- og kostnadsgrunnlag og en avstemt budsjettendring. Dermed
+erstatter ikke én partners test et ufinansiert kontrasterende case i
+styringsvedlegget; det vedlegget må revideres hvis en slik andre test velges.
+
 ## Foreløpig organisering og økonomi
 
-Vi Bygger Sammen AS foreslås som prosjektansvarlig. Konsortiemodellen har foreløpig én kandidat til metode- og valideringspartner, to kandidater til selvstendige SMB-partnere og én kandidat til data- og standardpartner. Ingen av partnerrollene er bekreftet før et rollekort og et avtalegrunnlag dokumenterer oppgaver, kapasitet, kostnader, resultatbruk og rettigheter.
+Vi Bygger Sammen AS foreslås som prosjektansvarlig. Konsortiemodellen har foreløpig én kandidat til metode- og valideringspartner, én kandidat til selvstendig SMB-partner og én kandidat til data- og standardpartner. Ingen av partnerrollene er bekreftet før et rollekort og et avtalegrunnlag dokumenterer oppgaver, kapasitet, kostnader, resultatbruk og rettigheter.
 
 Navnene på partner- og leverandørkandidatene settes først inn i
 søknadsteksten når den enkelte rolleporten er lukket. Den interne
@@ -120,8 +200,7 @@ budsjett- og finansieringsgrunnlag.
 |---|---:|---:|---:|
 | Vi Bygger Sammen AS | 12,6 MNOK | 6,3 MNOK | 6,3 MNOK |
 | Kandidat: metode- og valideringspartner | 1,5 MNOK | 0,75 MNOK | 0,75 MNOK |
-| Kandidat: SMB-partner A | 0,3 MNOK | 0,15 MNOK | 0,15 MNOK |
-| Kandidat: SMB-partner B | 0,3 MNOK | 0,15 MNOK | 0,15 MNOK |
+| Kandidat: SMB-partner A | 0,6 MNOK | 0,30 MNOK | 0,30 MNOK |
 | Kandidat: data- og standardpartner | 1,3 MNOK | 0,65 MNOK | 0,65 MNOK |
 | **Sum** | **16,0 MNOK** | **8,0 MNOK** | **8,0 MNOK** |
 
@@ -134,6 +213,25 @@ Beløp settes først når bemanningsgrunnlag og tilbud fra korrekt juridisk enhe
 er dokumentert; alle postene må da summeres til 12,6 MNOK og fordeles på AP og
 kostnadstype. Likviditetsbehovet skal beregnes fra den periodiserte lønns- og
 betalingsplanen og oppgis ikke som et udokumentert reserveanslag.
+
+### Bemanning og timefordeling
+
+Det er ikke forsvarlig å oppgi timeantall eller timesatser før hver aktør har
+bekreftet juridisk enhet, ansvarlig person, kapasitet og kostnadsgrunnlag.
+Timefordelingen er derfor en bindende utfyllingsport, ikke en skjult
+budsjettforutsetning:
+
+| Kostnadsbærer | Timer som må dokumenteres før innsending | Kontroll mot arbeidspakkene |
+|---|---|---|
+| Vi Bygger Sammen AS | Egne timer per person, år og AP; samt timer og tilbud for innkjøpt FoU, teknisk arbeid og eventuelle nødvendige spesialisttjenester. | Summen skal forklare VIBS-rammen på 12,6 MNOK uten dobbelttelling. |
+| Kandidat: metode- og valideringspartner | Timer per ansvarlig person og AP, med egenfinansiering og avgrenset FoU-leveranse. | Skal dekke faglig validering i AP1–AP3, ikke ordinær rådgivning. |
+| Kandidat: SMB-partner A | Timer per tilbudseksempel, dokumentasjon og strukturert vurdering. | Skal dekke den avgrensede testen og kan ikke inneholde ordinært tilbudsarbeid. |
+| Kandidat: data- og standardpartner | Timer per AP for datakartlegging, koblingsregler, testdata og avviksrapportering. | Skal ha sporbar sammenheng med data- og provenansleveransene. |
+
+Før innsending skal det foreligge timesatsgrunnlag etter gjeldende regler,
+timer per person, år og AP, kontroll mot annen finansiert aktivitet og en plan
+for løpende timeføring. Når disse opplysningene foreligger, erstattes denne
+porten av en tallfestet bemanningsplan som fortsatt må avstemmes mot 16,0 MNOK.
 
 ## Rollekort som beslutningsgrunnlag
 
@@ -154,6 +252,31 @@ Interesse fra dialog eller møte skal ikke omtales som avtale eller forpliktelse
 
 Bare åpne, uavhengige kilder kan bære faktapåstander i søknaden. Interne møteinnspill, partneropplysninger og agentvurderinger er arbeidsgrunnlag, ikke uavhengig belegg. 🟢 primærkilder kan bære en setning alene. 🟡 materiale kan bare brukes med et presist forbehold som kilden støtter. 🔴 og øvrige ubekreftede opplysninger skal tas helt ut av søknadsteksten og parkeres i kildebiblioteket. Ubekreftede effekter, avtaler, selskapsdata og standardiseringspåstander skal ikke stå som fakta. Endret kildestatus skal logges med hvem, hva og hvorfor.
 
+## Forankring i NFRs vurderingskriterier
+
+Tabellen er en intern leseguide for å sikre at søknaden svarer på kriteriene
+Kvalitet, Effekter og Gjennomføring i utlysningen. Den er ikke en påstand om at
+kriteriene allerede er oppfylt.
+
+| Underkriterium | Forankring i denne kandidaten | Må lukkes før innsending |
+|---|---|---|
+| Kvalitet – tydelige og relevante mål | Utfordringen, forskningsspørsmålene og AP1–AP3 avgrenser tilbudsfasen, datakvalitet, sammenligning og usikkerhet. | Endelig forskningsdesign og avgrensede tilbudsoppgaver. |
+| Kvalitet – ambisjon og state of the art | Prosjektet utfordrer hvordan ulike data, dokumentasjonsstyrke og usikkerhet kan vises sammen; AP2–AP3 prøver regelsett og sensitiviteter. | Oppdatert, primærverifisert kunnskapsstatus og tydelig avgrensning mot eksisterende løsninger. |
+| Kvalitet – behov og nye markeder | Utfordringen og effekt- og gevinstkjeden beskriver et mulig behov hos tilbudsutfører og senere kjøper. | Verifisert behov, betalerhypotese og markedstilgang. |
+| Kvalitet – etikk | AP1 avgrenser data, lisens, personvern og sikkerhetsansvar; modellen skal ikke profilere personer eller fatte automatiske beslutninger. | Konkret etikk- og datahåndteringsplan. |
+| Kvalitet – solide metoder, modeller og antakelser | Forskningsprotokoll, provenans, datakvalitetsklasser, harmonisering, usikkerhetsanalyse og modellfrys i AP1–AP3. | Faglig metodeansvar, måleprotokoll og verifisert datagrunnlag. |
+| Effekter – formål og bærekraftsmål | Forventet nytte og måleplanen undersøker beslutningsgrunnlag, dokumentasjon og avveininger. | Konkrete, målbare klima-/miljø- og samfunnseffekter; ingen effekt skal påstås før den er dokumentert. |
+| Effekter – samfunnsnytte | Tilbudsprosess, forståelighet og synlige forbehold kan undersøkes som mulige virkninger. | Relevant baseline, sammenlignbare case og plan for oppfølging over tid. |
+| Effekter – økonomiske gevinster | Effekt- og gevinstkjeden og måleplanen skiller prosessverdi, betalingssignal, dekningsbidrag og skalerbarhet. | Dokumentert nytte hos budsjettansvarlig, faktisk betaling og faktiske kostnader. |
+| Effekter – troverdig vei til effekt | Portene hindrer at modellfrys, bruk, betaling og lønnsomhet behandles som samme resultat. | Eier, tidsplan og beslutningsgrunnlag for hver port. |
+| Effekter – formidling og utnyttelse | Modellversjon, beslutningslogg og resultatbruksfelt i rollekortet gir et utgangspunkt. | Avtalt plan for formidling, rettigheter, publisering og kommersiell utnyttelse. |
+| Gjennomføring – samlet kompetanse | Funksjonelle roller beskriver prosjektansvar, metode, validering, SMB-test og data/provenans. | Navngitte personer, dokumentert kompetanse og bindende rollekort. |
+| Gjennomføring – plan, AP og leveranser | AP1–AP3 har periode, leveranse, akseptkriterium og avhengig beslutningsport. | Oppdatert milepælsplan etter bekreftet kapasitet. |
+| Gjennomføring – budsjett og roller | 16,0 MNOK er fordelt på AP og fire foreløpige kostnadsbærere; VIBS-kjøp holdes i VIBS-raden. | Underfordelte kostnader, timer, timesatser, tilbud og finansiering. |
+| Gjennomføring – ledelse og styring | VIBS er foreslått leveranseeier og beslutningseier ved portene. | Navngitt prosjektledelse, beslutningslogg og avklart styringsmodell. |
+| Gjennomføring – strategisk partnerforankring | Rollekort krever egen resultatbruk og nødvendige rettigheter. | Skriftlig partnerbeslutning, rolle, egenfinansiering og resultatbruksplan. |
+| Gjennomføring – risiko | Kilde-, data-, lisens-, personvern-, sikkerhets- og partnerporter synliggjør sentrale avhengigheter. | Risikoregister med eier, sannsynlighet, konsekvens og tiltak. |
+
 ## Åpent før innsending
 
 - Lars må godkjenne hvilke kandidater som faktisk skal være formelle samarbeidspartnere, leverandører og referanseaktører.
@@ -161,7 +284,7 @@ Bare åpne, uavhengige kilder kan bære faktapåstander i søknaden. Interne mø
 - Samarbeidspartnernes uavhengighet, selskapsstørrelse, støtteintensitet, egenfinansiering og støtteberettigede kostnader må kontrolleres mot gjeldende utlysning og statsstøtteregler.
 - FoU-leverandørens tilbud, markedspris, forskningsleveranser, publisering og rettigheter må dokumenteres.
 - Data- og standardpartnerkandidatens datatilgang, API-/lisensvilkår, egne kostnader, resultatbruk og rettigheter må avklares.
-- Metodepartneren og de to SMB-partnerkandidatene må bekrefte forskjellige og nødvendige FoU-oppgaver, timer, egen nytte og resultatbruk.
+- Metodepartneren, SMB-partnerkandidaten og data-/standardpartnerkandidaten må bekrefte forskjellige og nødvendige FoU-oppgaver, timer, egen nytte og resultatbruk.
 - Teknisk leverandørs juridiske enhet, pris, leveransested, IP, dataansvar og grense mot ordinær produktutvikling må avklares.
 - Eventuelle oppgaver innen brukerinnsikt, standardisering eller test må konkretiseres og kontraktsklassifiseres; ellers tas rollene ut.
 - Forskningsdesign, måleparametere, datagrunnlag og leverandørtilbud må dokumenteres.
@@ -176,6 +299,9 @@ Bare åpne, uavhengige kilder kan bære faktapåstander i søknaden. Interne mø
 | 2026-09-04 | Codex, arbeidsutkast | Opprettet v1.7 fra v1.6. Konkretiserte ansvar, leveranser, akseptkriterier og porter i AP1–AP3; endret partneromtale fra fastslåtte roller til foreløpige kandidater; la inn rollekort, partneravklaringer og eksplisitt kildeport. | Partnerdialogen dokumenterer mulige bidrag, men ikke bindende deltakelse. Gjennomføringen må kunne vurderes uten at søknaden overdriver avtaler eller støtteberettigelse. |
 | 2026-09-06 | Codex, arbeidsutkast | Presiserte at VIBS-raden skal underfordeles i egne kostnader og dokumenterte kjøp, og at likviditet beregnes etter periodisering. | Hindre oppdiktede leverandørpriser, dobbelttelling og udokumentert reserveanslag. |
 | 2026-09-06 | Codex, arbeidsutkast | Markerte femradsfordelingen som VIBS' kvalifiserte forslag og møtereferatet som indikativt kontrollspor. | Partnerfordelingen ble ikke avtalt i møtet; oppgave og dokumentert kompetanse skal styre videre fordeling. |
+| 2026-09-06 | Codex, arbeidsutkast | La inn en egen verdiskapingsdel med økonomisk mekanisme for entreprenører, produsenter, dataaktører og VIBS, samt plan for å dokumentere faktisk bruk, betalingsvilje og leveransekostnad. | Knytte forventet nytte til en etterprøvbar økonomisk årsakskjede uten å framstille scenarioer eller framtidig lønnsomhet som dokumentert effekt. |
+| 2026-09-06 | Codex, arbeidsutkast | Samlet og konkretiserte verdiskapingsdelen for entreprenør, tilbudsmottaker, byggevareprodusent, dataaktør og VIBS. | Erstatte abstrakte nytteord med konkrete arbeidsoppgaver, målinger og vilkår for økonomisk verdi. |
+| 2026-09-06 | Codex, arbeidsutkast | Samlet dagens verdikjede, målelogikk, arbeidspakkestyring, timefordelingsport og NFR-kriteriematrise i v1.7. Synliggjorde at dagens budsjett bare har én SMB-kandidat og at et mulig andre testcase krever egen beslutning. | Lage én gjennomgangskandidat uten å finne på timer, satser, partneravtaler eller dokumenterte effekter. |
 
 ## Referanser
 

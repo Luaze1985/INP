@@ -75,7 +75,7 @@ referatet per 6. september 2026. De sier ikke at kontakt faktisk er tatt etter
 | Vi Bygger Sammen AS (VIBS) | Prosjektansvarlig | Søkerrollen er valgt; operativt rollekort er åpent | Intern beslutning og komplett eget rollekort | Styrebeslutning, finansiering, bemanning, leverandørfordeling, dataansvar og IP-kjede |
 | SINTEF | FoU-leverandørkandidat | Fagmiljø verifisert; referatet har en sikker person-/temakobling, men ingen leveranse er bekreftet | Arbeidsmøte og deretter tilbud | Juridisk enhet, forskningsdesign, timer, pris, kapasitet, publisering, data og IP |
 | Norsk Byggtjeneste AS / NOBB | Formell partnerkandidat med leverandør som alternativ | Enhet og NOBB-tjenester verifisert; referatet har en sikker person-/temakobling, men ingen rolle er bekreftet | Be aktøren velge rolle ut fra faktisk bidrag | Full partnerport, eller tilbud/dataavtale dersom rollen er leverandør |
-| D Takst AS | Formell partnerkandidat med fagleverandør som alternativ | Juridisk enhet verifisert; fagkompetanse er ikke primærkildeverifisert, og referatkoblingen er bare sannsynlig | Bekreft først kompetanse, kontakt og kapasitet; send deretter rollekort | Juridisk enhet, nødvendig eget FoU-bidrag, timer, egenfinansiering, resultatbruk og rettigheter |
+| D Takst AS | Rolle ikke utformet; mulig partner- eller leverandørspor etter verifisering | Juridisk enhet verifisert; fagkompetanse er ikke primærkildeverifisert, og referatkoblingen er bare sannsynlig | Bekreft kompetanse, kontakt og kapasitet før et rollekort utformes | Ved senere rolle: nødvendig eget FoU-bidrag eller avgrenset kjøp, timer/pris, resultatbruk og rettigheter |
 | Byggmester Espeland AS | Formell partnerkandidat | Navngitt i tidligere kandidat; ingen dokumentert forpliktelse | Send rollekort med avgrenset AP2–AP3-case | Egne timer, egenfinansiering, nødvendig bidrag, datatillatelse, uavhengighet og resultatbruk |
 | Norgesbygg Sør AS | Formell partnerkandidat | Navngitt i tidligere kandidat; ingen dokumentert forpliktelse | Send rollekort med kontrasterende AP2–AP3-case | Samme partnerport som Espeland, pluss dokumentert forskjell mellom casene |
 | Axon | Teknisk leverandørkandidat | Person og programvaretjenester verifisert; juridisk kontraktsenhet er tvetydig; referatet indikerer tema, ikke interesse som faktum | Bekreft juridisk enhet og be deretter om avgrenset teknisk tilbud | Juridisk enhet, pris, leveransested, data/sikkerhet, kode-IP og skille mot VIBS-produktutvikling |
@@ -204,33 +204,32 @@ juridiske enheten er Norsk Byggtjeneste AS, org.nr. 910 934 538.
 
 ## 4. D Takst AS
 
-**VIBS' rolleforslag:** Mulig formell samarbeidspartner, med avgrenset
-fagleverandør som alternativ. Før forslaget konkretiseres må D Takst dokumentere
-ordinære tjenester, relevante kvalifikasjoner og faktisk kapasitet; åpne
-primærkilder har foreløpig bare verifisert juridisk enhet.
+**VIBS' neste forslag:** Kun identitets- og kompetanseavklaring. Mulig partner-
+eller fagleverandørrolle utformes først dersom ordinære tjenester, relevante
+kvalifikasjoner og faktisk kapasitet er primærverifisert. Åpne primærkilder har
+foreløpig bare verifisert juridisk enhet.
 
-- **Behov:** Foreslått eget behov er mer systematiske og etterprøvbare regler
-  for å skille dokumentert, beregnet, estimert og faglig vurdert informasjon om
-  levetid, vedlikehold og teknisk tilstand.
-- **Oppgave:** Definere takstfaglige datakrav i AP1, annotere eksempler og
-  utvikle skjønnsregler i AP2 og prøve reglene mot scenarioer og usikkerhet i
-  AP3.
-- **Leveranse:** Variabel- og vurderingskatalog, annotert eksempelsamling og
-  kalibrerings-/avviksnotat med begrunnede vurderinger.
-- **Egen resultatbruk:** Foreslått bruk er dokumenterte vurderingsregler i
-  takst- og rådgivningsarbeid. D Takst må bekrefte konkret bruk og nødvendige
-  rettigheter.
+- **Behov:** VIBS trenger å avklare om D Takst faktisk har dokumentert
+  kompetanse og kapasitet som er relevant for levetid, vedlikehold, teknisk
+  tilstand og dokumentasjonsstyrke.
+- **Oppgave:** D Takst bes om å identifisere korrekt kontaktperson og sende
+  åpne primærkilder eller dokumentasjon på ordinære tjenester, kvalifikasjoner,
+  sertifiseringer og kapasitet.
+- **Leveranse:** Kort virksomhets- og kompetansebekreftelse med kildelenker,
+  ansvarlig fagperson og én beskrivelse av hva selskapet faktisk kan levere.
+- **Egen resultatbruk:** Ikke foreslått ennå. D Takst bes først beskrive om og
+  hvordan en mulig senere forskningsoppgave kan skape verdi i ordinær virksomhet.
 
-**Sendeklar rolleavklaring**
+**Sendeklar identitets- og kompetanseavklaring**
 
-> Hei Trond. Vi har verifisert D Takst AS som juridisk enhet, men vil først be
-> dere beskrive ordinære taksttjenester, relevante kvalifikasjoner og faktisk
-> kapasitet. VIBS' foreløpige forslag er datakrav i AP1, takstfaglig annotering
-> og skjønnsregler i AP2 og scenario-/usikkerhetsprøving i AP3. Kan dere
-> korrigere behov, oppgave, leveranse og egen resultatbruk, og oppgi ansvarlig
-> fagperson og realistiske timer? Ingen partnerstatus eller finansiering er
-> avtalt. Hvis bidraget bare er en kjøpt ekspertvurdering, foreslår VIBS en
-> leverandørrolle i stedet.
+> Hei Trond. Vi har verifisert D Takst AS som juridisk enhet, men har ennå ikke
+> åpne primærkilder som dokumenterer selskapets ordinære taksttjenester,
+> relevante kvalifikasjoner eller kapasitet. Før VIBS foreslår en konkret rolle,
+> kan dere sende korrekt kontaktperson, lenker eller dokumentasjon på tjenester
+> og kvalifikasjoner, ansvarlig fagperson og en kort beskrivelse av hva D Takst
+> faktisk kan levere? Beskriv gjerne også om en mulig senere forskningsoppgave
+> kan skape konkret verdi i ordinær virksomhet. Ingen rolle, finansiering eller
+> leveranse er avtalt.
 
 ## 5. Byggmester Espeland AS
 

@@ -1,8 +1,48 @@
 # CONTEXT.md — ipn-verified
 
-Tilstand og kjente risikoer. Oppdatert: **2026-09-04**.
+Tilstand og kjente risikoer. Oppdatert: **2026-09-06**.
 
-## Siste endring: v1.7 IF-only med konkrete partnerporter (2026-09-04)
+## Siste endring: grill-me-verified-skill og første gjennomgang (2026-09-06)
+
+- Ny prosjektlokal skill `skills/grill-me-verified/` pakker grill-me-metodikken
+  (jf. `docs/agents/skills.md`) for VERIFIEDs fire flater: søknad, partnere,
+  arbeidspakker og mailer. Skillen finner nyeste kandidat selv via `INDEX.yml`
+  og denne filen, i stedet for å anta filnavn.
+- Første kjøring ligger som felles arbeidsdokument for Lars Erik og Lars
+  Gunnar i
+  `docs/reference/prosjektbeskrivelse/reviews/2026-09-06-grill-me-soknad-partnere-ap-mailer.md`.
+  Åtte spørsmål er stilt; svar-feltene er tomme til de to har gått gjennom
+  dem sammen.
+- Skarpeste funn: `Norgesbygg Sør AS` har en aktiv rolle med eget rollekort
+  og budsjett i `06-partnerroller-og-bekreftelsesporter-v1.7.md`, men er
+  fraværende fra kostnadsbærertabellen i `budsjett/partneroversikt.md`, der
+  Espeland i stedet har overtatt «fullt SMB-case-ansvar etter at Sørbygg
+  utgikk». Det er uavklart om «Sørbygg» der viser til Norgesbygg Sør AS eller
+  til den nærstående, parkerte Sør Bygg AS. Ingen endring er gjort i
+  budsjett- eller partnerdokumentene — funnet er lagt fram som spørsmål 2–3 i
+  grill-me-dokumentet, ikke rettet.
+- Ingen søknads-, budsjett- eller partnertekst er endret av denne runden.
+
+## Forrige endring: lønnsomhetsbevis og måleplan (2026-09-06)
+
+- Et internt beslutningsgrunnlag for lønnsomhet etter FoU-prosjektet ligger i
+  `docs/reference/prosjektbeskrivelse/arbeidsversjoner/07-lonnsomhet-beviskjede-og-maleplan-2026-09-06.md`.
+- Modellen skiller seks bevisledd: forskningsresultat, tilbudsprosess,
+  kundeverdi, betalingssignal, dekningsbidrag og repeterbar skalering. Ingen av
+  leddene er registrert som dokumentert effekt.
+- Dokumentet skiller VIBS sin mulige B2B-modell fra partnernes egen resultatbruk
+  og holder bank/forsikring utenfor IF-only.
+- Baseline, 18 måleparametere, tre testtrinn, seks beslutningsporter og
+  scenarioarketyper er foreslått. Terskler, første tilbudscase, produktkategori,
+  testleder, prismodell og IP-/datarett må besluttes før bruk.
+- Lavt/basis/høyt regneeksempel for år 3 etter lansering er lagt inn med
+  eksplisitte kunde-, pris-, kostnads- og tekniske forutsetninger. Tallene er
+  scenarioantakelser, ikke markedsfakta, prognose eller lovet verdiskaping.
+- Partner-for-partner-resultatbruk er avgrenset mot aktørenes verifiserte
+  ordinære virksomhet. Uavklarte juridiske enheter og tjenester står som åpne
+  porter; møtereferatet brukes ikke som belegg for enighet eller gevinst.
+
+## Forrige endring: v1.7 IF-only med konkrete partnerporter (2026-09-04)
 
 - **V1.7 IF-only er nyeste arbeidskandidat:** Den beholder AP1–AP3 og
   16,0/8,0/8,0 MNOK-rammen, men gjør ansvar, leveranser, akseptkriterier og

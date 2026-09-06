@@ -27,6 +27,7 @@ handoff                      →  overlever til Codex/AGY når noe skal utføres
 |---|---|---|
 | Sette opp arbeidsflyt på repoet | `setup-matt-pocock-skills` | Tracker, labels, domenedoks |
 | Idé → forankret plan før kode | `grill-me` / `grill-with-docs` | Stress-tester design 1–2 spørsmål av gangen |
+| Grille søknad/partnere/AP/mailer før noe sendes | `grill-me-verified` | Prosjektspesifikk grill-me for VERIFIED sine fire flater; finner nyeste kandidat selv og leverer felles arbeidsdokument for Lars + Lars Gunnar |
 | Skrive kravspec | `to-prd` / `write-prd` | PRD med edge cases + out-of-scope |
 | Bryte PRD til oppgaver | `to-issues` / `prd-to-issues` | Vertikale skiver, høyrisiko først |
 | Vurdere/merke en sak | `triage` | State machine + labels |
@@ -36,6 +37,7 @@ handoff                      →  overlever til Codex/AGY når noe skal utføres
 | Overlevere til Codex/AGY | `handoff` | Kompakt mål/status/neste steg |
 | Web-research / faktasjekk | `sonar-search` | Kildeverifisering via Sonar |
 | Norsk språkvask / av-KI-fisering | `ai-sprakvask-no` | KI-preg, klarspråk, stemmebevaring og norm-/kildeport |
+| Source Guard & kildekontroll | `kilde-agent` | Sperrepost- og kildekontroll, repo-linse og statusport-validering |
 | Lage ny egen skill | `write-a-skill` | Riktig struktur + progressive disclosure |
 
 ## Kodeprinsipper (proporsjonalt anvendt)

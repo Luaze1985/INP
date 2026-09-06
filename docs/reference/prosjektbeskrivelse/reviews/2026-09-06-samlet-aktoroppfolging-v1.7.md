@@ -135,7 +135,7 @@ operative rollekortet er ikke komplett.
   for en senere og separat beslutning om produktutvikling og kommersialisering.
   Bruken må følge avtalte data-, kode- og resultatretter.
 
-**Kort intern rolleavklaring**
+**Sendeklar intern rolleavklaring**
 
 > VIBS foreslås som prosjektansvarlig for VERIFIED. Før vi låser rollen i
 > søknaden må styret bekrefte behovet, finansieringen og bemanningen, og vi må

@@ -90,6 +90,13 @@ Fra `VERIFIED_VS_CODE_GRUNNLAG.zip` → `soknadsstruktur-og-krav.md` og `gjennom
 
 Se `docs/handoffs/53_claude_oppgave_til_agy_strukturkorrigering.md` (korrigering av fase-2/WP-AP-forveksling) og `docs/handoffs/54_claude_bestilling_deterministisk_gjennomgang.md` (bestilling om deterministisk verifisering av dette dokumentet).
 
+## 7. Kilde- og sannhetsregler (flyttet fra søknadsteksten 2026-09-12)
+
+Flyttet ordrett — dette er en redaksjonell regel for hvem som helst som
+skriver eller endrer søknadsteksten, ikke noe en NFR-leser skal se.
+
+Bare åpne, uavhengige kilder kan bære faktapåstander i søknaden. Interne møteinnspill, partneropplysninger og agentvurderinger er arbeidsgrunnlag, ikke uavhengig belegg. 🟢 primærkilder kan bære en setning alene. 🟡 materiale kan bare brukes med et presist forbehold som kilden støtter. 🔴 og øvrige ubekreftede opplysninger skal tas helt ut av søknadsteksten og parkeres i kildebiblioteket. Ubekreftede effekter, avtaler, selskapsdata og standardiseringspåstander skal ikke stå som fakta. Endret kildestatus skal logges med hvem, hva og hvorfor.
+
 ## Endringslogg
 
 | Dato | Hvem | Endring | Begrunnelse |
@@ -102,3 +109,4 @@ Se `docs/handoffs/53_claude_oppgave_til_agy_strukturkorrigering.md` (korrigering
 | 2026-09-06 | Codex, arbeidsutkast | Samlet dagens verdikjede, målelogikk, arbeidspakkestyring, timefordelingsport og NFR-kriteriematrise i v1.7. Synliggjorde at dagens budsjett bare har én SMB-kandidat og at et mulig andre testcase krever egen beslutning. | Lage én gjennomgangskandidat uten å finne på timer, satser, partneravtaler eller dokumenterte effekter. |
 | 2026-09-06 | Codex, arbeidsutkast | Bygget v1.7 om fra en temakandidat til en samlet prosjektbeskrivelse med K1–K4 og V1–V3, mens IF-only-avgrensningen, AP1–AP3 og dagens åpne porter er beholdt. | Gjøre kandidaten mulig å lese som hel søknadstekst før videre gjennomgang. |
 | 2026-09-12 | Claude | Flyttet «Forankring i NFRs vurderingskriterier», «Åpent før innsending» og «Endringslogg» ut av søknadsteksten og inn i dette dokumentet. Fjernet `2026-09-12-forbedringsplan-struktur.md` (innhold flyttet hit). La til strukturavvik fra zip-pakken og AGY-korrigeringen. | Søknadsteksten skal være ren søknadstekst — ikke en blanding av søknad og arbeidsliste (Lars, 2026-09-12). |
+| 2026-09-12 | Claude | Flyttet den siste redaksjonelle fotnoten og seksjonen «Kilde- og sannhetsregler» ut av søknadsteksten, inn som ny seksjon 7 her. | Lars bekreftet at søknadsteksten fortsatt inneholdt to ikke-søknadstekst-biter etter forrige runde; begge tatt ut. |

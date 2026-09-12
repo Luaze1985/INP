@@ -3,7 +3,6 @@
 **Sist oppdatert:** 2026-09-12
 **Status:** Arbeidskandidat for IPN. Ikke innsendingsklar. Partnerroller og kostnadsfordeling er foreløpige inntil rollekort og avtalegrunnlag er godkjent.
 **Avgrensning:** Industriell forskning i AP1–AP3. AP4–AP6 og eksperimentell utvikling inngår ikke.
-**Status- og endringssporing:** flyttet ut av denne filen 2026-09-12 for at søknadsteksten skal være ren søknadstekst. Se `verified-struktur-sannhetsserum-2026-09-12.md` (samme mappe) for NFR-kriteriestatus, åpne punkter og endringslogg.
 
 ## Sammendrag
 
@@ -333,10 +332,6 @@ Før en aktør navngis som formell partner eller leverandør, skal rollekortet a
 - dokumentert status som dialog, interesse, intensjon eller bindende forpliktelse
 
 Interesse fra dialog eller møte skal ikke omtales som avtale eller forpliktelse. En kandidat som ikke får et komplett og godkjent rollekort, skal enten få en korrekt avgrenset leverandør-/referanserolle eller tas ut av søknaden.
-
-## Kilde- og sannhetsregler
-
-Bare åpne, uavhengige kilder kan bære faktapåstander i søknaden. Interne møteinnspill, partneropplysninger og agentvurderinger er arbeidsgrunnlag, ikke uavhengig belegg. 🟢 primærkilder kan bære en setning alene. 🟡 materiale kan bare brukes med et presist forbehold som kilden støtter. 🔴 og øvrige ubekreftede opplysninger skal tas helt ut av søknadsteksten og parkeres i kildebiblioteket. Ubekreftede effekter, avtaler, selskapsdata og standardiseringspåstander skal ikke stå som fakta. Endret kildestatus skal logges med hvem, hva og hvorfor.
 
 ## Referanser
 

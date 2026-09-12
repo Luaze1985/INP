@@ -1,8 +1,9 @@
 # VERIFIED — søknadskandidat v1.7, IF-only
 
-**Sist oppdatert:** 2026-09-06
+**Sist oppdatert:** 2026-09-12
 **Status:** Arbeidskandidat for IPN. Ikke innsendingsklar. Partnerroller og kostnadsfordeling er foreløpige inntil rollekort og avtalegrunnlag er godkjent.
 **Avgrensning:** Industriell forskning i AP1–AP3. AP4–AP6 og eksperimentell utvikling inngår ikke.
+**Status- og endringssporing:** flyttet ut av denne filen 2026-09-12 for at søknadsteksten skal være ren søknadstekst. Se `verified-struktur-sannhetsserum-2026-09-12.md` (samme mappe) for NFR-kriteriestatus, åpne punkter og endringslogg.
 
 ## Sammendrag
 
@@ -336,59 +337,6 @@ Interesse fra dialog eller møte skal ikke omtales som avtale eller forpliktelse
 ## Kilde- og sannhetsregler
 
 Bare åpne, uavhengige kilder kan bære faktapåstander i søknaden. Interne møteinnspill, partneropplysninger og agentvurderinger er arbeidsgrunnlag, ikke uavhengig belegg. 🟢 primærkilder kan bære en setning alene. 🟡 materiale kan bare brukes med et presist forbehold som kilden støtter. 🔴 og øvrige ubekreftede opplysninger skal tas helt ut av søknadsteksten og parkeres i kildebiblioteket. Ubekreftede effekter, avtaler, selskapsdata og standardiseringspåstander skal ikke stå som fakta. Endret kildestatus skal logges med hvem, hva og hvorfor.
-
-## Forankring i NFRs vurderingskriterier
-
-Tabellen er en intern leseguide for å sikre at søknaden svarer på kriteriene
-Kvalitet, Effekter og Gjennomføring i utlysningen. Den er ikke en påstand om at
-kriteriene allerede er oppfylt.
-
-| Underkriterium | Forankring i denne kandidaten | Må lukkes før innsending |
-|---|---|---|
-| Kvalitet – tydelige og relevante mål | Utfordringen, forskningsspørsmålene og AP1–AP3 avgrenser tilbudsfasen, datakvalitet, sammenligning og usikkerhet. | Endelig forskningsdesign og avgrensede tilbudsoppgaver. |
-| Kvalitet – ambisjon og state of the art | Prosjektet utfordrer hvordan ulike data, dokumentasjonsstyrke og usikkerhet kan vises sammen; AP2–AP3 prøver regelsett og sensitiviteter. | Oppdatert, primærverifisert kunnskapsstatus og tydelig avgrensning mot eksisterende løsninger. |
-| Kvalitet – behov og nye markeder | Utfordringen og effekt- og gevinstkjeden beskriver et mulig behov hos tilbudsutfører og senere kjøper. | Verifisert behov, betalerhypotese og markedstilgang. |
-| Kvalitet – kjønnsperspektiv | Prosjektet har foreløpig ikke identifisert et kjønnsavhengig faglig utfall i metodegrunnlaget. | Vurder om rekruttering, brukertest, datainnsamling eller analyse kan gi systematiske kjønnsforskjeller; dokumenter begrunnelse og eventuelle tiltak før innsending. |
-| Kvalitet – etikk | AP1 avgrenser data, lisens, personvern og sikkerhetsansvar; modellen skal ikke profilere personer eller fatte automatiske beslutninger. | Konkret etikk- og datahåndteringsplan. |
-| Kvalitet – solide metoder, modeller og antakelser | Forskningsprotokoll, provenans, datakvalitetsklasser, harmonisering, usikkerhetsanalyse og modellfrys i AP1–AP3. | Faglig metodeansvar, måleprotokoll og verifisert datagrunnlag. |
-| Effekter – formål og bærekraftsmål | Forventet nytte og måleplanen undersøker beslutningsgrunnlag, dokumentasjon og avveininger. | Konkrete, målbare klima-/miljø- og samfunnseffekter; ingen effekt skal påstås før den er dokumentert. |
-| Effekter – samfunnsnytte | Tilbudsprosess, forståelighet og synlige forbehold kan undersøkes som mulige virkninger. | Relevant baseline, sammenlignbare case og plan for oppfølging over tid. |
-| Effekter – økonomiske gevinster | Effekt- og gevinstkjeden og måleplanen skiller prosessverdi, betalingssignal, dekningsbidrag og skalerbarhet. | Dokumentert nytte hos budsjettansvarlig, faktisk betaling og faktiske kostnader. |
-| Effekter – troverdig vei til effekt | Portene hindrer at modellfrys, bruk, betaling og lønnsomhet behandles som samme resultat. | Eier, tidsplan og beslutningsgrunnlag for hver port. |
-| Effekter – formidling og utnyttelse | Modellversjon, beslutningslogg og resultatbruksfelt i rollekortet gir et utgangspunkt. | Avtalt plan for formidling, rettigheter, publisering og kommersiell utnyttelse. |
-| Gjennomføring – samlet kompetanse | Funksjonelle roller beskriver prosjektansvar, metode, validering, SMB-test og data/provenans. | Navngitte personer, dokumentert kompetanse og bindende rollekort. |
-| Gjennomføring – plan, AP og leveranser | AP1–AP3 har periode, leveranse, akseptkriterium og avhengig beslutningsport. | Oppdatert milepælsplan etter bekreftet kapasitet. |
-| Gjennomføring – budsjett og roller | 16,0 MNOK er fordelt på AP og fire foreløpige kostnadsbærere; VIBS-kjøp holdes i VIBS-raden. | Underfordelte kostnader, timer, timesatser, tilbud og finansiering. |
-| Gjennomføring – ledelse og styring | VIBS er foreslått leveranseeier og beslutningseier ved portene. | Navngitt prosjektledelse, beslutningslogg og avklart styringsmodell. |
-| Gjennomføring – strategisk partnerforankring | Rollekort krever egen resultatbruk og nødvendige rettigheter. | Skriftlig partnerbeslutning, rolle, egenfinansiering og resultatbruksplan. |
-| Gjennomføring – risiko | Kilde-, data-, lisens-, personvern-, sikkerhets- og partnerporter synliggjør sentrale avhengigheter. | Risikoregister med eier, sannsynlighet, konsekvens og tiltak. |
-
-## Åpent før innsending
-
-- Lars må godkjenne hvilke kandidater som faktisk skal være formelle samarbeidspartnere, leverandører og referanseaktører.
-- Hver navngitt aktør må få komplett rollekort, bekreftet juridisk enhet, kapasitet og skriftlig avtalegrunnlag.
-- Samarbeidspartnernes uavhengighet, selskapsstørrelse, støtteintensitet, egenfinansiering og støtteberettigede kostnader må kontrolleres mot gjeldende utlysning og statsstøtteregler.
-- FoU-leverandørens tilbud, markedspris, forskningsleveranser, publisering og rettigheter må dokumenteres.
-- Data- og standardpartnerkandidatens datatilgang, API-/lisensvilkår, egne kostnader, resultatbruk og rettigheter må avklares.
-- Metodepartneren, SMB-partnerkandidaten og data-/standardpartnerkandidaten må bekrefte forskjellige og nødvendige FoU-oppgaver, timer, egen nytte og resultatbruk.
-- Teknisk leverandørs juridiske enhet, pris, leveransested, IP, dataansvar og grense mot ordinær produktutvikling må avklares.
-- Eventuelle oppgaver innen brukerinnsikt, standardisering eller test må konkretiseres og kontraktsklassifiseres; ellers tas rollene ut.
-- Forskningsdesign, måleparametere, datagrunnlag og leverandørtilbud må dokumenteres.
-- DNSH-avgrensning og relevante forhold knyttet til kjemikalier og sosiale forhold må kompletteres.
-- Kilder som fortsatt er merket med forbehold, må enten primærverifiseres eller tas ut.
-- Budsjettet må fortsatt summere til 16,0 MNOK prosjektkostnad, 8,0 MNOK søkt støtte og 8,0 MNOK egenfinansiering etter at leverandørkjøp og partnerkostnader er underfordelt.
-
-## Endringslogg
-
-| Dato | Hvem | Endring | Begrunnelse |
-|---|---|---|---|
-| 2026-09-04 | Codex, arbeidsutkast | Opprettet v1.7 fra v1.6. Konkretiserte ansvar, leveranser, akseptkriterier og porter i AP1–AP3; endret partneromtale fra fastslåtte roller til foreløpige kandidater; la inn rollekort, partneravklaringer og eksplisitt kildeport. | Partnerdialogen dokumenterer mulige bidrag, men ikke bindende deltakelse. Gjennomføringen må kunne vurderes uten at søknaden overdriver avtaler eller støtteberettigelse. |
-| 2026-09-06 | Codex, arbeidsutkast | Presiserte at VIBS-raden skal underfordeles i egne kostnader og dokumenterte kjøp, og at likviditet beregnes etter periodisering. | Hindre oppdiktede leverandørpriser, dobbelttelling og udokumentert reserveanslag. |
-| 2026-09-06 | Codex, arbeidsutkast | Markerte kostnadsfordelingen som VIBS' kvalifiserte forslag og møtereferatet som indikativt kontrollspor. | Partnerfordelingen ble ikke avtalt i møtet; oppgave og dokumentert kompetanse skal styre videre fordeling. |
-| 2026-09-06 | Codex, arbeidsutkast | La inn en egen verdiskapingsdel med økonomisk mekanisme for entreprenører, produsenter, dataaktører og VIBS, samt plan for å dokumentere faktisk bruk, betalingsvilje og leveransekostnad. | Knytte forventet nytte til en etterprøvbar økonomisk årsakskjede uten å framstille scenarioer eller framtidig lønnsomhet som dokumentert effekt. |
-| 2026-09-06 | Codex, arbeidsutkast | Samlet og konkretiserte verdiskapingsdelen for entreprenør, tilbudsmottaker, byggevareprodusent, dataaktør og VIBS. | Erstatte abstrakte nytteord med konkrete arbeidsoppgaver, målinger og vilkår for økonomisk verdi. |
-| 2026-09-06 | Codex, arbeidsutkast | Samlet dagens verdikjede, målelogikk, arbeidspakkestyring, timefordelingsport og NFR-kriteriematrise i v1.7. Synliggjorde at dagens budsjett bare har én SMB-kandidat og at et mulig andre testcase krever egen beslutning. | Lage én gjennomgangskandidat uten å finne på timer, satser, partneravtaler eller dokumenterte effekter. |
-| 2026-09-06 | Codex, arbeidsutkast | Bygget v1.7 om fra en temakandidat til en samlet prosjektbeskrivelse med K1–K4 og V1–V3, mens IF-only-avgrensningen, AP1–AP3 og dagens åpne porter er beholdt. | Gjøre kandidaten mulig å lese som hel søknadstekst før videre gjennomgang. |
 
 ## Referanser
 

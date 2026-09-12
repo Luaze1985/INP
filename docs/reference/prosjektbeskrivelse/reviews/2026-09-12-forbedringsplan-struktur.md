@@ -29,6 +29,18 @@ Prioritert rekkefølge: **fordeling → arbeidspakker → søknadstekst.**
 | 2.3 | Del WP3-innhold i to: metodevalg/vekting → AP2, sensitivitetsanalyse/forklaringsformat → AP3 | WP3 spenner i dag over to AP-er samtidig | Klipp WP3-teksten i to ved denne grensen | Forslag |
 | 2.4 | Merk RACI-tabellens «Pilotaktør»/«Kunde»-kolonner tydelig «Fase 2 — etter modellfrys, ikke finansiert i denne søknaden» | De er ikke feil, men beskriver en senere fase | Legg til forklarende merkelapp der tabellen brukes videre | Forslag |
 
+## 2b. Pilotcase (AP1–AP2 — IKKE fase-2-feltpiloten)
+
+Disse to hentet fra AGYs vurdering — ikke feil, men AGY kalte det "pilot" på
+en måte som lett forveksles med fase 2 (feltuttesting etter modellfrys, se
+skissens Del 1). Dette gjelder derimot **tilbudsoppgaven** AP1–AP2 selv
+trenger som forskningsmateriale, ikke en levende kundepilot.
+
+| # | Tiltak | Hvorfor | Minste trygge steg | Status |
+|---|---|---|---|---|
+| 2.5 | Velge konkret første tilbudskategori (f.eks. kledning eller tak) + 2–4 reelle alternativer | v1.7 krever en «avgrenset oppgave, alternativer, kilder» før AP2 kan starte | VIBS + relevant partner låser kategori og alternativer i AP1 | Åpen |
+| 2.6 | Presisere at SMB-partnerkandidatene (Espeland, Norgesbygg Sør) har 0 kr budsjettert i AP1 | Uten finansiert innsats der kan de ikke levere tilbudscase i praksis | Avklar om VIBS/FoU-partner dekker fremskaffelsen, eller om SMB-partnerne får en (liten) AP1-post | Åpen |
+
 ## 3. Søknadstekst (lavest prioritet nå)
 
 | # | Tiltak | Hvorfor | Minste trygge steg | Status |

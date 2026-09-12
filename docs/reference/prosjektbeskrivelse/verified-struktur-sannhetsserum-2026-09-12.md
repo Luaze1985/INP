@@ -55,6 +55,7 @@ Fra `VERIFIED_VS_CODE_GRUNNLAG.zip` → `soknadsstruktur-og-krav.md` og `gjennom
 - **Bankspor:** zip-dokumentet åpner for et sekundært bankspor i V3. v1.7/CONTEXT.md utelukker banker og finansaktører fullstendig — ingen endring.
 - **Fase 2-nyansen:** feltuttesting hos snekkere/bygningsfolk skjer, men som eget, ikke-finansiert steg etter modellfrys (v1.7 linje 167, 248 i søknadsteksten) — ikke i AP1–AP3.
 - **Ekstern vurdering (AGY):** faktasjekket mot repoet 2026-09-12 — alle tallpåstander stemte. Eneste svakhet: forvekslet fase 2 med AP1–AP3, og behandlet WP1–WP3 som strukturelt like AP1–AP3. Se handoff #53 for korrigeringen sendt til AGY.
+- **AGY har akseptert korrigeringen (#55):** bekrefter fase-2-skillet og WP/AP-mappingen over, ingen videre uenighet. Handoff-kjeden #53 → #54 → #55 er lukket.
 
 ## 4. Samlet status — rød/gul/grønn
 
@@ -64,8 +65,8 @@ Fra `VERIFIED_VS_CODE_GRUNNLAG.zip` → `soknadsstruktur-og-krav.md` og `gjennom
 - Avklare rådgiver-/spesialisttjenester (pris eller sett til 0)
 - Skriftlig bekreftelse fra partnerkandidatene (D Takst, Byggtjeneste, Espeland, Norgesbygg Sør)
 - Likviditetsplan (styregodkjent)
-- Velge konkret første tilbudskategori + 2–4 reelle alternativer (AP1–AP2, ikke fase-2-pilot)
-- Avklare SMB-partnernes 0 kr-budsjett i AP1 — hvem dekker fremskaffelse av tilbudscase
+- Velge konkret første tilbudskategori + 2–4 reelle alternativer (AP1–AP2, ikke fase-2-pilot) — **AGY (#55): ingen korrespondanse/tilbud i repoet spesifiserer kategori for Espeland/Norgesbygg Sør; må avklares direkte med partnerne, kan ikke dokumentgraves fram**
+- Avklare SMB-partnernes 0 kr-budsjett i AP1 — hvem dekker fremskaffelse av tilbudscase — **AGY (#55): begge SMB-partnere har 0,0 MNOK i AP1 (bekreftet i partneroversikt.md og kalkulator.py); oppgaven er internt lagt til VIBS' egen 2,6 MNOK-post, men ingen skriftlig bekreftelse fra SMB-partnerne finnes (e-postutkast 2026-09-06 ble aldri sendt)**
 
 **🟡 Forslag (retning bestemt, tekstarbeid gjenstår):**
 - Flytte WP2-innhold (datadictionary, provenansmodell) inn som utdyping av AP1
@@ -88,7 +89,9 @@ Fra `VERIFIED_VS_CODE_GRUNNLAG.zip` → `soknadsstruktur-og-krav.md` og `gjennom
 
 ## 6. Bestilling til AGY
 
-Se `docs/handoffs/53_claude_oppgave_til_agy_strukturkorrigering.md` (korrigering av fase-2/WP-AP-forveksling) og `docs/handoffs/54_claude_bestilling_deterministisk_gjennomgang.md` (bestilling om deterministisk verifisering av dette dokumentet).
+Se `docs/handoffs/53_claude_oppgave_til_agy_strukturkorrigering.md` (korrigering av fase-2/WP-AP-forveksling), `docs/handoffs/54_claude_bestilling_deterministisk_gjennomgang.md` (bestilling om deterministisk verifisering av dette dokumentet) og `docs/handoffs/55_agy_svar_paa_bestilling_54.md` (svar: **lukket**).
+
+**Resultat av #54/#55:** 100 % deterministisk forankret — alle 17 rader i seksjon 1 og alle 15 punkter i seksjon 4 ga TREFF mot kildefilene. Ingen udokumenterte påstander eller regnefeil funnet. De to 🔴-punktene om tilbudskategori og SMB-finansiering forblir reelt uavklart (se seksjon 4) — dette er ikke noe dokumentarbeid alene kan løse, det krever avklaring med partnerne i den virkelige verden.
 
 ## 7. Kilde- og sannhetsregler (flyttet fra søknadsteksten 2026-09-12)
 
@@ -110,3 +113,4 @@ Bare åpne, uavhengige kilder kan bære faktapåstander i søknaden. Interne mø
 | 2026-09-06 | Codex, arbeidsutkast | Bygget v1.7 om fra en temakandidat til en samlet prosjektbeskrivelse med K1–K4 og V1–V3, mens IF-only-avgrensningen, AP1–AP3 og dagens åpne porter er beholdt. | Gjøre kandidaten mulig å lese som hel søknadstekst før videre gjennomgang. |
 | 2026-09-12 | Claude | Flyttet «Forankring i NFRs vurderingskriterier», «Åpent før innsending» og «Endringslogg» ut av søknadsteksten og inn i dette dokumentet. Fjernet `2026-09-12-forbedringsplan-struktur.md` (innhold flyttet hit). La til strukturavvik fra zip-pakken og AGY-korrigeringen. | Søknadsteksten skal være ren søknadstekst — ikke en blanding av søknad og arbeidsliste (Lars, 2026-09-12). |
 | 2026-09-12 | Claude | Flyttet den siste redaksjonelle fotnoten og seksjonen «Kilde- og sannhetsregler» ut av søknadsteksten, inn som ny seksjon 7 her. | Lars bekreftet at søknadsteksten fortsatt inneholdt to ikke-søknadstekst-biter etter forrige runde; begge tatt ut. |
+| 2026-09-12 | Claude (via AGY, handoff #55) | Logget AGYs deterministiske verifisering: 100 % TREFF på seksjon 1 og 4, korrigeringen fra #53 akseptert. Presiserte de to gjenstående 🔴-punktene (tilbudskategori, SMB-finansiering) med AGYs funn. | Lukke handoff-kjeden #53→#54→#55 og holde sannhetsserumet oppdatert med siste bekreftede status. |

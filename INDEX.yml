@@ -1,5 +1,5 @@
 # INDEX.yml — ipn-verified
-# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-09-04.
+# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-09-15.
 
 prosjekt:
   navn: VIBS VERIFIED — IPN-søknad
@@ -25,6 +25,15 @@ soknadskandidat:
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.0.md: Historisk arbeidskandidat fra 2026-08-10
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md: Historisk kandidat fra 2026-08-07
   docs/reference/prosjektbeskrivelse/v0.9-apne-kommentarer-2026-08-05.md: Beslutningshistorikk for fem partnerkommentarer
+
+innsendingspakker:
+  # Portaltilpassede versjoner fra v2.0. V1.7 ligger urørt som tekstgrunnlag.
+  docs/reference/prosjektbeskrivelse/innsendingspakker/README.md: Versjonsregler og peker til gjeldende portalpakke
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/portalstruktur.json: Normalisert video-uttrekk av felt, tegnrammer, valg og observerte flyter; ikke fullt manuelt verifisert
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/feltkart.md: Foreløpig gapkart fra v1.7 til portalens felt; endelig kontroll gjøres mot ferdig v2.0
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/innlimingsmal.md: Tom mal med portalens tekstfelt i registreringsrekkefølge
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/manuelle-registreringer.md: Menyvalg, personer, organisasjoner, arbeidspakker, milepæler og budsjettposter
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/endringslogg.md: Sporbar logg for v2.0-pakken
 
 nettside:
   # Publiseres av Vercel/Netlify fra site/web/ (het site/mockup/ fram til 2026-08-07)

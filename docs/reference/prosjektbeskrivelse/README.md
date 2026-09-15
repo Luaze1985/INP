@@ -3,6 +3,18 @@
 Sju kapitler, ett dokument hver. Slås sammen til én PDF når utkastet er ferdig.
 Opprettet 2026-07-08 (fase 0 i `../ipn-multiagent-workflow-2026-07-08.md`).
 
+## Portaltilpasning fra v2.0
+
+- **Gjeldende portalpakke:** [`innsendingspakker/v2.0/`](innsendingspakker/v2.0/)
+- **Fast versjonshjem:** [`innsendingspakker/`](innsendingspakker/)
+- **Status:** Struktur- og kartleggingsutkast. Ikke innsendingsklar.
+- **Utgangspunkt:** v1.7 beholdes urørt og brukes bare som tekstgrunnlag for det
+  foreløpige gapkartet. Endelig feltkontroll skjer mot ferdig v2.0-tekst.
+
+Portalpakken skiller ren innlimingstekst fra manuelle registreringer av blant
+annet personer, organisasjoner, datoer, milepæler og budsjett. Opprettelsen av
+pakken endrer ikke aktiv Source Guard-kandidat.
+
 ## Gjeldende arbeidsretning 2026-09-04
 
 - **Nyeste arbeidskandidat:** `soknadstekst-samlet-kandidat-v1.7-if-only.md`

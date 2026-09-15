@@ -1,0 +1,5 @@
+# Endringslogg - VERIFIED innsendingspakke v2.0
+
+| Dato | Utført av | Endring | Begrunnelse | Grunnlag | Kontroll/godkjenning | Status |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2026-09-15 | Codex, på oppdrag fra Lars | Opprettet v2.0-mappestrukturen, normalisert portaluttrekket, bevart en personvernredigert råkopi, laget feltkart mot v1.7, tom innlimingsmal og arbeidsmal for manuelle registreringer. Ingen søknadsprosa, partnerstatus, budsjett, kildestatus eller Source Guard-konfigurasjon ble endret. | Samle alle fremtidige portaltilpassede versjoner i tydelige, selvstendige pakker og skille innlimingstekst fra manuelle registreringer. | To PDF-eksporter, Google AI Studio-uttrekk fra skjermopptak og `soknadstekst-samlet-kandidat-v1.7-if-only.md` | JSON er gyldig; 39 råfelt er bevart; 67 unike portal-/underfelt er kartlagt; alle 27 innlimingsfelt finnes i feltkart og innlimingsmal; malen inneholder bare feltoverskrifter; 46 tester består; uavhengig standard- og spesifikasjonsreview har ingen funn; v1.7 har ingen diff. Lars har ikke godkjent pakken for innliming eller innsending. | Kartleggingsutkast |

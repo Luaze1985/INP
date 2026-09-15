@@ -159,6 +159,20 @@ _Unngå_: dobbelttelling av leverandørkostnader som både VIBS-kostnad og egenf
 **Bankavgrensning:** Banker og finansaktører inngår ikke i VERIFIEDs IF-only-søknad, verken som partner, leverandør, referanseaktør eller brukergruppe.
 _Unngå_: DNB, Flekkefjord Sparebank, kreditt- og bankspor.
 
+## Ny versjonsstruktur for portaltilpasning (2026-09-15)
+
+- `docs/reference/prosjektbeskrivelse/innsendingspakker/` er opprettet som fast
+  hjem for portaltilpassede søknadsversjoner fra og med v2.0.
+- `v2.0/` inneholder normalisert portalstruktur, et foreløpig gapkart mot v1.7,
+  en tom innlimingsmal, manuelle registreringer og egen endringslogg.
+- Google AI Studio-uttrekket fra skjermopptaket er merket som ikke manuelt
+  verifisert. PDF-eksportene er brukt til visuell kontroll av overskrifter og
+  oppsett, men dokumenterer ikke alle valg eller funksjoner.
+- V1.7 er ikke flyttet eller endret. Kartet mot v1.7 er bare grunnlag for å
+  utvikle v2.0; endelig feltkontroll gjøres når v2.0-teksten er ferdig.
+- Ingen søknadsprosa, partnerstatus, budsjett, kildestatus eller aktiv Source
+  Guard-kandidat er endret av denne opprettelsen.
+
 ## Status nå
 
 - **Søknadstekst:** tre kanoniske dokumenter er språkvasket (presens→futurum, sjargong fjernet) og kildedom er flettet inn.

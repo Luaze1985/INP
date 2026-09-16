@@ -20,14 +20,16 @@ governance:
 
 soknadskandidat:
   # Nyeste arbeidsretning er IF-only. Aktivering i Source Guard er utsatt til egen beslutning.
-  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.7-if-only.md: NYESTE arbeidskandidat (2026-09-04). AP1–AP3, konkrete partneroppgaver og bekreftelsesporter; ikke innsendingsklar
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.9.md: NYESTE arbeidskandidat (2026-09-16). Etter portalmalen (innsendingspakker/v2.0), AP1–AP7, rødt = nytt fra v1.8; ikke innsendingsklar
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.8.md: Mellomversjon (2026-09-16). Rødt = nytt fra v1.7; se v1.9 for gjeldende
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.7-if-only.md: Historisk IF-only-kandidat (2026-09-04). AP1–AP3, tekstgrunnlag for v1.8/v1.9
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.6-if-only.md: Historisk IF-only-baseline fra 2026-08-27
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.0.md: Historisk arbeidskandidat fra 2026-08-10
   docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md: Historisk kandidat fra 2026-08-07
   docs/reference/prosjektbeskrivelse/v0.9-apne-kommentarer-2026-08-05.md: Beslutningshistorikk for fem partnerkommentarer
 
 innsendingspakker:
-  # Portaltilpassede versjoner fra v2.0. V1.7 ligger urørt som tekstgrunnlag.
+  # Portaltilpassede versjoner fra v2.0. V1.7/v1.8/v1.9 ligger urørt som tekstgrunnlag.
   docs/reference/prosjektbeskrivelse/innsendingspakker/README.md: Versjonsregler og peker til gjeldende portalpakke
   docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/portalstruktur.json: Normalisert video-uttrekk av felt, tegnrammer, valg og observerte flyter; ikke fullt manuelt verifisert
   docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/feltkart.md: Foreløpig gapkart fra v1.7 til portalens felt; endelig kontroll gjøres mot ferdig v2.0
@@ -66,7 +68,7 @@ prosjektbeskrivelse:
   budsjett/fordelingsplan.md: Avstemt 16,0/8,0/8,0-plan, VIBS-underposter og beslutningsporter
   budsjett/beregningsformler.md: IF-only-formler, dokumentasjonskrav og likviditetsmetode
   budsjett/kalkulator.py: Deterministisk sannhetskilde for AP-er, kostnadsbærere og upriset VIBS-underfordeling
-  budsjett/partneroversikt.md: IF-only aktør- og kostnadsoversikt med fem kostnadsbærere og åpne leverandørporter
+  budsjett/partneroversikt.md: IF-only aktør- og kostnadsoversikt med fire kostnadsbærere og åpne leverandørporter
   tools/budget_validator.py: Matematisk validering og innsendingsklarhetsstatus for budsjettet
   tools/verify_budget_consistency.py: Kontroll av tall og dokumentdrift i aktiv budsjettpakke
 

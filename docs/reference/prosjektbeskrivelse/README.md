@@ -15,11 +15,14 @@ Portalpakken skiller ren innlimingstekst fra manuelle registreringer av blant
 annet personer, organisasjoner, datoer, milepæler og budsjett. Opprettelsen av
 pakken endrer ikke aktiv Source Guard-kandidat.
 
-## Gjeldende arbeidsretning 2026-09-04
+## Gjeldende arbeidsretning 2026-09-16
 
-- **Nyeste arbeidskandidat:** `soknadstekst-samlet-kandidat-v1.7-if-only.md`
-- **Avgrensning:** industriell forskning i AP1–AP3, 16,0 MNOK kostnad,
-  8,0 MNOK søkt støtte og 8,0 MNOK egenfinansiering
+- **Nyeste arbeidskandidat:** `soknadstekst-samlet-kandidat-v1.9.md` (se `INDEX.yml`, linjen NYESTE)
+- **Mellomversjon:** `soknadstekst-samlet-kandidat-v1.8.md` (rødt = nytt fra v1.7); v1.9 markerer rødt = nytt fra v1.8
+- **Struktur:** følger portalmalen i `innsendingspakker/v2.0/innlimingsmal.md`, AP1–AP7
+- **Avgrensning:** industriell forskning, 16,0 MNOK kostnad,
+  8,0 MNOK søkt støtte og 8,0 MNOK egenfinansiering (foreløpig AP-fordeling, skalert fra kvalitetsutkast v4.0)
+- **Historisk:** `soknadstekst-samlet-kandidat-v1.7-if-only.md` (AP1–AP3, tekstgrunnlag for v1.8/v1.9)
 - **Partnergrunnlag:**
   `arbeidsversjoner/06-partnerroller-og-bekreftelsesporter-v1.7.md`
 - **Budsjett-/aktørgrunnlag:** `../../../budsjett/partneroversikt.md` og

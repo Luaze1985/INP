@@ -7,14 +7,15 @@ manuelle registreringer og endringslogg for samme versjon.
 ## Gjeldende pakke
 
 - **Arbeidsversjon:** [`v2.0/`](v2.0/)
-- **Tekstgrunnlag:**
-  [`../soknadstekst-samlet-kandidat-v1.7-if-only.md`](../soknadstekst-samlet-kandidat-v1.7-if-only.md)
+- **Tekstgrunnlag:** se `INDEX.yml` (linjen NYESTE), i dag
+  [`../soknadstekst-samlet-kandidat-v1.9.md`](../soknadstekst-samlet-kandidat-v1.9.md).
+  Feltkartet under er laget mot v1.7 og bør kontrolleres mot v1.8/v1.9 før bruk.
 - **Status:** Struktur- og kartleggingsfase. Ikke innsendingsklar og ikke
   godkjent for registrering i Forskningsrådets portal.
 - **Beslutningseier:** Lars.
 
-V1.7 ligger urørt på sin opprinnelige plass og er historisk utgangspunkt for
-v2.0. Opprettelsen av v2.0 flytter ikke aktiv Source Guard-kandidat.
+V1.7, v1.8 og v1.9 ligger urørt på sin opprinnelige plass og er historisk
+utgangspunkt for v2.0. Opprettelsen av v2.0 flytter ikke aktiv Source Guard-kandidat.
 
 ## Innhold i hver versjon
 

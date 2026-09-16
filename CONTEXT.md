@@ -1,6 +1,28 @@
 # CONTEXT.md — ipn-verified
 
-Tilstand og kjente risikoer. Oppdatert: **2026-09-06**.
+Tilstand og kjente risikoer. Oppdatert: **2026-09-16**.
+
+## Siste endring: v1.8/v1.9 etter portalmalen og versjonsrydding (2026-09-16)
+
+- **v1.9 er nyeste arbeidskandidat** (`docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.9.md`), bygget på v1.8 (mellomversjon) og v1.7. Begge nye versjonene er skrevet etter portalmalen i `innsendingspakker/v2.0/innlimingsmal.md`, med rødt for det som er nytt sammenlignet med forrige versjon.
+- **AP1–AP3 er erstattet av AP1–AP7** i søknadsteksten, med titler hentet fra det eksterne kvalitetsutkastet v4.0. Budsjettet er fortsatt 16,0/8,0/8,0 MNOK; AP-fordelingen er foreløpig, proporsjonalt skalert fra v4.0s 12,6 MNOK-modell (AP1 2,0 · AP2 2,8 · AP3 3,8 · AP4 2,2 · AP5 2,5 · AP6 1,3 · AP7 1,4) og må erstattes av timer per AP.
+- **Sør Bygg AS er tatt ut av VERIFIED** (for tett knyttet til VIBS). **Norgesbygg Sør AS er parkert** (ikke med i v1.8/v1.9, kan vurderes igjen). Begge er merket, ikke slettet, i `budsjett/partneroversikt.md`, `budsjett/grunnprompt.md` og partnerrollefilen for v1.7.
+- **Fire kostnadsbærere** (VIBS, D Takst, Espeland, Norsk Byggtjeneste), ikke fem — `INDEX.yml` er rettet.
+- **Bærekraftsmål 12.2 og 12.5 nevnes eksplisitt** i v1.9, koblet til ombruk og reparasjon, uten å love dokumenterte gevinster.
+- **Fire nye 🟢-kilder** er lagt til kunnskapsgrunnlaget i v1.9 (Råheim 2023, Liodden 2024, Level(s) 2024, Reif 2023), med formuleringer fra kildeporten som allerede er godkjent i v1.0.
+- **Versjonsstyring ryddet:** `AGENTS.md`, `README.md` og `docs/agents/SOKNADSTEKST_REGLER.md` peker nå til `INDEX.yml` i stedet for å navngi en konkret versjon. Den gamle 32 MNOK/AP1–AP6-modellen (ADR 0001, `g1-gjennomforing.md`, handoff #49–#51) er merket «Avløst 2026-09-16».
+- **Ikke gjort:** Source Guard er ikke flyttet fra v1.5 til v1.9 (egen beslutning). Grenen `codex/partneroppgaver-v1-7` er ikke flettet inn i `main`. Nettsiden (`site/web/index.html`) har en klargjort, men ikke innlagt eller publisert, retting som fjerner banksporet og «pilotene»-språket.
+
+## Siste beslutning: Axon er ute av VERIFIED (2026-09-06)
+
+- Lars har besluttet at Axon ikke skal inngå som partner, leverandør,
+  budsjettpost eller oppfølgingspunkt i noen gjeldende VERIFIED-plan.
+- Gjeldende v1.7-arbeidsdokumenter, budsjettmodell, kveldsmøteutkast og felles
+  e-post er oppdatert. Historiske referater, research og eldre versjoner
+  beholdes som sporbar historikk, men er ikke planer som kan aktiveres igjen.
+- Den tidligere foreslåtte tekniske kjøpsposten er ikke overført til en ny
+  leverandør. I 36-måneders arbeidsmodellen er beløpet foreløpig lagt som økt
+  egeninnsats hos VIBS og må kapasitetsbekreftes før bruk.
 
 ## Siste endring: grill-me-verified-skill og første gjennomgang (2026-09-06)
 
@@ -57,15 +79,16 @@ Tilstand og kjente risikoer. Oppdatert: **2026-09-06**.
   til IF-only. Leverandørunderfordeling under VIBS står åpen til tilbud og
   juridiske enheter er dokumentert.
 - VIBS er fortsatt prosjektansvarlig. SINTEF er foreslått FoU-leverandør,
-  Axon teknisk underleverandør, Norsk Byggtjeneste første partnerkandidat,
+  Norsk Byggtjeneste første partnerkandidat,
   Sør Bygg nærstående og John ekstern reviewer. BEWI og finansaktører er ute.
 
 ## Forrige endring: e-postplan for partneroppfølging (2026-08-29)
 
 - Utsendelsesklar plan med én felles takk og ti individuelle e-postutkast ligger i
   `docs/reference/prosjektbeskrivelse/reviews/2026-08-29-partneroppfolging-e-postplan.md`.
-- Planen prioriterer først Forskningsrådet, SINTEF, Norsk Byggtjeneste/NOBB,
-  Standard Norge og Axon. Den ber om avklaringer, ikke om forpliktelser.
+- Den historiske planen prioriterte først Forskningsrådet, SINTEF, Norsk
+  Byggtjeneste/NOBB og Standard Norge. Det tidligere Axon-sporet er kansellert
+  og skal ikke følges opp.
 - E-postadresser, juridiske enheter, avsender og kopimottakere må bekreftes før
   utsending. Ingen e-post er sendt.
 - En kort intern oppdatering til Lars Gunnar og Bjørn prioriterer SINTEF og Kleng
@@ -94,8 +117,8 @@ Tilstand og kjente risikoer. Oppdatert: **2026-09-06**.
 - Påstander om høyere pris, bedre kvalitet, lengre levetid, lavere energibruk,
   billigere lån og besparelser er registrert som hypoteser, ikke dokumentert
   effekt. Partnerinteresse er heller ikke behandlet som bindende deltakelse.
-- Det fjerde utdraget setter offisiell avklaring av støtteberettigelse øverst på
-  oppfølgingslisten. Axons rolle er fortsatt udefinert, og en foreløpig dato
+- Det fjerde utdraget satte offisiell avklaring av støtteberettigelse øverst på
+  den historiske oppfølgingslisten. Det tidligere Axon-sporet er nå tatt ut, og en foreløpig dato
   30. oktober skal ikke overføres til dagens IPN-løp med løpende frist.
 - Full transkripteksport er gjennomgått. Et foreløpig talerkart er lagt inn med
   sikkerhetsgrader. Bjørn Arne Skeime, Lars Gullbrekken, Bjørn Lindebrekke,
@@ -128,7 +151,7 @@ Den publiserte nettsiden sto med et faktagrunnlag v0.9 hadde forlatt — 32 %-ta
 åtte navngitte partnere, fem personnavn og BKA2. Alt dette er nå ute. Se
 `site/arbeid/faktasjekk-2026-08-07.md` for full sporing påstand for påstand.
 
-- **v0.5–v0.8 finnes ikke i repoet.** De er skrevet utenfor. Hoppet er notert, ikke rekonstruert.
+- **v0.8 finnes ikke i repoet** (v0.5–v0.7 og v0.9 finnes). Det er skrevet utenfor. Hoppet er notert, ikke rekonstruert.
 - **Fem partnerkommentarer** fra v0.9 er hentet ut av Word-fila og behandlet i
   `soknadstekst-samlet-kandidat-v1.0.md` 2026-08-10. Kommentarfilen beholdes som beslutningshistorikk.
 - **`site/mockup/` er døpt om til `site/web/`.** Det var aldri en mockup — det er den publiserte
@@ -158,6 +181,9 @@ _Unngå_: dobbelttelling av leverandørkostnader som både VIBS-kostnad og egenf
 
 **Bankavgrensning:** Banker og finansaktører inngår ikke i VERIFIEDs IF-only-søknad, verken som partner, leverandør, referanseaktør eller brukergruppe.
 _Unngå_: DNB, Flekkefjord Sparebank, kreditt- og bankspor.
+
+**Arbeidspakke (AP):** En avgrenset del av prosjektet med egne oppgaver, leveranser, milepæler og budsjett; søknaden har sju (AP1–AP7) fra og med v1.8.
+_Unngå_: «WP» (brukt i det eksterne kvalitetsutkastet v4.0 og den avløste 32 MNOK-modellen, ikke i søknadsteksten).
 
 ## Ny versjonsstruktur for portaltilpasning (2026-09-15)
 
@@ -193,9 +219,10 @@ _Unngå_: DNB, Flekkefjord Sparebank, kreditt- og bankspor.
 - **🟡 venter på primær:** `[An2020]`, `[GullbrekkenHolme2025]`, `[KD2024]`, `[Mecca2023]` (Wiley-betalingsmur) m.fl. SINTEF åpner fulltekst **midten av august 2026** → 🟢. Ikke innsendingsklar før disse er 🟢 eller fraset med forbehold.
 - **Parkerte kilder (⏸):** `[Wiik2025]` og `[SA2018]` venter på at kilden lokaliseres;
   `[Ingvaldsen2008]` og `[Munda2006]` er ute av v1.0 etter aldersregelen.
-- **Fortsatt ikke innsendingsklar:** K/V-utkastet mangler Lars-/Lars Gunnar-avklaringer om SMB-definisjon,
-  baseline, målepunkter, metodevalg, bankavgrensning og konkrete DNSH-tiltak. WP1–WP5 og
-  Gjennomføring er fortsatt parkert.
+- **Fortsatt ikke innsendingsklar (2026-09-16, se v1.9):** intensjonsbrev fra partnerne, prosjektleder,
+  SINTEF-enhet og -tilbud, timer per AP1–AP7, avklaring med Forskningsrådet om behovssamtaler før
+  innsending, og konkrete DNSH-tiltak. *(Foreldet: forrige linje nevnte WP1–WP5, som gjaldt en K/V-arbeidsgren
+  fra 2026-07 og er avløst av AP1–AP7.)*
 - **Ingen SQLite ennå.** Kildestatus, provenans og audit er markdown for hånd → drifter, krever manuell avstemming. Se AGENTS.md → «dokumentdatabasert».
 - **Nylig utskilt fra `vibs-boligpass/`.** Originalfilene ligger fortsatt der, markert «IPN FLYTTES» (se `IPN-FLYTTES.md`).
 - **Ingen nummerert handoff #30** dokumenterer at Codex-rettingen/språkjobben er utført, selv om begge er gjort.

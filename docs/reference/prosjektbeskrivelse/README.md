@@ -3,7 +3,39 @@
 Sju kapitler, ett dokument hver. Slås sammen til én PDF når utkastet er ferdig.
 Opprettet 2026-07-08 (fase 0 i `../ipn-multiagent-workflow-2026-07-08.md`).
 
-## Gjeldende arbeidsgrunnlag
+## Portaltilpasning fra v2.0
+
+- **Gjeldende portalpakke:** [`innsendingspakker/v2.0/`](innsendingspakker/v2.0/)
+- **Fast versjonshjem:** [`innsendingspakker/`](innsendingspakker/)
+- **Status:** Struktur- og kartleggingsutkast. Ikke innsendingsklar.
+- **Utgangspunkt:** v1.7 beholdes urørt og brukes bare som tekstgrunnlag for det
+  foreløpige gapkartet. Endelig feltkontroll skjer mot ferdig v2.0-tekst.
+
+Portalpakken skiller ren innlimingstekst fra manuelle registreringer av blant
+annet personer, organisasjoner, datoer, milepæler og budsjett. Opprettelsen av
+pakken endrer ikke aktiv Source Guard-kandidat.
+
+## Gjeldende arbeidsretning 2026-09-16
+
+- **Nyeste arbeidskandidat:** `soknadstekst-samlet-kandidat-v1.9.md` (se `INDEX.yml`, linjen NYESTE)
+- **Mellomversjon:** `soknadstekst-samlet-kandidat-v1.8.md` (rødt = nytt fra v1.7); v1.9 markerer rødt = nytt fra v1.8
+- **Struktur:** følger portalmalen i `innsendingspakker/v2.0/innlimingsmal.md`, AP1–AP7
+- **Avgrensning:** industriell forskning, 16,0 MNOK kostnad,
+  8,0 MNOK søkt støtte og 8,0 MNOK egenfinansiering (foreløpig AP-fordeling, skalert fra kvalitetsutkast v4.0)
+- **Historisk:** `soknadstekst-samlet-kandidat-v1.7-if-only.md` (AP1–AP3, tekstgrunnlag for v1.8/v1.9)
+- **Partnergrunnlag:**
+  `arbeidsversjoner/06-partnerroller-og-bekreftelsesporter-v1.7.md`
+- **Budsjett-/aktørgrunnlag:** `../../../budsjett/partneroversikt.md` og
+  `../../../budsjett/kalkulator.py`
+- **Status:** ikke innsendingsklar. Partnerkandidatene, leverandørtilbudene,
+  rettighetene og støtteforutsetningene må bekreftes. Aktivering i Source Guard
+  er utsatt til en egen flyttebeslutning.
+
+V1.7 gjør partneroppgavene vurderbare uten å framstille interesse som avtale.
+VIBS er prosjektansvarlig; de øvrige navngitte rollene er foreløpige og følger
+bekreftelsesportene i partnergrunnlaget.
+
+## Historisk arbeidsgrunnlag
 
 - **Beslutninger og avgrensninger:** `arbeidsversjoner/HANDOFF-godkjent-review-k1-k4-v1-v3-2026-07-25.md`
 - **Gjeldende tekstgrunnlag:** de sju `*-godkjent-v0.1.md`-filene i `arbeidsversjoner/`
@@ -16,7 +48,8 @@ Opprettet 2026-07-08 (fase 0 i `../ipn-multiagent-workflow-2026-07-08.md`).
 - **Senere grunnlagsløp mot v0.7:** `reviews/2026-08-05-v0.7-grunnlagsarbeid-og-partnerprosess.md`
 - **Kollegareview mot Sannhetsserum:** `sannhetsserum-oppdatering-v0.5.md`
 - **Kanoniske innflettingsmål:** de sju K/V-filene i tabellen under
-- **Status:** `v0.6` skal gjennom et avgrenset 2–3 timers partnerpass; tyngre metode-, kilde-, partner- og gjennomføringsvalg er parkert til et senere v0.7-løp
+- **Historisk status:** `v0.6` skulle gjennom et avgrenset partnerpass; dette er
+  senere avløst av v1.7 IF-only-retningen over.
 - **Åpen kvalitetsport C7:** kildeverifisering, kildehenvisninger og endelig innflettingskontroll
 
 Arbeidsversjonene er ordlydskilden. `v0.4` skal ikke endres og bevarer innholdsdekningen. `v0.5` bevares som tidligere integrasjonskandidat. `v0.6` er den nye kontrollkandidaten for kildeavgrensning, språk og samsvar med K3-sannhetsserumet. De kanoniske kapittelfilene er målfilene og inneholder foreløpig eldre tekst.
@@ -33,7 +66,10 @@ Arbeidsversjonene er ordlydskilden. `v0.4` skal ikke endres og bevarer innholdsd
 | `v2-sikkerhet.md` | Virkninger | ~1 | Eldre måltekst — godkjent arbeidsversjon finnes |
 | `v3-okonomi.md` | Virkninger | ~1 | Eldre måltekst — godkjent arbeidsversjon finnes |
 
-**Arbeidspakker (WP1–WP5) og Gjennomføring er fortsatt parkert.** De skal ikke skrives inn i disse kapitlene uten egen godkjenning.
+**Historisk AP1–AP6-materiale:** Den tidligere 32-MNOK-modellen er avløst av
+IF-only-beslutningen og skal ikke brukes som gjeldende gjennomførings- eller
+budsjettgrunnlag. Gjeldende arbeidsretning omfatter bare AP1–AP3 som angitt
+øverst.
 
 ## Regler som gjelder alle sju
 

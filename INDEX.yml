@@ -1,5 +1,5 @@
 # INDEX.yml — ipn-verified
-# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-08-07.
+# Filoversikt for IPN-søknaden VERIFIED. Oppdatert 2026-09-15.
 
 prosjekt:
   navn: VIBS VERIFIED — IPN-søknad
@@ -19,9 +19,23 @@ governance:
   IPN-FLYTTES.md: Flyttemanifest (kilde→mål, hva som skal slettes etter bekreftelse)
 
 soknadskandidat:
-  # Gjeldende samlet søknadstekst. v0.5–v0.8 finnes ikke i repoet (skrevet utenfor).
-  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md: GJELDENDE søknadstekst (2026-08-07). Ingen partnernavn, ingen prosentsatser, 15 referanser
-  docs/reference/prosjektbeskrivelse/v0.9-apne-kommentarer-2026-08-05.md: Fem uløste kommentarer fra partnergjennomgangen
+  # Nyeste arbeidsretning er IF-only. Aktivering i Source Guard er utsatt til egen beslutning.
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.9.md: NYESTE arbeidskandidat (2026-09-16). Etter portalmalen (innsendingspakker/v2.0), AP1–AP7, rødt = nytt fra v1.8; ikke innsendingsklar
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.8.md: Mellomversjon (2026-09-16). Rødt = nytt fra v1.7; se v1.9 for gjeldende
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.7-if-only.md: Historisk IF-only-kandidat (2026-09-04). AP1–AP3, tekstgrunnlag for v1.8/v1.9
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.6-if-only.md: Historisk IF-only-baseline fra 2026-08-27
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v1.0.md: Historisk arbeidskandidat fra 2026-08-10
+  docs/reference/prosjektbeskrivelse/soknadstekst-samlet-kandidat-v0.9.md: Historisk kandidat fra 2026-08-07
+  docs/reference/prosjektbeskrivelse/v0.9-apne-kommentarer-2026-08-05.md: Beslutningshistorikk for fem partnerkommentarer
+
+innsendingspakker:
+  # Portaltilpassede versjoner fra v2.0. V1.7/v1.8/v1.9 ligger urørt som tekstgrunnlag.
+  docs/reference/prosjektbeskrivelse/innsendingspakker/README.md: Versjonsregler og peker til gjeldende portalpakke
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/portalstruktur.json: Normalisert video-uttrekk av felt, tegnrammer, valg og observerte flyter; ikke fullt manuelt verifisert
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/feltkart.md: Foreløpig gapkart fra v1.7 til portalens felt; endelig kontroll gjøres mot ferdig v2.0
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/innlimingsmal.md: Tom mal med portalens tekstfelt i registreringsrekkefølge
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/manuelle-registreringer.md: Menyvalg, personer, organisasjoner, arbeidspakker, milepæler og budsjettposter
+  docs/reference/prosjektbeskrivelse/innsendingspakker/v2.0/endringslogg.md: Sporbar logg for v2.0-pakken
 
 nettside:
   # Publiseres av Vercel/Netlify fra site/web/ (het site/mockup/ fram til 2026-08-07)
@@ -29,7 +43,7 @@ nettside:
   site/web/styles.css: Stil for nettsiden
   site/arbeid/: Arbeidsfiler som IKKE publiseres — faktasjekker, gamle bilder, skjermbilder, skript
   site/arbeid/bilder-kilder.md: Bildekilder + udokumentert rettighetsstatus (kjent risiko)
-  site/arbeid/faktasjekk-2026-08-07.md: GJELDENDE faktasjekk — hver påstand sporet til v0.9
+  site/arbeid/faktasjekk-2026-08-07.md: Historisk faktasjekk mot v0.9
   site/tekstmanus.md: Innholdskilde for siden. HTML bygges fra denne
   site/design-brief.md: Visuell retning
   site/index.html: Lars' håndkodede læringsfil. Ikke publisert, ikke agentarbeid
@@ -45,6 +59,18 @@ prosjektbeskrivelse:
   docs/reference/prosjektbeskrivelse/v1-baerekraft.md: Virkninger — SDG, CO₂-mekanisme, sirkulærøkonomi
   docs/reference/prosjektbeskrivelse/v2-sikkerhet.md: Virkninger — DNSH-tabell (må skrives fra bunn)
   docs/reference/prosjektbeskrivelse/v3-okonomi.md: Virkninger — bro til grønn finans
+  docs/reference/prosjektbeskrivelse/reviews/2026-08-28-partnerdialog-innspill-01.md: Løpende registrering av transkriptutdrag fra partnerdialog; internt innspill, usikker transkripsjon og søknadsdom
+  docs/reference/prosjektbeskrivelse/reviews/2026-08-29-partneroppfolging-e-postplan.md: Utkast til e-postbasert individuell partneroppfølging etter møtedialogen
+  docs/reference/prosjektbeskrivelse/reviews/2026-08-29-intern-oppdatering-septemberoppfolging.md: Kort intern e-post og femukers prioritering for SINTEF, Kleng, John og øvrige aktører
+  docs/reference/prosjektbeskrivelse/reviews/2026-09-06-grill-me-soknad-partnere-ap-mailer.md: Felles arbeidsdokument (Lars Erik + Lars Gunnar) fra ny grill-me-verified-skill; stress-tester søknad, partnere, AP og mailer mot v1.7/september-versjonene
+  docs/reference/prosjektbeskrivelse/arbeidsversjoner/06-partnerroller-og-bekreftelsesporter-v1.7.md: Rollekort, AP1–AP3-oppgaver, leveranser, akseptkriterier og bekreftelsesporter for partnerkandidatene
+  budsjett/README.md: Status og kontrollrutine for IF-only-budsjettet
+  budsjett/fordelingsplan.md: Avstemt 16,0/8,0/8,0-plan, VIBS-underposter og beslutningsporter
+  budsjett/beregningsformler.md: IF-only-formler, dokumentasjonskrav og likviditetsmetode
+  budsjett/kalkulator.py: Deterministisk sannhetskilde for AP-er, kostnadsbærere og upriset VIBS-underfordeling
+  budsjett/partneroversikt.md: IF-only aktør- og kostnadsoversikt med fire kostnadsbærere og åpne leverandørporter
+  tools/budget_validator.py: Matematisk validering og innsendingsklarhetsstatus for budsjettet
+  tools/verify_budget_consistency.py: Kontroll av tall og dokumentdrift i aktiv budsjettpakke
 
 kanoniske_dokumenter:
   docs/reference/ipn-hovedokument.md: Skjelett — påstand + kildenøkkel + status (parkering for ⏸)

@@ -17,6 +17,8 @@ For K1–K4 og V1–V3 på arbeidsgrenen gjelder denne spesifikke rekkefølgen:
 5. **Kanoniske Innflettingsmål**:
    `docs/reference/prosjektbeskrivelse/k1-bakgrunn.md` til `v3-okonomi.md` er kanoniske innflettingsmål, men ikke tekstfasit før kvalitetsport C7 er lukket.
 
+**Foreldet (2026-09-16):** Punkt 1–5 over beskriver K/V-arbeidsgrenen fra 2026-07. Gjeldende søknadstekst står i `INDEX.yml` (linjen merket NYESTE), i dag `soknadstekst-samlet-kandidat-v1.9.md`. Denne filen er ikke oppdatert til IF-only-strukturen og skal ikke brukes til å avgjøre hva som er aktiv kandidat.
+
 ## Håndtering av Konflikter og Historiske Støttedokumenter
 
 * **Ved konflikt**: Handoff-filen gjelder for omfang, arbeidsversjonene for godkjent ordlyd og `v0.4` for innholdsdekning. Konflikten skal markeres i et notat; ingen agent skal velge stille.

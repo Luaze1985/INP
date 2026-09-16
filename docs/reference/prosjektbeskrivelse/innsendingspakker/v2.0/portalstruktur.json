@@ -1,0 +1,1834 @@
+{
+  "schema_version": 1,
+  "package_version": "v2.0",
+  "updated": "2026-09-15",
+  "status": "video-uttrekk – ikke manuelt verifisert",
+  "decision_owner": "Lars",
+  "purpose": "Normalisert kart over tekstfelt, manuelle registreringer og observerte portalhandlinger for VERIFIED-søknaden.",
+  "sources": [
+    {
+      "type": "video_extraction",
+      "description": "Google AI Studio-uttrekk fra skjermopptak av Forskningsrådets portal",
+      "verification": "not_manually_verified"
+    },
+    {
+      "type": "pdf_export",
+      "description": "søknad-50176027.pdf",
+      "verification": "visually_checked_for_headings_and_layout"
+    },
+    {
+      "type": "pdf_export",
+      "description": "søknad-50176027 (1).pdf",
+      "verification": "visually_checked_for_headings_and_layout"
+    }
+  ],
+  "privacy_note": "Personspesifikke verdier fra opptaket er utelatt. Strukturen bevarer feltene, ikke personopplysningene.",
+  "field_verification_default": "video-uttrekk – ikke manuelt verifisert",
+  "portal_sections": [
+    {
+      "name": "Kvalifisering (Tilfredsstiller dere kravene for å søke?)",
+      "timestamp": "00:00",
+      "fields": [
+        {
+          "name": "FORETAK I VANSKELIGHETER",
+          "guidance": "Bedrifter som er foretak i vanskeligheter på godkjenningstidspunktet kan ikke få støtte etter den viste veiledningen. Et særskilt unntak for enkelte unge SMB-er ble omtalt i portalen.",
+          "type": "valg",
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "timestamp": "00:00"
+        },
+        {
+          "name": "HAR DERE MED MINST ÉN SAMARBEIDSPARTNER ELLER FoU-LEVERANDØR?",
+          "guidance": "Den viste kvalifiseringen krever minst én norsk bedrift som samarbeidspartner eller innkjøpt oppdragsforskning fra minst én FoU-leverandør.",
+          "type": "valg",
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "timestamp": "00:08"
+        },
+        {
+          "name": "MOTTAR ALLEREDE ANNEN OFFENTLIG STØTTE?",
+          "guidance": "Portalen opplyste at aktiviteter ikke kan være startet før innsending, og viste til krav om insentiveffekt etter statsstøtteregelverket.",
+          "type": "valg",
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "timestamp": "00:16"
+        },
+        {
+          "name": "BEKREFT",
+          "guidance": "Bekreftelse på at søknaden skrives på et tillatt språk; norsk eller engelsk ble vist.",
+          "type": "valg",
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "timestamp": "00:41"
+        }
+      ]
+    },
+    {
+      "name": "Veiledning",
+      "timestamp": "00:54",
+      "fields": []
+    },
+    {
+      "name": "Deltakende organisasjoner",
+      "timestamp": "02:13",
+      "fields": [
+        {
+          "name": "Prosjektansvarlig organisasjon",
+          "guidance": "Viser overordnet og utførende enhet for prosjektansvarlig organisasjon.",
+          "type": "organisasjonsregistrering",
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "timestamp": "02:13"
+        },
+        {
+          "name": "Partner",
+          "guidance": "Samarbeidspartner eller FoU-leverandør registreres gjennom søk og valg av utførende enhet.",
+          "type": "gjentakende registrering",
+          "required_status": "obligatorisk kvalifiseringskrav",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "subfields": [
+            "VELG TYPE PARTNER",
+            "VELG PARTNER OG UTFØRENDE ENHET"
+          ],
+          "timestamp": "02:26"
+        }
+      ]
+    },
+    {
+      "name": "Roller i prosjektet",
+      "timestamp": "02:49",
+      "fields": [
+        {
+          "name": "Oppretter av søknad",
+          "guidance": "Systemutfylt rolle basert på innlogget bruker.",
+          "type": "systemverdi",
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "timestamp": "02:51"
+        },
+        {
+          "name": "Prosjektleder",
+          "guidance": "Obligatorisk personrolle for prosjektledelse.",
+          "type": "personregistrering",
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "subfields": [
+            "FORNAVN",
+            "MELLOMNAVN",
+            "ETTERNAVN",
+            "E-POST",
+            "LANDSKODE",
+            "MOBILNUMMER",
+            "ORGANISASJON"
+          ],
+          "timestamp": "02:52"
+        },
+        {
+          "name": "Organisasjonsrepresentant for VI BYGGER SAMMEN AS",
+          "guidance": "Obligatorisk personrolle som representerer søkerorganisasjonen.",
+          "type": "personregistrering",
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "subfields": [
+            "FORNAVN",
+            "MELLOMNAVN",
+            "ETTERNAVN",
+            "E-POST",
+            "LANDSKODE",
+            "MOBILNUMMER"
+          ],
+          "timestamp": "02:58"
+        },
+        {
+          "name": "Andre prosjektdeltakere",
+          "guidance": "Sentrale deltakere i gjennomføringen. Kompetansen deres skal beskrives i søknaden.",
+          "type": "gjentakende personregistrering",
+          "required_status": "valgfritt",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "subfields": [
+            "FORNAVN",
+            "MELLOMNAVN",
+            "ETTERNAVN",
+            "FØDSELSDATO",
+            "NASJONALITET",
+            "KJØNN",
+            "E-POST",
+            "LANDSKODE",
+            "MOBILNUMMER",
+            "ORGANISASJON"
+          ],
+          "timestamp": "03:03"
+        },
+        {
+          "name": "Andre som skal ha tilgang",
+          "guidance": "Prosjektadministrator og andre med tilgang som ikke skal gjennomføre prosjektet.",
+          "type": "gjentakende personregistrering",
+          "required_status": "valgfritt",
+          "copy_paste_ready": false,
+          "character_limit": null,
+          "subfields": [
+            "ROLLE",
+            "FORNAVN",
+            "MELLOMNAVN",
+            "ETTERNAVN",
+            "E-POST",
+            "LANDSKODE",
+            "MOBILNUMMER",
+            "ORGANISASJON"
+          ],
+          "timestamp": "03:06"
+        }
+      ]
+    },
+    {
+      "name": "Tittel og tema",
+      "timestamp": "03:17",
+      "fields": [
+        {
+          "name": "PROSJEKTTITTEL PÅ NORSK",
+          "type": "tekstfelt",
+          "guidance": "Legg inn en beskrivende tittel. Tittelen kan bli publisert; unngå sensitiv informasjon.",
+          "character_limit": 100,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "03:20"
+        },
+        {
+          "name": "PROSJEKTTITTEL PÅ ENGELSK",
+          "type": "tekstfelt",
+          "guidance": "Legg inn en beskrivende tittel på engelsk.",
+          "character_limit": 100,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "03:22"
+        },
+        {
+          "name": "KORTNAVN",
+          "type": "tekstfelt",
+          "guidance": "Valgfri kortversjon som bare vises på Min side.",
+          "character_limit": 10,
+          "required_status": "valgfritt",
+          "copy_paste_ready": true,
+          "timestamp": "03:25"
+        },
+        {
+          "name": "FAGOMRÅDE",
+          "guidance": "Velg mellom én og fem fagkoder som passer prosjektet. Fagkodene brukes til klassifisering, statistikk og analyse.",
+          "type": "valg",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "03:28"
+        },
+        {
+          "name": "FAGGRUPPE",
+          "guidance": "Underkategori som avhenger av valgt FAGOMRÅDE.",
+          "type": "valg",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "dependencies": ["FAGOMRÅDE"],
+          "copy_paste_ready": false,
+          "timestamp": "03:37"
+        },
+        {
+          "name": "FAGKODE",
+          "guidance": "Spesifikk fagkode som avhenger av valgt FAGGRUPPE.",
+          "type": "valg",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "dependencies": ["FAGGRUPPE"],
+          "copy_paste_ready": false,
+          "timestamp": "03:48"
+        },
+        {
+          "name": "KATEGORI",
+          "guidance": "Velg en kategori som passer innholdet. Opplysningen brukes når søknaden fordeles til saksbehandler.",
+          "type": "valg",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "03:52"
+        }
+      ]
+    },
+    {
+      "name": "Mål",
+      "timestamp": "04:29",
+      "fields": [
+        {
+          "name": "Hovedmål",
+          "type": "tekstfelt",
+          "guidance": "Hovedmålet bør være tydelig og etterprøvbart. Unngå sensitiv informasjon.",
+          "character_limit": 500,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "04:30"
+        },
+        {
+          "name": "Delmål",
+          "type": "tekstfelt",
+          "guidance": "Delmålene skal bidra til hovedmålet og angi forventede resultater. Unngå sensitiv informasjon.",
+          "character_limit": 1000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "04:34"
+        }
+      ]
+    },
+    {
+      "name": "Sammendrag",
+      "timestamp": "04:49",
+      "fields": [
+        {
+          "name": "Skriv et sammendrag av prosjektet",
+          "type": "tekstfelt",
+          "guidance": "Sammendraget skal gi en oversikt over prosjektet, unngå sensitiv informasjon og kan bli offentlig tilgjengelig.",
+          "character_limit": 1500,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "04:50"
+        }
+      ]
+    },
+    {
+      "name": "Soliditet",
+      "timestamp": "04:55",
+      "fields": [
+        {
+          "name": "Kunnskapsbehov og mål for prosjektet",
+          "type": "tekstfelt",
+          "guidance": "Forklar forskningsbehov, viktig forskning, kunnskapshull, utfordringer og målene i lys av kunnskapsstatusen.",
+          "character_limit": 5000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "04:56"
+        },
+        {
+          "name": "FoU-metoder og -aktiviteter",
+          "type": "tekstfelt",
+          "guidance": "Beskriv gjennomføring, teoretisk tilnærming og metoder, og knytt dem til forskningsspørsmål, hypoteser, mål og arbeidspakker.",
+          "character_limit": 5000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "04:59"
+        },
+        {
+          "name": "Etiske problemstillinger",
+          "type": "tekstfelt",
+          "guidance": "Beskriv håndtering av etiske spørsmål og ansvar for forskningsetikk.",
+          "character_limit": 2000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "05:00"
+        },
+        {
+          "name": "Kjønnsperspektiver",
+          "type": "tekstfelt",
+          "guidance": "Beskriv kjønnsperspektivet i forskningsinnhold og design. Dersom det ikke er relevant, angir portalen at dette skal skrives i feltet.",
+          "character_limit": 2000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "05:01"
+        }
+      ]
+    },
+    {
+      "name": "Originalitet",
+      "timestamp": "05:21",
+      "fields": [
+        {
+          "name": "Innovasjonen",
+          "type": "tekstfelt",
+          "guidance": "Beskriv innovasjonskonseptet, behovet det møter, eksisterende løsninger og hva som er nytt.",
+          "character_limit": 5000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "05:22"
+        },
+        {
+          "name": "Behov og markedsmuligheter",
+          "type": "tekstfelt",
+          "guidance": "Beskriv behovseiere, involvering, kommersiell interesse, markedsinnsikt og nasjonale og internasjonale muligheter for partnerne.",
+          "character_limit": 2000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "05:30"
+        }
+      ]
+    },
+    {
+      "name": "Referanseliste",
+      "timestamp": "05:34",
+      "fields": [
+        {
+          "name": "Referanseliste",
+          "type": "tekstfelt",
+          "guidance": "Referanser til relevant og sentral forskning som prosjektet bygger på.",
+          "character_limit": 5000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "05:35"
+        }
+      ]
+    },
+    {
+      "name": "Potensial",
+      "timestamp": "05:42",
+      "fields": [
+        {
+          "name": "Samfunnseffekter",
+          "type": "tekstfelt",
+          "guidance": "Beskriv mulig betydning utover prosjektansvarlig og partnerne, for annet næringsliv, FoU-miljøer eller samfunnet.",
+          "character_limit": 5000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "05:44"
+        },
+        {
+          "name": "FNs bærekraftsmål",
+          "type": "tekstfelt",
+          "guidance": "Vis til relevante delmål og sannsynliggjør effekter i lys av FNs indikatorer.",
+          "character_limit": 2000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "05:49"
+        },
+        {
+          "name": "Verdiskapingspotensial",
+          "type": "tekstfelt",
+          "guidance": "Vurder potensialet for alle bedrifter opp mot prosjektkostnader og nødvendige tiltak og investeringer etter prosjektperioden.",
+          "character_limit": 5000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "05:54"
+        }
+      ]
+    },
+    {
+      "name": "Kunnskapsdeling og utnyttelse",
+      "timestamp": "06:01",
+      "fields": [
+        {
+          "name": "Realiseringsplan for verdiskaping",
+          "type": "tekstfelt",
+          "guidance": "Skisser bruk av resultater underveis og videre implementering, inkludert marked, forretningsmodell, rettigheter, regulering, brukerinvolvering, risiko, investering og partnerskap.",
+          "character_limit": 2000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "06:02"
+        },
+        {
+          "name": "Kommunikasjons- og formidlingstiltak",
+          "type": "tekstfelt",
+          "guidance": "Beskriv næringsrettet, vitenskapelig og populærvitenskapelig deling og spredning av resultater.",
+          "character_limit": 5000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "06:25"
+        }
+      ]
+    },
+    {
+      "name": "Prosjektgruppens kompetanse",
+      "timestamp": "06:34",
+      "fields": [
+        {
+          "name": "Prosjektgruppens kompetanse",
+          "type": "tekstfelt",
+          "guidance": "Beskriv samlet kompetanse, relevans, faglig og metodisk dekning og gjennomføringsevne. Navn skal avstemmes mot registrerte prosjektdeltakere.",
+          "character_limit": 3000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "06:38"
+        }
+      ]
+    },
+    {
+      "name": "Organisering",
+      "timestamp": "06:55",
+      "fields": [
+        {
+          "name": "Gjennomføringsplan",
+          "type": "tekstfelt",
+          "guidance": "Beskriv hvordan aktiviteter, milepæler og ressursinnsats i arbeidspakkene bidrar til prosjektmålene.",
+          "character_limit": 3000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "06:56"
+        },
+        {
+          "name": "Styring og roller",
+          "type": "tekstfelt",
+          "guidance": "Beskriv rollefordeling, strategisk forankring, styring, ansvar, samhandling og kapasitet.",
+          "character_limit": 5000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "07:01"
+        },
+        {
+          "name": "Risiko",
+          "type": "tekstfelt",
+          "guidance": "Beskriv mulig risiko og planen for å håndtere den.",
+          "character_limit": 3000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "07:03"
+        }
+      ]
+    },
+    {
+      "name": "Arbeidspakker",
+      "timestamp": "07:07",
+      "constraints": {
+        "minimum_work_packages": 2,
+        "maximum_work_packages": 10,
+        "minimum_project_months": 12,
+        "maximum_project_months": 48,
+        "minimum_milestones_per_work_package": 1,
+        "maximum_milestones_per_work_package": 10
+      },
+      "fields": [
+        {
+          "name": "Oversikt over arbeidspakker",
+          "type": "gjentakende registrering",
+          "guidance": "Legg inn minst 2 og maksimalt 10 arbeidspakker med milepæler. Prosjektperioden bestemmes av første startmåned og siste sluttmåned og må være mellom 12 og 48 måneder.",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "dependencies": [],
+          "copy_paste_ready": false,
+          "timestamp": "07:08"
+        },
+        {
+          "name": "NAVN PÅ ARBEIDSPAKKE / DELMÅL",
+          "type": "tekstfelt",
+          "character_limit": 100,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "07:20"
+        },
+        {
+          "name": "STARTMÅNED",
+          "type": "måned",
+          "format": "MM/ÅÅÅÅ",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "07:26"
+        },
+        {
+          "name": "SLUTTMÅNED",
+          "type": "måned",
+          "format": "MM/ÅÅÅÅ",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "07:26"
+        },
+        {
+          "name": "AKTIVITETSKATEGORI",
+          "type": "valg",
+          "options": ["Eksperimentell utvikling", "Industriell forskning"],
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "07:29"
+        },
+        {
+          "name": "VELG ORGANISASJON",
+          "type": "valg",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "07:35"
+        },
+        {
+          "name": "BESKRIVELSE",
+          "type": "tekstfelt",
+          "character_limit": 1500,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "07:38"
+        },
+        {
+          "name": "TITTEL PÅ MILEPÆL",
+          "type": "gjentakende tekstfelt",
+          "character_limit": 100,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "07:42"
+        },
+        {
+          "name": "BESKRIVELSE AV MILEPÆL",
+          "type": "gjentakende tekstfelt",
+          "character_limit": 1000,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": true,
+          "timestamp": "07:42"
+        },
+        {
+          "name": "DATO FOR MILEPÆL",
+          "type": "dato",
+          "format": "DD-MM-ÅÅÅÅ",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "07:42"
+        },
+        {
+          "name": "Er milepælen kritisk?",
+          "type": "valg",
+          "options": ["Ja", "Nei"],
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "07:42"
+        },
+        {
+          "name": "KOSTNADSTYPE",
+          "type": "valg",
+          "options": null,
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "08:04"
+        },
+        {
+          "name": "FoU-LEVERANDØR",
+          "type": "betinget valg",
+          "dependencies": ["KOSTNADSTYPE tilsvarer FoU-innkjøp", "FoU-leverandør er registrert som deltakende organisasjon"],
+          "character_limit": null,
+          "required_status": "betinget",
+          "copy_paste_ready": false,
+          "timestamp": "08:04"
+        },
+        {
+          "name": "ORGANISASJONEN SOM BÆRER KOSTNADEN",
+          "type": "valg",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "08:04"
+        },
+        {
+          "name": "TOTALBELØP (KR)",
+          "type": "heltall",
+          "character_limit": null,
+          "required_status": "obligatorisk",
+          "copy_paste_ready": false,
+          "timestamp": "08:04"
+        },
+        {
+          "name": "KOSTNADSSPESIFIKASJONER",
+          "type": "tekstfelt",
+          "character_limit": 500,
+          "required_status": "valgfritt",
+          "copy_paste_ready": true,
+          "timestamp": "08:16"
+        }
+      ]
+    },
+    {
+      "name": "Budsjett",
+      "timestamp": "09:11",
+      "fields": [
+        {
+          "name": "Totalkostnad",
+          "type": "beregnet visning",
+          "guidance": "Totalbudsjettet beregnes fra kostnader registrert i arbeidspakkene. Endringer i kostnader gjøres i arbeidspakken der kostnaden er lagt inn.",
+          "character_limit": null,
+          "required_status": "systemverdi",
+          "dependencies": ["Arbeidspakker", "Budsjettposter", "Nødvendige partnerbekreftelser"],
+          "copy_paste_ready": false,
+          "timestamp": "09:11"
+        }
+      ]
+    }
+  ],
+  "observed_flows": [
+    {
+      "name": "Validering av offentlig støtte",
+      "summary": "Valget Ja viste en stoppmelding; meldingen forsvant etter endring til Nei.",
+      "timestamp": "00:22"
+    },
+    {
+      "name": "Opprett søknad",
+      "summary": "Opprett søknad opprettet et utkast og åpnet søknadsskjemaet.",
+      "timestamp": "00:52"
+    },
+    {
+      "name": "Legg til partner",
+      "summary": "En modal åpnet for partnertype, søk i Enhetsregisteret og valg av utførende enhet. Flyten ble avbrutt uten lagring.",
+      "timestamp": "02:28"
+    },
+    {
+      "name": "Legg til personer og roller",
+      "summary": "Separate modaler ble observert for prosjektleder, organisasjonsrepresentant, prosjektdeltakere og personer med tilgang. Flytene ble avbrutt uten lagring.",
+      "timestamp": "02:53"
+    },
+    {
+      "name": "Validering ved sidebytte",
+      "summary": "Neste side viste dialog om feil i seksjonen, med valgene Avbryt og Gå videre.",
+      "timestamp": "04:36"
+    },
+    {
+      "name": "Opprett eller rediger arbeidspakke",
+      "summary": "En egen underside håndterer navn, periode, kategori, ansvarlig organisasjon, beskrivelse, 1-10 milepæler, budsjettposter og valgfri kostnadsspesifikasjon.",
+      "timestamp": "07:13"
+    },
+    {
+      "name": "Endre arbeidspakkens varighet",
+      "summary": "Portalen advarte om at milepæler må legges inn på nytt og at periodiseringen i totalbudsjettet endres.",
+      "timestamp": "07:26"
+    }
+  ],
+  "flow_details": [
+    {
+      "name": "Validering av offentlig støtte",
+      "purpose": "Varsle når kvalifiseringssvaret tilsier at prosjektet allerede mottar offentlig støtte til aktivitetene.",
+      "repeatable": false,
+      "subfields": [],
+      "steps": [
+        {
+          "action": "Velg Ja på spørsmålet om SkatteFUNN-støtte eller annen offentlig støtte.",
+          "result": "En rød stoppmelding vises om at det ikke kan søkes tilskudd til et prosjekt som allerede mottar slik støtte.",
+          "timestamp": "00:22"
+        },
+        {
+          "action": "Endre valget til Nei.",
+          "result": "Stoppmeldingen forsvinner.",
+          "timestamp": "00:29"
+        }
+      ]
+    },
+    {
+      "name": "Opprett søknad",
+      "purpose": "Opprette søknadsutkast etter kvalifisering.",
+      "repeatable": false,
+      "subfields": [],
+      "steps": [
+        {
+          "action": "Klikk Opprett søknad.",
+          "result": "Portalen viser at søknadsutkastet er opprettet og åpner søknadsskjemaet.",
+          "timestamp": "00:52"
+        }
+      ]
+    },
+    {
+      "name": "Legg til partner",
+      "purpose": "Knytte en samarbeidspartner eller FoU-leverandør og riktig utførende enhet til prosjektet.",
+      "repeatable": true,
+      "subfields": [
+        "VELG TYPE PARTNER",
+        "VELG PARTNER OG UTFØRENDE ENHET"
+      ],
+      "steps": [
+        {
+          "action": "Klikk + Legg til partner.",
+          "result": "Modalen Legg til partner åpnes.",
+          "timestamp": "02:28"
+        },
+        {
+          "action": "Velg partnertype og skriv et søkeord i Søk.",
+          "result": "En resultatliste med treff fra Enhetsregisteret vises.",
+          "timestamp": "02:37"
+        },
+        {
+          "action": "Velg en enhet.",
+          "result": "Portalen viser informasjon om valg av underenhet når organisasjonen har flere enheter.",
+          "timestamp": "02:40"
+        },
+        {
+          "action": "Lukk modalen med kryss.",
+          "result": "Flyten avsluttes uten at en partner lagres.",
+          "timestamp": "02:45"
+        }
+      ]
+    },
+    {
+      "name": "Legg til prosjektleder",
+      "purpose": "Registrere obligatorisk prosjektleder.",
+      "repeatable": false,
+      "subfields": [
+        "FORNAVN",
+        "MELLOMNAVN",
+        "ETTERNAVN",
+        "E-POST",
+        "LANDSKODE",
+        "MOBILNUMMER",
+        "ORGANISASJON"
+      ],
+      "steps": [
+        {
+          "action": "Klikk + Legg til person under Prosjektleder.",
+          "result": "Modalen Legg til Prosjektleder åpnes med person- og organisasjonsfelter.",
+          "timestamp": "02:53"
+        },
+        {
+          "action": "Lukk modalen med kryss.",
+          "result": "Flyten avsluttes uten lagring.",
+          "timestamp": "02:57"
+        }
+      ]
+    },
+    {
+      "name": "Legg til organisasjonsrepresentant",
+      "purpose": "Registrere obligatorisk representant for søkerorganisasjonen.",
+      "repeatable": false,
+      "subfields": [
+        "FORNAVN",
+        "MELLOMNAVN",
+        "ETTERNAVN",
+        "E-POST",
+        "LANDSKODE",
+        "MOBILNUMMER"
+      ],
+      "steps": [
+        {
+          "action": "Klikk + Legg til person under Organisasjonsrepresentant.",
+          "result": "Modalen Legg til Organisasjonsrepresentant åpnes.",
+          "timestamp": "02:59"
+        },
+        {
+          "action": "Lukk modalen med kryss.",
+          "result": "Flyten avsluttes uten lagring.",
+          "timestamp": "03:01"
+        }
+      ]
+    },
+    {
+      "name": "Legg til andre prosjektdeltakere",
+      "purpose": "Registrere sentrale deltakere som skal gjennomføre prosjektet.",
+      "repeatable": true,
+      "subfields": [
+        "FORNAVN",
+        "MELLOMNAVN",
+        "ETTERNAVN",
+        "FØDSELSDATO",
+        "NASJONALITET",
+        "KJØNN",
+        "E-POST",
+        "LANDSKODE",
+        "MOBILNUMMER",
+        "ORGANISASJON"
+      ],
+      "steps": [
+        {
+          "action": "Klikk Legg til person under Andre prosjektdeltakere.",
+          "result": "Modalen Legg til Prosjektdeltakere åpnes med person-, fødsels-, kjønn-, kontakt- og organisasjonsfelter.",
+          "timestamp": "03:04"
+        },
+        {
+          "action": "Klikk Avbryt.",
+          "result": "Modalen lukkes uten lagring.",
+          "timestamp": "03:05"
+        }
+      ]
+    },
+    {
+      "name": "Legg til person med tilgang",
+      "purpose": "Gi prosjektadministrator eller andre personer tilgang uten å registrere dem som prosjektdeltakere.",
+      "repeatable": true,
+      "subfields": [
+        "ROLLE",
+        "FORNAVN",
+        "MELLOMNAVN",
+        "ETTERNAVN",
+        "E-POST",
+        "LANDSKODE",
+        "MOBILNUMMER",
+        "ORGANISASJON"
+      ],
+      "steps": [
+        {
+          "action": "Klikk Legg til person under Andre som skal ha tilgang.",
+          "result": "Modalen Legg til person åpnes.",
+          "timestamp": "03:07"
+        },
+        {
+          "action": "Lukk modalen med kryss.",
+          "result": "Modalen lukkes uten lagring.",
+          "timestamp": "03:10"
+        }
+      ]
+    },
+    {
+      "name": "Validering ved ufullstendig seksjon",
+      "purpose": "Varsle om mangler når brukeren går videre fra en ufullstendig side.",
+      "repeatable": false,
+      "subfields": [],
+      "steps": [
+        {
+          "action": "Klikk Neste side uten å fylle påkrevde felt.",
+          "result": "Dialogen Du har noen feil i denne seksjonen vises med valgene Avbryt og Gå videre.",
+          "timestamp": "04:36"
+        }
+      ]
+    },
+    {
+      "name": "Opprett eller rediger arbeidspakke",
+      "purpose": "Registrere arbeidspakkens tidsrom, kategori, ansvar, innhold, milepæler og budsjett.",
+      "repeatable": true,
+      "subfields": [
+        "NAVN PÅ ARBEIDSPAKKE / DELMÅL",
+        "STARTMÅNED",
+        "SLUTTMÅNED",
+        "AKTIVITETSKATEGORI",
+        "VELG ORGANISASJON",
+        "BESKRIVELSE",
+        "TITTEL PÅ MILEPÆL",
+        "BESKRIVELSE AV MILEPÆL",
+        "DATO FOR MILEPÆL",
+        "Er milepælen kritisk?",
+        "KOSTNADSTYPE",
+        "FoU-LEVERANDØR",
+        "ORGANISASJONEN SOM BÆRER KOSTNADEN",
+        "TOTALBELØP (KR)",
+        "KOSTNADSSPESIFIKASJONER"
+      ],
+      "steps": [
+        {
+          "action": "Klikk Opprett arbeidspakke eller åpne en arbeidspakke for redigering.",
+          "result": "En egen underside for arbeidspakken åpnes.",
+          "timestamp": "07:13"
+        },
+        {
+          "action": "Fyll inn NAVN PÅ ARBEIDSPAKKE / DELMÅL.",
+          "result": "Navnet registreres med en observert grense på 100 tegn.",
+          "timestamp": "07:20"
+        },
+        {
+          "action": "Velg STARTMÅNED og SLUTTMÅNED.",
+          "result": "Arbeidspakkens periode settes. Ved senere endring varsler portalen om nye milepæler og endret budsjettperiodisering.",
+          "timestamp": "07:26"
+        },
+        {
+          "action": "Velg AKTIVITETSKATEGORI.",
+          "result": "Eksperimentell utvikling eller Industriell forskning knyttes til støtteberegningen.",
+          "timestamp": "07:29"
+        },
+        {
+          "action": "Velg ansvarlig organisasjon.",
+          "result": "Organisasjonen knyttes til arbeidspakken.",
+          "timestamp": "07:35"
+        },
+        {
+          "action": "Fyll inn BESKRIVELSE.",
+          "result": "Beskrivelsen registreres med en observert grense på 1500 tegn.",
+          "timestamp": "07:38"
+        },
+        {
+          "action": "Legg inn milepæl og bruk Legg til ny milepæl ved behov.",
+          "result": "Tittel, beskrivelse, dato og kritisk-status registreres. 1-10 milepæler ble oppgitt per arbeidspakke.",
+          "timestamp": "07:42"
+        },
+        {
+          "action": "Legg til budsjettpost og bruk Legg til kostnad ved behov.",
+          "result": "Kostnadstype, eventuell FoU-leverandør, kostnadsbærer og totalbeløp registreres.",
+          "timestamp": "08:04"
+        },
+        {
+          "action": "Fyll eventuelt inn KOSTNADSSPESIFIKASJONER.",
+          "result": "En valgfri forklaring registreres med en observert grense på 500 tegn.",
+          "timestamp": "08:16"
+        },
+        {
+          "action": "Klikk Lagre arbeidspakke eller Slett arbeidspakke.",
+          "result": "Arbeidspakken lagres i oversikten eller fjernes.",
+          "timestamp": "08:22"
+        }
+      ]
+    },
+    {
+      "name": "PDF av søknaden",
+      "purpose": "Opprette og laste ned en PDF-eksport av søknadsutkastet.",
+      "repeatable": true,
+      "subfields": [],
+      "verification": "nevnt i video-uttrekkets oppsummering; eksakt tidsstempel og full flyt er ikke manuelt kontrollert",
+      "steps": [
+        {
+          "action": "Åpne PDF av søknaden og velg Opprett fil.",
+          "result": "Portalen oppretter en PDF-eksport.",
+          "timestamp": null
+        },
+        {
+          "action": "Velg Last ned.",
+          "result": "Den opprettede PDF-en lastes ned.",
+          "timestamp": null
+        }
+      ]
+    }
+  ],
+  "uncertainties": [
+    {
+      "description": "Partnerbekreftelsesflyten og full budsjettberegning ble ikke vist.",
+      "timestamp": "09:13"
+    },
+    {
+      "description": "Eksakt valgliste for KOSTNADSTYPE er ikke sikkert dokumentert i uttrekket.",
+      "timestamp": "08:04"
+    },
+    {
+      "description": "FoU-leverandørlisten var tom fordi ingen FoU-leverandør var forhåndsregistrert.",
+      "timestamp": "08:07"
+    },
+    {
+      "description": "Sluttvalidering og handlingen Send søknad ble ikke åpnet.",
+      "timestamp": "10:39"
+    }
+  ],
+  "copy_paste_field_order": [
+    "PROSJEKTTITTEL PÅ NORSK",
+    "PROSJEKTTITTEL PÅ ENGELSK",
+    "KORTNAVN",
+    "Hovedmål",
+    "Delmål",
+    "Skriv et sammendrag av prosjektet",
+    "Kunnskapsbehov og mål for prosjektet",
+    "FoU-metoder og -aktiviteter",
+    "Etiske problemstillinger",
+    "Kjønnsperspektiver",
+    "Innovasjonen",
+    "Behov og markedsmuligheter",
+    "Referanseliste",
+    "Samfunnseffekter",
+    "FNs bærekraftsmål",
+    "Verdiskapingspotensial",
+    "Realiseringsplan for verdiskaping",
+    "Kommunikasjons- og formidlingstiltak",
+    "Prosjektgruppens kompetanse",
+    "Gjennomføringsplan",
+    "Styring og roller",
+    "Risiko",
+    "NAVN PÅ ARBEIDSPAKKE / DELMÅL",
+    "BESKRIVELSE",
+    "TITTEL PÅ MILEPÆL",
+    "BESKRIVELSE AV MILEPÆL",
+    "KOSTNADSSPESIFIKASJONER"
+  ],
+  "source_extraction_raw_redacted_note": "Tapsfri kopi av det mottatte AI Studio-uttrekket, bortsett fra personspesifikke verdier som er fjernet. Denne rådelen beholdes for provenans; den normaliserte strukturen over brukes som arbeidskart.",
+  "source_extraction_raw_redacted": {
+    "portal_sections": [
+      {
+        "name": "Kvalifisering (Tilfredsstiller dere kravene for å søke?)",
+        "timestamp": "00:00",
+        "fields": [
+          {
+            "name": "FORETAK I VANSKELIGHETER",
+            "type": "valg",
+            "guidance": "Bedrifter som faller inn under definisjonen 'foretak i vanskeligheter' kan ikke få støtte med hjemmel i EUs gruppeunntaksforordning. Bedrifter som er foretak i vanskeligheter på den datoen Forskningsrådet godkjenner søknaden, kan dermed ikke få støtte. Dersom bedriften din er en SMB og har eksistert i mindre enn tre år, kommer ikke bedriften inn under definisjonen.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "00:00"
+          },
+          {
+            "name": "HAR DERE MED MINST ÉN SAMARBEIDSPARTNER ELLER FoU-LEVERANDØR?",
+            "type": "valg",
+            "guidance": "Vi krever at prosjektansvarlig gjennomfører prosjektet sammen med minst én samarbeidspartner (norsk bedrift) eller kjøper inn oppdragsforskning fra minst én FoU-leverandør.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "00:08"
+          },
+          {
+            "name": "MOTTAR ALLEREDE ANNEN OFFENTLIG STØTTE?",
+            "type": "valg",
+            "guidance": "Dere kan ikke søke om midler til aktiviteter som dere allerede har startet. Dette innebærer at prosjektet og de aktuelle aktivitetene ikke kan ha startet før dere sender søknaden til oss. For tilskuddsordninger til forskning og utvikling i bedrifter gjelder et krav om insentiveffekt i henhold til statsstøtteregelverket.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "00:16"
+          },
+          {
+            "name": "BEKREFT",
+            "type": "valg",
+            "guidance": "Jeg bekrefter at jeg har gjort meg kjent med hvilket/hvilke språk jeg kan skrive søknaden på. Språk du kan skrive søknaden på: norsk eller engelsk.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "00:41"
+          }
+        ],
+        "flows": [
+          {
+            "name": "Validering av offentlig støtte",
+            "purpose": "Hindre søknad dersom prosjektet allerede mottar offentlig støtte til aktivitetene",
+            "steps": [
+              {
+                "action": "Bruker velger 'Ja' på 'Mottar dere SkatteFUNN-støtte eller annen offentlig støtte...'",
+                "result": "Rød feilmelding vises: 'Du kan ikke søke tilskudd til et prosjekt som allerede mottar SkatteFUNN-støtte eller annen offentlig støtte.'",
+                "timestamp": "00:22"
+              },
+              {
+                "action": "Bruker endrer valg til 'Nei'",
+                "result": "Feilmeldingen forsvinner",
+                "timestamp": "00:29"
+              }
+            ],
+            "repeatable": false,
+            "subfields": []
+          },
+          {
+            "name": "Opprett søknad",
+            "purpose": "Opprette søknadsutkast basert på kvalifiseringssvar",
+            "steps": [
+              {
+                "action": "Bruker klikker knappen 'Opprett søknad'",
+                "result": "Søknad opprettes med varsel 'Utkast til søknad ble opprettet.' og fører brukeren inn i søknadsskjemaet",
+                "timestamp": "00:52"
+              }
+            ],
+            "repeatable": false,
+            "subfields": []
+          }
+        ]
+      },
+      {
+        "name": "Veiledning",
+        "timestamp": "00:54",
+        "fields": [],
+        "flows": []
+      },
+      {
+        "name": "Deltakende organisasjoner",
+        "timestamp": "02:13",
+        "fields": [
+          {
+            "name": "Prosjektansvarlig organisasjon",
+            "type": "uklart",
+            "guidance": "Dersom utlysningen stiller krav om samarbeidspartnere og FoU-leverandører, skal disse registreres her. Viser overordnet enhet og utførende enhet.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "02:13"
+          },
+          {
+            "name": "Partner",
+            "type": "gjentakende registrering",
+            "guidance": "En samarbeidspartner er en aktør som skal gjennomføre prosjektet i faktisk samarbeid med prosjektansvarlig organisasjon og eventuelle andre samarbeidspartnere.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "02:26"
+          }
+        ],
+        "flows": [
+          {
+            "name": "Legg til partner",
+            "purpose": "Søke opp og knytte samarbeidspartnere eller FoU-leverandører til prosjektet",
+            "steps": [
+              {
+                "action": "Bruker klikker på feltet '+ Legg til partner'",
+                "result": "Modalvindu 'Legg til partner' åpnes",
+                "timestamp": "02:28"
+              },
+              {
+                "action": "Bruker velger type partner og taster søkeord i feltet 'Søk'",
+                "result": "Resultatliste med treff fra Enhetsregisteret vises",
+                "timestamp": "02:37"
+              },
+              {
+                "action": "Bruker velger en enhet",
+                "result": "Informasjonsvarsel om organisasjoner med flere underenheter vises",
+                "timestamp": "02:40"
+              },
+              {
+                "action": "Bruker lukker modalen på kryss (X)",
+                "result": "Ingen partner lagres",
+                "timestamp": "02:45"
+              }
+            ],
+            "repeatable": true,
+            "subfields": [
+              "VELG TYPE PARTNER",
+              "VELG PARTNER OG UTFØRENDE ENHET"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Roller i prosjektet",
+        "timestamp": "02:49",
+        "fields": [
+          {
+            "name": "Oppretter av søknad",
+            "type": "tekstfelt",
+            "guidance": "Personspesifikk verdi utelatt; rollen fylles fra innlogget bruker.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "02:51"
+          },
+          {
+            "name": "Prosjektleder",
+            "type": "gjentakende registrering",
+            "guidance": "Obligatorisk rolle for prosjektledelse",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "02:52"
+          },
+          {
+            "name": "Organisasjonsrepresentant for VI BYGGER SAMMEN AS",
+            "type": "gjentakende registrering",
+            "guidance": "Obligatorisk rolle som representerer bedriften",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "02:58"
+          },
+          {
+            "name": "Andre prosjektdeltakere",
+            "type": "gjentakende registrering",
+            "guidance": "Legg inn personer som skal ha sentrale roller i gjennomføringen av prosjektet. Kompetansen og erfaringen til prosjektgruppen må beskrives i søknaden og vil bli vurdert i søknadsbehandlingen.",
+            "character_limit": null,
+            "required_status": "valgfritt",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "03:03"
+          },
+          {
+            "name": "Andre som skal ha tilgang",
+            "type": "gjentakende registrering",
+            "guidance": "Legg inn prosjektadministrator og andre personer som skal ha tilgang, men som ikke er blant dem som skal gjennomføre prosjektet.",
+            "character_limit": null,
+            "required_status": "valgfritt",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "03:06"
+          }
+        ],
+        "flows": [
+          {
+            "name": "Legg til Prosjektleder",
+            "purpose": "Registrere prosjektleder",
+            "steps": [
+              {
+                "action": "Bruker klikker '+ Legg til person' under Prosjektleder",
+                "result": "Modalvindu 'Legg til Prosjektleder' åpnes med person- og organisasjonsfelter",
+                "timestamp": "02:53"
+              },
+              {
+                "action": "Bruker klikker kryss (X)",
+                "result": "Modalen lukkes uten lagring",
+                "timestamp": "02:57"
+              }
+            ],
+            "repeatable": false,
+            "subfields": [
+              "FORNAVN",
+              "MELLOMNAVN",
+              "ETTERNAVN",
+              "E-POST",
+              "LANDSKODE",
+              "MOBILNUMMER",
+              "ORGANISASJON"
+            ]
+          },
+          {
+            "name": "Legg til Organisasjonsrepresentant",
+            "purpose": "Registrere organisasjonsrepresentant for søkerbedriften",
+            "steps": [
+              {
+                "action": "Bruker klikker '+ Legg til person' under Organisasjonsrepresentant",
+                "result": "Modalvindu 'Legg til Organisasjonsrepresentant' åpnes",
+                "timestamp": "02:59"
+              },
+              {
+                "action": "Bruker klikker kryss (X)",
+                "result": "Modalen lukkes uten lagring",
+                "timestamp": "03:01"
+              }
+            ],
+            "repeatable": false,
+            "subfields": [
+              "FORNAVN",
+              "MELLOMNAVN",
+              "ETTERNAVN",
+              "E-POST",
+              "LANDSKODE",
+              "MOBILNUMMER"
+            ]
+          },
+          {
+            "name": "Legg til Andre prosjektdeltakere",
+            "purpose": "Registrere sentrale deltakere i prosjektgruppen",
+            "steps": [
+              {
+                "action": "Bruker klikker 'Legg til person' under Andre prosjektdeltakere",
+                "result": "Modalvindu 'Legg til Prosjektdeltakere' åpnes med utvidede felter for fødselsdato og kjønn",
+                "timestamp": "03:04"
+              },
+              {
+                "action": "Bruker klikker 'Avbryt'",
+                "result": "Modalen lukkes",
+                "timestamp": "03:05"
+              }
+            ],
+            "repeatable": true,
+            "subfields": [
+              "FORNAVN",
+              "MELLOMNAVN",
+              "ETTERNAVN",
+              "FØDSELSDATO",
+              "NASJONALITET",
+              "KJØNN",
+              "E-POST",
+              "LANDSKODE",
+              "MOBILNUMMER",
+              "ORGANISASJON"
+            ]
+          },
+          {
+            "name": "Legg til person med tilgang",
+            "purpose": "Gi prosjektadministrator eller observatører tilgang",
+            "steps": [
+              {
+                "action": "Bruker klikker 'Legg til person' under Andre som skal ha tilgang",
+                "result": "Modalvindu 'Legg til person' åpnes",
+                "timestamp": "03:07"
+              },
+              {
+                "action": "Bruker klikker kryss (X)",
+                "result": "Modalen lukkes",
+                "timestamp": "03:10"
+              }
+            ],
+            "repeatable": true,
+            "subfields": [
+              "ROLLE",
+              "FORNAVN",
+              "MELLOMNAVN",
+              "ETTERNAVN",
+              "E-POST",
+              "LANDSKODE",
+              "MOBILNUMMER",
+              "ORGANISASJON"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Tittel og tema",
+        "timestamp": "03:17",
+        "fields": [
+          {
+            "name": "PROSJEKTTITTEL PÅ NORSK",
+            "type": "tekstfelt",
+            "guidance": "Legg inn en beskrivende tittel. Når søknaden er til behandling vil tittelen bli publisert på våre nettsider, så unngå sensitiv informasjon i tittelen.",
+            "character_limit": "100",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "03:20"
+          },
+          {
+            "name": "PROSJEKTTITTEL PÅ ENGELSK",
+            "type": "tekstfelt",
+            "guidance": "Legg inn en beskrivende tittel på engelsk.",
+            "character_limit": "100",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "03:22"
+          },
+          {
+            "name": "KORTNAVN",
+            "type": "tekstfelt",
+            "guidance": "Hvis du ønsker, kan du legge inn en kort versjon av tittelen. Denne vises kun på Min side.",
+            "character_limit": "10",
+            "required_status": "valgfritt",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "03:25"
+          },
+          {
+            "name": "FAGOMRÅDE",
+            "type": "valg",
+            "guidance": "Her skal du velge mellom én og fem fagkoder som passer til prosjektet. En fagkode er en måte vi klassifiserer forskning på i Norge.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "03:28"
+          },
+          {
+            "name": "FAGGRUPPE",
+            "type": "valg",
+            "guidance": "Underkategori tilknyttet valgt fagområde.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [
+              "FAGOMRÅDE"
+            ],
+            "copy_paste_ready": false,
+            "timestamp": "03:37"
+          },
+          {
+            "name": "FAGKODE",
+            "type": "valg",
+            "guidance": "Spesifikk fagkode for prosjektet.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [
+              "FAGGRUPPE"
+            ],
+            "copy_paste_ready": false,
+            "timestamp": "03:48"
+          },
+          {
+            "name": "KATEGORI",
+            "type": "valg",
+            "guidance": "Velg en kategori som er passende for innholdet i søknaden. Dette er informasjon vi bruker når vi fordeler søknaden til en saksbehandler.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "03:52"
+          }
+        ],
+        "flows": []
+      },
+      {
+        "name": "Mål",
+        "timestamp": "04:29",
+        "fields": [
+          {
+            "name": "Hovedmål",
+            "type": "tekstfelt",
+            "guidance": "Legg inn hovedmålet, som bør være tydelig og etterprøvbart. Unngå sensitiv informasjon.",
+            "character_limit": "500",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "04:30"
+          },
+          {
+            "name": "Delmål",
+            "type": "tekstfelt",
+            "guidance": "Legg inn delmålene som vil bidra til å oppnå hovedmålet. Spesifiser de forventede resultatene under hvert delmål. Unngå sensitiv informasjon.",
+            "character_limit": "1000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "04:34"
+          }
+        ],
+        "flows": [
+          {
+            "name": "Valideringsdialog ved ufullstendig utfylling",
+            "purpose": "Varsle om mangler ved forsøk på sidebytte",
+            "steps": [
+              {
+                "action": "Bruker klikker 'Neste side >' uten å fylle ut påkrevde felter",
+                "result": "Dialogboks 'Du har noen feil i denne seksjonen' vises med valg 'Avbryt' og 'Gå videre'",
+                "timestamp": "04:36"
+              }
+            ],
+            "repeatable": false,
+            "subfields": []
+          }
+        ]
+      },
+      {
+        "name": "Sammendrag",
+        "timestamp": "04:49",
+        "fields": [
+          {
+            "name": "Skriv et sammendrag av prosjektet",
+            "type": "tekstfelt",
+            "guidance": "Sammendraget skal gi en oversikt over prosjektet. Unngå sensitiv informasjon, siden teksten kan bli sendt til personer vi forespør om å vurdere søknaden. Hvis søknaden blir innvilget blir sammendraget offentlig tilgjengelig i prosjektbanken på nettstedet vårt.",
+            "character_limit": "1500",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "04:50"
+          }
+        ],
+        "flows": []
+      },
+      {
+        "name": "Soliditet",
+        "timestamp": "04:55",
+        "fields": [
+          {
+            "name": "Kunnskapsbehov og mål for prosjektet",
+            "type": "tekstfelt",
+            "guidance": "Forklar hvorfor forskning er nødvendig for å lykkes med innovasjonen, og beskriv de viktigste utfordringene forskningen vil bidra til å løse. Gi en oppsummering av den viktigste forskningen på området/feltet, og beskriv kunnskapshullene og utfordringene som begrunner behovet for dette prosjektet. Utdyp prosjektets hovedmål og delmål i lys av kunnskapen som finnes og kunnskapsbehovet på feltet.",
+            "character_limit": "5000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "04:56"
+          },
+          {
+            "name": "FoU-metoder og -aktiviteter",
+            "type": "tekstfelt",
+            "guidance": "Gi en detaljert beskrivelse som gjør det mulig for panelet å forstå prosjektet, hvordan prosjektet skal utføres og om det er realiserbart. Vis til arbeidspakkene. Sørg for at den teoretiske tilnærmingen og/eller valg av metoder er godt begrunnet og beskrevet i detalj, og at det er tydelig hvordan metodene er hensiktsmessige for å besvare forskningsspørsmål, hypoteser og mål.",
+            "character_limit": "5000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "04:59"
+          },
+          {
+            "name": "Etiske problemstillinger",
+            "type": "tekstfelt",
+            "guidance": "Gi en kort beskrivelse av hvordan dere vil håndtere etiske spørsmål, for å forsikre panelet om at det finnes en passende plan for å håndtere eventuelle etiske problemstillinger. Ansvaret for å sikre at standarden for forskningsetikk følges, ligger hos den enkelte forsker og organisasjon.",
+            "character_limit": "2000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "05:00"
+          },
+          {
+            "name": "Kjønnsperspektiver",
+            "type": "tekstfelt",
+            "guidance": "Dersom det er relevant for forskningen i prosjektet, beskriv hvordan kjønnsperspektivet er ivaretatt. Dette handler om forskningens innhold og hvordan kjønnsdimensjonen behandles i forskningsdesign og analyser. Kjønnsperspektiver kan gi nye innsikter, mer presise og valide forskningsresultater og dermed forbedre forskningens kvalitet og relevans for samfunnet. Dersom kjønnsperspektiver ikke er relevant, skriv 'Ikke relevant' i tekstfeltet.",
+            "character_limit": "2000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "05:01"
+          }
+        ],
+        "flows": []
+      },
+      {
+        "name": "Originalitet",
+        "timestamp": "05:21",
+        "fields": [
+          {
+            "name": "Innovasjonen",
+            "type": "tekstfelt",
+            "guidance": "Beskriv innovasjonskonseptet som danner grunnlaget for prosjektet og hvilke behov eller problemer det kan bidra til å løse på en ny eller forbedret måte. Posisjoner innovasjonen i forhold til allerede eksisterende løsninger og få fram hva som er nytt.",
+            "character_limit": "5000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "05:22"
+          },
+          {
+            "name": "Behov og markedsmuligheter",
+            "type": "tekstfelt",
+            "guidance": "Beskriv hvem som har behovet/utfordringen innovasjonen vil møte, og hvordan de har vært involvert i å definere og beskrive utfordringen. Forklar hvorfor innovasjonen er kommersielt interessant og vis hvilken innsikt dere har i markedet. Beskriv hvordan innovasjonen kan skape nye markedsmuligheter for partnerne i prosjektet, nasjonalt og internasjonalt.",
+            "character_limit": "2000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "05:30"
+          }
+        ],
+        "flows": []
+      },
+      {
+        "name": "Referanseliste",
+        "timestamp": "05:34",
+        "fields": [
+          {
+            "name": "Referanseliste",
+            "type": "tekstfelt",
+            "guidance": "Legg inn referanser til relevant og sentral forskning som prosjektet bygger på.",
+            "character_limit": "5000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "05:35"
+          }
+        ],
+        "flows": []
+      },
+      {
+        "name": "Potensial",
+        "timestamp": "05:42",
+        "fields": [
+          {
+            "name": "Samfunnseffekter",
+            "type": "tekstfelt",
+            "guidance": "Beskriv betydningen resultatene fra prosjektet kan ha utover nytten for prosjektansvarlig bedrift og partnerne. Dette kan være positive effekter for annet næringsliv, for kompetanseutvikling i FoU-miljøene eller for samfunnet for øvrig.",
+            "character_limit": "5000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "05:44"
+          },
+          {
+            "name": "FNs bærekraftsmål",
+            "type": "tekstfelt",
+            "guidance": "Gjør rede for hvilke(t) relevant(e) delmål under FNs bærekraftsmål prosjektet vil bidra til. Vis til spesifikke delmål og sannsynliggjør effektene i lys av de indikatorene FN har definert for hvert delmål.",
+            "character_limit": "2000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "05:49"
+          },
+          {
+            "name": "Verdiskapingspotensial",
+            "type": "tekstfelt",
+            "guidance": "Beskriv verdiskapingspotensialet innovasjonen vil ha for alle bedriftene som er med i prosjektet. Dere skal vurdere potensialet opp mot de samlede kostnadene i prosjektet og andre tiltak og investeringer som er nødvendige for å realisere innovasjonen, dvs. også det som skjer etter at den delen av prosjektet som vi finansierer er over.",
+            "character_limit": "5000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "05:54"
+          }
+        ],
+        "flows": []
+      },
+      {
+        "name": "Kunnskapsdeling og utnyttelse",
+        "timestamp": "06:01",
+        "fields": [
+          {
+            "name": "Realiseringsplan for verdiskaping",
+            "type": "tekstfelt",
+            "guidance": "Skisser en plan for realisering av verdiskaping hos bedriftspartnerne. Planen bør både omfatte tiltak for å ta i bruk resultater som oppnås underveis i prosjektet, og planer for videre implementering etter prosjektperioden. Aktuelle stikkord er: strategi for markedsadgang, utvikling av forretningsmodeller, håndtering av immaterielle rettigheter, regulatoriske krav og godkjenninger, brukerinvolvering, håndtering av risiko rundt konkurranseforhold og marked, investeringsbehov eller innhenting av kapital, partnerskap for kommersialisering eller industrialisering.",
+            "character_limit": "2000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "06:02"
+          },
+          {
+            "name": "Kommunikasjons- og formidlingstiltak",
+            "type": "tekstfelt",
+            "guidance": "Beskriv planer for å formidle resultatene utover den spredningen som skjer ved implementering av innovasjonen. Beskriv eventuelle planer for deling og spredning til andre deler av næringslivet og samfunnet for øvrig. Beskriv planer for både vitenskapelig og populærvitenskapelig publisering som kan gjøre ny kunnskap og/eller nye løsninger tilgjengelig for andre.",
+            "character_limit": "5000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "06:25"
+          }
+        ],
+        "flows": []
+      },
+      {
+        "name": "Prosjektgruppens kompetanse",
+        "timestamp": "06:34",
+        "fields": [
+          {
+            "name": "Prosjektgruppens kompetanse",
+            "type": "tekstfelt",
+            "guidance": "Beskriv prosjektgruppens samlede kompetanse og erfaring og hvordan denne er relevant for å gjennomføre prosjektet med høy kvalitet. Redegjør for hvordan kompetansen dekker prosjektets faglige og metodiske behov og sikrer høy gjennomføringsevne. Sørg for at alle som også er registrert under 'Andre prosjektdeltakere' under 'Roller i prosjektet'.",
+            "character_limit": "3000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "06:38"
+          }
+        ],
+        "flows": []
+      },
+      {
+        "name": "Organisering",
+        "timestamp": "06:55",
+        "fields": [
+          {
+            "name": "Gjennomføringsplan",
+            "type": "tekstfelt",
+            "guidance": "Beskriv hvordan aktiviteter, milepæler og ressursinnsatsen i arbeidspakkene samlet sett vil bidra til å nå målene i prosjektet.",
+            "character_limit": "3000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "06:56"
+          },
+          {
+            "name": "Styring og roller",
+            "type": "tekstfelt",
+            "guidance": "Beskriv rollefordelingen i prosjektet og hvordan prosjektet er strategisk forankret i organisasjonene som skal delta. Forklar hvordan prosjektet skal styres og hvordan organiseringen sikrer tydelig ansvarsfordeling, effektiv samhandling og tilstrekkelig kapasitet til å gjennomføre prosjektets arbeidspakker og leveranser.",
+            "character_limit": "5000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "07:01"
+          },
+          {
+            "name": "Risiko",
+            "type": "tekstfelt",
+            "guidance": "Beskriv mulig risiko i prosjektet og planen for å håndtere eventuell risiko.",
+            "character_limit": "3000",
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": true,
+            "timestamp": "07:03"
+          }
+        ],
+        "flows": []
+      },
+      {
+        "name": "Arbeidspakker",
+        "timestamp": "07:07",
+        "fields": [
+          {
+            "name": "Oversikt over arbeidspakker",
+            "type": "gjentakende registrering",
+            "guidance": "Du må legge inn 2 arbeidspakker, og kan ha 10 arbeidspakker totalt. På denne siden skal dere strukturere prosjektet i arbeidspakker med tilhørende milepæler. Prosjektets varighet er gitt av startmåned på første arbeidspakke og sluttmåned på siste arbeidspakke i prosjektet. Prosjektets periode må være innenfor 12 til 48 måneder.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [],
+            "copy_paste_ready": false,
+            "timestamp": "07:08"
+          }
+        ],
+        "flows": [
+          {
+            "name": "Opprett / rediger arbeidspakke",
+            "purpose": "Opprette og konfigurere en arbeidspakke med tidsrom, kategori, ansvarlig enhet, milepæler og budsjettposter",
+            "steps": [
+              {
+                "action": "Bruker klikker knappen 'Opprett arbeidspakke' (eller pil for å redigere)",
+                "result": "Egen underside 'Arbeidspakke X' åpnes",
+                "timestamp": "07:13"
+              },
+              {
+                "action": "Bruker fyller inn 'NAVN PÅ ARBEIDSPAKKE / DELMÅL *'",
+                "result": "Navn settes (0/100 tegn)",
+                "timestamp": "07:20"
+              },
+              {
+                "action": "Bruker velger STARTMÅNED og SLUTTMÅNED i datovelger",
+                "result": "Måned og år settes for arbeidspakken. Ved endring av varighet senere vises bekreftelsesdialogboks: 'Er du sikker på at du vil endre arbeidspakkens varighet? Dersom du endrer varigheten må du legge inn milepælene på nytt, og periodiseringen i totalbudsjettet vil endres.'",
+                "timestamp": "07:26"
+              },
+              {
+                "action": "Bruker velger AKTIVITETSKATEGORI (Eksperimentell utvikling eller Industriell forskning)",
+                "result": "Valgt kategori lagres for støtteberegning",
+                "timestamp": "07:29"
+              },
+              {
+                "action": "Bruker velger ansvarlig organisasjon fra nedtrekksliste",
+                "result": "Organisasjon knyttes til arbeidspakken",
+                "timestamp": "07:35"
+              },
+              {
+                "action": "Bruker fyller inn 'BESKRIVELSE *'",
+                "result": "Beskrivelsestekst registreres (0/1500 tegn)",
+                "timestamp": "07:38"
+              },
+              {
+                "action": "Bruker legger inn milepæl (TITTEL PÅ MILEPÆL, BESKRIVELSE AV MILEPÆL, DATO FOR MILEPÆL, Er milepælen kritisk?)",
+                "result": "Mellom 1 og 10 milepæler må legges til per arbeidspakke. Bruker kan legge til flere via knappen 'Legg til ny milepæl' eller slette via søppelkasseikon",
+                "timestamp": "07:42"
+              },
+              {
+                "action": "Bruker legger til budsjettpost for arbeidspakken (KOSTNADSTYPE, FoU-LEVERANDØR hvis FoU-kjøp, ORGANISASJONEN SOM BÆRER KOSTNADEN, TOTALBELØP (KR))",
+                "result": "Kostnadspost registreres. Flere poster kan legges til med 'Legg til kostnad'",
+                "timestamp": "08:04"
+              },
+              {
+                "action": "Bruker fyller ut 'KOSTNADSSPESIFIKASJONER' (valgfritt, 0/500 tegn)",
+                "result": "Utdypende forklaring til budsjettet lagres",
+                "timestamp": "08:16"
+              },
+              {
+                "action": "Bruker klikker 'Lagre arbeidspakke' (eller 'Slett arbeidspakke' for å fjerne)",
+                "result": "Arbeidspakken lagres og vises i oversikten",
+                "timestamp": "08:22"
+              }
+            ],
+            "repeatable": true,
+            "subfields": [
+              "NAVN PÅ ARBEIDSPAKKE / DELMÅL",
+              "STARTMÅNED",
+              "SLUTTMÅNED",
+              "AKTIVITETSKATEGORI",
+              "VELG ORGANISASJON",
+              "BESKRIVELSE",
+              "TITTEL PÅ MILEPÆL",
+              "BESKRIVELSE AV MILEPÆL",
+              "DATO FOR MILEPÆL",
+              "Er milepælen kritisk?",
+              "KOSTNADSTYPE",
+              "FoU-LEVERANDØR",
+              "ORGANISASJONEN SOM BÆRER KOSTNADEN",
+              "TOTALBELØP (KR)",
+              "KOSTNADSSPESIFIKASJONER"
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Budsjett",
+        "timestamp": "09:11",
+        "fields": [
+          {
+            "name": "Totalkostnad",
+            "type": "uklart",
+            "guidance": "Nedenfor er budsjettet for prosjektet. Dersom du skal endre på noen av de budsjetterte kostnadene, må du gå tilbake til arbeidspakken der kostnaden er lagt inn og endre der. Dersom dere ikke har lagt inn budsjett på noen arbeidspakker enda, så vil totalbudsjettet være 0.",
+            "character_limit": null,
+            "required_status": "obligatorisk",
+            "dependencies": [
+              "Arbeidspakker"
+            ],
+            "copy_paste_ready": false,
+            "timestamp": "09:11"
+          }
+        ],
+        "flows": []
+      }
+    ],
+    "uncertainties": [
+      {
+        "description": "I seksjonen 'Budsjett' vises et gult varsel: 'Venter på bekreftelse fra en eller flere partnere i prosjektet. Når alle partnere har bekreftet sin deltakelse vil budsjettabellene bli regnet ut.' Det kan ikke fastslås fra videoen hvordan partnerbekreftelse gjennomføres i portalen eller hvordan de fullstendige budsjettabellene ser ut.",
+        "timestamp": "09:13"
+      },
+      {
+        "description": "Under 'Budsjett for arbeidspakken' -> 'FoU-LEVERANDØR' vises meldingen 'There are no options to show.' fordi ingen FoU-leverandør var forhåndsregistrert under 'Deltakende organisasjoner'. Det kan ikke dokumenteres fra videoen nøyaktig hvilke felt som kreves for en FoU-leverandør.",
+        "timestamp": "08:07"
+      },
+      {
+        "description": "I venstremenyen vises 'Send søknad', men brukeren klikker aldri på denne knappen i videoen. Valideringskrav og innsendingskontroll for selve innsendingssteget kan derfor ikke dokumenteres.",
+        "timestamp": "10:39"
+      }
+    ],
+    "copy_paste_field_order": [
+      "PROSJEKTTITTEL PÅ NORSK",
+      "PROSJEKTTITTEL PÅ ENGELSK",
+      "KORTNAVN",
+      "Hovedmål",
+      "Delmål",
+      "Skriv et sammendrag av prosjektet",
+      "Kunnskapsbehov og mål for prosjektet",
+      "FoU-metoder og -aktiviteter",
+      "Etiske problemstillinger",
+      "Kjønnsperspektiver",
+      "Innovasjonen",
+      "Behov og markedsmuligheter",
+      "Referanseliste",
+      "Samfunnseffekter",
+      "FNs bærekraftsmål",
+      "Verdiskapingspotensial",
+      "Realiseringsplan for verdiskaping",
+      "Kommunikasjons- og formidlingstiltak",
+      "Prosjektgruppens kompetanse",
+      "Gjennomføringsplan",
+      "Styring og roller",
+      "Risiko",
+      "NAVN PÅ ARBEIDSPAKKE / DELMÅL",
+      "BESKRIVELSE",
+      "TITTEL PÅ MILEPÆL",
+      "BESKRIVELSE AV MILEPÆL",
+      "KOSTNADSSPESIFIKASJONER"
+    ]
+  }
+}

@@ -52,3 +52,14 @@ KI-versjon: Dette initiativet kan bidra til økt delingskultur gjennom trygg eks
 - Ny versjon bør ligge nær originalens energi.
 - Ordene "funke", "tør", "halvferdig" kan beholdes hvis sjangeren tillater det.
 
+
+## Eval 6: Søknadstekst med oppramsing og logisk trapp
+
+**Input:**  
+I et tilbud i bygg er prisen lett å sammenligne. Levetid, vedlikehold, klima og dokumentasjon er vanskeligere, fordi opplysningene er ulikt sikre. Da er det lett at bare prisen blir sammenlignet, og at reparasjon, rehabilitering og ombruk taper fordi de er dårligst dokumentert. Relevante forhold knyttet til kjemikalier, sosiale forhold, transport, ansvar og faktisk materialbesparelse skal avgrenses.
+
+**Expected:**
+- Flagg oppramsinger med 3–5 ledd, og kutt til de ett til to leddene som bærer poenget.
+- Flagg trappen situasjon → «Da …» → konsekvens, og start med poenget.
+- Behold fakta og forbehold. Ikke legg til nye påstander.
+- Resultatet skal høres ut som en fagperson som forklarer noe til en kollega.

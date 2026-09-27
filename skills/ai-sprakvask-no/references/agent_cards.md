@@ -26,6 +26,7 @@ Konsolidert fra brukerens filer i `Downloads/ai-sprak-agenter`.
 - overbruk av "helhetlig", "robust", "sømløs", "effektivisere", "optimalisere", "legge til rette for"
 - engelsk syntaks og oversettelseslån
 - kunstig 3-punktsstruktur, repetisjon og tomme konklusjoner
+- oppramsinger med 3–5 ledd i vanlige setninger, og den samme logiske trappen (situasjon → «Da …» → løsning → forbehold) i avsnitt etter avsnitt (se SKILL.md, «KI-trekk å se etter»)
 - nynorsk med bokmålsnære eller inkonsekvente former
 
 **Grenser:** Ikke påstå at teksten faktisk er KI-skrevet. Ikke bruk detektor som bevis.

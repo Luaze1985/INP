@@ -1,6 +1,14 @@
-# CONTEXT.md — ipn-verified
+﻿# CONTEXT.md — ipn-verified
 
-Tilstand og kjente risikoer. Oppdatert: **2026-09-16**.
+Tilstand og kjente risikoer. Oppdatert: **2026-09-25**.
+
+## Siste endring: finpuss og språkvask av v2.0 (2026-09-27)
+
+- Kjernebudskapet er låst: VERIFIED gjør valg mellom byggeløsninger i tilbudsfasen etterprøvbare ved å vise hva som er dokumentert, hva som er faglig vurdert og hva som er for usikkert. Alle tekstfelt utenfor AP-feltene er skrevet om og språkvasket (F1–F25). Logg: `docs/reference/prosjektbeskrivelse/reviews/2026-09-27-finpuss-v2.0.md`. Neste økt: `docs/handoffs/59_claude_finpuss-v2.0_arbeidsflyt_handoff.md`.
+
+## Siste endring: kunnskaps-loop på v2.0 (2026-09-25)
+
+- v2.0 har fått en økonomitekst uten detaljer (16,0/8,0/8,0 MNOK, hvem bærer hva, ingen beløp per aktør eller AP). B8–B11 er innarbeidet: partnerne beskrives som partnere i kostnadsfeltene, Norgesbygg Sør er ute, og utfallene har ett navnesett. Vurdering: `docs/reference/prosjektbeskrivelse/reviews/2026-09-25-kunnskaps-loop-v2.0.md`. Ikke søknadsklar, fordi bekreftelser, SINTEF-tilbud, egenfinansiering og AP-budsjett mangler.
 
 ## Siste endring: v1.8/v1.9 etter portalmalen og versjonsrydding (2026-09-16)
 
@@ -161,11 +169,11 @@ Den publiserte nettsiden sto med et faktagrunnlag v0.9 hadde forlatt — 32 %-ta
 
 ## Låst begrepsbruk for neste søknadspass
 
-**Løsningsvalg:** Valget mellom flere mulige løsninger for samme byggeoppgave i tilbudsfasen. Det er bredere enn et produktvalg, fordi en løsning kan omfatte produkter, montering, vedlikehold og forventet levetid.  
+**Løsningsvalg:** Valget mellom flere mulige løsninger for samme byggeoppgave i tilbudsfasen. Et løsningsvalg kan være mellom nye løsninger, eller mellom å reparere, rehabilitere eller ombruke og å kjøpe nytt. Det er bredere enn et produktvalg, fordi en løsning kan omfatte produkter, montering, vedlikehold og forventet levetid.  
 _Unngå_: «produktvalg» når hele løsningen menes.
 
-**VERIFIED:** Et FoU-prosjekt som skal utvikle og teste en felles måte å samle, vekte og forklare informasjon om alternative løsninger. Dette vises i et enkelt sammenligningsverktøy.  
-_Unngå_: at VERIFIED «velger» eller «anbefaler automatisk».
+**VERIFIED:** En metode for tilbudsfasen som viser hva hvert alternativ i et løsningsvalg bygger på, altså hva som er dokumentert, faglig vurdert eller for usikkert. Metoden sier om alternativene kan sammenlignes: sammenlignbar, sammenlignbar med forbehold eller for svakt grunnlag. Entreprenøren bruker den. Kunden ser grunnlaget og kan be om at mer hentes inn. Metoden spår ikke levetid, skader eller verdi, vurderer ikke teknisk egnethet selv og gjør ikke dårlige data bedre. Den gjelder bare der den er prøvd. (Låst 27.09, workshop 21.09 P0003–P0005.)  
+_Unngå_: at VERIFIED «velger», «anbefaler», «avgjør», «sertifiserer» eller gir «én samlet skår». Unngå også «stopp-regel» som navn på hele metoden.
 
 **Sammenligning:** En åpen framstilling av fordeler, ulemper, usikkerhet og begrunnelse for hvert alternativ. Entreprenør og kunde bruker den sammen; entreprenøren har faglig ansvar for tilbudet.  
 _Unngå_: «svart boks», «automatisk beslutning».
@@ -178,6 +186,9 @@ _Unngå_: å omtale AP4–AP6 som industriell forskning eller å beholde EU-bel�
 
 **Grovsortert kostnadsfordeling:** Søknadsteksten skal vise én integrert, kort økonomioversikt med formelle kostnadsbærere, deres prosjektkostnad, søkt støtte og egenfinansiering. Innkjøpte leverandører vises samlet under prosjektansvarlig, og referanseaktører vises ikke som finansierende aktører.
 _Unngå_: dobbelttelling av leverandørkostnader som både VIBS-kostnad og egenfinansiering hos leverandøren.
+
+**VIBS (i søknaden):** Kortnavn på Vi Bygger Sammen AS som prosjektansvarlig selskap. Plattformen VIBS nevnes ikke i søknadsteksten, fordi VERIFIED er en metode og ikke en funksjon i plattformen. (Låst 27.09.)
+_Unngå_: «VIBS-plattformen», «modul i VIBS», «funksjon i VIBS».
 
 **Bankavgrensning:** Banker og finansaktører inngår ikke i VERIFIEDs IF-only-søknad, verken som partner, leverandør, referanseaktør eller brukergruppe.
 _Unngå_: DNB, Flekkefjord Sparebank, kreditt- og bankspor.

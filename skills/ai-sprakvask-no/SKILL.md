@@ -37,6 +37,30 @@ Ikke stopp for spørsmål ved enkel språkvask. Spør bare hvis tekstens risiko 
 5. **Norm- og kildeport.** Skill fakta, vurderinger og anbefalinger. Marker påstander som trenger kilde. Ikke finn opp kilder.
 6. **Lever.** Gi omskrevet tekst først, deretter kort diagnose, risiko for meningsendring og åpne spørsmål.
 
+## KI-trekk å se etter (lært 2026-09-27, søknadstekst)
+
+Se etter disse både i hvert felt og på tvers av feltene. Ett trekk en gang er
+greit. Det samme trekket gjentatt gjennom teksten er KI-preg.
+
+1. **Oppramsing.** En setning med tre til fem ledd, som «levetid, vedlikehold og
+   klima» eller «kjemikalier, sosiale forhold, transport, ansvar og …». Velg de
+   én eller to leddene som bærer poenget. Beholde lista bare når den er et
+   definert begrepssett, og da bare én gang per felt.
+2. **Logisk trapp.** Hvert avsnitt følger samme mønster: situasjon, så «Da …»,
+   så løsning, så forbehold. Start med poenget, la noe være underforstått, og
+   varier hvordan avsnittene begynner.
+3. **Gjentatt kontrastfigur,** som «ikke fordi X, men fordi Y» eller «ikke X,
+   men Y», i flere felt.
+4. **Tankestrek-innskudd** («– a, b eller c –») og **kolon som retorisk grep**
+   («ulikt sikre: …»). Skriv vanlige setninger i stedet.
+5. **Slagordsavslutning,** som «Det er forskningsoppgaven.», og **fyllord** som
+   «reelt».
+6. **Parallelle avsnittsåpninger,** som «For kunden … For bransjen … For
+   FoU-miljøer …».
+
+Test: Les teksten høyt. Høres den ut som en fagperson som forklarer noe til en
+kollega, er den ferdig. Høres den ut som et lysbilde, er den ikke det.
+
 ## Outputformat
 
 For vanlig bruk:
